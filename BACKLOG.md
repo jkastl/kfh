@@ -68,6 +68,40 @@ Notes for the split units: pick the boundary where one child-of-the-brother's su
 (check the lineage parentheses), and record the exact boundary here before starting.
 Run U4a/U4b and U5a/U5b one after another or give them disjoint id prefixes, so ids don't clash.
 
+### 8. Full verification of relationships and facts, after the build-out (owner request)
+Why: a spot check after the refocus found 3 wrong relationship labels (Thomas Kastl shown as
+"Half-brother of the seven brothers"; Maria Mužik and Andreas Mužik not shown as ancestors).
+The underlying data was right — the bug was in the code that turns data into kinship words — but
+nothing tested that code, and the build-out will multiply both data and labels ~25×. Check both.
+
+a. **Automated checks in the build** (run on every build, fail or warn):
+   - **Printed lineage vs. computed ancestry.** Nearly every family paragraph prints the person's
+     line back to a brother, e.g. "RICHARD DENNIS KASTL (Dennis, Stanley, Joseph W., Josef)".
+     Parse it and compare it, name by name, with the parent chain in the data. This is an
+     independent check of every parent link, straight from the book. Mismatches the book itself
+     causes (e.g. Thomas Shalon printed as "(Mary Kastl Shalon, Joseph, Josef)") go in an
+     allow-list with a note.
+   - Child counts per family equal the printed numbered list.
+   - Plausibility warnings (not failures — the book has real oddities): child born before parent
+     is 13 or after mother's death; marriage after the first child; birth after own death;
+     same name + same birth date twice (possible duplicate).
+   - Every person reachable from Andreas or married to someone who is; no orphan records.
+b. **Tests for the label code.** A table of known cases checked on each build: Thomas = "Father of
+   the seven brothers", Maria Mužik = "Grandmother…", Andreas Mužik = "Great-grandfather…",
+   Matthew Richard Kastl = "3× great-grandson of Josef Kastl", Barbara Kellner = "Second wife of
+   Thomas Kastl", a half-sibling, a spouse, an in-law's parent. Add cases whenever a bug is found.
+c. **Independent audit per branch.** A different agent from the one that extracted the branch
+   re-reads the branch's pages (scans, not just transcriptions) and checks every person and family
+   record: parents, spouse(s), children and order, each fact's value against its quote. Output: a
+   findings list per branch; fixes go in as separate commits that cite the finding.
+d. **Owner review aid.** A generated, unlisted report page: per branch, every person with their
+   parents, spouses, children and the page links, plus all warnings from (a) and the "sources
+   differ" cases — so the owner can scan for anything that looks wrong from family knowledge.
+e. Record the result here: counts checked, issues found/fixed, anything left open.
+
+Items (a) and (b) are cheap and should land **before** the build-out starts (U1), so every unit
+is checked as it goes; (c)–(e) run after U7.
+
 ### 7. Verification debt (see TECH_DEBT.md)
 - Re-proofread s028–s036 against the images (the second pass there was not thorough). Do this
   before or as part of U3/U4a.
