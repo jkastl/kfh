@@ -1,0 +1,1 @@
+Plausibility warnings from tools/checks.py (not errors; the book has real oddities).

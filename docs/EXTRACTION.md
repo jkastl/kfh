@@ -77,7 +77,13 @@ lands, add to `content/people.json`). Shape:
   `occupation`, `residence`, `note`. Values are written out plainly ("22 September 1900, Central
   City, Nebraska"); the quote carries the printed form ("22 Sept. 1900—Central City, NE.").
 - **children** in printed order, even when out of birth order; say so in the family `note`.
-- Multiple marriages: one family per marriage, with `"order": 1`, `2`.
+- Multiple marriages: one family per marriage, with `"order": 1`, `2`. A marriage whose spouse
+  the book doesn't name (e.g. "Two children were born to first marriage") is a family with one
+  partner; so is a heading naming one parent ("The family of Therese Kripal").
+- `heading`: the printed heading text without `### `. Use a list when the same family is printed
+  under several headings (1985 and 1986 forms). The build matches every printed heading to a
+  family by this text, so copy it exactly.
+- `sex`: `M`/`F` from son/daughter/he/she or an unambiguous given name, else `U`.
 - `summary` (brothers and Anna only): one short line for their card on the home page, e.g.
   "Came to America in 1868". It must be backed by facts cited on the same record.
 - `photos`: photo ids from page front matter (`s044-ph1`) where the caption names the person.
@@ -87,6 +93,13 @@ lands, add to `content/people.json`). Shape:
       by a family, or listed in the commit message with the reason it isn't.
 - [ ] For each family, the number of children equals the printed list (count them).
 - [ ] Supplement additions/corrections for the unit's pages are merged as extra sources/facts.
-- [ ] `python3 tools/build.py` passes (quote check) and the branch pages render.
+- [ ] Add the branch key to `CHECKED_BRANCHES` in `tools/checks.py`.
+- [ ] `python3 tools/build.py` passes and the branch pages render. Besides quotes, the build checks
+      that every printed family heading in the branch's chapter and supplement section has a
+      family, that child counts match the printed lists, and that each printed lineage
+      "(Parent, Grandparent, …)" matches the data's line of descent. Where the book itself
+      causes a mismatch, add an entry with a `note` to `content/verification/allow.json`;
+      never bend the data to pass. Read `content/verification/build-warnings.txt`
+      (plausibility) and check each new warning against the scan.
 - [ ] Spot-check at least ten facts against the scan images, not just the transcription.
 - [ ] Update `BACKLOG.md` (unit done, anything left out and why).

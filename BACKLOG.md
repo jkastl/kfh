@@ -74,7 +74,11 @@ Why: a spot check after the refocus found 3 wrong relationship labels (Thomas Ka
 The underlying data was right — the bug was in the code that turns data into kinship words — but
 nothing tested that code, and the build-out will multiply both data and labels ~25×. Check both.
 
-a. **Automated checks in the build** (run on every build, fail or warn):
+a. **Automated checks in the build** — DONE (`tools/checks.py`; failures stop the build,
+   plausibility warnings go to `content/verification/build-warnings.txt`; book-caused
+   exceptions in `content/verification/allow.json`). Heading and count checks apply to the
+   branches in `CHECKED_BRANCHES`; lineage checks apply to every family already in the data.
+   Mutation-tested: a moved child, a dropped link, a wrong sex and an orphan are all caught.
    - **Printed lineage vs. computed ancestry.** Nearly every family paragraph prints the person's
      line back to a brother, e.g. "RICHARD DENNIS KASTL (Dennis, Stanley, Joseph W., Josef)".
      Parse it and compare it, name by name, with the parent chain in the data. This is an
@@ -86,7 +90,7 @@ a. **Automated checks in the build** (run on every build, fail or warn):
      is 13 or after mother's death; marriage after the first child; birth after own death;
      same name + same birth date twice (possible duplicate).
    - Every person reachable from Andreas or married to someone who is; no orphan records.
-b. **Tests for the label code.** A table of known cases checked on each build: Thomas = "Father of
+b. **Tests for the label code** — DONE (`LABEL_CASES` in `tools/checks.py`, 17 cases). A table of known cases checked on each build: Thomas = "Father of
    the seven brothers", Maria Mužik = "Grandmother…", Andreas Mužik = "Great-grandfather…",
    Matthew Richard Kastl = "3× great-grandson of Josef Kastl", Barbara Kellner = "Second wife of
    Thomas Kastl", a half-sibling, a spouse, an in-law's parent. Add cases whenever a bug is found.

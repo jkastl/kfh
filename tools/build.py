@@ -15,6 +15,8 @@ import struct
 import sys
 from pathlib import Path
 
+import checks
+
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 SITE_URL = "https://jkastl.github.io/kfh/"
@@ -270,7 +272,8 @@ def load_people():
 
 def kin(n, sex, down):
     """Kinship word n generations away: kin(1,'M',True)='Son', kin(3,'F',False)='Great-grandmother'."""
-    base = ("Son" if sex == "M" else "Daughter") if down else ("Father" if sex == "M" else "Mother")
+    words = {"M": ("Son", "Father"), "F": ("Daughter", "Mother")}.get(sex, ("Child", "Parent"))
+    base = words[0] if down else words[1]
     if n == 1:
         return base
     grand = "grand" + base.lower()
@@ -304,7 +307,7 @@ class Tree:
         if not fam:
             return None
         for x in fam["partners"]:
-            if x == TREE_ROOT or x in self.parents_of:
+            if x == TREE_ROOT or (x in self.parents_of and self.is_blood(x)):
                 return x
         return fam["partners"][0]
 
@@ -383,16 +386,16 @@ class Tree:
             fam = self.parents_of.get(pid)
             if fam and FATHER_OF_BROTHERS in fam["partners"]:
                 if MOTHER_OF_BROTHERS in fam["partners"]:
-                    return ("Brother" if sex == "M" else "Sister") + " of the seven brothers"
-                return ("Half-brother" if sex == "M" else "Half-sister") + " of the seven brothers"
+                    return {"M": "Brother", "F": "Sister"}.get(sex, "Sibling") + " of the seven brothers"
+                return {"M": "Half-brother", "F": "Half-sister"}.get(sex, "Half-sibling") + " of the seven brothers"
         for s in self.spouses(pid):
             if s == FATHER_OF_BROTHERS:
                 return "Second wife of Thomas Kastl"
             if self.is_blood(s):
-                return f"{'Husband' if sex == 'M' else 'Wife'} of {self.people[s]['name']}"
+                return f"{ {'M': 'Husband', 'F': 'Wife'}.get(sex, 'Spouse')} of {self.people[s]['name']}"
         for fam in self.families_of.get(pid, []):
             for c in fam["children"]:
-                return f"{'Father' if sex == 'M' else 'Mother'} of {self.people[c]['name']}"
+                return f"{ {'M': 'Father', 'F': 'Mother'}.get(sex, 'Parent')} of {self.people[c]['name']}"
         return ""
 
     def facts(self, pid, t):
@@ -724,10 +727,10 @@ def build_person(tree, pid, pages_by_scan):
     for fam in fams:
         other = [x for x in fam["partners"] if x != pid]
         if len(fams) == 1:
-            heading = "Spouse"
+            heading = "Spouse" if other else "Other parent"
         else:
             heading = {1: "First marriage", 2: "Second marriage", 3: "Third marriage"}.get(fam.get("order", 1), "Marriage")
-        sp = " ".join(person_link(tree, x, prefix) for x in other)
+        sp = " ".join(person_link(tree, x, prefix) for x in other) or '<span class="muted">Not named in the book</span>'
         m = "".join(
             f'<p class="marr">Married {inline(mm["value"])} {sources_block(mm["sources"], pages_by_scan, prefix)}</p>'
             for mm in fam.get("marriage", []))
@@ -1200,6 +1203,14 @@ def main():
         print("Quote check failed:", *problems, sep="\n  ")
         sys.exit(1)
     tree = Tree(data)
+    errors, warnings, summary = checks.run(tree, pages, TREE_ROOT, CONTENT)
+    if errors:
+        print("Structural checks failed (see tools/checks.py; book-caused exceptions go in "
+              "content/verification/allow.json):", *errors, sep="\n  ")
+        sys.exit(1)
+    warn_file = CONTENT / "verification" / "build-warnings.txt"
+    warn_file.write_text("Plausibility warnings from tools/checks.py (not errors; the book has real oddities).\n"
+                         + "".join(w + "\n" for w in warnings), encoding="utf-8")
     for d in ("people", "book", "tree"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     for pid in tree.people:
@@ -1216,6 +1227,7 @@ def main():
           + sum(len(p.get("excerpts", [])) for p in data["people"].values())
           + sum(len(m["sources"]) for fam in data["families"] for m in fam.get("marriage", [])))
     print(f"Built {len(tree.people)} people, {len(pages)} book pages; {nq} cited quotes verified.")
+    print(f"Checks: {summary} (listed in content/verification/build-warnings.txt).")
 
 
 if __name__ == "__main__":
