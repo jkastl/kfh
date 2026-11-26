@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Done: step 8a/8b (build checks). Step 6: U1 (Josef) done; next U2–U6, then U7.
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef) and U3 (Wenzel, Thomas, Zima) done; U2 (Peter) running; then U4–U6, U7.
 
 ## Next, in order
 
@@ -56,7 +56,7 @@ each unit must also read the supplement sections that name its pages.
 |---|---|---|---|---|
 | U1 | Josef — DONE (2026-11-26): 147 people, 39 families; all 40 printed headings checked | 41–43 (s043–s045) | p.41, p.42 ×2 (s073–s076 top) | was 10 / 39 + supp. pp.5–8 (actually ~35 family groups) |
 | U2 | Peter | 15–25 (s017–s027) | p.20, p.21, p.22 ×2 (s071–s072) | 36 / 122 |
-| U3 | Wenzel + Thomas + Anna Kastl Zima | 26–27, 56, 62 (s028–s029, s058, s064) | p.26, p.27 (s072) | 15 / 65 |
+| U3 | Wenzel + Thomas + Anna Kastl Zima — DONE (2026-11-26): 70 people, 15 families; 16 headings checked | 26–27, 56, 62 (s028–s029, s058, s064) | p.26, p.27 (s072) | 15 / 65 |
 | U4a | John, first part | 28–33 (s030–s035) | p.31 (s073) | split at a sub-family boundary |
 | U4b | John, second part | 34–40 (s036–s042) | pp.34–35 (s076) | (John total 80 / 244) |
 | U5a | Jacob, first part | 44–49 (s046–s051) | p.47 (s076) | split at a sub-family boundary |
@@ -70,6 +70,11 @@ Patricia Sabol, Philip Edwards, James R. Bowen). Book-caused exceptions are in
 `content/verification/allow-josef.json` (Shalon lineages; Patrick's children split 2 + 1 across his
 two marriages). The supplement adds far more than the 1985 pages, so size other units by their
 supplement sections too.
+
+U3 notes: the 1986 supplement says "The family of John Kastl and Mary is an error. It should be:
+The family of Martin Kastl", so the six children are Martin's (one-parent family carrying both
+headings); John keeps both readings ("Mary" / "never married"). The 1867 ship list's "Wenzel,
+age 6 months" fits no child in the list and is a note, not linked. s028–s029 fully re-proofread.
 
 Notes for the split units: pick the boundary where one child-of-the-brother's sub-family ends
 (check the lineage parentheses), and record the exact boundary here before starting.
@@ -114,8 +119,8 @@ Items (a) and (b) are cheap and should land **before** the build-out starts (U1)
 is checked as it goes; (c)–(e) run after U7.
 
 ### 7. Verification debt (see TECH_DEBT.md)
-- Re-proofread s028–s036 against the images (the second pass there was not thorough). Do this
-  before or as part of U3/U4a.
+- Re-proofread s030–s036 against the images (the second pass there was not thorough) in U4a/U4b.
+  s028–s029 were re-proofread word by word in U3 (one fix: "7 ANN MARIE" has no period).
 - Re-check numbers on s071 (supplement p.3) by eye during U2.
 
 ## Later / ideas

@@ -85,9 +85,423 @@
               "quote": "Although Thomas had 8 children, there are no surviving descendants."
             }
           ]
+        },
+        {
+          "type": "residence",
+          "value": "First Cedar Rapids, Iowa, then Champaign, Illinois",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "Family records show that Thomas first went to Cedar Rapids, Iowa and then on to Champaign, Illinois."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s058-ph1"
+      ]
+    },
+    "augusta-johns": {
+      "name": "Augusta Johns",
+      "sex": "F",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "Poland, near Warsaw",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "She was born in Poland, near Warsaw, and had come to Champaign to be with cousins."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Champaign, Illinois, where she had come to be with cousins",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "had come to Champaign to be with cousins."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1 May 1885",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "SHe died 1 May 1885."
+            }
+          ]
+        }
+      ]
+    },
+    "emma-fowler": {
+      "name": "Emma Fowler",
+      "sex": "F",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "Meredosia, Illinois",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "Thomas married Emma Fowler of Meredosia, Illinois on 21 February 1886."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "25 December 1896, with an infant son",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "She died 25 December 1896 with an infant son."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Pennsylvania German",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "She was Pennsylvania German."
+            }
+          ]
+        }
+      ]
+    },
+    "rose-kastl-1874": {
+      "name": "Rose Kastl",
+      "sex": "F",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 June 1874",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "1. ROSE — (b) 9 June 1874."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "24 December 1894",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "1. ROSE — (b) 9 June 1874. (d) 24 Dec. 1894."
+            }
+          ]
+        }
+      ]
+    },
+    "augusta-kastl-1876": {
+      "name": "Augusta Kastl",
+      "sex": "F",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 September 1876",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "2. AUGUSTA — (b) 24 Sept. 1876."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "7 July 1951",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "2. AUGUSTA — (b) 24 Sept. 1876. (d) 7 July 1951."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No children, but reared her sisters and brothers",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "(No children, but reared sisters and brothers)"
+            }
+          ]
+        }
+      ]
+    },
+    "karl-kastl-1877": {
+      "name": "Karl Kastl",
+      "sex": "M",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Sonny",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "(Nickname was \"Sonny\"."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "14 May 1877",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "3. KARL — (b) 14 May 1877."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "11 October 1877",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "3. KARL — (b) 14 May 1877. (d) 11 Oct. 1877."
+            }
+          ]
+        }
+      ]
+    },
+    "karl-kastl-1879": {
+      "name": "Karl Kastl",
+      "sex": "M",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1879",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "4. KARL — (b) 1879."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "13 February 1906",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "4. KARL — (b) 1879. (d) 13 Feb. 1906."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Given the same name as his brother who lived only a few months",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "(Given same name as his brother who lived only a few months.)"
+            }
+          ]
+        }
+      ]
+    },
+    "peter-william-kastl-1880": {
+      "name": "Peter William Kastl",
+      "sex": "M",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1880",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "5. PETER WILLIAM — (b) 1880."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "7 May 1898",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "5. PETER WILLIAM — (b) 1880. (d) 7 May 1898."
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-kastl-1887": {
+      "name": "Thomas Kastl",
+      "sex": "M",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 February 1887",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "6. THOMAS — (b) 25 Feb. 1887."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Olive Ryder, 1 January 1921",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "(m) Olive Ryder—1 Jan. 1921 (No children)"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "17 December 1943",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "6. THOMAS — (b) 25 Feb. 1887. (d) 17 Dec. 1943."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No children",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "(m) Olive Ryder—1 Jan. 1921 (No children)"
+            }
+          ]
+        }
+      ]
+    },
+    "emma-kathryn-kastl-1890": {
+      "name": "Emma Kathryn Kastl",
+      "sex": "F",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 November 1890",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "7. EMMA KATHRYN — (b) 3 Nov. 1890."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Lee F. Griffin, 15 June 1944",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "(m) Lee F. Griffin—15 June 1944."
+            }
+          ]
+        }
+      ]
+    },
+    "john-kastl-1895": {
+      "name": "John Kastl",
+      "sex": "M",
+      "branch": "thomas",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 August 1895",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "8. JOHN — (b) 2 Aug. 1895."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1 January 1914",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "8. JOHN — (b) 2 Aug. 1895. (d) 1 Jan. 1914."
+            }
+          ]
         }
       ]
     }
   },
-  "families": []
+  "families": [
+    {
+      "id": "thomas1850-augusta",
+      "partners": [
+        "thomas-kastl-1850",
+        "augusta-johns"
+      ],
+      "order": 1,
+      "heading": "The children of Thomas Kastl and Augusta Johns (1)",
+      "marriage": [
+        {
+          "value": "1873, Champaign, Illinois",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "In 1873, Thomas married Augusta Johns in Champaign."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "rose-kastl-1874",
+        "augusta-kastl-1876",
+        "karl-kastl-1877",
+        "karl-kastl-1879",
+        "peter-william-kastl-1880"
+      ],
+      "note": "The book numbers Thomas's children 1-8 across both marriages: 1-5 under \"The children of Thomas Kastl and Augusta Johns (1)\", 6-8 under \"The children of Thomas Kastl and Emma Fowler (2)\". AUGUSTA is printed as born 24 Sept. 1876 and KARL as born 14 May 1877; both are kept as printed.",
+      "sources": [
+        "s058"
+      ]
+    },
+    {
+      "id": "thomas1850-emma",
+      "partners": [
+        "thomas-kastl-1850",
+        "emma-fowler"
+      ],
+      "order": 2,
+      "heading": "The children of Thomas Kastl and Emma Fowler (2)",
+      "marriage": [
+        {
+          "value": "21 February 1886",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "Thomas married Emma Fowler of Meredosia, Illinois on 21 February 1886."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "thomas-kastl-1887",
+        "emma-kathryn-kastl-1890",
+        "john-kastl-1895"
+      ],
+      "note": "The book numbers Thomas's children 1-8 across both marriages: 1-5 under \"The children of Thomas Kastl and Augusta Johns (1)\", 6-8 under \"The children of Thomas Kastl and Emma Fowler (2)\". Emma \"died 25 December 1896 with an infant son\", who is not in the numbered list.",
+      "sources": [
+        "s058"
+      ]
+    }
+  ]
 }

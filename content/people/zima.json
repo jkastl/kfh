@@ -53,7 +53,749 @@
           ]
         }
       ]
+    },
+    "joseph-zima": {
+      "name": "Joseph Zima",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Married Anna Kastl in Bohemia in 1887",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "She married Joseph Zima in Bohemia in 1887."
+            }
+          ]
+        }
+      ]
+    },
+    "albert-zima-1890": {
+      "name": "Albert Zima",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1890, Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. ALBERT — (b) 1890—Bohemia."
+            },
+            {
+              "scan": "s064",
+              "quote": "ALBERT ZIMA, son of Anna Kastl and Joseph Zima, was born in 1890 in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Married; the wife is not named",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. ALBERT — (b) 1890—Bohemia. Married and died in Bohemia."
+            },
+            {
+              "scan": "s064",
+              "quote": "He married, had two sons, James and Albert."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "Married and died in Bohemia."
+            },
+            {
+              "scan": "s064",
+              "quote": "He died and was buried in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He died and was buried in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Had two sons, James and Albert",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He married, had two sons, James and Albert."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Was in the Army, and in a prison camp in Siberia for four years",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He was in the Army and was in prison camp in Siberia for four years."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-zima-1895": {
+      "name": "Joseph Zima",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1895, Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. JOSEPH — (b) 1895—Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. JOSEPH — (b) 1895—Bohemia. Single and died in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Single",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "Single and died in Bohemia."
+            }
+          ]
+        }
+      ]
+    },
+    "stazie-zima-1900": {
+      "name": "Stazie Zima",
+      "sex": "U",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1900, Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "3. STAZIE — (b) 1900—Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Bohemia, still living there",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "3. STAZIE — (b) 1900—Bohemia. Single and still living in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Single",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "Single and still living in Bohemia."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-zima-1902": {
+      "name": "Mary Zima",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1902, Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "4. MARY — (b) 1902—Bohemia."
+            },
+            {
+              "scan": "s064",
+              "quote": "MARY ZIMA, daughter of Anna Kastl and Joseph Zima, was born in 1902, in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Bohemia, still living there",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "4. MARY — (b) 1902—Bohemia. Married and still living in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John Pejsar, 1922",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "She married John Pejsar in 1922."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Her husband John Pejsar died and was buried in Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "She married John Pejsar in 1922. He died and was buried in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Had one daughter, Mary, who married John Vlasak in Prague; they have two children, a son and a daughter",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "Mary Zima and John Pejsar had one daughter, Mary, who married John Vlasak in Prague. They have two children, a son and a daughter."
+            }
+          ]
+        }
+      ]
+    },
+    "james-zima-1905": {
+      "name": "James Zima",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1905, Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "5. JAMES — (b) 1905—Bohemia."
+            },
+            {
+              "scan": "s064",
+              "quote": "JAMES ZIMA (Anna Kastl Zima) born in Bohemia in 1905"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He came to Brainard, Nebraska, with the help of an Uncle Vincent Kastl."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Laura Krenk, 15 February 1933",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(m) Laura Krenk—15 Feb. 1933."
+            },
+            {
+              "scan": "s064",
+              "quote": "He married Laura Krenk 15 February 1933."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Came to the United States in October 1922",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "James came to the United States in October 1922."
+            },
+            {
+              "scan": "s064",
+              "quote": "James Zima, a son of Anna and Joseph, did come to the United States in 1922."
+            },
+            {
+              "scan": "s009",
+              "quote": "The only descendant of the second family to come to America was James Zima."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Came to Brainard, Nebraska, with the help of \"an Uncle Vincent Kastl\"",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He came to Brainard, Nebraska, with the help of an Uncle Vincent Kastl."
+            }
+          ]
+        }
+      ]
+    },
+    "laura-krenk": {
+      "name": "Laura Krenk",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 February 1907",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "She was born 15 February 1907."
+            }
+          ]
+        }
+      ]
+    },
+    "donald-j-zima-1933": {
+      "name": "Donald J. Zima",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Donald Zima",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "The family of Donald Zima and Margaret Krumbaugh"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "6 December 1933",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. DONALD J. — (b) 6 Dec. 1933."
+            },
+            {
+              "scan": "s064",
+              "quote": "DONALD J. ZIMA (James Zima, Anna Kastl Zima) born 6 December 1933"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Margaret Krumbach, 1967, Shelby",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(m) Margaret Krumbach."
+            },
+            {
+              "scan": "s064",
+              "quote": "He married Margaret Krumbach in Shelby in 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "adrian-m-zima-1935": {
+      "name": "Adrian M. Zima",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Adrian Zima",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "The family of Adrian Zima and Marlene Posvar"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "13 May 1935",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. ADRIAN M. — (b) 13 May 1935."
+            },
+            {
+              "scan": "s064",
+              "quote": "ADRIAN M. ZIMA (James Zima, Anna Kastl Zima) born 13 May 1935"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Marlene Posvar, 1955, Schuyler",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(m) Marlene Posvar."
+            },
+            {
+              "scan": "s064",
+              "quote": "He married Marlene Posvar in Schuyler in 1955."
+            }
+          ]
+        }
+      ]
+    },
+    "margaret-krumbach": {
+      "name": "Margaret Krumbach",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Margaret Krumbaugh",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "The family of Donald Zima and Margaret Krumbaugh"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1929",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "She was born 1929."
+            }
+          ]
+        }
+      ]
+    },
+    "joan-zima-1968": {
+      "name": "Joan Zima",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1968",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. JOAN — (b) 1968."
+            }
+          ]
+        }
+      ]
+    },
+    "donna-zima-1971": {
+      "name": "Donna Zima",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1971",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. DONNA — (b) 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "marlene-posvar": {
+      "name": "Marlene Posvar",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Married Adrian M. Zima in Schuyler in 1955",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He married Marlene Posvar in Schuyler in 1955."
+            }
+          ]
+        }
+      ]
+    },
+    "debra-zima-1956": {
+      "name": "Debra Zima",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1956",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. DEBRA — (b) 1956. (m) David Faltys."
+            },
+            {
+              "scan": "s064",
+              "quote": "DEBRA ZIMA (Adrian M. Zima, James Zima, Anna Kastl Zima) born in 1956"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "David Faltys",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. DEBRA — (b) 1956. (m) David Faltys."
+            },
+            {
+              "scan": "s064",
+              "quote": "She married David Faltys."
+            }
+          ]
+        }
+      ]
+    },
+    "susan-zima-1964": {
+      "name": "Susan Zima",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1964",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. SUSAN — (b) 1964."
+            }
+          ]
+        }
+      ]
+    },
+    "scott-zima-1969": {
+      "name": "Scott Zima",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1969",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "3. SCOTT — (b) 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "david-faltys": {
+      "name": "David Faltys",
+      "sex": "M",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Married Debra Zima",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "She married David Faltys."
+            }
+          ]
+        }
+      ]
+    },
+    "jennifer-faltys-1979": {
+      "name": "Jennifer Faltys",
+      "sex": "F",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1979",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. JENNIFER — (b) 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "tracey-faltys-1981": {
+      "name": "Tracey Faltys",
+      "sex": "U",
+      "branch": "zima",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1981",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. TRACEY — (b) 1981."
+            }
+          ]
+        }
+      ]
     }
   },
-  "families": []
+  "families": [
+    {
+      "id": "anna1865-joseph",
+      "partners": [
+        "anna-kastl-1865",
+        "joseph-zima"
+      ],
+      "heading": "The family of Anna Kastl and Joseph Zima",
+      "marriage": [
+        {
+          "value": "1887, Bohemia",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "married Joseph Zima in Bohemia, in 1887."
+            },
+            {
+              "scan": "s064",
+              "quote": "She married Joseph Zima in Bohemia in 1887."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "albert-zima-1890",
+        "joseph-zima-1895",
+        "stazie-zima-1900",
+        "mary-zima-1902",
+        "james-zima-1905"
+      ],
+      "sources": [
+        "s064"
+      ]
+    },
+    {
+      "id": "james1905-laura",
+      "partners": [
+        "james-zima-1905",
+        "laura-krenk"
+      ],
+      "heading": "The family of James Zima and Laura Krenk",
+      "marriage": [
+        {
+          "value": "15 February 1933",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(m) Laura Krenk—15 Feb. 1933."
+            },
+            {
+              "scan": "s064",
+              "quote": "He married Laura Krenk 15 February 1933."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "donald-j-zima-1933",
+        "adrian-m-zima-1935"
+      ],
+      "sources": [
+        "s064"
+      ]
+    },
+    {
+      "id": "donald1933-margaret",
+      "partners": [
+        "donald-j-zima-1933",
+        "margaret-krumbach"
+      ],
+      "heading": "The family of Donald Zima and Margaret Krumbaugh",
+      "marriage": [
+        {
+          "value": "1967, Shelby",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He married Margaret Krumbach in Shelby in 1967."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "joan-zima-1968",
+        "donna-zima-1971"
+      ],
+      "note": "The heading spells the name \"Krumbaugh\"; the text spells it \"Krumbach\" twice. Both are kept as printed.",
+      "sources": [
+        "s064"
+      ]
+    },
+    {
+      "id": "adrian1935-marlene",
+      "partners": [
+        "adrian-m-zima-1935",
+        "marlene-posvar"
+      ],
+      "heading": "The family of Adrian Zima and Marlene Posvar",
+      "marriage": [
+        {
+          "value": "1955, Schuyler",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "He married Marlene Posvar in Schuyler in 1955."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "debra-zima-1956",
+        "susan-zima-1964",
+        "scott-zima-1969"
+      ],
+      "sources": [
+        "s064"
+      ]
+    },
+    {
+      "id": "debra1956-david",
+      "partners": [
+        "debra-zima-1956",
+        "david-faltys"
+      ],
+      "heading": "The family of Debra Zima and David Faltys",
+      "children": [
+        "jennifer-faltys-1979",
+        "tracey-faltys-1981"
+      ],
+      "sources": [
+        "s064"
+      ]
+    }
+  ]
 }

@@ -75,9 +75,1858 @@
               "quote": "We have not been able to find much about Wenzel; where he died, or was buried."
             }
           ]
+        },
+        {
+          "type": "homestead",
+          "value": "Near Peter Kastl at Plasi",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Wenzel Kastl had a homestead near Peter Kastl at Plasi"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Omaha, from sometime between 1870 and 1880",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "but went to Omaha sometime between 1870 and 1880."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "The ship's records of 1867 list his children as John, age 6; Martin, age 3; and Wenzel, age 6 months. The 1880 Douglas County census lists the children of Wenzel and Barbara Kastl as John 18, Martin 16, Mary 9, Anna 7 and Wenzel 2; daughter Wilhelmina was born after 1880.",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Listed on the ship's records, as children of Wenzel Kastl, were John, age 6; Martin age 3; and Wenzel, age 6 months."
+            },
+            {
+              "scan": "s028",
+              "quote": "Douglas County Census records for 1880 show children of Wenzel and Barbara Kastl as: John 18, Martin 16, Mary 9, Anna 7, and Wenzel 2. Daughter Wilhelmina was born after 1880."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "The book says his family records are incomplete.",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Family records of Wenzel Kastl are incomplete."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s028-ph1",
+        "s028-ph2",
+        "s027-ph1"
+      ]
+    },
+    "barbara-blachnik": {
+      "name": "Barbara Blachnik",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "immigration",
+          "value": "Arrived at Baltimore 2 October 1867 on the Humbolt, from Bremen, with Wenzel and their children",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Wenzel and Barbara came to the United States in 1867, arriving at the Port of Baltimore on October 2. They left from the Port of Bremen, Germany on the vessel Humbolt"
+            },
+            {
+              "scan": "s009",
+              "quote": "On October 2, 1867, Wenzel; wife Barbara and three children John, Martin, and Wenzel arrived on the ship SS Humbolt."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "14 August 1909",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "She died 14 August 1909 and was buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "St. Mary's Cemetery, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "was buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "john-kastl-1861": {
+      "name": "John Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Frank Kastl",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "1. JOHN (Frank) — (b) 1861/2 Bohemia."
+            },
+            {
+              "scan": "s028",
+              "quote": "John is sometimes known as Frank."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1861 or 1862, Bohemia",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "1. JOHN (Frank) — (b) 1861/2 Bohemia."
+            },
+            {
+              "scan": "s028",
+              "quote": "JOHN KASTL (Wenzel, Thomas, John, John, Andreas) born 1861 or 1862 in Bohemia"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Douglas County, Nebraska, in the 1880 census, aged 18",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Douglas County Census records for 1880 show children of Wenzel and Barbara Kastl as: John 18"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "The San Francisco area, from the early 1900s; contact was lost",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "We were unable to trace descendants of his son John, or daughter Anna. They moved to the San Francisco area in the early 1900s, and contact was lost by other relatives."
+            },
+            {
+              "scan": "s028",
+              "quote": "It is believed he moved his family to California in the 1900s, and contact has been lost."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mary (no surname printed)",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "The family of John Kastl and Mary"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Never married",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "John Kastl, son of Wenzel Kastl and Barbara Blachnik never married"
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Aged 6, with his parents, arriving at Baltimore 2 October 1867",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Listed on the ship's records, as children of Wenzel Kastl, were John, age 6;"
+            },
+            {
+              "scan": "s009",
+              "quote": "On October 2, 1867, Wenzel; wife Barbara and three children John, Martin, and Wenzel arrived on the ship SS Humbolt."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "30 May 1936, Norfolk, Nebraska",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "never married, and died in Norfolk, Nebraska—30 May 1936."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "The 1986 supplement says the 1985 family group \"The family of John Kastl and Mary\" is an error and should be \"The family of Martin Kastl\". The children printed there are placed with Martin here.",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "The family of John Kastl and Mary is an error. It should be: The family of Martin Kastl."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-wife-of-john-1861": {
+      "name": "Mary",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Named only in the 1985 heading \"The family of John Kastl and Mary\"; no surname is printed. The 1986 supplement calls that family an error.",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "The family of John Kastl and Mary"
+            },
+            {
+              "scan": "s072",
+              "quote": "The family of John Kastl and Mary is an error."
+            }
+          ]
+        }
+      ]
+    },
+    "martin-kastl-1864": {
+      "name": "Martin Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1864, Bohemia",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "2. MARTIN — (b) 1864 Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Douglas County, Nebraska, in the 1880 census, aged 16",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Douglas County Census records for 1880 show children of Wenzel and Barbara Kastl as: John 18, Martin 16"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "San Francisco, California (his family moved there)",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "This family moved to San Francisco, CA."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Aged 3, with his parents, arriving at Baltimore 2 October 1867",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Martin age 3;"
+            },
+            {
+              "scan": "s009",
+              "quote": "On October 2, 1867, Wenzel; wife Barbara and three children John, Martin, and Wenzel arrived on the ship SS Humbolt."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "The 1986 supplement says the family printed in 1985 as \"The family of John Kastl and Mary\" is his: \"It should be: The family of Martin Kastl.\" No wife is named for him.",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "The family of John Kastl and Mary is an error. It should be: The family of Martin Kastl."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-agnes-kastl-1870": {
+      "name": "Mary Agnes Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Mary Kastl",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "John 18, Martin 16, Mary 9, Anna 7, and Wenzel 2."
+            },
+            {
+              "scan": "s028",
+              "quote": "Mary, Anna,Wenzel,Wilhelmina"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1870",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "3. MARY AGNES — (b) 1870, (d) 20 May 1954, (m) Charles Johnson (No children)."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Douglas County, Nebraska, in the 1880 census, aged 9",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Douglas County Census records for 1880 show children of Wenzel and Barbara Kastl as: John 18, Martin 16, Mary 9"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Charles Johnson",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(m) Charles Johnson (No children)."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "20 May 1954",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "3. MARY AGNES — (b) 1870, (d) 20 May 1954"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No children",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(m) Charles Johnson (No children)."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s028-ph2"
+      ]
+    },
+    "anna-kastl-1872": {
+      "name": "Anna Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1872",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "4. ANNA — (b) 1872."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Douglas County, Nebraska, in the 1880 census, aged 7",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Douglas County Census records for 1880 show children of Wenzel and Barbara Kastl as: John 18, Martin 16, Mary 9, Anna 7"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "The San Francisco area, from the early 1900s; the book could not trace her descendants",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "We were unable to trace descendants of his son John, or daughter Anna. They moved to the San Francisco area in the early 1900s, and contact was lost by other relatives."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s028-ph2"
+      ]
+    },
+    "wenzel-kastl-1877": {
+      "name": "Wenzel Kastl, Jr.",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "James F. Kastl",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "5. WENZEL (James F.) — (b) 15 Nov. 1877 NE."
+            },
+            {
+              "scan": "s029",
+              "quote": "WENZEL, Jr. (aka) JAMES F. KASTL (Wenzel, Thomas, John, John, Andreas)"
+            },
+            {
+              "scan": "s029",
+              "quote": "The family of James F. Kastl and Mary Menousek"
+            },
+            {
+              "scan": "s072",
+              "quote": "son of James F. Kastl and Mary Menousek."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 November 1877, Nebraska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "5. WENZEL (James F.) — (b) 15 Nov. 1877 NE."
+            },
+            {
+              "scan": "s029",
+              "quote": "born 15 November 1877, in Nebraska, son of Wenzel Kastl and Barbara Blachnik"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Douglas County, Nebraska, in the 1880 census, aged 2",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Douglas County Census records for 1880 show children of Wenzel and Barbara Kastl as: John 18, Martin 16, Mary 9, Anna 7, and Wenzel 2."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mary Menousek, August 1902",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(m) Mary Menousek—Aug. 1902."
+            },
+            {
+              "scan": "s029",
+              "quote": "He married Mary Menousek August 1902."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "26 May 1938",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(d) 26 May 1938, (bur) St. Mary's—Omaha"
+            },
+            {
+              "scan": "s029",
+              "quote": "died 26 May 1938, and was buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "St. Mary's Cemetery, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(bur) St. Mary's—Omaha"
+            },
+            {
+              "scan": "s029",
+              "quote": "was buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s028-ph2"
+      ]
+    },
+    "no-name-kastl-1877": {
+      "name": "No Name Kastl",
+      "sex": "U",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "No Name",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "6. No Name — (b) 15 Nov. 1877, (d) Infant death."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 November 1877",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "6. No Name — (b) 15 Nov. 1877, (d) Infant death."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "In infancy",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "6. No Name — (b) 15 Nov. 1877, (d) Infant death."
+            }
+          ]
+        }
+      ]
+    },
+    "wilhelmina-kastl-1882": {
+      "name": "Wilhelmina Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1882 or 1883, Nebraska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "7. WILHELMINA — (b) 1882/3 NE."
+            },
+            {
+              "scan": "s029",
+              "quote": "WILHELMINA KASTL (Wenzel, Thomas, John, John, Andreas) born 1882 or 1883"
+            },
+            {
+              "scan": "s028",
+              "quote": "Daughter Wilhelmina was born after 1880."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Charles Sveska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(m) Charles Sveska."
+            },
+            {
+              "scan": "s029",
+              "quote": "She married Charles Sveska."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "23 January 1941",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(d) 23 Jan. 1941, (bur) St. Mary's—Omaha"
+            },
+            {
+              "scan": "s029",
+              "quote": "and died 23 January 1941, and buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "St. Mary's Cemetery, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(d) 23 Jan. 1941, (bur) St. Mary's—Omaha"
+            },
+            {
+              "scan": "s029",
+              "quote": "and buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s028-ph2"
+      ]
+    },
+    "elmer-j-kastl-1889": {
+      "name": "Elmer J. Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1889, Nebraska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "1. ELMER J. — (b) 1889 NE."
+            }
+          ]
+        }
+      ]
+    },
+    "laura-kastl-1893": {
+      "name": "Laura Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Laura Kastl Brown Maag",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "Martin's daughter Laura Kastl Brown Maag has a son, Dr. Harold A. Brown."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1893, Nebraska",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "2. LAURA — (b) 1893 NE., (m) Brown (2) Richard Maag."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Brown (only this surname is printed)",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "2. LAURA — (b) 1893 NE., (m) Brown (2) Richard Maag."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Richard Maag",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(m) Brown (2) Richard Maag."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Has a son, Dr. Harold A. Brown (1986 supplement, which calls her Martin's daughter)",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "Martin's daughter Laura Kastl Brown Maag has a son, Dr. Harold A. Brown."
+            }
+          ]
+        }
+      ]
+    },
+    "henry-r-kastl-1896": {
+      "name": "Henry R. Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1896, California",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "3. HENRY R. — (b) 1896 CA."
+            }
+          ]
+        }
+      ]
+    },
+    "beatrice-kastl-1898": {
+      "name": "Beatrice Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1898, California",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "4. BEATRICE — (b) 1898 CA."
+            }
+          ]
+        }
+      ]
+    },
+    "olive-kastl-1901": {
+      "name": "Olive Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1901, California",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "5. OLIVE — (b) 1901 CA."
+            }
+          ]
+        }
+      ]
+    },
+    "louis-kastl-1903": {
+      "name": "Louis Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1903",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "6. LOUIS — (b) 1903."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-menousek": {
+      "name": "Mary Menousek",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 August 1880",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "She was born 12 August 1880 died 9 July 1952."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "9 July 1952",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "She was born 12 August 1880 died 9 July 1952."
+            }
+          ]
+        }
+      ]
+    },
+    "frank-james-kastl-1903": {
+      "name": "Frank James Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 May 1903",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. FRANK JAMES—(b) 30 May 1903,(d) 5 July 1964"
+            },
+            {
+              "scan": "s029",
+              "quote": "FRANK JAMES KASTL (James F. Wenzel) born 30 May 1903"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Marjorie Dusatko, 19 October 1926, St. Wenceslaus Church",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Marjorie Dusatko—19 Oct. 1926."
+            },
+            {
+              "scan": "s029",
+              "quote": "He married Marjorie Dusatko 19 October 1926, at St. Wenceslaus Church."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "5 July 1964",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. FRANK JAMES—(b) 30 May 1903,(d) 5 July 1964"
+            },
+            {
+              "scan": "s029",
+              "quote": "died 5 July 1964, and was buried at Calvary Cemetery."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Calvary Cemetery",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(bur) Calvary, (m) Marjorie Dusatko"
+            },
+            {
+              "scan": "s029",
+              "quote": "was buried at Calvary Cemetery."
+            }
+          ]
+        }
+      ]
+    },
+    "marie-kastl-1905": {
+      "name": "Marie Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 March 1905",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "2. MARIE — (b) 4 Mar. 1905, (m) John Krejci—June 1930."
+            },
+            {
+              "scan": "s029",
+              "quote": "MARIE KASTL (James F., Wenzel) born 4 March 1905"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John Krejci, June 1930",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "2. MARIE — (b) 4 Mar. 1905, (m) John Krejci—June 1930."
+            },
+            {
+              "scan": "s029",
+              "quote": "She married John Krejci June 1930."
+            }
+          ]
+        }
+      ]
+    },
+    "teresa-kastl-1907": {
+      "name": "Teresa Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 July 1907",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "3. TERESA — (b) 4 July 1907, (m) Edward Vlach—May 1960 (No children)."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Edward Vlach, May 1960",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "3. TERESA — (b) 4 July 1907, (m) Edward Vlach—May 1960 (No children)."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No children",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Edward Vlach—May 1960 (No children)."
+            }
+          ]
+        }
+      ]
+    },
+    "james-edward-kastl-1922": {
+      "name": "James Edward Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1922",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "4. JAMES EDWARD — (b) 1922, (m) Mary H. Carl—1942."
+            },
+            {
+              "scan": "s029",
+              "quote": "JAMES EDWARD KASTL (James F., Wenzel) born 1922"
+            },
+            {
+              "scan": "s072",
+              "quote": "James EDWARD KASTL (James F., Wenzel) born 1922"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mary H. Carl, 1942",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Mary H. Carl—1942."
+            },
+            {
+              "scan": "s029",
+              "quote": "He married Mary H. Carl 1942."
+            },
+            {
+              "scan": "s072",
+              "quote": "He married Mary H. Carl 1942."
+            }
+          ]
+        }
+      ]
+    },
+    "marjorie-dusatko": {
+      "name": "Marjorie Dusatko",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 August 1904",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "She was born 22 August 1904."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-alice-kastl-1928": {
+      "name": "Mary Alice Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 March 1928",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. MARY ALICE — (b) 26 Mar. 1928."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Lee L. Fowler, 30 September 1950",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Lee L. Fowler—30 Sept. 1950."
+            }
+          ]
+        }
+      ]
+    },
+    "jo-ann-kastl-1930": {
+      "name": "Jo Ann Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 February 1930",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "2. JO ANN — (b) 10 Feb. 1930."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Jerry Henely, 18 September 1965",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Jerry Henely—18 Sept. 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "marjorie-kastl-1935": {
+      "name": "Marjorie Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 February 1935",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "3. MARJORIE — (b) 22 Feb. 1935."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Edward Krawczyk, 5 May 1956",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Edward Krawczyk—5 May 1956."
+            }
+          ]
+        }
+      ]
+    },
+    "teresa-kastl-1937": {
+      "name": "Teresa Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 December 1937",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "4. TERESA — (b) 12 Dec. 1937."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Sister Mary Teresa, R.S.M.",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "4. TERESA — (b) 12 Dec. 1937. Sister Mary Teresa, R.S.M."
+            }
+          ]
+        }
+      ]
+    },
+    "carol-kastl-1942": {
+      "name": "Carol Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 April 1942",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "5. CAROL — (b) 11 Apr. 1942."
+            }
+          ]
+        }
+      ]
+    },
+    "john-krejci": {
+      "name": "John Krejci",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Married Marie Kastl in June 1930",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "She married John Krejci June 1930."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-k-krejci-1934": {
+      "name": "Mary K. Krejci",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1934",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. MARY K. — (b) 1934, (m) Frank Bizal—June 1957."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Frank Bizal, June 1957",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. MARY K. — (b) 1934, (m) Frank Bizal—June 1957."
+            }
+          ]
+        }
+      ]
+    },
+    "john-krejci-1937": {
+      "name": "John Krejci",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "June 1937",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "2. JOHN — (b) June 1937."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-h-carl": {
+      "name": "Mary H. Carl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Married James Edward Kastl in 1942",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "He married Mary H. Carl 1942."
+            },
+            {
+              "scan": "s072",
+              "quote": "He married Mary H. Carl 1942."
+            }
+          ]
+        }
+      ]
+    },
+    "james-stephen-kastl-1943": {
+      "name": "James Stephen Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Steve Kastl",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. STEVE — (b)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "4 August 1943",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "1. JAMES STEPHEN — (b) 4 Aug. 1943"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Married; the spouse is not named",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "1. JAMES STEPHEN — (b) 4 Aug. 1943 (m) two children: Kristen and Anthony"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Two children: Kristen and Anthony",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "(m) two children: Kristen and Anthony"
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-kastl-1946": {
+      "name": "Thomas Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Tom Kastl",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "2. TOM — (b)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "7 November 1946",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "2. THOMAS — (b) 7 Nov. 1946"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Married; the spouse is not named",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "2. THOMAS — (b) 7 Nov. 1946 (m) two children: Joshua and Erin."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Two children: Joshua and Erin",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "(m) two children: Joshua and Erin."
+            }
+          ]
+        }
+      ]
+    },
+    "christopher-john-kastl-1948": {
+      "name": "Christopher John Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Chris Kastl",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "4. CHRIS — (b)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "10 May 1948",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "3. CHRISTOPHER JOHN — (b) 10 May 1948"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Married; the spouse is not named",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "3. CHRISTOPHER JOHN — (b) 10 May 1948 (m) two children: Phillip and Nicholas."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Two children: Phillip and Nicholas",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "(m) two children: Phillip and Nicholas."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-joseph-kastl-1952": {
+      "name": "Michael Joseph Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Mike Kastl",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "3. MIKE — (b)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "9 December 1952",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "4. MICHAEL JOSEPH — (b) 9 Dec. 1952"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Married; the spouse is not named",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "4. MICHAEL JOSEPH — (b) 9 Dec. 1952 (m) one child: Chrystal."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "One child: Chrystal",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "(m) one child: Chrystal."
+            }
+          ]
+        }
+      ]
+    },
+    "ann-marie-kastl-1955": {
+      "name": "Ann Marie Kastl",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 February 1955",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "5. ANN MARIE — (b) 5 Feb. 1955"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Jay Flink",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "5. ANN MARIE — (b) 5 Feb. 1955 (m) Jay Flink one child: Preston."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "One child: Preston",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "(m) Jay Flink one child: Preston."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Listed in the 1985 book with no date",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "7 ANN MARIE — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "matthew-carl-kastl-1958": {
+      "name": "Matthew Carl Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Matt Kastl",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "5. MATT — (b)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "18 January 1958",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "6. MATTHEW CARL — (b) 18 Jan. 1958"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Married; the spouse is not named",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "6. MATTHEW CARL — (b) 18 Jan. 1958 (m) two children: Kandy and Katie."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Two children: Kandy and Katie",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "(m) two children: Kandy and Katie."
+            }
+          ]
+        }
+      ]
+    },
+    "kenneth-charles-kastl-1960": {
+      "name": "Kenneth Charles Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Ken Kastl",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "6. KEN — (b)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "22 September 1960",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "7. KENNETH CHARLES — (b) 22 Sept. 1960"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Married; the spouse is not named",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "7. KENNETH CHARLES — (b) 22 Sept. 1960 (m) two children: Kyle and Andrew."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Two children: Kyle and Andrew",
+          "sources": [
+            {
+              "scan": "s072",
+              "quote": "(m) two children: Kyle and Andrew."
+            }
+          ]
+        }
+      ]
+    },
+    "charles-sveska": {
+      "name": "Charles Sveska",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 November 1878",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "He was born 3 November 1878, son of Thomas Sveska and Anna Vondruska"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "May 1960, Los Angeles, California",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "died May 1960 in Los Angeles, California."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Thomas Sveska and Anna Vondruska",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "son of Thomas Sveska and Anna Vondruska"
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-sveska-1902": {
+      "name": "Barbara Sveska",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1902",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. BARBARA — (b) 1902"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Edward Perina, 15 June 1928, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "1. BARBARA — (b) 1902, (m) Edward Perina—15 June 1928 Omaha, NE."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Harley Anderson",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(2) Harley Anderson."
+            }
+          ]
+        }
+      ]
+    },
+    "minnie-j-sveska-1909": {
+      "name": "Minnie J. Sveska",
+      "sex": "F",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1909",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "2. MINNIE J. — (b) 1909"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "12 October 1915, Omaha, Nebraska, of diphtheria",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "2. MINNIE J. — (b) 1909, (d) 12 Oct. 1915 (Diphtheria) Omaha, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "lawrence-sveska-of-wilhelmina1882": {
+      "name": "Lawrence Sveska",
+      "sex": "M",
+      "branch": "wenzel",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child of Wilhelmina Kastl and Charles Sveska; no dates are printed",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "3. LAWRENCE — (b)"
+            }
+          ]
         }
       ]
     }
   },
-  "families": []
+  "families": [
+    {
+      "id": "wenzel1831-barbara",
+      "partners": [
+        "wenzel-kastl-1831",
+        "barbara-blachnik"
+      ],
+      "heading": "The children of Wenzel Kastl and Barbara Blachnik",
+      "marriage": [
+        {
+          "value": "Bohemia",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Wenzel married Barbara Blachnik in Bohemia."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "john-kastl-1861",
+        "martin-kastl-1864",
+        "mary-agnes-kastl-1870",
+        "anna-kastl-1872",
+        "wenzel-kastl-1877",
+        "no-name-kastl-1877",
+        "wilhelmina-kastl-1882"
+      ],
+      "note": "WENZEL and \"No Name\" are both printed as born 15 Nov. 1877. The 1867 ship's records list a son Wenzel, age 6 months; the child list has no son of that age, and its WENZEL is born in 1877 (\"Wenzel 2\" in the 1880 census). Both are kept as printed.",
+      "sources": [
+        "s028",
+        "s029",
+        "s072",
+        "s009"
+      ]
+    },
+    {
+      "id": "john1861-mary",
+      "partners": [
+        "john-kastl-1861",
+        "mary-wife-of-john-1861"
+      ],
+      "children": [],
+      "note": "The 1985 book prints \"The family of John Kastl and Mary\" with six children. The 1986 supplement says John never married and that the family should be \"The family of Martin Kastl\"; the six children are therefore placed with Martin, and this marriage is kept only as the 1985 reading.",
+      "sources": [
+        "s028",
+        "s072"
+      ]
+    },
+    {
+      "id": "martin1864",
+      "partners": [
+        "martin-kastl-1864"
+      ],
+      "heading": [
+        "The family of John Kastl and Mary",
+        "The family of Martin Kastl"
+      ],
+      "children": [
+        "elmer-j-kastl-1889",
+        "laura-kastl-1893",
+        "henry-r-kastl-1896",
+        "beatrice-kastl-1898",
+        "olive-kastl-1901",
+        "louis-kastl-1903"
+      ],
+      "note": "Printed in the 1985 book as \"The family of John Kastl and Mary\", whose text says of John: \"It is believed he moved his family to California in the 1900s\". The 1986 supplement says: \"The family of John Kastl and Mary is an error. It should be: The family of Martin Kastl. This family moved to San Francisco, CA.\" The children are placed here, with Martin, as the supplement says; no mother is named for them.",
+      "sources": [
+        "s028",
+        "s072"
+      ]
+    },
+    {
+      "id": "wenzel1877-mary",
+      "partners": [
+        "wenzel-kastl-1877",
+        "mary-menousek"
+      ],
+      "heading": "The family of James F. Kastl and Mary Menousek",
+      "marriage": [
+        {
+          "value": "August 1902",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "(m) Mary Menousek—Aug. 1902."
+            },
+            {
+              "scan": "s029",
+              "quote": "He married Mary Menousek August 1902."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "frank-james-kastl-1903",
+        "marie-kastl-1905",
+        "teresa-kastl-1907",
+        "james-edward-kastl-1922"
+      ],
+      "sources": [
+        "s028",
+        "s029",
+        "s072"
+      ]
+    },
+    {
+      "id": "frank1903-marjorie",
+      "partners": [
+        "frank-james-kastl-1903",
+        "marjorie-dusatko"
+      ],
+      "heading": "The family of Frank James Kastl and Marjorie Dusatko",
+      "marriage": [
+        {
+          "value": "19 October 1926, St. Wenceslaus Church",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Marjorie Dusatko—19 Oct. 1926."
+            },
+            {
+              "scan": "s029",
+              "quote": "He married Marjorie Dusatko 19 October 1926, at St. Wenceslaus Church."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mary-alice-kastl-1928",
+        "jo-ann-kastl-1930",
+        "marjorie-kastl-1935",
+        "teresa-kastl-1937",
+        "carol-kastl-1942"
+      ],
+      "sources": [
+        "s029"
+      ]
+    },
+    {
+      "id": "marie1905-john",
+      "partners": [
+        "marie-kastl-1905",
+        "john-krejci"
+      ],
+      "heading": "The family of Marie Kastl and John Krejci",
+      "marriage": [
+        {
+          "value": "June 1930",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) John Krejci—June 1930."
+            },
+            {
+              "scan": "s029",
+              "quote": "She married John Krejci June 1930."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mary-k-krejci-1934",
+        "john-krejci-1937"
+      ],
+      "sources": [
+        "s029"
+      ]
+    },
+    {
+      "id": "jamesedward1922-mary",
+      "partners": [
+        "james-edward-kastl-1922",
+        "mary-h-carl"
+      ],
+      "heading": "The family of James Edward Kastl and Mary H. Carl",
+      "marriage": [
+        {
+          "value": "1942",
+          "sources": [
+            {
+              "scan": "s029",
+              "quote": "(m) Mary H. Carl—1942."
+            },
+            {
+              "scan": "s029",
+              "quote": "He married Mary H. Carl 1942."
+            },
+            {
+              "scan": "s072",
+              "quote": "He married Mary H. Carl 1942."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "james-stephen-kastl-1943",
+        "thomas-kastl-1946",
+        "christopher-john-kastl-1948",
+        "michael-joseph-kastl-1952",
+        "ann-marie-kastl-1955",
+        "matthew-carl-kastl-1958",
+        "kenneth-charles-kastl-1960"
+      ],
+      "note": "Children in the order of the 1986 supplement (James Stephen, Thomas, Christopher John, Michael Joseph, Ann Marie, Matthew Carl, Kenneth Charles), which gives their full names and birth dates. The 1985 book lists them without dates as Steve, Tom, Mike, Chris, Matt, Ken, Ann Marie, and prints the last line as \"7 ANN MARIE\" without a period.",
+      "sources": [
+        "s029",
+        "s072"
+      ]
+    },
+    {
+      "id": "wilhelmina1882-charles",
+      "partners": [
+        "wilhelmina-kastl-1882",
+        "charles-sveska"
+      ],
+      "heading": "The family of Wilhelmina Kastl and Charles Sveska",
+      "children": [
+        "barbara-sveska-1902",
+        "minnie-j-sveska-1909",
+        "lawrence-sveska-of-wilhelmina1882"
+      ],
+      "sources": [
+        "s028",
+        "s029"
+      ]
+    }
+  ]
 }

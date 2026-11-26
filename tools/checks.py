@@ -22,7 +22,7 @@ import unicodedata
 
 # Branches whose chapters have been built out and are checked for headings and counts.
 # Add a branch key here when its work unit lands.
-CHECKED_BRANCHES = {"josef"}
+CHECKED_BRANCHES = {"josef", "wenzel", "thomas", "zima"}
 # A work unit in progress can add its branch for a run without editing this file:
 #   KFH_CHECK_BRANCHES=peter python3 tools/build.py --check
 CHECKED_BRANCHES |= {b for b in os.environ.get("KFH_CHECK_BRANCHES", "").split(",") if b}
@@ -99,7 +99,7 @@ def load_allow(folder):
 
 # ----------------------------------------------------------------------------- page stream
 HEADING = re.compile(r"^### (.+?)\s*$")
-CHILD = re.compile(r"^(\d+)\.\s+[A-Z]")
+CHILD = re.compile(r"^(\d{1,2})(?:\.\s+[A-Z]|\s+[A-Z]{2,} )")  # "7 ANN MARIE" is printed without the period
 UNNUMBERED_CHILD = re.compile(r"^[A-Z][A-Z .'\-]+ — \(")
 # A children sub-list inside a family, one per marriage: "Children of Louis Kastl and (1) Doris
 # Howard:". It is matched to a family like a heading, by its text without the final ":" or ".".
