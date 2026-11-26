@@ -443,21 +443,39 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "3"
+CSS_VERSION = "4"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
 
 def pdf_links(prefix, cls=""):
     c = f' class="{cls}"' if cls else ""
-    return " ".join(
+    return " · ".join(
         f'<a{c} href="{prefix}{href}" target="_blank" rel="noopener" title="Opens in a new tab">{label} <span class="muted">({size})</span><span class="visually-hidden"> (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>'
         for href, label, size in PDFS)
 
 
-def layout(prefix, title, body, *, description, path, active=""):
+SHARE_IMAGE = ("media/og/kastl-family-history.jpg", "The cover of Kastl Family History, a sailing ship, beside the title")
+SITEMAP = []  # paths of indexable pages, filled in by layout()
+
+
+def layout(prefix, title, body, *, description, path, active="", image=None, image_alt=None,
+           jsonld=None, noindex=False, og_type="website"):
+    """Wrap a page body. `image` is a site-relative image path for link previews."""
     full_title = f"{title} · {TITLE}" if title != TITLE else TITLE
     url = SITE_URL + path
+    if not noindex:
+        SITEMAP.append(path)
+    img, img_alt = (image, image_alt) if image else SHARE_IMAGE
+    iw, ih = jpeg_size(ROOT / img)
+    img_url = SITE_URL + img
+    robots = "noindex, follow" if noindex else "index, follow, max-image-preview:large"
+    canonical = "" if noindex else f'<link rel="canonical" href="{esc(url)}">\n'
+    ld = ""
+    if jsonld:
+        ld = ('<script type="application/ld+json">'
+              + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+              + "</script>\n")
     nav = [("tree/index.html", "Family tree", "tree"), ("people/index.html", "People", "people"),
            ("book/index.html", "The book", "book"), ("about/index.html", "About", "about")]
     links = "".join(
@@ -469,12 +487,23 @@ def layout(prefix, title, body, *, description, path, active=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(description)}">
-<link rel="canonical" href="{esc(url)}">
-<meta property="og:type" content="website">
+<meta name="robots" content="{robots}">
+{canonical}<meta property="og:site_name" content="{TITLE}">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="{og_type}">
 <meta property="og:title" content="{esc(full_title)}">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="{esc(url)}">
-<meta property="og:image" content="{SITE_URL}media/thumbs/s001.jpg">
+<meta property="og:image" content="{esc(img_url)}">
+<meta property="og:image:width" content="{iw}">
+<meta property="og:image:height" content="{ih}">
+<meta property="og:image:alt" content="{esc(img_alt)}">
+<meta name="twitter:card" content="{"summary_large_image" if iw >= 600 else "summary"}">
+<meta name="twitter:title" content="{esc(full_title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{esc(img_url)}">
+<meta name="twitter:image:alt" content="{esc(img_alt)}">
+{ld}
 <meta name="theme-color" content="#f4eee2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1b1814" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml">
@@ -508,7 +537,18 @@ def layout(prefix, title, body, *, description, path, active=""):
 """
 
 
+def pretty_links(html_text):
+    """Point internal links at directories (people/x/) rather than people/x/index.html, matching
+    the canonical URLs. Pages serves a directory's index.html."""
+    def fix(m):
+        attr, base, rest = m.group(1), m.group(2), m.group(3) or ""
+        return f'{attr}="{base or "./"}{rest}"'
+    return re.sub(r'(href|action)="((?:[^"#?:]*/)?)index\.html([?#][^"]*)?"', fix, html_text)
+
+
 def write(rel_path, content):
+    if rel_path.endswith(".html"):
+        content = pretty_links(content)
     out = ROOT / rel_path
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(content, encoding="utf-8")
@@ -537,6 +577,58 @@ def sources_block(sources, pages_by_scan, prefix):
         for s in sources)
     return (f'<span class="srcs">{" ".join(links)}</span>'
             f'<details class="printed"><summary>As printed</summary><ul>{quotes}</ul></details>')
+
+
+# ----------------------------------------------------------------------------- structured data
+MONTHS = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
+                                      "September", "October", "November", "December"], 1)}
+
+
+def iso_date(value):
+    """'15 January 1840, Všepadly…' -> ('1840-01-15', 'Všepadly…'); vague values ('1864 or 1865') -> (None, None)."""
+    m = re.match(r"^(\d{1,2}) (\w+) (\d{4})\b(?:,\s*(.*))?$", value)
+    if m and m.group(2) in MONTHS:
+        return f"{m.group(3)}-{MONTHS[m.group(2)]:02d}-{int(m.group(1)):02d}", m.group(4)
+    m = re.match(r"^(\w+) (\d{4})\b(?:,\s*(.*))?$", value)
+    if m and m.group(1) in MONTHS:
+        return f"{m.group(2)}-{MONTHS[m.group(1)]:02d}", m.group(3)
+    m = re.match(r"^(\d{4})(?:,\s*(.*))?$", value)
+    if m:
+        return m.group(1), m.group(2)
+    return None, None
+
+
+def breadcrumb_ld(items):
+    return {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i + 1, "name": n, "item": SITE_URL + u} for i, (n, u) in enumerate(items)]}
+
+
+def person_ld(tree, pid):
+    """schema.org Person. Dates/places only when the book gives a single, exact reading."""
+    p = tree.people[pid]
+    url = f"{SITE_URL}people/{pid}/"
+    d = {"@type": "Person", "@id": url + "#person", "name": p["name"], "url": url,
+         "subjectOf": {"@id": SITE_URL + "#book"}}
+    if p.get("sex") in ("M", "F"):
+        d["gender"] = "https://schema.org/Male" if p["sex"] == "M" else "https://schema.org/Female"
+    for t_, k_date, k_place in (("birth", "birthDate", "birthPlace"), ("death", "deathDate", "deathPlace")):
+        fs = tree.facts(pid, t_)
+        if len(fs) == 1:
+            date, place = iso_date(fs[0]["value"])
+            if date:
+                d[k_date] = date
+            if place and not re.search(r"\(|soon after|in infancy|per his", place):
+                d[k_place] = {"@type": "Place", "name": place}
+    ref = lambda x: {"@type": "Person", "name": tree.people[x]["name"], "url": f"{SITE_URL}people/{x}/"}
+    if pid in tree.parents_of:
+        d["parent"] = [ref(x) for x in tree.parents_of[pid]["partners"]]
+    sp = tree.spouses(pid)
+    if sp:
+        d["spouse"] = [ref(x) for x in sp]
+    kids = [c for fam in tree.families_of.get(pid, []) for c in fam["children"]]
+    if kids:
+        d["children"] = [ref(x) for x in kids]
+    return d
 
 
 # ----------------------------------------------------------------------------- person pages
@@ -657,9 +749,26 @@ def build_person(tree, pid, pages_by_scan):
 
     photo_html = f'<div class="person-photos">{"".join(photos)}</div>' if photos else ""
     content = f'<article class="wrap person">{"".join(parts)}{photo_html}{"".join(body_cols)}</article>'
-    desc = (f'{p["name"]} ({yrs}), {rel.lower() if rel else "of the Kastl family"}, in Kastl Family History.')
+    bits = [f'{p["name"]}' + (f" ({yrs})" if yrs else "") + (f", {rel[0].lower() + rel[1:]}" if rel else "") + "."]
+    born = short_fact(tree, pid, "birth")
+    if born:
+        bits.append(f"Born {born}.")
+    emi = tree.facts(pid, "immigration")
+    if emi:
+        bits.append(emi[0]["value"].rstrip(".") + ".")
+    desc = " ".join(bits)
+    if len(desc) < 150:
+        desc += " From Kastl Family History, with the book’s own words and page references."
+    img = img_alt = None
+    if p.get("photos"):
+        ph, pg = photo_index[p["photos"][0]]
+        img, img_alt = f"media/photos/{ph['id']}.jpg", ph.get("caption") or ph.get("description")
+    ld = {"@context": "https://schema.org", "@graph": [
+        person_ld(tree, pid),
+        breadcrumb_ld([(TITLE, ""), ("People", "people/"), (p["name"], f"people/{pid}/")])]}
     write(f"people/{pid}/index.html",
-          layout(prefix, p["name"], content, description=desc, path=f"people/{pid}/", active="people"))
+          layout(prefix, p["name"], content, description=desc, path=f"people/{pid}/", active="people",
+                 image=img, image_alt=img_alt, jsonld=ld, og_type="profile"))
 
 
 # ----------------------------------------------------------------------------- home
@@ -713,17 +822,17 @@ def build_home(tree, pages_by_scan):
     <a class="hero-cover" href="book/cover/index.html"><img src="media/pages/s001.jpg" alt="The book's cover: a sailing ship, its sails lettered Kastl Family History" width="{w}" height="{h}"></a>
   </div>
 </section>
-<section class="wrap" aria-labelledby="roots-h">
-  <h2 id="roots-h">Shared roots</h2>
-  <p class="muted">The earliest Kastls the book could trace, from church records in the archives at Plzen. Thomas married twice: Maria Marsalek, mother of the seven brothers, and after her death Barbara Kellner.</p>
-  <ol class="roots">{root_strip}</ol>
-</section>
 <section class="wrap" id="brothers" aria-labelledby="brothers-h">
   <h2 id="brothers-h">The seven brothers</h2>
   <p class="muted">Each brother has his own chapter in the book. A half-sister, Anna, stayed in Bohemia; her son James Zima came to Nebraska in 1922.</p>
   <ol class="brothers">
 {"".join(cards)}
   </ol>
+</section>
+<section class="wrap roots-sec" aria-labelledby="roots-h">
+  <h2 id="roots-h">Before the brothers</h2>
+  <p class="muted">Their ancestors, as far back as the records go.</p>
+  <ol class="roots">{root_strip}</ol>
 </section>
 <section class="wrap explore" aria-labelledby="explore-h">
   <h2 id="explore-h">Explore</h2>
@@ -734,9 +843,18 @@ def build_home(tree, pages_by_scan):
     <li><a href="search/index.html"><strong>Search</strong><span>Names, places and years across the whole book.</span></a></li>
   </ul>
 </section>"""
+    book_ld = {"@type": "Book", "@id": SITE_URL + "#book", "name": "Kastl Family History",
+               "author": [{"@type": "Person", "name": "Evelyn Coufal"}, {"@type": "Person", "name": "Francis Vech"}],
+               "datePublished": "1985", "inLanguage": "en",
+               "publisher": {"@type": "Organization", "name": "Catholic Quote",
+                             "address": {"@type": "PostalAddress", "addressLocality": "Valparaiso", "addressRegion": "NE", "addressCountry": "US"}},
+               "about": [{"@type": "Person", "name": tree.people[fid]["name"], "url": f"{SITE_URL}people/{fid}/"} for _, fid, _ in BRANCHES]}
+    site_ld = {"@type": "WebSite", "@id": SITE_URL + "#site", "name": TITLE, "url": SITE_URL, "inLanguage": "en",
+               "description": "The Kastl family from Bohemia to Nebraska: family tree, people and the full 1985 book with its 1986 supplement.",
+               "about": {"@id": SITE_URL + "#book"}}
     write("index.html", layout("", TITLE, body,
-                               description="Kastl Family History (1985): seven Kastl brothers from Bohemia and their descendants in Nebraska — family tree, people and the full book with transcriptions.",
-                               path=""))
+                               description="Kastl Family History (1985): the seven Kastl brothers who came from Bohemia to Nebraska and their descendants — family tree, people and the full book with transcriptions.",
+                               path="", jsonld={"@context": "https://schema.org", "@graph": [site_ld, book_ld]}))
 
 
 # ----------------------------------------------------------------------------- book
@@ -849,10 +967,19 @@ def build_book(tree, pages, pages_by_scan):
 </div>
 {pager}
 </div>"""
-        desc = f"{p['label']} of Kastl Family History" + (f": {title}." if title else ".")
+        snippet = strip_md(re.sub(r"\[\[photo [^\]]+\]\]|^#+ .*$", "", p["body"], flags=re.M))
+        snippet = re.sub(r"\s+", " ", snippet).strip()
+        if len(snippet) > 150:
+            snippet = snippet[:150].rsplit(" ", 1)[0] + "…"
+        desc = (f"{p['label']} of Kastl Family History ({source_line})" + (f": {title}." if title else ".")
+                + (f" {snippet}" if snippet else ""))
+        ld = {"@context": "https://schema.org", "@graph": [breadcrumb_ld(
+            [(TITLE, ""), ("The book", "book/"), (p["label"], f"book/{p['slug']}/")])]}
         write(f"book/{p['slug']}/index.html",
               layout(prefix, f"{p['label']}{' — ' + title if title and title != p['label'] else ''}", body,
-                     description=desc, path=f"book/{p['slug']}/", active="book"))
+                     description=desc, path=f"book/{p['slug']}/", active="book",
+                     image=f"media/pages/{p['scan']}.jpg", image_alt=f"Scan of {p['label']} of Kastl Family History",
+                     jsonld=ld))
 
 
 # ----------------------------------------------------------------------------- about + search
@@ -917,7 +1044,7 @@ def build_search(tree, pages):
 <script src="{prefix}assets/js/search.js" defer></script>"""
     write("search/index.html", layout(prefix, "Search", body,
                                       description="Search the transcribed text of Kastl Family History.",
-                                      path="search/"))
+                                      path="search/", noindex=True))
 
 
 # ----------------------------------------------------------------------------- people table
@@ -1047,6 +1174,32 @@ def build_tree(tree):
                                     path="tree/", active="tree"))
 
 
+# ----------------------------------------------------------------------------- 404 + sitemap
+def build_404():
+    """Served by Pages for any missing path under /kfh/, so links must be absolute."""
+    prefix = "/kfh/"
+    body = f"""<div class="wrap prose">
+<p class="kicker">Not found</p>
+<h1>This page isn’t here</h1>
+<p class="lede">The link may be mistyped, or the page may have moved as the family tree grows.</p>
+<ul>
+<li><a href="{prefix}">The home page and the seven brothers</a></li>
+<li><a href="{prefix}people/">Everyone, in a table</a></li>
+<li><a href="{prefix}book/">The book, page by page</a></li>
+<li><a href="{prefix}search/">Search</a></li>
+</ul>
+</div>"""
+    html_text = layout(prefix, "Page not found", body, description="Page not found.", path="404.html", noindex=True)
+    write("404.html", html_text)
+
+
+def build_sitemap():
+    urls = sorted(set(SITEMAP), key=lambda u: (u.count("/"), u))
+    body = "".join(f"<url><loc>{esc(SITE_URL + u)}</loc></url>\n" for u in urls)
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
+
+
 # ----------------------------------------------------------------------------- main
 def main():
     pages = load_pages()
@@ -1067,6 +1220,8 @@ def main():
     build_book(tree, pages, pages_by_scan)
     build_about(tree)
     build_search(tree, pages)
+    build_404()
+    build_sitemap()
     nq = (sum(len(f["sources"]) for p in data["people"].values() for f in p["facts"])
           + sum(len(p.get("excerpts", [])) for p in data["people"].values())
           + sum(len(m["sources"]) for fam in data["families"] for m in fam.get("marriage", [])))

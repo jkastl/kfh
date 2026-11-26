@@ -116,6 +116,10 @@ is checked as it goes; (c)–(e) run after U7.
 - Per-branch reading guide: chapter narrative + photos.
 - Link narrative mentions in transcriptions to person pages where unambiguous.
 
-## Open questions for the owner
-- Search indexing: currently indexable (no `noindex`). Keep, or hide from search engines?
-- Pages source is assumed to be `main` / root. Confirm.
+## Decisions
+- Search indexing: keep the site indexable (owner, 2026-11-26). Search results and 404 are noindex.
+- Pages serves `main` / root (confirmed by owner).
+
+## Owner to-do
+- Optional: submit https://jkastl.github.io/kfh/sitemap.xml in Google Search Console
+  (jkastl.github.io property) so the site is found sooner.

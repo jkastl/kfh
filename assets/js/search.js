@@ -48,14 +48,14 @@
     if (people.length) {
       html += '<h2 class="results-h">People (' + people.length + ")</h2>";
       people.forEach(function (p) {
-        html += '<div class="result"><h3><a href="../people/' + p.id + '/index.html">' + escapeHtml(p.n) +
+        html += '<div class="result"><h3><a href="../people/' + p.id + '/">' + escapeHtml(p.n) +
           "</a> <span class=\"yrs\">" + escapeHtml(p.y || "") + "</span></h3></div>";
       });
     }
     if (pages.length) {
       html += '<h2 class="results-h">Book pages (' + pages.length + ")</h2>";
       pages.forEach(function (p) {
-        html += '<div class="result"><h3><a href="../book/' + p.s + '/index.html">' + escapeHtml(p.l) +
+        html += '<div class="result"><h3><a href="../book/' + p.s + '/">' + escapeHtml(p.l) +
           (p.h ? " — " + escapeHtml(p.h) : "") + "</a></h3><p>" + snippet(p.t) + "</p></div>";
       });
     }

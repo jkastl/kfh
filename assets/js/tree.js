@@ -102,7 +102,7 @@
       }
       var cls = "node" + (n.f ? " founder" : "") + (id === focusId ? " focus" : "") + (n.u ? " uncertain" : "");
       var grp = el("g", { "class": cls, transform: "translate(" + p.x + "," + p.y + ")" });
-      var a = el("a", { href: "../people/" + id + "/index.html" });
+      var a = el("a", { href: "../people/" + id + "/" });
       a.appendChild(el("title", {}, label(id) + (n.sp.length ? " — married " + n.sp.join("; ") : "")));
       a.appendChild(el("rect", { width: W, height: H, rx: 5 }));
       a.appendChild(el("text", { x: 10, y: 19, "class": "nm" }, clip(n.n, 25)));

@@ -181,6 +181,7 @@ cite { font-style: italic; }
 .unsure { font: 0.75em var(--sans); color: var(--warn); }
 
 /* home: roots and brothers */
+.roots-sec h2 { margin-top: 2.6rem; }
 .roots { list-style: none; padding: 0; margin: 0.6rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem 0.2rem; align-items: baseline; }
 .roots li { display: flex; align-items: baseline; gap: 0.35rem; }
 .roots li + li::before { content: "→"; color: var(--ink-3); margin: 0 0.3rem 0 0.1rem; }
