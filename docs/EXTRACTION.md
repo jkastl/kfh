@@ -100,7 +100,7 @@ lands, add to `content/people.json`). Shape:
       that every printed family heading in the branch's chapter and supplement section has a
       family, that child counts match the printed lists, and that each printed lineage
       "(Parent, Grandparent, …)" matches the data's line of descent. Where the book itself
-      causes a mismatch, add an entry with a `note` to `content/verification/allow.json`;
+      causes a mismatch, add an entry with a `note` to `content/verification/allow-<branch>.json`;
       never bend the data to pass. Read `content/verification/build-warnings.txt`
       (plausibility) and check each new warning against the scan.
 - [ ] Spot-check at least ten facts against the scan images, not just the transcription.

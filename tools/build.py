@@ -1206,7 +1206,7 @@ def main():
     errors, warnings, summary = checks.run(tree, pages, TREE_ROOT, CONTENT)
     if errors:
         print("Structural checks failed (see tools/checks.py; book-caused exceptions go in "
-              "content/verification/allow.json):", *errors, sep="\n  ")
+              "content/verification/allow-<branch>.json):", *errors, sep="\n  ")
         sys.exit(1)
     if "--check" in sys.argv[1:]:  # checks only; writes nothing (safe while others build)
         print(f"Checks passed: {summary}.")

@@ -12,7 +12,7 @@ prints with what the data says.
 - connected: everyone is reachable from Andreas through families.
 - plausibility: warnings only, since the book has real oddities.
 
-Book-caused exceptions go in content/verification/allow.json, each with a note.
+Book-caused exceptions go in content/verification/allow-<branch>.json, each with a note.
 Standard library only; must run on Python 3.8.
 """
 import json
@@ -84,15 +84,17 @@ def name_matches(token, person):
     return bool(first) and first in given_names(person)
 
 
-def load_allow(path):
-    if not path.exists():
-        return {"lineage": [], "count": []}
-    d = json.loads(path.read_text(encoding="utf-8"))
-    for kind in ("lineage", "count"):
-        for e in d.get(kind, []):
-            if not e.get("note"):
-                raise SystemExit(f"allow.json: every {kind} entry needs a note: {e}")
-    return d
+def load_allow(folder):
+    """Merge allow.json and allow-<branch>.json (one file per work unit, so units don't clash)."""
+    out = {"lineage": [], "count": []}
+    for f in sorted(folder.glob("allow*.json")):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        for kind in ("lineage", "count"):
+            for e in d.get(kind, []):
+                if not e.get("note"):
+                    raise SystemExit(f"{f.name}: every {kind} entry needs a note: {e}")
+                out[kind].append(e)
+    return out
 
 
 # ----------------------------------------------------------------------------- page stream
@@ -282,7 +284,7 @@ def plausibility(tree):
 
 def run(tree, pages, root, content_dir):
     """Run every check. Returns (errors, warnings, summary)."""
-    allow = load_allow(content_dir / "verification" / "allow.json")
+    allow = load_allow(content_dir / "verification")
     errors, n_lin, n_cnt = check_lineage_and_counts(tree, pages, allow)
     errors += check_labels(tree)
     errors += check_connected(tree, root)

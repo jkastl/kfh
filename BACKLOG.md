@@ -67,7 +67,7 @@ each unit must also read the supplement sections that name its pages.
 U1 notes: spouses named only in a child line stay `marriage` facts (Howard Thomas, Laura Foote,
 Marianne Niemann, Louis Vanek, Bill Rohwer, Joyce Simodynes, Pamela Barsell, Ron Poskochil,
 Patricia Sabol, Philip Edwards, James R. Bowen). Book-caused exceptions are in
-`content/verification/allow.json` (Shalon lineages; Patrick's children split 2 + 1 across his
+`content/verification/allow-josef.json` (Shalon lineages; Patrick's children split 2 + 1 across his
 two marriages). The supplement adds far more than the 1985 pages, so size other units by their
 supplement sections too.
 
@@ -83,7 +83,7 @@ nothing tested that code, and the build-out will multiply both data and labels ~
 
 a. **Automated checks in the build** — DONE (`tools/checks.py`; failures stop the build,
    plausibility warnings go to `content/verification/build-warnings.txt`; book-caused
-   exceptions in `content/verification/allow.json`). Heading and count checks apply to the
+   exceptions in `content/verification/allow-<branch>.json`). Heading and count checks apply to the
    branches in `CHECKED_BRANCHES`; lineage checks apply to every family already in the data.
    Mutation-tested: a moved child, a dropped link, a wrong sex and an orphan are all caught.
    - **Printed lineage vs. computed ancestry.** Nearly every family paragraph prints the person's
