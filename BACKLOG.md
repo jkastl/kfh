@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Next: step 6, building out the branches, when the owner gives the go-ahead.
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef) done; next U2–U6, then U7.
 
 ## Next, in order
 
@@ -54,7 +54,7 @@ each unit must also read the supplement sections that name its pages.
 
 | Unit | Branch | Book pages (scans) | Supplement sections (scan) | Size (family groups / child entries) |
 |---|---|---|---|---|
-| U1 | Josef — finish siblings' descendants | 41–43 (s043–s045) | p.41, p.42 ×2 (s073–s075); p.47 is Jacob | 10 / 39 + most of supp. pp.5–8 |
+| U1 | Josef — DONE (2026-11-26): 147 people, 39 families; all 40 printed headings checked | 41–43 (s043–s045) | p.41, p.42 ×2 (s073–s076 top) | was 10 / 39 + supp. pp.5–8 (actually ~35 family groups) |
 | U2 | Peter | 15–25 (s017–s027) | p.20, p.21, p.22 ×2 (s071–s072) | 36 / 122 |
 | U3 | Wenzel + Thomas + Anna Kastl Zima | 26–27, 56, 62 (s028–s029, s058, s064) | p.26, p.27 (s072) | 15 / 65 |
 | U4a | John, first part | 28–33 (s030–s035) | p.31 (s073) | split at a sub-family boundary |
@@ -63,6 +63,13 @@ each unit must also read the supplement sections that name its pages.
 | U5b | Jacob, second part | 50–55 (s052–s057) | p.54 (s076) | (Jacob total 72 / 229) |
 | U6 | Andrew | 57–61 (s059–s063) | p.60 (s076) | 35 / 120 |
 | U7 | Integration | all | all | cross-branch marriages, duplicate people, unresolved supplement entries, final counts |
+
+U1 notes: spouses named only in a child line stay `marriage` facts (Howard Thomas, Laura Foote,
+Marianne Niemann, Louis Vanek, Bill Rohwer, Joyce Simodynes, Pamela Barsell, Ron Poskochil,
+Patricia Sabol, Philip Edwards, James R. Bowen). Book-caused exceptions are in
+`content/verification/allow.json` (Shalon lineages; Patrick's children split 2 + 1 across his
+two marriages). The supplement adds far more than the 1985 pages, so size other units by their
+supplement sections too.
 
 Notes for the split units: pick the boundary where one child-of-the-brother's sub-family ends
 (check the lineage parentheses), and record the exact boundary here before starting.

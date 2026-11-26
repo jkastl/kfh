@@ -241,6 +241,10 @@
             {
               "scan": "s043",
               "quote": "with two children, Mathias 3, and Theresia 9 months."
+            },
+            {
+              "scan": "s043",
+              "quote": "arriving at the Port of Baltimore on 22 April 1868"
             }
           ]
         },
@@ -306,6 +310,10 @@
             {
               "scan": "s043",
               "quote": "with two children, Mathias 3, and Theresia 9 months."
+            },
+            {
+              "scan": "s043",
+              "quote": "arriving at the Port of Baltimore on 22 April 1868"
             }
           ]
         },
@@ -313,6 +321,10 @@
           "type": "death",
           "value": "1868 or 1869, soon after arriving in Nebraska",
           "sources": [
+            {
+              "scan": "s043",
+              "quote": "2. THERESIA — (b) 1866/7—Bohemia. (d) 1868/9. (bur) Omaha."
+            },
             {
               "scan": "s043",
               "quote": "These two children died soon after arriving in Nebraska, and buried in Omaha."
@@ -544,11 +556,6 @@
       ],
       "photos": [
         "s044-ph1"
-      ],
-      "continues": [
-        "s044",
-        "s074",
-        "s075"
       ]
     },
     "sophie-kastl-1902": {
@@ -612,21 +619,21 @@
         },
         {
           "type": "marriage",
-          "value": "Marie Kunasek (born 3 January 1903, died 19 January 1954)",
+          "value": "Marie Kunasek",
           "sources": [
             {
+              "scan": "s043",
+              "quote": "4. EDWARD — (b) 17 Mar. 1904—Omaha. (d) 14 Mar. 1977. (m) Marie Kunasek."
+            },
+            {
               "scan": "s044",
-              "quote": "He married Marie Kunasek. She was born 3 January 1903, died 19 January 1954."
+              "quote": "He married Marie Kunasek."
             }
           ]
         }
       ],
       "photos": [
         "s044-ph1"
-      ],
-      "continues": [
-        "s044",
-        "s074"
       ]
     },
     "john-kastl-1906": {
@@ -709,11 +716,6 @@
       ],
       "photos": [
         "s044-ph1"
-      ],
-      "continues": [
-        "s044",
-        "s075",
-        "s076"
       ]
     },
     "leo-kastl-1908": {
@@ -774,28 +776,22 @@
         },
         {
           "type": "marriage",
-          "value": "John Hayes (born 31 August 1911)",
+          "value": "John Hayes",
           "sources": [
+            {
+              "scan": "s043",
+              "quote": "6. ROSE — (b) 31 Aug. 1919—Omaha. (m) John Hayes."
+            },
             {
               "scan": "s044",
               "quote": "She married John Hayes. He was born 31 August 1911."
-            }
-          ]
-        },
-        {
-          "type": "marriage",
-          "value": "John Hayes (born 15 August 1911)",
-          "sources": [
+            },
             {
               "scan": "s075",
               "quote": "She married John Hayes. He was born 15 August 1911."
             }
           ]
         }
-      ],
-      "continues": [
-        "s044",
-        "s075"
       ]
     },
     "stanley-kastl-1898": {
@@ -879,10 +875,6 @@
             }
           ]
         }
-      ],
-      "continues": [
-        "s073",
-        "s074"
       ]
     },
     "lucille-kastl-1928": {
@@ -906,17 +898,18 @@
         },
         {
           "type": "marriage",
-          "value": "David Venable (deceased by 1986)",
+          "value": "David Venable",
           "sources": [
+            {
+              "scan": "s043",
+              "quote": "2. LUCILLE — (b) 9 June 1928—Weston, NE. (m) David Venable."
+            },
             {
               "scan": "s074",
               "quote": "She married David Venable (now deceased)."
             }
           ]
         }
-      ],
-      "continues": [
-        "s074"
       ]
     },
     "eleanor-kastl-1933": {
@@ -962,9 +955,6 @@
             }
           ]
         }
-      ],
-      "continues": [
-        "s074"
       ]
     },
     "patrick-kastl-1935": {
@@ -988,27 +978,28 @@
         },
         {
           "type": "marriage",
-          "value": "Jane Dimmitt, 5 June 1971, Omaha",
+          "value": "(1) A first marriage, spouse not named; two children were born to it",
           "sources": [
             {
-              "scan": "s043",
-              "quote": "(m) Jane Dimmitt 5 June 1971—Omaha."
+              "scan": "s074",
+              "quote": "Two children were born to first marriage."
             }
           ]
         },
         {
           "type": "marriage",
-          "value": "Margaret Jane Roller Dymit, 5 June 1971, Omaha, Nebraska; two children were born to a first marriage",
+          "value": "(2) Margaret Jane Roller Dymit, 5 June 1971, Omaha, Nebraska",
           "sources": [
             {
+              "scan": "s043",
+              "quote": "(m) Jane Dimmitt 5 June 1971—Omaha."
+            },
+            {
               "scan": "s074",
-              "quote": "Two children were born to first marriage. Patrick married Margaret Jane Roller Dymit—5 June 1971, Omaha, Nebraska."
+              "quote": "Patrick married Margaret Jane Roller Dymit—5 June 1971, Omaha, Nebraska."
             }
           ]
         }
-      ],
-      "continues": [
-        "s074"
       ]
     },
     "raymond-kastl-1939": {
@@ -1044,9 +1035,6 @@
             }
           ]
         }
-      ],
-      "continues": [
-        "s074"
       ]
     },
     "loretta-kastl-1944": {
@@ -1082,9 +1070,6 @@
             }
           ]
         }
-      ],
-      "continues": [
-        "s074"
       ]
     },
     "dennis-stanley-kastl-1930": {
@@ -1258,6 +1243,2568 @@
           ]
         }
       ]
+    },
+    "john-f-shalon": {
+      "name": "John F. Shalon",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "John Shalon",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "She married John Shalon 1 February 1898"
+            },
+            {
+              "scan": "s045",
+              "quote": "Mary Kastl — John Shalon (Thomas and Anna)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "4 March 1869, Pilzen, Bohemia",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "He was born 4 March 1869, Pilzen, Bohemia"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 February 1949",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "died 4 February 1949, and was buried at Brainard."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Brainard",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "died 4 February 1949, and was buried at Brainard."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Josef F. and Anna Shalon",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "son of Josef F. and Anna Shalon"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s045-ph1"
+      ]
+    },
+    "vaclav-shalon-of-mary1875": {
+      "name": "Vaclav Shalon",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "death",
+          "value": "In infancy",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "1. VACLAV — (d) Infancy."
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-shalon-1903": {
+      "name": "Thomas Shalon",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 January 1903, David City, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "2. THOMAS — (b) 30 Jan. 1903—David City, NE."
+            },
+            {
+              "scan": "s045",
+              "quote": "born 30 January 1903, David City, Nebraska, son of Mary Kastl and John F. Shalon"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Anna Kunasek, 3 May (no year printed), St. Wenceslaus Church, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Anna Kunasek."
+            },
+            {
+              "scan": "s045",
+              "quote": "He married Anna Kunasek 3 May, St. Wenceslaus Church, Bee, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s045-ph1"
+      ]
+    },
+    "anna-shalon-1907": {
+      "name": "Anna Shalon",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 September 1907, David City, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "3. ANNA — (b) 3 Sept. 1907—David City, NE."
+            },
+            {
+              "scan": "s045",
+              "quote": "born 3 September 1907, David City, Nebraska, daughter of Mary Kastl and John F. Shalon"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bernard Pospisil, 15 October 1941, Holy Trinity Church, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Bernard Pospisil—15 Oct. 1941."
+            },
+            {
+              "scan": "s045",
+              "quote": "She married Bernard Pospisil 15 October 1941, Holy Trinity Church, Brainard, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s045-ph1"
+      ]
+    },
+    "anna-kunasek": {
+      "name": "Anna Kunasek",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 March 1906",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "She was born 26 March 1906, daughter of Joseph Kunasek"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Joseph Kunasek, Tonganoxie, Kansas",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "daughter of Joseph Kunasek, Tonganoxie, Kansas."
+            }
+          ]
+        }
+      ]
+    },
+    "eugene-shalon-1935": {
+      "name": "Eugene Shalon",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 March 1935, David City, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "1. EUGENE — (b) 9 Mar. 1935—David City, NE."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Marianne Niemann, 8 April 1961 (divorced)",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Marianne Niemann—8 Apr. 1961 (Div.)"
+            }
+          ]
+        }
+      ]
+    },
+    "rose-ellen-shalon-1945": {
+      "name": "Rose Ellen Shalon",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 June 1945",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "2. ROSE ELLEN — (b) 4 June 1945."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Louis Vanek, 18 April 1970",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Louis Vanek—18 Apr. 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "bernard-pospisil": {
+      "name": "Bernard Pospisil",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 August 1903, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "He was born 19 August 1903, Weston, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "2 December 1979",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "and died 2 December 1979"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "St. Francis Cemetery, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "buried at St. Francis Cemetery, Wahoo, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "marcella-pospisil-1944": {
+      "name": "Marcella Pospisil",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 April 1944, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "1. MARCELLA — (b) 18 Apr. 1944—Weston, NE."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bill Rohwer, 7 April 1973",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Bill Rohwer—7 Apr. 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "dennis-pospisil-1945": {
+      "name": "Dennis Pospisil",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 October 1945, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "2. DENNIS — (b) 18 Oct. 1945—Weston, NE."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Joyce Simodynes, 5 August 1967",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Joyce Simodynes—5 Aug. 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "adrian-pospisil-1947": {
+      "name": "Adrian Pospisil",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 September 1947, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "3. ADRIAN — (b) 28 Sept. 1947—Wahoo, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "arnold-pospisil-1950": {
+      "name": "Arnold Pospisil",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 February 1950, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "4. ARNOLD — (b) 15 Feb. 1950—Wahoo, NE."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Pamela Barsell, 17 February 1973",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Pamela Barsell—17 Feb. 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "geneieve-pospisil-1951": {
+      "name": "Geneieve Pospisil",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 October 1951, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "5. GENEIEVE — (b) 24 Oct. 1951—Wahoo, NE"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Ron Poskochil, 19 May 1973",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Ron Poskochil—19 May 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "caroline-kunasek": {
+      "name": "Caroline Kunasek",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "September 1899, McLouth, Kansas",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "She was born September 1899, McLouth, Kansas"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "6 March 1984",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "died 6 March 1984, and was buried at Calvary Cemetery, Omaha."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Calvary Cemetery, Omaha",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "was buried at Calvary Cemetery, Omaha. Their children:"
+            }
+          ]
+        }
+      ]
+    },
+    "mary-ann-kastl-1927": {
+      "name": "Mary Ann Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 October 1927",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. MARY ANN — (b) 10 Oct. 1927."
+            },
+            {
+              "scan": "s074",
+              "quote": "MARY ANN KASTL (Frank, Joseph W., Josef) born 10 October 1927"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Dennis Kripal, 21 May 1949",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Dennis Kripal—21 May 1949."
+            },
+            {
+              "scan": "s074",
+              "quote": "She married Dennis Kripal—21 May 1949."
+            }
+          ]
+        }
+      ]
+    },
+    "margaret-kastl-1931": {
+      "name": "Margaret Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 July 1931",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "2. MARGARET — (b) 16 July 1931."
+            },
+            {
+              "scan": "s075",
+              "quote": "MARGARET KASTL (Frank, Joseph W., Josef) born 16 July 1931"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Leo Novak, 16 July 1950",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Leo Novak—16 July 1950."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Leo Novak, 17 June 1950",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "She married Leo Novak—17 June 1950."
+            }
+          ]
+        }
+      ]
+    },
+    "dennis-kripal": {
+      "name": "Dennis Kripal",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "death",
+          "value": "6 March 1980",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "He died 6 March 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-kripal-1951": {
+      "name": "Barbara Kripal",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 June 1951",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. BARBARA — (b) 18 June 1951"
+            },
+            {
+              "scan": "s075",
+              "quote": "BARBARA KRIPAL (Mary Ann Kastl Kripal, Frank, Joseph W., Josef) born 18 June 1951"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John Schuman, 1972",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "(m) John Schuman 1972."
+            },
+            {
+              "scan": "s075",
+              "quote": "She married—John Schuman."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-kripal-1952": {
+      "name": "Michael Kripal",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 July 1952",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. MICHAEL — (b) 8 July 1952"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Patricia Sabol, 1983",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Patricia Sabol 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "james-kripal-1958": {
+      "name": "James Kripal",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 March 1958",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "3. JAMES — (b) 16 Mar. 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "therese-kripal-1962": {
+      "name": "Therese Kripal",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 June 1962",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "4. THERESE — (b) 26 June 1962."
+            }
+          ]
+        }
+      ]
+    },
+    "karen-kripal-1967": {
+      "name": "Karen Kripal",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 October 1967",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "5. KAREN — (b) 1 Oct. 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "john-schuman": {
+      "name": "John Schuman",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "amy-schuman-1972": {
+      "name": "Amy Schuman",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 December 1972",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. AMY — (b) 11 Dec. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "tim-schuman-1978": {
+      "name": "Tim Schuman",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 June 1978",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. TIM — (b) 19 June 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "zachary-schuman-1983": {
+      "name": "Zachary Schuman",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 December 1983",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "3. ZACHARY — (b) 2 Dec. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "andrew-kripal-1985": {
+      "name": "Andrew Kripal",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 July 1985",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. ANDREW — (b) 23 July 1985."
+            }
+          ]
+        }
+      ]
+    },
+    "leo-novak": {
+      "name": "Leo Novak",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "lawrence-john-novak-1951": {
+      "name": "Lawrence John Novak",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 October 1951",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. LAWRENCE JOHN — (b) 2 Oct. 1951"
+            },
+            {
+              "scan": "s075",
+              "quote": "LAWRENCE JOHN NOVAK (Margaret Kastl Novak, Frank, Joseph W., Josef) born 2 October 1951"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Carla Witzel, 11 February 1976",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Carla Witzel—1976."
+            },
+            {
+              "scan": "s075",
+              "quote": "He married Carla Witzel—11 February 1976."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-ann-novak-1951": {
+      "name": "Mary Ann Novak",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 October 1951",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. MARY ANN — (b) 2 Oct. 1951"
+            },
+            {
+              "scan": "s075",
+              "quote": "MARY ANN NOVAK (Margaret Kastl Novak, Frank, Joseph W., Josef) born 2 October 1951"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Alan Wood, 2 June 1971",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Alan Wood—1971."
+            },
+            {
+              "scan": "s075",
+              "quote": "She married Alan Wood—2 June 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "william-novak-1959": {
+      "name": "William Novak",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 January 1959",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "WILLIAM — (b) 24 Jan. 1959"
+            },
+            {
+              "scan": "s075",
+              "quote": "WILLIAM NOVAK (Margaret Kastl Novak, Frank, Joseph W., Josef) born 24 January 1959"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Janet Mitchell, 18 June 1982",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Janet Mitchell—1982."
+            },
+            {
+              "scan": "s075",
+              "quote": "He married Janet Mitchell—18 June 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "carla-witzel": {
+      "name": "Carla Witzel",
+      "sex": "F",
+      "branch": "josef",
+      "facts": []
+    },
+    "nathan-novak-1979": {
+      "name": "Nathan Novak",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 August 1979",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. NATHAN — (b) 5 Aug. 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "traci-novak-1981": {
+      "name": "Traci Novak",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 November 1981",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. TRACI — (b) 14 Nov. 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "alan-wood": {
+      "name": "Alan Wood",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "christopher-wood-1974": {
+      "name": "Christopher Wood",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 March 1974",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. CHRISTOPHER — (b) 2 Mar. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "cory-wood-1977": {
+      "name": "Cory Wood",
+      "sex": "U",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 January 1977",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. CORY — (b) 23 Jan. 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "matthew-wood-1979": {
+      "name": "Matthew Wood",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 June 1979",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "3. MATTHEW — (b) 6 June 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "janet-mitchell": {
+      "name": "Janet Mitchell",
+      "sex": "F",
+      "branch": "josef",
+      "facts": []
+    },
+    "kevin-novak-1983": {
+      "name": "Kevin Novak",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 October 1983",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. KEVIN — (b) 12 Oct. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "marie-kunasek": {
+      "name": "Marie Kunasek",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 January 1903",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "She was born 3 January 1903, died 19 January 1954."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "19 January 1954",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "She was born 3 January 1903, died 19 January 1954."
+            }
+          ]
+        }
+      ]
+    },
+    "dorothy-kastl-1930": {
+      "name": "Dorothy Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 June 1930",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. DOROTHY — (b) 9 June 1930."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Howard Thomas",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. DOROTHY — (b) 9 June 1930. (m) Howard Thomas."
+            }
+          ]
+        }
+      ]
+    },
+    "edward-kastl-of-edward1904": {
+      "name": "Edward Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "marriage",
+          "value": "Marian Bobek",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "2. EDWARD — (m) Marion Borek."
+            },
+            {
+              "scan": "s074",
+              "quote": "He married Marian Bobek."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Edward Kastl and Marie Kunasek",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "EDWARD KASTL (Edward, Joseph W., Josef) son of Edward Kastl and Marie Kunasek."
+            }
+          ]
+        }
+      ]
+    },
+    "william-kastl-of-edward1904": {
+      "name": "William Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "marriage",
+          "value": "Laura Foote",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "3. WILLIAM — (m) Laura Foote."
+            }
+          ]
+        }
+      ]
+    },
+    "marian-bobek": {
+      "name": "Marian Bobek",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Marion Borek",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "2. EDWARD — (m) Marion Borek."
+            }
+          ]
+        }
+      ]
+    },
+    "judy-kastl-of-edward-marian": {
+      "name": "Judy Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "marriage",
+          "value": "David Wehrle",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. JUDY — (m) David Wehrle."
+            },
+            {
+              "scan": "s074",
+              "quote": "She married David Wehrle."
+            }
+          ]
+        }
+      ]
+    },
+    "richard-kastl-of-edward-marian": {
+      "name": "Richard Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "marriage",
+          "value": "Jane Hamling",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. RICHARD (m) Jane Hamling."
+            },
+            {
+              "scan": "s074",
+              "quote": "He married Jane Hamling."
+            }
+          ]
+        }
+      ]
+    },
+    "robert-m-kastl-of-edward-marian": {
+      "name": "Robert M. Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child of Edward Kastl and Marian Bobek; no dates are printed",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "3. ROBERT M."
+            }
+          ]
+        }
+      ]
+    },
+    "david-wehrle": {
+      "name": "David Wehrle",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "ryan-wehrle-of-judy-david": {
+      "name": "Ryan Wehrle",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child of Judy Kastl and David Wehrle; no dates are printed",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. RYAN."
+            }
+          ]
+        }
+      ]
+    },
+    "melissa-wehrle-of-judy-david": {
+      "name": "Melissa Wehrle",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child of Judy Kastl and David Wehrle; no dates are printed",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. MELISSA."
+            }
+          ]
+        }
+      ]
+    },
+    "jane-hamling": {
+      "name": "Jane Hamling",
+      "sex": "F",
+      "branch": "josef",
+      "facts": []
+    },
+    "angela-kastl-of-richard-jane": {
+      "name": "Angela Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child of Richard Kastl and Jane Hamling; no dates are printed",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. ANGELA."
+            }
+          ]
+        }
+      ]
+    },
+    "mildred-schinker": {
+      "name": "Mildred Schinker",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "April 1912",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "She was born April 1912."
+            }
+          ]
+        }
+      ]
+    },
+    "rita-jean-kastl-1942": {
+      "name": "Rita Jean Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Rita Kastl",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. RITA — (b) 14 Feb. 1942. (m) Willy Secrest."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "14 February 1942",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. RITA — (b) 14 Feb. 1942."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "12 February 1942, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. RITA JEAN — (b) 12 Feb. 1942, Omah, NE."
+            },
+            {
+              "scan": "s075",
+              "quote": "RITA JEAN KASTL (John R., Joseph W., Josef) born 12 February 1942, Omaha, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Wiley Secrest, 25 June 1966",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Willy Secrest."
+            },
+            {
+              "scan": "s075",
+              "quote": "(m) Wiley Secrest—25 June 1966."
+            },
+            {
+              "scan": "s075",
+              "quote": "She married Wiley Secrest—25 June 1966."
+            }
+          ]
+        }
+      ]
+    },
+    "virginia-kastl-1943": {
+      "name": "Virginia Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "21 August 1943",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "2. VIRGINIA — (b) 21 Aug. 1943."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "29 August 1943",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. VIRGINIA — (b) 29 Aug. 1943."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Brehle (only this surname is printed)",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "2. VIRGINIA — (b) 21 Aug. 1943. (m) Brehle."
+            }
+          ]
+        }
+      ]
+    },
+    "robert-john-kastl-1945": {
+      "name": "Robert John Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Robert Kastl",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "4. ROBERT"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "28 May 1945",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "3. ROBERT JOHN — (b) 28 May 1945."
+            },
+            {
+              "scan": "s075",
+              "quote": "ROBERT JOHN KASTL (John R., Joseph W., Josef) born 28 May 1945"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Barbara Moxley, 18 August 1973",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Barbara Moxley—18 Aug. 1973."
+            },
+            {
+              "scan": "s075",
+              "quote": "He married Barbara Moxley—18 August 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "jane-frances-kastl-1947": {
+      "name": "Jane Frances Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Jane Kastl",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "3. JANE — (b) 28 May 1945."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "28 May 1945",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "3. JANE — (b) 28 May 1945."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "21 January 1947",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "4. JANE FRANCES — (b) 21 Jan. 1947"
+            },
+            {
+              "scan": "s076",
+              "quote": "JANE FRANCES KASTL (John R., Joseph, W., Josef) born 21 January 1947"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Allyn Brehl, 10 July 1971",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Allyn Brehl—10 July 1971."
+            },
+            {
+              "scan": "s076",
+              "quote": "She married Allyn Brehl—10 July 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "wiley-secrest": {
+      "name": "Wiley Secrest",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Willy Secrest",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. RITA — (b) 14 Feb. 1942. (m) Willy Secrest."
+            }
+          ]
+        }
+      ]
+    },
+    "wendy-ann-secrest-1970": {
+      "name": "Wendy Ann Secrest",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "February 1970, Columbus, Ohio",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. WENDY ANN — (b) Feb. 1970, Columbus, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "robert-wiley-secrest-1975": {
+      "name": "Robert Wiley Secrest",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "August 1975, Columbus, Ohio",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. ROBERT WILEY — (b) Aug. 1975, Columbus, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "jonathan-ray-secrest-1976": {
+      "name": "Jonathan Ray Secrest",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "July 1976, Columbus, Ohio",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "3. JONATHAN RAY — (b) July 1976, Columbus, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-moxley": {
+      "name": "Barbara Moxley",
+      "sex": "F",
+      "branch": "josef",
+      "facts": []
+    },
+    "charlotte-kastl-1979": {
+      "name": "Charlotte Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "April 1979, Cincinnati, Ohio",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. CHARLOTTE — (b) Apr. 1979, Cincinnati, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "christopher-kastl-1981": {
+      "name": "Christopher Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "August 1981, Cincinnati, Ohio",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. CHRISTOPHER — (b) Aug. 1981, Cincinnati, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "allyn-brehl": {
+      "name": "Allyn Brehl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "matthew-brehl-1973": {
+      "name": "Matthew Brehl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "December 1973, Columbus, Ohio",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. MATTHEW — (b) Dec. 1973, Columbus, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "monica-brehl-1977": {
+      "name": "Monica Brehl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "June 1977, Columbus, Ohio",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "2. MONICA — (b) June 1977, Columbus, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-wenceslaus-brehl-1979": {
+      "name": "Joseph Wenceslaus Brehl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "March 1979, Columbus, Ohio",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "3. JOSEPH WENCESLAUS — (b) Mar. 1979, Columbus, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "anna-brehl-1984": {
+      "name": "Anna Brehl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "March 1984, Columbus, Ohio",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "4. ANNA — (b) Mar. 1984, Columbus, OH."
+            }
+          ]
+        }
+      ]
+    },
+    "john-hayes": {
+      "name": "John Hayes",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 August 1911",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "He was born 31 August 1911."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 August 1911",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "He was born 15 August 1911."
+            }
+          ]
+        }
+      ]
+    },
+    "sam-john-hayes-1944": {
+      "name": "Sam John Hayes",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Samuel Hayes, Sam Hayes",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. SAMUEL — (b) 21 Dec. 1944."
+            },
+            {
+              "scan": "s075",
+              "quote": "SAM HAYES (Rose Kastl Hayes, Joseph W., Josef) born 21 December 1944"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "21 December 1944",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "1. SAMUEL — (b) 21 Dec. 1944."
+            },
+            {
+              "scan": "s075",
+              "quote": "1. SAM JOHN — (b) 21 Dec. 1944"
+            },
+            {
+              "scan": "s075",
+              "quote": "born 21 December 1944, son of Rose Kastl and John Hayes"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kathleen Livojevich",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Kateline Livochvich."
+            },
+            {
+              "scan": "s075",
+              "quote": "He married Kathleen Livojevich."
+            }
+          ]
+        }
+      ]
+    },
+    "linda-hayes-1947": {
+      "name": "Linda Hayes",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 December 1947",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "2. LINDA — (b) 8 Dec. 1947."
+            },
+            {
+              "scan": "s075",
+              "quote": "LINDA HAYES (Rose Kastl Hayes, Joseph W., Josef) born 8 December 1947"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Larry Lehmer",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Larry Lehner."
+            },
+            {
+              "scan": "s075",
+              "quote": "She married Larry Lehmer."
+            }
+          ]
+        }
+      ]
+    },
+    "kathleen-livojevich": {
+      "name": "Kathleen Livojevich",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Kateline Livochvich, Kathy Livojevich",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Kateline Livochvich."
+            },
+            {
+              "scan": "s075",
+              "quote": "The family of Sam Hayes and Kathy Livojevich"
+            }
+          ]
+        }
+      ]
+    },
+    "jennifer-anne-hayes-1980": {
+      "name": "Jennifer Anne Hayes",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 March 1980, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. JENNIFER ANNE — (b) 5 Mar. 1980, Omaha, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "jonathan-michael-hayes-1981": {
+      "name": "Jonathan Michael Hayes",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 June 1981, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. JONATHAN MICHAEL — (b) 1 June 1981, Omaha, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-samuel-hayes-1985": {
+      "name": "Joseph Samuel Hayes",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 August 1985, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "JOSEPH SAMUEL — (b) 19 August 1985, Omaha, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "larry-lehmer": {
+      "name": "Larry Lehmer",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Larry Lehner",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "2. LINDA — (b) 8 Dec. 1947. (m) Larry Lehner."
+            }
+          ]
+        }
+      ]
+    },
+    "aaron-guthrie-lehmer-1971": {
+      "name": "Aaron Guthrie Lehmer",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 September 1971, Vacaville, California",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "1. AARON GUTHRIE — (b) 2 Sept. 1971, Vacaville, CA."
+            }
+          ]
+        }
+      ]
+    },
+    "meghan-lurene-lehmer-1977": {
+      "name": "Meghan Lurene Lehmer",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 February 1977, Council Bluffs, Iowa",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "2. MEGHAN LURENE — (b) 28 Feb. 1977, Council Bluffs, IA."
+            }
+          ]
+        }
+      ]
+    },
+    "bret-darby-lehmer-1980": {
+      "name": "Bret Darby Lehmer",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 August 1980, Des Monies, Iowa",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "3. BRET DARBY — (b) 13 Aug. 1980, Des Monies, IA."
+            }
+          ]
+        }
+      ]
+    },
+    "richard-burnett": {
+      "name": "Richard Burnett",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "ronald-burnett-1947": {
+      "name": "Ronald Burnett",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 January 1947",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "1. RONALD — (b) 11 Jan. 1947"
+            },
+            {
+              "scan": "s073",
+              "quote": "RONALD BURNETT (Marie Kastl Burnett, Stanley, Joseph W., Josef) born 11 January 1947"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Velma Lundberg, 29 May 1971, Moscow, Idaho",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "(m) Velma Lundberg—29 May 1971."
+            },
+            {
+              "scan": "s073",
+              "quote": "He married Velma Lundberg—29 May 1971, Moscow, Idaho."
+            }
+          ]
+        }
+      ]
+    },
+    "carole-burnett-1950": {
+      "name": "Carole Burnett",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 August 1950",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "2. CAROLE — (b) 30 Aug. 1950"
+            },
+            {
+              "scan": "s073",
+              "quote": "CAROLE BURNETT (Marie Kastl Burnett, Stanley, Joseph W., Josef) born 30 August 1950"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Louis Wilson, 17 July 1971, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "(m) Louis Wilson—17 July 1971."
+            },
+            {
+              "scan": "s073",
+              "quote": "She married Louis Wilson—17 July 1971, Omaha, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "velma-lundberg": {
+      "name": "Velma Lundberg",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 January 1947",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "She was born 18 January 1947."
+            }
+          ]
+        }
+      ]
+    },
+    "rian-burnett-1974": {
+      "name": "Rian Burnett",
+      "sex": "U",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "7 January 1974",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "1. RIAN — (b) 7 Jan. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "vashti-burnett-1977": {
+      "name": "Vashti Burnett",
+      "sex": "U",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 August 1977",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "2. VASHTI — (b) 3 Aug. 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "louis-wilson": {
+      "name": "Louis Wilson",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 October 1947",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "He was born 4 October 1947."
+            }
+          ]
+        }
+      ]
+    },
+    "lori-wilson-1973": {
+      "name": "Lori Wilson",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 May 1973",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "1. LORI — (b) 2 May 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-wilson-1976": {
+      "name": "Daniel Wilson",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 September 1976",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "2. DANIEL — (b) 28 Sept. 1976."
+            }
+          ]
+        }
+      ]
+    },
+    "david-wilson-1980": {
+      "name": "David Wilson",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 January 1980",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "3. DAVID — (b) 28 Jan. 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "harvey-schroeder": {
+      "name": "Harvey Schroeder",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "diane-lynn-schroeder-1950": {
+      "name": "Diane Lynn Schroeder",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 February 1950, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. DIANE LYNN — (b) 26 Feb. 1950"
+            },
+            {
+              "scan": "s074",
+              "quote": "born 26 February 1950, Omaha, Nebraska, daughter of Eleanor Kastl and Harvey Schroeder"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Ronald Jay Orr, 8 June 1967, Fremont, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "(m) Ronald Jay Orr—8 June 1967."
+            },
+            {
+              "scan": "s074",
+              "quote": "She married Ronald Jay Orr—8 June 1967, Fremont, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "sharon-kay-schroeder-1951": {
+      "name": "Sharon Kay Schroeder",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 April 1951, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. SHARON KAY — (b) 24 Apr. 1951"
+            },
+            {
+              "scan": "s074",
+              "quote": "born 24 April 1951, Lincoln, Nebraska, daughter of Eleanor Kastl and Harvey Schroeder"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Hugh Elmer Bowen, 28 February 1970, Maryville, Kansas",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "(m) Hugh Elmer Bowen—28 Feb. 1970."
+            },
+            {
+              "scan": "s074",
+              "quote": "She married Hugh Elmer Bowen—28 February 1970, Maryville, Kansas."
+            }
+          ]
+        }
+      ]
+    },
+    "steven-scott-schroeder-1959": {
+      "name": "Steven Scott Schroeder",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 January 1959",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "3. STEVEN SCOTT — (b) 25 Jan. 1959."
+            }
+          ]
+        }
+      ]
+    },
+    "mark-alan-schroeder-1961": {
+      "name": "Mark Alan Schroeder",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 March 1961, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "4. MARK ALAN — (b) 4 Mar. 1961"
+            },
+            {
+              "scan": "s074",
+              "quote": "born 4 March 1961, Lincoln, Nebraska, son of Eleanor Kastl and Harvey Schroeder"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Sheila Dawn McMahon, 20 November 1982, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "(m) Sheila Dawn McMahon—20 Nov. 1982."
+            },
+            {
+              "scan": "s074",
+              "quote": "He married Sheila Dawn McMahon—20 November 1982, Lincoln, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "ronald-jay-orr": {
+      "name": "Ronald Jay Orr",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 January 1949, Hartington, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "He was born 19 January 1949, Hartington, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "rhonda-lynn-orr-1967": {
+      "name": "Rhonda Lynn Orr",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 October 1967, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. RHONDA LYNN — (b) 10 October 1967, Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "sheri-lynn-orr-1970": {
+      "name": "Sheri Lynn Orr",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 June 1970, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. SHERI LYNN — (b) 6 June 1970, Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "jodi-lynn-orr-1973": {
+      "name": "Jodi Lynn Orr",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 September 1973, Norfolk, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "3. JODI LYNN — (b) 30 Sept. 1973, Norfolk, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "hugh-elmer-bowen": {
+      "name": "Hugh Elmer Bowen",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 November 1950, Minden, Louisiana",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "He was born 20 November 1950, Minden, Louisiana."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-hugh-bowen-1975": {
+      "name": "Michael Hugh Bowen",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 December 1975, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. MICHAEL HUGH — (b) 10 Dec. 1975, Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "kelly-lynn-bowen-1977": {
+      "name": "Kelly Lynn Bowen",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 December 1977, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. KELLY LYNN — (b) 26 Dec. 1977, Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "sheila-dawn-mcmahon": {
+      "name": "Sheila Dawn McMahon",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 June 1964, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "She was born 6 June 1964, Lincoln, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "nicole-lynn-schroeder-1982": {
+      "name": "Nicole Lynn Schroeder",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 December 1982, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. NICOLE LYNN — (b) 22 Dec. 1982, Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "scott-alan-schroeder-1984": {
+      "name": "Scott Alan Schroeder",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 May 1984, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. SCOTT ALAN — (b) 17 May 1984, Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "margaret-jane-roller-dymit": {
+      "name": "Margaret Jane Roller Dymit",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Jane Dimmitt, Jane Roller Dymit",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Jane Dimmitt 5 June 1971—Omaha."
+            },
+            {
+              "scan": "s074",
+              "quote": "The family of Patrick Kastl and Jane Roller Dymit"
+            }
+          ]
+        }
+      ]
+    },
+    "gregory-patrick-kastl-1963": {
+      "name": "Gregory Patrick Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 November 1963, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. GREGORY PATRICK — (b) 25 Nov. 1963, Omaha, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-lee-kastl-1966": {
+      "name": "Daniel Lee Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 January 1966, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. DANIEL LEE — (b) 26 Jan. 1966, Omaha, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "mark-robert-kastl-1973": {
+      "name": "Mark Robert Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 October 1973, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "3. MARK ROBERT — (b) 18 Oct. 1973, Omaha, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "joylene-jansa": {
+      "name": "Joylene Jansa",
+      "sex": "F",
+      "branch": "josef",
+      "facts": []
+    },
+    "coralie-kastl-1962": {
+      "name": "Coralie Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 May 1962, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. CORALIE — (b) 19 May 1962, Wahoo, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "brian-kastl-1966": {
+      "name": "Brian Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 January 1966, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. BRIAN — (b) 31 Jan. 1966, Wahoo, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "brad-kastl-1968": {
+      "name": "Brad Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 November 1968, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "3. BRAD — (b) 3 Nov. 1968, Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "david-venable": {
+      "name": "David Venable",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "death",
+          "value": "Date not printed (\"now deceased\" in the 1986 supplement)",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "She married David Venable (now deceased)."
+            }
+          ]
+        }
+      ]
+    },
+    "david-venable-1956": {
+      "name": "David Venable",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 December 1956",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. DAVID — (b) 22 Dec. 1956."
+            }
+          ]
+        }
+      ]
+    },
+    "kathy-venable-1959": {
+      "name": "Kathy Venable",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 December 1959",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. KATHY — (b) 13 Dec. 1959"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Philip Edwards, 15 May 1982",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "(m) Philip Edwards—15 May 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "dick-messman": {
+      "name": "Dick Messman",
+      "sex": "M",
+      "branch": "josef",
+      "facts": []
+    },
+    "linda-tejral-1969": {
+      "name": "Linda Tejral",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 June 1969",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "1. LINDA TEJRAL — (b) 13 June 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "amy-tejral-1975": {
+      "name": "Amy Tejral",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 December 1975",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "2. AMY TEJRAL — (b) 17 Dec. 1975."
+            }
+          ]
+        }
+      ]
     }
   },
   "families": [
@@ -1382,6 +3929,7 @@
         "linda-starr-kastl-1960"
       ],
       "sources": [
+        "s043",
         "s073"
       ]
     },
@@ -1408,6 +3956,905 @@
       ],
       "sources": [
         "s073"
+      ]
+    },
+    {
+      "id": "mary1875-john",
+      "partners": [
+        "mary-kastl-1875",
+        "john-f-shalon"
+      ],
+      "heading": "The family of Mary Kastl and John F. Shalon",
+      "marriage": [
+        {
+          "value": "1 February 1898, Holy Trinity Church, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) John F. Shalon—1 Feb. 1898."
+            },
+            {
+              "scan": "s045",
+              "quote": "She married John Shalon 1 February 1898, in Holy Trinity Church, Brainard Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "vaclav-shalon-of-mary1875",
+        "thomas-shalon-1903",
+        "anna-shalon-1907"
+      ],
+      "sources": [
+        "s043",
+        "s045"
+      ]
+    },
+    {
+      "id": "thomas1903-anna",
+      "partners": [
+        "thomas-shalon-1903",
+        "anna-kunasek"
+      ],
+      "heading": "The family of Thomas Shalon and Anna Kunasek",
+      "marriage": [
+        {
+          "value": "3 May (no year printed), St. Wenceslaus Church, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "He married Anna Kunasek 3 May, St. Wenceslaus Church, Bee, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "eugene-shalon-1935",
+        "rose-ellen-shalon-1945"
+      ],
+      "sources": [
+        "s045"
+      ]
+    },
+    {
+      "id": "anna1907-bernard",
+      "partners": [
+        "anna-shalon-1907",
+        "bernard-pospisil"
+      ],
+      "heading": "The family of Anna Shalon and Bernard Pospisil",
+      "marriage": [
+        {
+          "value": "15 October 1941, Holy Trinity Church, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "(m) Bernard Pospisil—15 Oct. 1941."
+            },
+            {
+              "scan": "s045",
+              "quote": "She married Bernard Pospisil 15 October 1941, Holy Trinity Church, Brainard, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "marcella-pospisil-1944",
+        "dennis-pospisil-1945",
+        "adrian-pospisil-1947",
+        "arnold-pospisil-1950",
+        "geneieve-pospisil-1951"
+      ],
+      "sources": [
+        "s045"
+      ]
+    },
+    {
+      "id": "frank1900-caroline",
+      "partners": [
+        "frank-kastl-1900",
+        "caroline-kunasek"
+      ],
+      "heading": "The family of Frank Kastl and Caroline Kunasek",
+      "marriage": [
+        {
+          "value": "16 November 1926",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Caroline Kunasek—16 Nov. 1926."
+            },
+            {
+              "scan": "s044",
+              "quote": "Caroline Kunasek 16 November 1926."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mary-ann-kastl-1927",
+        "margaret-kastl-1931"
+      ],
+      "sources": [
+        "s043",
+        "s044",
+        "s074",
+        "s075"
+      ]
+    },
+    {
+      "id": "maryann1927-dennis",
+      "partners": [
+        "mary-ann-kastl-1927",
+        "dennis-kripal"
+      ],
+      "heading": "The family of Mary Ann Kastl and Dennis Kripal",
+      "marriage": [
+        {
+          "value": "21 May 1949",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Dennis Kripal—21 May 1949."
+            },
+            {
+              "scan": "s074",
+              "quote": "She married Dennis Kripal—21 May 1949."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "barbara-kripal-1951",
+        "michael-kripal-1952",
+        "james-kripal-1958",
+        "therese-kripal-1962",
+        "karen-kripal-1967"
+      ],
+      "sources": [
+        "s044",
+        "s074",
+        "s075"
+      ]
+    },
+    {
+      "id": "barbara1951-john",
+      "partners": [
+        "barbara-kripal-1951",
+        "john-schuman"
+      ],
+      "heading": "The family of Barbara Kripal and John Schuman",
+      "marriage": [
+        {
+          "value": "1972",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "(m) John Schuman 1972."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "amy-schuman-1972",
+        "tim-schuman-1978",
+        "zachary-schuman-1983"
+      ],
+      "sources": [
+        "s074",
+        "s075"
+      ]
+    },
+    {
+      "id": "therese1962",
+      "partners": [
+        "therese-kripal-1962"
+      ],
+      "heading": "The family of Therese Kripal",
+      "children": [
+        "andrew-kripal-1985"
+      ],
+      "note": "The book's heading names only Therese Kripal; no other parent is printed.",
+      "sources": [
+        "s075"
+      ]
+    },
+    {
+      "id": "margaret1931-leo",
+      "partners": [
+        "margaret-kastl-1931",
+        "leo-novak"
+      ],
+      "heading": "The family of Margaret Kastl and Leo Novak",
+      "marriage": [
+        {
+          "value": "16 July 1950",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "(m) Leo Novak—16 July 1950."
+            }
+          ]
+        },
+        {
+          "value": "17 June 1950",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "She married Leo Novak—17 June 1950."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "lawrence-john-novak-1951",
+        "mary-ann-novak-1951",
+        "william-novak-1959"
+      ],
+      "note": "WILLIAM is printed without a number, after child 2, in the 1986 supplement; he is listed last here. Lawrence John and Mary Ann are both printed as born 2 Oct. 1951.",
+      "sources": [
+        "s044",
+        "s075"
+      ]
+    },
+    {
+      "id": "lawrence1951-carla",
+      "partners": [
+        "lawrence-john-novak-1951",
+        "carla-witzel"
+      ],
+      "heading": "The family of Lawrence John Novak and Carla Witzel",
+      "marriage": [
+        {
+          "value": "11 February 1976",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Carla Witzel—1976."
+            },
+            {
+              "scan": "s075",
+              "quote": "He married Carla Witzel—11 February 1976."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "nathan-novak-1979",
+        "traci-novak-1981"
+      ],
+      "sources": [
+        "s075"
+      ]
+    },
+    {
+      "id": "maryann1951-alan",
+      "partners": [
+        "mary-ann-novak-1951",
+        "alan-wood"
+      ],
+      "heading": "The family of Mary Ann Novak and Alan Wood",
+      "marriage": [
+        {
+          "value": "2 June 1971",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Alan Wood—1971."
+            },
+            {
+              "scan": "s075",
+              "quote": "She married Alan Wood—2 June 1971."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "christopher-wood-1974",
+        "cory-wood-1977",
+        "matthew-wood-1979"
+      ],
+      "sources": [
+        "s075"
+      ]
+    },
+    {
+      "id": "william1959-janet",
+      "partners": [
+        "william-novak-1959",
+        "janet-mitchell"
+      ],
+      "heading": "The family of William Novak and Janet Mitchell",
+      "marriage": [
+        {
+          "value": "18 June 1982",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Janet Mitchell—1982."
+            },
+            {
+              "scan": "s075",
+              "quote": "He married Janet Mitchell—18 June 1982."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "kevin-novak-1983"
+      ],
+      "sources": [
+        "s075"
+      ]
+    },
+    {
+      "id": "edward1904-marie",
+      "partners": [
+        "edward-kastl-1904",
+        "marie-kunasek"
+      ],
+      "heading": "The family of Edward Kastl and Marie Kunasek",
+      "children": [
+        "dorothy-kastl-1930",
+        "edward-kastl-of-edward1904",
+        "william-kastl-of-edward1904"
+      ],
+      "sources": [
+        "s043",
+        "s044",
+        "s074"
+      ]
+    },
+    {
+      "id": "edward-marian",
+      "partners": [
+        "edward-kastl-of-edward1904",
+        "marian-bobek"
+      ],
+      "heading": "The family of Edward Kastl and Marian Bobek",
+      "children": [
+        "judy-kastl-of-edward-marian",
+        "richard-kastl-of-edward-marian",
+        "robert-m-kastl-of-edward-marian"
+      ],
+      "sources": [
+        "s044",
+        "s074"
+      ]
+    },
+    {
+      "id": "judy-david",
+      "partners": [
+        "judy-kastl-of-edward-marian",
+        "david-wehrle"
+      ],
+      "heading": "The family of Judy Kastl and David Wehrle",
+      "children": [
+        "ryan-wehrle-of-judy-david",
+        "melissa-wehrle-of-judy-david"
+      ],
+      "sources": [
+        "s074"
+      ]
+    },
+    {
+      "id": "richard-jane",
+      "partners": [
+        "richard-kastl-of-edward-marian",
+        "jane-hamling"
+      ],
+      "heading": "The family of Richard Kastl and Jane Hamling",
+      "children": [
+        "angela-kastl-of-richard-jane"
+      ],
+      "sources": [
+        "s074"
+      ]
+    },
+    {
+      "id": "john1906-mildred",
+      "partners": [
+        "john-kastl-1906",
+        "mildred-schinker"
+      ],
+      "heading": [
+        "The family of John Kastl and Mildred Schinker",
+        "The family of John R. Kastl and Mildred Schinker"
+      ],
+      "marriage": [
+        {
+          "value": "February 1941",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Mildred Schinker—Feb. 1941."
+            },
+            {
+              "scan": "s044",
+              "quote": "He married Mildred Schinker February 1941."
+            }
+          ]
+        },
+        {
+          "value": "17 May 1941, St. Joseph's Church, Omaha",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "He married Mildred Schinker—17 May 1941 at St. Joseph's Church, Omaha."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "rita-jean-kastl-1942",
+        "virginia-kastl-1943",
+        "robert-john-kastl-1945",
+        "jane-frances-kastl-1947"
+      ],
+      "note": "Children in the order of the 1986 supplement (Rita Jean, Virginia, Robert John, Jane Frances). The 1985 book lists them as Rita, Virginia, Jane, Robert, and gives Jane's birth as 28 May 1945 and Virginia's marriage as \"(m) Brehle.\"; the 1986 supplement gives 28 May 1945 for Robert John, 21 Jan. 1947 for Jane Frances, and \"(m) Allyn Brehl\" for Jane Frances. Each reading is kept as printed.",
+      "sources": [
+        "s043",
+        "s044",
+        "s075",
+        "s076"
+      ]
+    },
+    {
+      "id": "rita1942-wiley",
+      "partners": [
+        "rita-jean-kastl-1942",
+        "wiley-secrest"
+      ],
+      "heading": "The family of Rita Jean Kastl and Wiley Secrest",
+      "marriage": [
+        {
+          "value": "25 June 1966",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "She married Wiley Secrest—25 June 1966."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "wendy-ann-secrest-1970",
+        "robert-wiley-secrest-1975",
+        "jonathan-ray-secrest-1976"
+      ],
+      "sources": [
+        "s044",
+        "s075"
+      ]
+    },
+    {
+      "id": "robert1945-barbara",
+      "partners": [
+        "robert-john-kastl-1945",
+        "barbara-moxley"
+      ],
+      "heading": "The family of Robert John Kastl and Barbara Moxley",
+      "marriage": [
+        {
+          "value": "18 August 1973",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Barbara Moxley—18 Aug. 1973."
+            },
+            {
+              "scan": "s075",
+              "quote": "He married Barbara Moxley—18 August 1973."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "charlotte-kastl-1979",
+        "christopher-kastl-1981"
+      ],
+      "sources": [
+        "s075"
+      ]
+    },
+    {
+      "id": "jane1947-allyn",
+      "partners": [
+        "jane-frances-kastl-1947",
+        "allyn-brehl"
+      ],
+      "heading": "The family of Jane Frances Kastl and Allyn Brehl",
+      "marriage": [
+        {
+          "value": "10 July 1971",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "(m) Allyn Brehl—10 July 1971."
+            },
+            {
+              "scan": "s076",
+              "quote": "She married Allyn Brehl—10 July 1971."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "matthew-brehl-1973",
+        "monica-brehl-1977",
+        "joseph-wenceslaus-brehl-1979",
+        "anna-brehl-1984"
+      ],
+      "sources": [
+        "s075",
+        "s076"
+      ]
+    },
+    {
+      "id": "rose1919-john",
+      "partners": [
+        "rose-kastl-1919",
+        "john-hayes"
+      ],
+      "heading": "The family of Rose Kastl and John Hayes",
+      "children": [
+        "sam-john-hayes-1944",
+        "linda-hayes-1947"
+      ],
+      "sources": [
+        "s043",
+        "s044",
+        "s075"
+      ]
+    },
+    {
+      "id": "sam1944-kathleen",
+      "partners": [
+        "sam-john-hayes-1944",
+        "kathleen-livojevich"
+      ],
+      "heading": "The family of Sam Hayes and Kathy Livojevich",
+      "children": [
+        "jennifer-anne-hayes-1980",
+        "jonathan-michael-hayes-1981",
+        "joseph-samuel-hayes-1985"
+      ],
+      "note": "JOSEPH SAMUEL is printed without a number, after child 2, in the 1986 supplement; he is listed last here.",
+      "sources": [
+        "s075"
+      ]
+    },
+    {
+      "id": "linda1947-larry",
+      "partners": [
+        "linda-hayes-1947",
+        "larry-lehmer"
+      ],
+      "heading": "The family of Linda Hayes and Larry Lehmer",
+      "children": [
+        "aaron-guthrie-lehmer-1971",
+        "meghan-lurene-lehmer-1977",
+        "bret-darby-lehmer-1980"
+      ],
+      "sources": [
+        "s075"
+      ]
+    },
+    {
+      "id": "marie1926-richard",
+      "partners": [
+        "marie-kastl-1926",
+        "richard-burnett"
+      ],
+      "heading": "The family of Marie Kastl and Richard Burnett",
+      "marriage": [
+        {
+          "value": "11 January 1946",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "She married Richard Burnett—11 January 1946."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "ronald-burnett-1947",
+        "carole-burnett-1950"
+      ],
+      "sources": [
+        "s043",
+        "s073"
+      ]
+    },
+    {
+      "id": "ronald1947-velma",
+      "partners": [
+        "ronald-burnett-1947",
+        "velma-lundberg"
+      ],
+      "heading": "The family of Ronald Burnett and Velma Lundberg",
+      "marriage": [
+        {
+          "value": "29 May 1971, Moscow, Idaho",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "He married Velma Lundberg—29 May 1971, Moscow, Idaho."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "rian-burnett-1974",
+        "vashti-burnett-1977"
+      ],
+      "sources": [
+        "s073"
+      ]
+    },
+    {
+      "id": "carole1950-louis",
+      "partners": [
+        "carole-burnett-1950",
+        "louis-wilson"
+      ],
+      "heading": "The family of Carole Burnett and Louis Wilson",
+      "marriage": [
+        {
+          "value": "17 July 1971, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "She married Louis Wilson—17 July 1971, Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "lori-wilson-1973",
+        "daniel-wilson-1976",
+        "david-wilson-1980"
+      ],
+      "sources": [
+        "s073",
+        "s074"
+      ]
+    },
+    {
+      "id": "eleanor1933-harvey",
+      "partners": [
+        "eleanor-kastl-1933",
+        "harvey-schroeder"
+      ],
+      "heading": "The family of Eleanor Kastl and Harvey Schroeder",
+      "marriage": [
+        {
+          "value": "9 February 1958, Lincoln",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Harvey Schroeder 9 Feb. 1958—Lincoln."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "diane-lynn-schroeder-1950",
+        "sharon-kay-schroeder-1951",
+        "steven-scott-schroeder-1959",
+        "mark-alan-schroeder-1961"
+      ],
+      "note": "The 1985 book gives the marriage as 9 Feb. 1958, Lincoln; the 1986 supplement gives no date and lists children born from 1950. Both are kept as printed.",
+      "sources": [
+        "s043",
+        "s074"
+      ]
+    },
+    {
+      "id": "diane1950-ronald",
+      "partners": [
+        "diane-lynn-schroeder-1950",
+        "ronald-jay-orr"
+      ],
+      "heading": "The family of Diane Lynn Schroeder and Ronald Jay Orr",
+      "marriage": [
+        {
+          "value": "8 June 1967, Fremont, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "She married Ronald Jay Orr—8 June 1967, Fremont, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "rhonda-lynn-orr-1967",
+        "sheri-lynn-orr-1970",
+        "jodi-lynn-orr-1973"
+      ],
+      "sources": [
+        "s074"
+      ]
+    },
+    {
+      "id": "sharon1951-hugh",
+      "partners": [
+        "sharon-kay-schroeder-1951",
+        "hugh-elmer-bowen"
+      ],
+      "heading": "The family of Sharon Kay Schroeder and Hugh Elmer Bowen",
+      "marriage": [
+        {
+          "value": "28 February 1970, Maryville, Kansas",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "She married Hugh Elmer Bowen—28 February 1970, Maryville, Kansas."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "michael-hugh-bowen-1975",
+        "kelly-lynn-bowen-1977"
+      ],
+      "sources": [
+        "s074"
+      ]
+    },
+    {
+      "id": "mark1961-sheila",
+      "partners": [
+        "mark-alan-schroeder-1961",
+        "sheila-dawn-mcmahon"
+      ],
+      "heading": "The family of Mark Alan Schroeder and Sheila Dawn McMahon",
+      "marriage": [
+        {
+          "value": "20 November 1982, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "He married Sheila Dawn McMahon—20 November 1982, Lincoln, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "nicole-lynn-schroeder-1982",
+        "scott-alan-schroeder-1984"
+      ],
+      "sources": [
+        "s074"
+      ]
+    },
+    {
+      "id": "patrick1935-first",
+      "partners": [
+        "patrick-kastl-1935"
+      ],
+      "order": 1,
+      "children": [
+        "gregory-patrick-kastl-1963",
+        "daniel-lee-kastl-1966"
+      ],
+      "note": "The book says: \"Two children were born to first marriage. Patrick married Margaret Jane Roller Dymit—5 June 1971, Omaha, Nebraska.\" Its list under \"The family of Patrick Kastl and Jane Roller Dymit\" numbers all three children together; Gregory Patrick and Daniel Lee are placed here with the first marriage, Mark Robert with the second.",
+      "sources": [
+        "s074"
+      ]
+    },
+    {
+      "id": "patrick1935-margaret",
+      "partners": [
+        "patrick-kastl-1935",
+        "margaret-jane-roller-dymit"
+      ],
+      "order": 2,
+      "heading": "The family of Patrick Kastl and Jane Roller Dymit",
+      "marriage": [
+        {
+          "value": "5 June 1971, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Jane Dimmitt 5 June 1971—Omaha."
+            },
+            {
+              "scan": "s074",
+              "quote": "Patrick married Margaret Jane Roller Dymit—5 June 1971, Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mark-robert-kastl-1973"
+      ],
+      "note": "The book says: \"Two children were born to first marriage. Patrick married Margaret Jane Roller Dymit—5 June 1971, Omaha, Nebraska.\" Its list under \"The family of Patrick Kastl and Jane Roller Dymit\" numbers all three children together; Gregory Patrick and Daniel Lee are placed here with the first marriage, Mark Robert with the second.",
+      "sources": [
+        "s043",
+        "s074"
+      ]
+    },
+    {
+      "id": "raymond1939-joylene",
+      "partners": [
+        "raymond-kastl-1939",
+        "joylene-jansa"
+      ],
+      "heading": "The family of Raymond Kastl and Joylene Jansa",
+      "marriage": [
+        {
+          "value": "2 December 1961, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Joylene Jansa 2 Dec. 1961—Wahoo."
+            },
+            {
+              "scan": "s074",
+              "quote": "He married Joylene Jansa—2 December 1961, Wahoo, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "coralie-kastl-1962",
+        "brian-kastl-1966",
+        "brad-kastl-1968"
+      ],
+      "sources": [
+        "s043",
+        "s074"
+      ]
+    },
+    {
+      "id": "lucille1928-david",
+      "partners": [
+        "lucille-kastl-1928",
+        "david-venable"
+      ],
+      "heading": "The family of Lucille Kastl and David Venable",
+      "children": [
+        "david-venable-1956",
+        "kathy-venable-1959"
+      ],
+      "sources": [
+        "s043",
+        "s074"
+      ]
+    },
+    {
+      "id": "loretta1944-dick",
+      "partners": [
+        "loretta-kastl-1944",
+        "dick-messman"
+      ],
+      "heading": "The family of Loretta Kastl and Dick Messman",
+      "marriage": [
+        {
+          "value": "28 April 1978, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Dick Messman 28 Apr. 1978—Lincoln."
+            },
+            {
+              "scan": "s074",
+              "quote": "She married Dick Messman—28 April 1978, Lincoln, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "linda-tejral-1969",
+        "amy-tejral-1975"
+      ],
+      "note": "The children's surname is printed as Tejral (\"LINDA TEJRAL\", \"AMY TEJRAL\"); it is recorded as printed.",
+      "sources": [
+        "s043",
+        "s074"
       ]
     }
   ]

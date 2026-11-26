@@ -1,0 +1,9 @@
+{
+  "lineage": [
+    {"scan": "s045", "person": "thomas-shalon-1903", "note": "The book prints \"THOMAS SHALON (Mary Kastl Shalon, Joseph, Josef)\", but his mother Mary Kastl was a daughter of Josef Kastl (s043 child list; s045 \"MARY KASTL (Josef, Thomas, John, John, Andreas)\"), not of Joseph. Kept as printed."},
+    {"scan": "s045", "person": "anna-shalon-1907", "note": "The book prints \"ANNA SHALON (Mary Kastl Shalon, Joseph, Josef)\", but her mother Mary Kastl was a daughter of Josef Kastl (s043 child list; s045 \"MARY KASTL (Josef, Thomas, John, John, Andreas)\"), not of Joseph. Kept as printed."}
+  ],
+  "count": [
+    {"scan": "s074", "heading": "The family of Patrick Kastl and Jane Roller Dymit", "note": "The book numbers three children under this heading but says \"Two children were born to first marriage.\" Gregory Patrick and Daniel Lee are modelled in Patrick's first family (spouse not named, patrick1935-first), Mark Robert in this one; 2 + 1 = 3."}
+  ]
+}

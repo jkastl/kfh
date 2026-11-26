@@ -21,7 +21,7 @@ import unicodedata
 
 # Branches whose chapters have been built out and are checked for headings and counts.
 # Add a branch key here when its work unit lands.
-CHECKED_BRANCHES = set()
+CHECKED_BRANCHES = {"josef"}
 
 # Relationship-label tests: (person id, expected label). Add a case whenever a bug is found.
 LABEL_CASES = [
