@@ -443,7 +443,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "4"
+CSS_VERSION = "6"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -780,33 +780,19 @@ def build_home(tree, pages_by_scan):
     cards = []
     for key, fid, label in BRANCHES:
         p = tree.people[fid]
-        born = short_fact(tree, fid, "birth")
-        arrived = short_fact(tree, fid, "immigration")
-        died = short_fact(tree, fid, "death")
-        marr = [f["value"] for f in tree.facts(fid, "marriage")]
         n_desc = len(set(tree.descendants(fid)))
-        built = n_desc > 0
-        rows = []
-        if born:
-            rows.append(f"<dt>Born</dt><dd>{inline(born)}</dd>")
-        if marr:
-            rows.append(f"<dt>Married</dt><dd>{inline('; '.join(marr))}</dd>")
-        if arrived:
-            rows.append(f"<dt>Came to America</dt><dd>{inline(arrived)}</dd>")
-        if died:
-            rows.append(f"<dt>Died</dt><dd>{inline(died)}</dd>")
         chap = pages_by_scan[p["chapter"]] if p.get("chapter") else None
-        links = [f'<a href="people/{fid}/index.html">About {esc(label if key != "zima" else "Anna")}</a>']
+        links = []
         if chap:
             links.append(f'<a href="book/{chap["slug"]}/index.html">Chapter, {esc(chap["short"])}</a>')
-        links.append(f'<a href="tree/index.html?focus={fid}">In the tree</a>')
-        status = (f'<p class="branch-status built">{n_desc} descendants recorded so far</p>' if built
-                  else '<p class="branch-status">Family to be added — read it in the book for now</p>')
-        kind = "Half-sister" if key == "zima" else "Brother"
+        links.append(f'<a href="tree/index.html?focus={fid}">Tree</a>')
+        status = f'<p class="branch-status">{n_desc} descendants so far</p>' if n_desc else ""
+        summary = f'<p class="b-summary">{esc(p["summary"])}</p>' if p.get("summary") else ""
+        kind = '<p class="gen-label">Half-sister</p>' if key == "zima" else ""
         cards.append(f"""<li class="brother">
-  <p class="gen-label">{kind}</p>
-  <h3><a href="people/{fid}/index.html">{esc(p["name"])}</a> <span class="yrs">{esc(tree.years(fid))}</span></h3>
-  <dl class="b-facts">{"".join(rows)}</dl>
+  {kind}<h3><a href="people/{fid}/index.html">{esc(p["name"])}</a></h3>
+  <p class="b-years">{esc(tree.years(fid))}</p>
+  {summary}
   {status}
   <p class="b-links">{" · ".join(links)}</p>
 </li>""")
@@ -824,7 +810,7 @@ def build_home(tree, pages_by_scan):
 </section>
 <section class="wrap" id="brothers" aria-labelledby="brothers-h">
   <h2 id="brothers-h">The seven brothers</h2>
-  <p class="muted">Each brother has his own chapter in the book. A half-sister, Anna, stayed in Bohemia; her son James Zima came to Nebraska in 1922.</p>
+  <p class="muted">Each has his own chapter in the book.</p>
   <ol class="brothers">
 {"".join(cards)}
   </ol>

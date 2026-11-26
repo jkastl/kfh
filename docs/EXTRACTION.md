@@ -76,6 +76,8 @@ lands, add to `content/people.json`). Shape:
   City, Nebraska"); the quote carries the printed form ("22 Sept. 1900—Central City, NE.").
 - **children** in printed order, even when out of birth order; say so in the family `note`.
 - Multiple marriages: one family per marriage, with `"order": 1`, `2`.
+- `summary` (brothers and Anna only): one short line for their card on the home page, e.g.
+  "Came to America in 1868". It must be backed by facts cited on the same record.
 - `photos`: photo ids from page front matter (`s044-ph1`) where the caption names the person.
 
 ## Checklist before committing a unit
