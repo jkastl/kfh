@@ -1,0 +1,1413 @@
+{
+  "_about": "The branch of Josef Kastl, one of the seven brothers. See docs/EXTRACTION.md.",
+  "people": {
+    "josef-kastl-1840": {
+      "name": "Josef Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "chapter": "s043",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Josef Kastl; \"Joseph\" in the photo captions and the pioneer chapters",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "Josef Kastl was born 15 January 1840 in Vsepadly, Bohemia, house No. 11"
+            },
+            {
+              "scan": "s010",
+              "quote": "Joseph came to America April 22, 1868."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 January 1840, Všepadly, house No. 11, Bohemia",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "Josef Kastl was born 15 January 1840 in Vsepadly, Bohemia, house No. 11"
+            },
+            {
+              "scan": "s016",
+              "quote": "Josef 1840-1921"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Dorota Blaha, 1863, Bohemia",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "Josef Kastl married Dorota Blaha in 1863 in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Sailed from Bremen on the S.S. Berlin with his wife and two children; arrived at Baltimore 22 April 1868",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "Josef and Dorota sailed from Bremen, Germany on the ship S.S. Berlin, arriving at the Port of Baltimore on 22 April 1868, with two children, Mathias 3, and Theresia 9 months."
+            },
+            {
+              "scan": "s009",
+              "quote": "Following Wenzel was Joseph, wife Dorothea and two children Mathias and Theresia, arriving April 22, 1868, on the ship SS Berlin."
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "Stone mason in Omaha; worked for the Union Pacific Railroad building station houses through Nebraska and Wyoming",
+          "sources": [
+            {
+              "scan": "s071",
+              "quote": "Josef first came to Omaha where he was a stone mason. To raise money for his family, he worked for the Union Pacific Railroad building station houses through Nebraska and Wyoming."
+            }
+          ]
+        },
+        {
+          "type": "homestead",
+          "value": "Filed 20 June 1868 at Nebraska City, application No. 2069: E½ of SE¼, Section 4, Township 14 North, 80 acres, Newman Precinct, Saunders County",
+          "sources": [
+            {
+              "scan": "s010",
+              "quote": "On June 20, 1868, he filed for homestead at the land office in Nebraska City. Application number was 2069. Description of the land was E½ of the SE¼. Section 4, Township 14 North, 80 acres in Newman Precinct."
+            },
+            {
+              "scan": "s071",
+              "quote": "went to homestead west of Omaha, in Newman Precinct, Saunders County."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1921",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "Josef died in 1921 and was buried at Brainard, Nebraska."
+            },
+            {
+              "scan": "s016",
+              "quote": "Josef 1840-1921"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "was buried at Brainard, Nebraska."
+            },
+            {
+              "scan": "s009",
+              "quote": "Joseph was buried at Brainard, Nebraska"
+            }
+          ]
+        }
+      ],
+      "excerpts": [
+        {
+          "scan": "s071",
+          "text": "When he returned to Omaha, he equipped a wagon pulled by a tean {sic} of oxen, and went to homestead west of Omaha, in Newman Precinct, Saunders County.\n\nHe proceeded to build a log cabin, but in the meantime lived with his wife in a nearby cave dug into the side of a hill.\n\nA missionary priest on horseback would periodically visit Josef's cabin and say Mass, using a table that is still in the family."
+        },
+        {
+          "scan": "s010",
+          "text": "July 6, 1875, in his final proof required under the homestead act, Joseph states he built a house of logs, 16x32, with two doors and four windows. The remains of this log house are still visible on the original site."
+        },
+        {
+          "scan": "s011",
+          "text": "\"The Kastl house, like many other Czech log houses that we have recorded, was one of the finest examples of the art of log building in the State of Nebraska. The Czechs were quite skilled in these techniques and are noted for their ability to build tight, chinkless walls (little or no space between logs), and finely — crafted corner notches. The Kastl house notches, while almost \"square\", are really a \"ful-dovetail\" notch, the most difficult notch to craft of any built in the United States."
+        },
+        {
+          "scan": "s012",
+          "text": "The families of Wenzel and Joseph lived in Omaha while the men were erecting their log houses. It was during this time that Joseph's children, Matthias and Theresa, both died, and were buried in Omaha."
+        },
+        {
+          "scan": "s014",
+          "text": "A trip to Nebraska City by Peter and Joseph was made in 1870. They had raised some corn, a little more than they thought they needed. They decided to market the corn in Nebraska City where they would receive the highest price. The distance traveled would be about one hundred miles each way. There were two wagon loads of corn, thirty bushels in each wagon, drawn by oxen. When they arrived, they unloaded the corn, and sat in a small building waiting for their money. They opened the door and saw their oxen headed down the road a quarter of a mile away. Someone had started the oxen with the idea of fleecing the settlers. After catching up with the oxen, Joseph, being outspoken and short tempered, took matters in his own hands. He went back with his black snake whip and shotgun, and in strong broken English demanded the money for the corn. He was quickly paid and Peter and Joseph were on their way home."
+        }
+      ],
+      "photos": [
+        "s043-ph1",
+        "s010-ph1",
+        "s011-ph1"
+      ]
+    },
+    "dorota-blaha": {
+      "name": "Dorota Blaha",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Dorota Blaha; \"Dorothea\" in the ship record account",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "Josef Kastl married Dorota Blaha in 1863 in Bohemia."
+            },
+            {
+              "scan": "s009",
+              "quote": "Following Wenzel was Joseph, wife Dorothea and two children Mathias and Theresia"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1833, Bohemia",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "She was born in 1833 in Bohemia, died in 1919 and was buried at Brainard."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1919",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "died in 1919 and was buried at Brainard."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "was buried at Brainard."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "While Josef built the log cabin, they lived in a cave dug into the side of a nearby hill.",
+          "sources": [
+            {
+              "scan": "s071",
+              "quote": "He proceeded to build a log cabin, but in the meantime lived with his wife in a nearby cave dug into the side of a hill."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s043-ph1"
+      ]
+    },
+    "mathias-kastl-1864": {
+      "name": "Mathias Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Mathias; \"Matthias\" in the pioneer chapter",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "1. MATHIAS — (b) 1864/5—Bohemia. (d) 1868/9. (bur) Omaha."
+            },
+            {
+              "scan": "s012",
+              "quote": "Joseph's children, Matthias and Theresa, both died"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1864 or 1865, Bohemia",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(b) 1864/5—Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Aged 3, with his parents, arriving 22 April 1868",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "with two children, Mathias 3, and Theresia 9 months."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1868 or 1869, soon after arriving in Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(d) 1868/9. (bur) Omaha."
+            },
+            {
+              "scan": "s043",
+              "quote": "These two children died soon after arriving in Nebraska, and buried in Omaha."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Omaha",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(bur) Omaha."
+            }
+          ]
+        }
+      ]
+    },
+    "theresia-kastl-1867": {
+      "name": "Theresia Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Theresia; \"Theresa\" in the pioneer chapter",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "2. THERESIA — (b) 1866/7—Bohemia. (d) 1868/9. (bur) Omaha."
+            },
+            {
+              "scan": "s012",
+              "quote": "Joseph's children, Matthias and Theresa, both died"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1866 or 1867, Bohemia",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(b) 1866/7—Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Aged 9 months, with her parents, arriving 22 April 1868",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "with two children, Mathias 3, and Theresia 9 months."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1868 or 1869, soon after arriving in Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "These two children died soon after arriving in Nebraska, and buried in Omaha."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Omaha",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "2. THERESIA — (b) 1866/7—Bohemia. (d) 1868/9. (bur) Omaha."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-kastl-1875": {
+      "name": "Mary Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "chapter": "s045",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 June 1875, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "MARY KASTL (Josef, Thomas, John, John, Andreas) born 10 June 1875, Weston, Nebraska"
+            },
+            {
+              "scan": "s043",
+              "quote": "4. MARY — (b) 10 June 1875—Weston, Ne. (d) 3 July 1947. (m) John F. Shalon—1 Feb. 1898."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John F. Shalon, 1 February 1898, Holy Trinity Church, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "She married John Shalon 1 February 1898, in Holy Trinity Church, Brainard Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "3 July 1947",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "died 3 July 1947, and was buried at Brainard, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s045",
+              "quote": "was buried at Brainard, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s045-ph1"
+      ]
+    },
+    "joseph-kastl-1869": {
+      "name": "Joseph Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "chapter": "s043",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Joseph Kastl; \"Joseph W.\" in the 1986 Supplement",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "JOSEPH KASTL (Josef, Thomas, John, John, Andreas) born 1869, Weston, Nebraska"
+            },
+            {
+              "scan": "s073",
+              "quote": "DENNIS STANLEY KASTL (Stanley, Joseph W., Josef)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1869, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "born 1869, Weston, Nebraska, son of Josef Kastl and Dorota Blaha"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Frances Fixa, 9 January 1898",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "He married Frances Fixa 9 January 1898."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "25 January 1953",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "died 25 January 1953, and was buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "St. Mary's Cemetery, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "was buried at St. Mary's Cemetery, Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s044-ph1"
+      ]
+    },
+    "frances-fixa": {
+      "name": "Frances Fixa",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 September 1877, Moravia",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "She was born in Moravia 20 September 1877"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "29 April 1960",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "died 29 April 1960, and was buried at St. Mary's Cemetery, Omaha."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "St. Mary's Cemetery, Omaha",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "was buried at St. Mary's Cemetery, Omaha."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s044-ph1"
+      ]
+    },
+    "frank-kastl-1900": {
+      "name": "Frank Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "chapter": "s043",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 September 1900, Central City, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "FRANK KASTL (Joseph, Josef) born 22 September 1900, Central City, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Caroline Kunasek, 16 November 1926",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "2. FRANK — (b) 22 Sept. 1900—Central City, NE. (d) 16 Feb. 1976. (m) Caroline Kunasek—16 Nov. 1926."
+            },
+            {
+              "scan": "s044",
+              "quote": "Caroline Kunasek 16 November 1926."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "16 February 1976",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "died 16 February 1976, and was buried at Calvary Cemetery, Omaha, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Calvary Cemetery, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "was buried at Calvary Cemetery, Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s044-ph1"
+      ],
+      "continues": [
+        "s044",
+        "s074",
+        "s075"
+      ]
+    },
+    "sophie-kastl-1902": {
+      "name": "Sophie Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Sophie; \"Sophia\" in the family photo caption",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "3. SOPHIE — (b) 12 Apr. 1902—Omaha."
+            },
+            {
+              "scan": "s044",
+              "quote": "Joseph Kastl — Frances Fixa Family. Edward, Frances, Sophia, Joseph, Frank, John, and Stanley."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "12 April 1902, Omaha",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "3. SOPHIE — (b) 12 Apr. 1902—Omaha."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s044-ph1"
+      ]
+    },
+    "edward-kastl-1904": {
+      "name": "Edward Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 March 1904, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "EDWARD KASTL (Joseph, Josef) born 17 March 1904, Omaha, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "14 March 1977",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "died 14 March 1977."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Marie Kunasek (born 3 January 1903, died 19 January 1954)",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "He married Marie Kunasek. She was born 3 January 1903, died 19 January 1954."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s044-ph1"
+      ],
+      "continues": [
+        "s044",
+        "s074"
+      ]
+    },
+    "john-kastl-1906": {
+      "name": "John R. Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "John Kastl; \"John R.\" in the 1986 Supplement",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "JOHN KASTL (Joseph, Josef) born August 1906, Omaha, Nebraska"
+            },
+            {
+              "scan": "s075",
+              "quote": "JOHN R. KASTL (Joseph W., Josef) born 15 August 1906, Omaha, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "August 1906, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "born August 1906, Omaha, Nebraska"
+            },
+            {
+              "scan": "s043",
+              "quote": "5. JOHN — (b) Aug 1906—Omaha."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 August 1906, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "born 15 August 1906, Omaha, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mildred Schinker, February 1941",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "He married Mildred Schinker February 1941. She was born April 1912."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mildred Schinker, 17 May 1941, St. Joseph's Church, Omaha",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "He married Mildred Schinker—17 May 1941 at St. Joseph's Church, Omaha."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "8 November 1981",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "died 8 November 1981."
+            },
+            {
+              "scan": "s075",
+              "quote": "son of Joseph Kastl and Frances Fixa, died 8 November 1981."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s044-ph1"
+      ],
+      "continues": [
+        "s044",
+        "s075",
+        "s076"
+      ]
+    },
+    "leo-kastl-1908": {
+      "name": "Leo Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "November 1908",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "7. LEO — (b) Nov. 1908. (d) 21 May 1915."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "21 May 1915",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(d) 21 May 1915."
+            }
+          ]
+        }
+      ]
+    },
+    "rose-kastl-1919": {
+      "name": "Rose Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 August 1919, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "ROSE KASTL (Joseph, Josef) born 31 August 1919, Omaha, Nebraska"
+            },
+            {
+              "scan": "s043",
+              "quote": "6. ROSE — (b) 31 Aug. 1919—Omaha. (m) John Hayes."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "30 August 1919, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "ROSE KASTL (Joseph W., Josef) born 30 August 1919, Omaha, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John Hayes (born 31 August 1911)",
+          "sources": [
+            {
+              "scan": "s044",
+              "quote": "She married John Hayes. He was born 31 August 1911."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John Hayes (born 15 August 1911)",
+          "sources": [
+            {
+              "scan": "s075",
+              "quote": "She married John Hayes. He was born 15 August 1911."
+            }
+          ]
+        }
+      ],
+      "continues": [
+        "s044",
+        "s075"
+      ]
+    },
+    "stanley-kastl-1898": {
+      "name": "Stanley Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "chapter": "s043",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 November 1898, Central City, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "STANLEY KASTL (Joseph, Josef) born 13 November 1898, Central City, Nebraska"
+            },
+            {
+              "scan": "s043",
+              "quote": "1. STANLEY — (b) 13 Nov. 1898—Central City, NE."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Edith Hentges, 1926, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "He married Edith Hentges in 1926, Weston, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s044-ph1"
+      ]
+    },
+    "edith-hentges": {
+      "name": "Edith Hentges",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "21 February 1907, Malmo, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "She was born 21 February 1907, Malmo, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "marie-kastl-1926": {
+      "name": "Marie Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 August 1926, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "1. MARIE — (b) 31 Aug. 1926—Weston, NE. (m) Richard Burnett."
+            },
+            {
+              "scan": "s073",
+              "quote": "MARIE KASTL (Stanley, Joseph W., Josef) born 31 August 1926, Weston, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Richard Burnett, 11 January 1946",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "She married Richard Burnett—11 January 1946."
+            }
+          ]
+        }
+      ],
+      "continues": [
+        "s073",
+        "s074"
+      ]
+    },
+    "lucille-kastl-1928": {
+      "name": "Lucille Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 June 1928, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "2. LUCILLE — (b) 9 June 1928—Weston, NE. (m) David Venable."
+            },
+            {
+              "scan": "s074",
+              "quote": "LUCILLE KASTL (Stanley, Joseph W., Josef) born 9 June 1928, Weston, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "David Venable (deceased by 1986)",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "She married David Venable (now deceased)."
+            }
+          ]
+        }
+      ],
+      "continues": [
+        "s074"
+      ]
+    },
+    "eleanor-kastl-1933": {
+      "name": "Eleanor Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 February 1933, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "4. ELEANOR — (b) 10 Feb. 1933—Weston, NE."
+            },
+            {
+              "scan": "s074",
+              "quote": "ELEANOR KASTL (Stanley, Joseph W., Josef) born 10 February 1933, Weston, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Harvey Schroeder, 9 February 1958, Lincoln",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Harvey Schroeder 9 Feb. 1958—Lincoln."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Harvey Schroeder (no date given; their first child is listed as born 26 February 1950)",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "She married Harvey Schroeder. Their children:"
+            },
+            {
+              "scan": "s074",
+              "quote": "1. DIANE LYNN — (b) 26 Feb. 1950 (m) Ronald Jay Orr—8 June 1967."
+            }
+          ]
+        }
+      ],
+      "continues": [
+        "s074"
+      ]
+    },
+    "patrick-kastl-1935": {
+      "name": "Patrick Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 March 1935, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "5. PATRICK — (b) 11 Mar. 1935—Wahoo."
+            },
+            {
+              "scan": "s074",
+              "quote": "PATRICK KASTL (Stanley, Joseph W., Josef) born 11 March 1935, Wahoo, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Jane Dimmitt, 5 June 1971, Omaha",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Jane Dimmitt 5 June 1971—Omaha."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Margaret Jane Roller Dymit, 5 June 1971, Omaha, Nebraska; two children were born to a first marriage",
+          "sources": [
+            {
+              "scan": "s074",
+              "quote": "Two children were born to first marriage. Patrick married Margaret Jane Roller Dymit—5 June 1971, Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "continues": [
+        "s074"
+      ]
+    },
+    "raymond-kastl-1939": {
+      "name": "Raymond Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 December 1939, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "6. RAYMOND — (b) 13 Dec. 1939—Weston."
+            },
+            {
+              "scan": "s074",
+              "quote": "RAYMOND KASTL (Stanley, Joseph W., Josef) born 13 December 1939, Weston, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Joylene Jansa, 2 December 1961, Wahoo, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Joylene Jansa 2 Dec. 1961—Wahoo."
+            },
+            {
+              "scan": "s074",
+              "quote": "He married Joylene Jansa—2 December 1961, Wahoo, Nebraska."
+            }
+          ]
+        }
+      ],
+      "continues": [
+        "s074"
+      ]
+    },
+    "loretta-kastl-1944": {
+      "name": "Loretta Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 July 1944",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "7. LORETTA — (b) 18 July 1944."
+            },
+            {
+              "scan": "s074",
+              "quote": "LORETTA KASTL (Stanley, Joseph W., Josef) born 18 July 1944"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Dick Messman, 28 April 1978, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Dick Messman 28 Apr. 1978—Lincoln."
+            },
+            {
+              "scan": "s074",
+              "quote": "She married Dick Messman—28 April 1978, Lincoln, Nebraska."
+            }
+          ]
+        }
+      ],
+      "continues": [
+        "s074"
+      ]
+    },
+    "dennis-stanley-kastl-1930": {
+      "name": "Dennis Stanley Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Dennis Stanley Kastl; \"Dennis\" in the 1985 book",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "3. DENNIS — (b) 4 Aug. 1930—Weston, NE. (m) Lois Whipple 15 Oct. 1955—N.J."
+            },
+            {
+              "scan": "s073",
+              "quote": "DENNIS STANLEY KASTL (Stanley, Joseph W., Josef) born 4 August 1930, Weston, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "4 August 1930, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(b) 4 Aug. 1930—Weston, NE."
+            },
+            {
+              "scan": "s073",
+              "quote": "born 4 August 1930, Weston, Nebraska, son of Stanley Kastl and Edith Hentges."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Lois Ann Whipple, 15 October 1955, New Jersey",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Lois Whipple 15 Oct. 1955—N.J."
+            },
+            {
+              "scan": "s073",
+              "quote": "He married Lois Ann Whipple—15 October 1955."
+            }
+          ]
+        }
+      ]
+    },
+    "lois-ann-whipple": {
+      "name": "Lois Ann Whipple",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 January 1935, New Jersey",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "She was born 14 January 1935, New Jersey."
+            }
+          ]
+        }
+      ]
+    },
+    "linda-starr-kastl-1960": {
+      "name": "Linda Starr Kastl",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 October 1960",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "2. LINDA STARR — (b) 11 Oct. 1960 (m) James R. Bowen—22 July 1983."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "James R. Bowen, 22 July 1983",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "(m) James R. Bowen—22 July 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "richard-dennis-kastl-1957": {
+      "name": "Richard Dennis Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 February 1957",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "RICHARD DENNIS KASTL (Dennis, Stanley, Joseph W., Josef) born 15 February 1957"
+            },
+            {
+              "scan": "s073",
+              "quote": "1. RICHARD DENNIS — (b) 15 Feb. 1957 (m) Anne Louise Elznic."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Anne Louise Elznic, 8 March 1980",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "He married Anne Louise Elznic—8 March 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "anne-louise-elznic": {
+      "name": "Anne Louise Elznic",
+      "sex": "F",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Anne Louise Elznic; \"Ann\" in the family heading",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "The family of Richard Dennis Kastl and Ann Louise Elznic"
+            },
+            {
+              "scan": "s073",
+              "quote": "He married Anne Louise Elznic—8 March 1980."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "6 February 1957",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "She was born 6 February 1957."
+            }
+          ]
+        }
+      ]
+    },
+    "matthew-richard-kastl-1983": {
+      "name": "Matthew Richard Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 September 1983",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "1. MATTHEW RICHARD — (b) 23 Sept. 1983."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": [
+    {
+      "id": "josef1840-dorota",
+      "partners": [
+        "josef-kastl-1840",
+        "dorota-blaha"
+      ],
+      "heading": "The children of Josef Kastl and Dorota Blaha",
+      "marriage": [
+        {
+          "value": "1863, Bohemia",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "Josef Kastl married Dorota Blaha in 1863 in Bohemia."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mathias-kastl-1864",
+        "theresia-kastl-1867",
+        "joseph-kastl-1869",
+        "mary-kastl-1875"
+      ],
+      "sources": [
+        "s043"
+      ]
+    },
+    {
+      "id": "joseph1869-frances",
+      "partners": [
+        "joseph-kastl-1869",
+        "frances-fixa"
+      ],
+      "heading": "The family of Joseph Kastl and Frances Fixa",
+      "marriage": [
+        {
+          "value": "9 January 1898",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Frances Fixa—9 Jan. 1898."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "stanley-kastl-1898",
+        "frank-kastl-1900",
+        "sophie-kastl-1902",
+        "edward-kastl-1904",
+        "john-kastl-1906",
+        "rose-kastl-1919",
+        "leo-kastl-1908"
+      ],
+      "note": "Children are listed in the order the book prints them (Rose, b. 1919, before Leo, b. 1908).",
+      "sources": [
+        "s043",
+        "s044"
+      ]
+    },
+    {
+      "id": "stanley-edith",
+      "partners": [
+        "stanley-kastl-1898",
+        "edith-hentges"
+      ],
+      "heading": "The family of Stanley Kastl and Edith Hentges",
+      "marriage": [
+        {
+          "value": "1926, Weston, Nebraska",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "He married Edith Hentges in 1926, Weston, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "marie-kastl-1926",
+        "lucille-kastl-1928",
+        "dennis-stanley-kastl-1930",
+        "eleanor-kastl-1933",
+        "patrick-kastl-1935",
+        "raymond-kastl-1939",
+        "loretta-kastl-1944"
+      ],
+      "sources": [
+        "s043",
+        "s073",
+        "s074"
+      ]
+    },
+    {
+      "id": "dennis-lois",
+      "partners": [
+        "dennis-stanley-kastl-1930",
+        "lois-ann-whipple"
+      ],
+      "heading": "The family of Dennis Stanley Kastl and Lois Ann Whipple",
+      "marriage": [
+        {
+          "value": "15 October 1955, New Jersey",
+          "sources": [
+            {
+              "scan": "s043",
+              "quote": "(m) Lois Whipple 15 Oct. 1955—N.J."
+            },
+            {
+              "scan": "s073",
+              "quote": "He married Lois Ann Whipple—15 October 1955."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "richard-dennis-kastl-1957",
+        "linda-starr-kastl-1960"
+      ],
+      "sources": [
+        "s073"
+      ]
+    },
+    {
+      "id": "richard-anne",
+      "partners": [
+        "richard-dennis-kastl-1957",
+        "anne-louise-elznic"
+      ],
+      "heading": "The family of Richard Dennis Kastl and Ann Louise Elznic",
+      "marriage": [
+        {
+          "value": "8 March 1980",
+          "sources": [
+            {
+              "scan": "s073",
+              "quote": "He married Anne Louise Elznic—8 March 1980."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "matthew-richard-kastl-1983"
+      ],
+      "sources": [
+        "s073"
+      ]
+    }
+  ]
+}

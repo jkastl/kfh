@@ -8,12 +8,13 @@ people data in `docs/EXTRACTION.md`.
 
 - Done: scans, page images, verified transcriptions of all 76 scans (`content/pages/`).
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
-  with immediate families (55 people, `content/people.json`), person pages, book reader, search.
-- Matthew's line was a proving path only. The site should not centre on any one person.
+  with immediate families (55 people), person pages, book reader, search.
+- Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
+- Next: step 6, building out the branches, when the owner gives the go-ahead.
 
 ## Next, in order
 
-### 1. Refocus the site on the seven brothers (owner request)
+### 1. Refocus the site on the seven brothers (owner request) — DONE
 - Home page: the family's story and the **seven brothers** (Peter, Wenzel, John, Josef, Jacob,
   Thomas, Andrew) plus half-sister Anna Kastl Zima as the entry points — one card per branch with
   arrival, where they settled, and a link to the branch's tree/people and chapter.
@@ -23,25 +24,25 @@ people data in `docs/EXTRACTION.md`.
 - Keep the generational "line" view only as a generic feature (e.g. "show line to the brothers"
   from any person), not a featured individual.
 
-### 2. Split people data per branch (prerequisite for parallel build-out)
+### 2. Split people data per branch (prerequisite for parallel build-out) — DONE
 - Move `content/people.json` → `content/people/_roots.json` (Andreas … Thomas & wives, the
   brothers and half-siblings) + one file per branch: `peter.json`, `wenzel.json`, `john.json`,
   `josef.json`, `jacob.json`, `thomas.json`, `andrew.json`, `zima.json`.
 - `tools/build.py` merges all files, rejects duplicate ids, and cross-file references must resolve.
 - Each person gets `branch`. Generation number computed from the brothers (brother = gen 1).
 
-### 3. Tree diagram (owner request)
+### 3. Tree diagram (owner request) — DONE
 - Interactive descendant tree per branch (and whole family): SVG, pan/zoom, collapse/expand,
   click a person → their page. Vanilla JS, no CDN dependency needed; data from a generated JSON.
 - Must stay usable on a phone (start collapsed to 2–3 generations; search-to-focus).
 
-### 4. Table view (owner request)
+### 4. Table view (owner request) — DONE
 - One page listing everyone: name, born, died, places, spouse(s), parents, branch, generation,
   source pages. Client-side filter (text, branch, has-conflict), sortable columns, CSV download.
 - Dates are free text as printed; derive a sortable year field at build time (first 4-digit
   year), keep the printed value for display.
 
-### 5. PDF links open in a new tab
+### 5. PDF links open in a new tab — DONE
 - Footer and book-index PDF links: `target="_blank" rel="noopener"`, labelled with size
   ("PDF, 28 MB") so the download/new tab isn't a surprise.
 
@@ -73,6 +74,8 @@ Run U4a/U4b and U5a/U5b one after another or give them disjoint id prefixes, so 
 - Re-check numbers on s071 (supplement p.3) by eye during U2.
 
 ## Later / ideas
+- Tree: optional top-down layout; show in-marrying spouses as their own boxes; print/export.
+- Table: a places column; filter by place and by decade.
 - Places index (Všepadly, Hradiště, Stara Hut, Plasi, Weston, Brainard, Omaha…) and a map,
   including the book's own maps (p.6 Pilsen sheet, p.11 homestead map).
 - Timeline: emigration (1866–1872), homesteads, deaths.

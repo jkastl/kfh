@@ -1,0 +1,88 @@
+{
+  "_about": "The branch of John Kastl, one of the seven brothers. See docs/EXTRACTION.md.",
+  "people": {
+    "john-kastl-1835": {
+      "name": "John Kastl",
+      "sex": "M",
+      "branch": "john",
+      "chapter": "s030",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Jan (John) Kastl",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "The brothers were Peter, Wenzel (James), Jan (John), Joseph, Jakub, Thomas, and Andrew"
+            },
+            {
+              "scan": "s016",
+              "quote": "Jan[?] 1835-1890"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "29 November 1835, Všepadly, house No. 11, Bohemia",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "John Kastl was born 29 November 1835 in Vsepadly, Bohemia, house No. 11"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "20 December 1890",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "John died 20 December 1890, and was buried at Plasi, Saunders County, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "was buried at Plasi, Saunders County, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Marie Kunes, in Bohemia",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "John Kastl married Marie Kunes in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Arrived at Baltimore 14 August 1872 on the S.S. Baltimore, from Bremen",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "John and Marie Kastl sailed from Bremen, Germany on the ship S.S Baltimore, arriving at the Port of Baltimore on the 14th of August 1872"
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Arrived 14 August 1872 on the S.S. Berlin",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "John's date of arrival was August 14. With him were his wife, Marie, children: Wenzel 8, Barbara 6, Anna 3, and Josef 11 months. They sailed on the ship SS Berlin."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": []
+}

@@ -1,0 +1,869 @@
+{
+  "_about": "Shared ancestors (Andreas Kastl to Thomas Kastl and his wives), the brothers' sister Eva and the half-siblings who stayed in Bohemia.",
+  "people": {
+    "andreas-kastl": {
+      "name": "Andreas Kastl",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Andreas Kastl; printed once as \"Andress Kastl\"",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "The first Kastl for which there is a record is one Andress Kastl (1). Nothing is known about Andreas and his wife Margarita"
+            },
+            {
+              "scan": "s016",
+              "quote": "Father: Andreas Kastl"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "The earliest known Kastl in the line. Known only as a parent on his son's birth record.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Nothing is known about Andreas and his wife Margarita except that their names appear on the birth record as parents of Wolfgang Jan Kastl (2)."
+            }
+          ]
+        }
+      ]
+    },
+    "margarita": {
+      "name": "Margarita",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Wife of Andreas Kastl; surname not recorded.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Nothing is known about Andreas and his wife Margarita"
+            },
+            {
+              "scan": "s016",
+              "quote": "Mother: Margarita"
+            }
+          ]
+        }
+      ]
+    },
+    "john-kastl-1742": {
+      "name": "Wolfgang Jan Kastl",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Wolfgang Jan Kastl; \"John Kastl\" on the Ancestral Chart",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Wolfgang Jan Kastl (2). Born 29, October 1742, at Hradiste."
+            },
+            {
+              "scan": "s016",
+              "quote": "Father: John Kastl — 29 Oct 1742, Hradiště"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "29 October 1742, Hradiště, Bohemia",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Born 29, October 1742, at Hradiste."
+            },
+            {
+              "scan": "s016",
+              "quote": "29 Oct 1742, Hradiště"
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "Farmer at Hradiště",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Wolfgang Jan Kastl was a farmer at Hradiste, with his wife Barbara"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "His birth record is the oldest record obtained from the archives in Czechoslovakia.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "The birth record of Wolfgang Jan is the oldest record to come from the Archives in Czechoslovakia."
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-wife-of-john-1742": {
+      "name": "Barbara",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Wife of Wolfgang Jan Kastl; surname not recorded.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Wolfgang Jan Kastl was a farmer at Hradiste, with his wife Barbara"
+            },
+            {
+              "scan": "s016",
+              "quote": "Mother: Barbara"
+            }
+          ]
+        }
+      ]
+    },
+    "john-kastl-1777": {
+      "name": "Jan Kastl",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Jan Kastl; \"John Kastl\" on the Ancestral Chart",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "their son Jan Kastl (3). was born 13 March 1777, at Hradiste, house no. 11."
+            },
+            {
+              "scan": "s016",
+              "quote": "Father: John Kastl — 13 Mar 1777, Hradiště #11"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "13 March 1777, Hradiště, house No. 11, Bohemia",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "was born 13 March 1777, at Hradiste, house no. 11."
+            },
+            {
+              "scan": "s016",
+              "quote": "13 Mar 1777, Hradiště #11"
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "Carpenter, living in Hradiště",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Jan Kastl, a carpenter living in Hradiste"
+            }
+          ]
+        }
+      ]
+    },
+    "maria-muzik": {
+      "name": "Maria Mužik",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Maria Mužik (printed \"Muzik\" in the text)",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "married Maria, daughter of Andreas Muzik, a farmer from Vsepadly, house no. 11"
+            },
+            {
+              "scan": "s016",
+              "quote": "Mother: Maria Mužik — 18 Feb 1784, Všepadly #11"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "18 February 1784, Všepadly, house No. 11",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "Maria Mužik — 18 Feb 1784, Všepadly #11"
+            }
+          ]
+        }
+      ]
+    },
+    "andreas-muzik": {
+      "name": "Andreas Mužik",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "Farmer at Všepadly, house No. 11",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "daughter of Andreas Muzik, a farmer from Vsepadly, house no. 11"
+            },
+            {
+              "scan": "s016",
+              "quote": "Father: Andreas Mužik"
+            }
+          ]
+        }
+      ]
+    },
+    "rosina": {
+      "name": "Rosina",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Wife of Andreas Mužik; surname not recorded.",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "Mother: Rosina"
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-kastl-1806": {
+      "name": "Thomas Kastl",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Thomas Kastl; also \"Tomas Kastl\"",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Their son Thomas (4). was born 15 September 1806, at Vsepadly."
+            },
+            {
+              "scan": "s064",
+              "quote": "Tomas Kastl, a widower, living in the village of Stara Hut, Bohemia, married Barbara Kellner 6 February 1855."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 September 1806, Všepadly, house No. 11, Bohemia",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "was born 15 September 1806, at Vsepadly."
+            },
+            {
+              "scan": "s016",
+              "quote": "Thomas Kastl — 15 Sep 1806, Všepadly #11"
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "Farmer, near the village of Všepadly",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "He became a farmer"
+            },
+            {
+              "scan": "s043",
+              "quote": "Thomas and Maria were farmers near the village of Vsepadly which is west and a little north Klatovy."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Stara Hut, Bohemia, a widower, at his second marriage in 1855",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "Tomas Kastl, a widower, living in the village of Stara Hut, Bohemia, married Barbara Kellner 6 February 1855. He was 48 years old, she was 26."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Father of the seven Kastl brothers who emigrated to America. The book says he fathered 14 children.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "These were the parents of the seven brothers who came to America in the 1800s."
+            },
+            {
+              "scan": "s009",
+              "quote": "According to the records, Thomas Kastl fathered 14 children; two in the second family died, one an infant, the other 6 years old."
+            }
+          ]
+        }
+      ]
+    },
+    "maria-marsalek": {
+      "name": "Maria Marsalek",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Maria Marsalek; printed also \"Maraslek\" and \"Marselek\"",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "the sons of a farmer, Thomas, and his wife Maria Maraslek."
+            },
+            {
+              "scan": "s009",
+              "quote": "married Maria, daughter of Joseph Marsalek, a magistrate manager at Kosenice, no. 33, on 30 January 1827."
+            },
+            {
+              "scan": "s043",
+              "quote": "Maria, the daughter of Joseph Marselek, a magistrate manager from Kosenice."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "November 1853, at or soon after the birth of her youngest son, Andrew",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Maria Marsalek Kastl, mother of the seven brothers, died when Andrew, the youngest was born in November 1853."
+            },
+            {
+              "scan": "s059",
+              "quote": "Andrew was the last child of Maria who died soon after his birth."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "A family story: knowing she could not live, she looked at her newborn son and said, \"Who will take care of you.\"",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "(A story, handed down through the generations is that as the m other looked upon her newborn son, and knowing she could not live, said, \"Who will take care of you.\")"
+            }
+          ]
+        }
+      ]
+    },
+    "josef-marsalek": {
+      "name": "Josef Marsalek",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Josef Marsalek; \"Joseph Marsalek\" / \"Joseph Marselek\" in the text",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "Father: Josef Marsalek"
+            },
+            {
+              "scan": "s009",
+              "quote": "daughter of Joseph Marsalek, a magistrate manager at Kosenice, no. 33"
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "Magistrate manager at Košenice, No. 33",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "a magistrate manager at Kosenice, no. 33"
+            }
+          ]
+        }
+      ]
+    },
+    "eva-behensky": {
+      "name": "Eva Behensky",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Mother of Maria Marsalek, per the Ancestral Chart.",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "Mother: Eva Behensky"
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-kellner": {
+      "name": "Barbara Kellner",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 April 1828, Všepadly, house No. 3 (the first digit of the day is typed over)",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "Barbara Kellner (2) — 24[?] Apr 1828, Všepadly #3"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "14 April 1828",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "She was born 14 April 1828, daughter of Simon Kellner and Alzbeta Bauer."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "26 years old at her marriage in 1855.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "he married 26 year old Barbara Kellner, daughter of Simon Kellner of Vsepadly."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "A family story says she had been the girlfriend of Peter, Thomas's eldest son, while Peter was away with the Austrian Army.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "(Another story handed down is that Barbara had been the girlfriend of Peter, the eldest son of Thomas. But while Peter was off fighting with the Austrian Army, his father took her as his bride)."
+            }
+          ]
+        }
+      ]
+    },
+    "simon-kellner": {
+      "name": "Simon Kellner",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "Všepadly",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "daughter of Simon Kellner of Vsepadly."
+            },
+            {
+              "scan": "s016",
+              "quote": "Father: Simon Kellner"
+            }
+          ]
+        }
+      ]
+    },
+    "kellner-mother": {
+      "name": "Elizabeth Pankraz or Alzbeta Bauer",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Elizabeth Pankraz",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "Mother: Elizabeth Pankraz"
+            }
+          ]
+        },
+        {
+          "type": "name",
+          "value": "Alzbeta Bauer",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "daughter of Simon Kellner and Alzbeta Bauer."
+            }
+          ]
+        }
+      ]
+    },
+    "eva-kastl": {
+      "name": "Eva Kastl",
+      "sex": "F",
+      "branch": "roots",
+      "uncertain": true,
+      "facts": [
+        {
+          "type": "note",
+          "value": "Possibly a daughter of Thomas and Maria. Named as a sister in Jacob Kastl's obituary, but the authors found nothing to verify her.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "There may have been a daughter, Eva. She is mentioned in the obituary of Jacob Kastl as a sister who preceded him in death. To date, nothing has been found to verify this."
+            },
+            {
+              "scan": "s046",
+              "quote": "Mr. Kastl had six brothers, Peter, Thomas, Joseph, Andrew, John, and Wencl, and one sister, Eva, all of whom passed away prior to the death of Grandpa Kastl."
+            }
+          ]
+        }
+      ]
+    },
+    "alzbeta-kastl-1857": {
+      "name": "Alzbeta Kastl",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 November 1857",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. ALZBETA — (b) 12 Nov. 1857. (d) 1 Dec. 1857."
+            },
+            {
+              "scan": "s016",
+              "quote": "Alzbeta[?] 1857-1857"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1 December 1857, in infancy",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(d) 1 Dec. 1857."
+            }
+          ]
+        }
+      ]
+    },
+    "maria-kastl-1860": {
+      "name": "Maria Kastl",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Maria; \"Marie\" on the Ancestral Chart",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. MARIA (b) 5 May 1860 at Stara Hut, House No. 1."
+            },
+            {
+              "scan": "s016",
+              "quote": "Marie[?] 1860-"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "5 May 1860, Stara Hut, house No. 1",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(b) 5 May 1860 at Stara Hut, House No. 1."
+            }
+          ]
+        }
+      ]
+    },
+    "frantiska-kastl-1862": {
+      "name": "Frantiska Kastl",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Frantiska; \"Frances\" on the Ancestral Chart",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "3. FRANTISKA — (b) 29 Dec. 1862. (d) 4 Apr. 1869."
+            },
+            {
+              "scan": "s016",
+              "quote": "Frances[?] 1862-1869"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "29 December 1862",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(b) 29 Dec. 1862."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 April 1869",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "(d) 4 Apr. 1869."
+            }
+          ]
+        }
+      ]
+    },
+    "josef-kastl-1867": {
+      "name": "Josef Kastl",
+      "sex": "M",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 August 1867, Stara Hut, house No. 3",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "5. JOSEF — (b) 3 Aug. 1867 at Stara Hut, House No. 3"
+            },
+            {
+              "scan": "s016",
+              "quote": "Josef 1867-"
+            }
+          ]
+        }
+      ]
+    },
+    "alzbeta-kastl-1869": {
+      "name": "Alzbeta Kastl",
+      "sex": "F",
+      "branch": "roots",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 December 1869, Stara Hut, house No. 3",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "6. ALZBETA — (b) 20 Dec. 1869 at Stara Hut, House No. 3."
+            },
+            {
+              "scan": "s016",
+              "quote": "Alzbeta[?] 1869-"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": [
+    {
+      "id": "andreas-margarita",
+      "partners": [
+        "andreas-kastl",
+        "margarita"
+      ],
+      "children": [
+        "john-kastl-1742"
+      ],
+      "sources": [
+        "s009",
+        "s016"
+      ]
+    },
+    {
+      "id": "john1742-barbara",
+      "partners": [
+        "john-kastl-1742",
+        "barbara-wife-of-john-1742"
+      ],
+      "children": [
+        "john-kastl-1777"
+      ],
+      "sources": [
+        "s009",
+        "s016"
+      ]
+    },
+    {
+      "id": "muzik-rosina",
+      "partners": [
+        "andreas-muzik",
+        "rosina"
+      ],
+      "children": [
+        "maria-muzik"
+      ],
+      "sources": [
+        "s009",
+        "s016"
+      ]
+    },
+    {
+      "id": "john1777-maria",
+      "partners": [
+        "john-kastl-1777",
+        "maria-muzik"
+      ],
+      "marriage": [
+        {
+          "value": "10 February 1801",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "a farmer from Vsepadly, house no. 11, on 10 February 1801."
+            },
+            {
+              "scan": "s016",
+              "quote": "m. 10 Feb 1801"
+            }
+          ]
+        }
+      ],
+      "children": [
+        "thomas-kastl-1806"
+      ],
+      "sources": [
+        "s009",
+        "s016"
+      ]
+    },
+    {
+      "id": "marsalek-behensky",
+      "partners": [
+        "josef-marsalek",
+        "eva-behensky"
+      ],
+      "marriage": [
+        {
+          "value": "29 July 1807",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "(m. 29 July 1807)"
+            }
+          ]
+        }
+      ],
+      "children": [
+        "maria-marsalek"
+      ],
+      "sources": [
+        "s016"
+      ]
+    },
+    {
+      "id": "kellner",
+      "partners": [
+        "simon-kellner",
+        "kellner-mother"
+      ],
+      "children": [
+        "barbara-kellner"
+      ],
+      "sources": [
+        "s016",
+        "s064"
+      ]
+    },
+    {
+      "id": "thomas1806-maria",
+      "partners": [
+        "thomas-kastl-1806",
+        "maria-marsalek"
+      ],
+      "order": 1,
+      "heading": "The seven brothers",
+      "marriage": [
+        {
+          "value": "30 January 1827, Košenice, No. 33",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "on 30 January 1827."
+            },
+            {
+              "scan": "s016",
+              "quote": "1st marriage 30 Jan 1827, Košenice #33"
+            }
+          ]
+        }
+      ],
+      "children": [
+        "peter-kastl-1827",
+        "wenzel-kastl-1831",
+        "john-kastl-1835",
+        "josef-kastl-1840",
+        "jacob-kastl-1847",
+        "thomas-kastl-1850",
+        "andrew-kastl-1853",
+        "eva-kastl"
+      ],
+      "sources": [
+        "s009",
+        "s016"
+      ]
+    },
+    {
+      "id": "thomas1806-barbara",
+      "partners": [
+        "thomas-kastl-1806",
+        "barbara-kellner"
+      ],
+      "order": 2,
+      "heading": "The family of Tomas Kastl and Barbara Kellner",
+      "marriage": [
+        {
+          "value": "6 February 1855, Všepadly, house No. 3",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "On 6 February 1855, at Vsepadly, house No. 3, he married 26 year old Barbara Kellner"
+            },
+            {
+              "scan": "s016",
+              "quote": "2nd marriage 6 Feb 1855, Všepadly #3"
+            },
+            {
+              "scan": "s064",
+              "quote": "married Barbara Kellner 6 February 1855. He was 48 years old, she was 26."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "alzbeta-kastl-1857",
+        "maria-kastl-1860",
+        "frantiska-kastl-1862",
+        "anna-kastl-1865",
+        "josef-kastl-1867",
+        "alzbeta-kastl-1869"
+      ],
+      "sources": [
+        "s009",
+        "s016",
+        "s064"
+      ]
+    }
+  ]
+}

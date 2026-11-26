@@ -1,0 +1,92 @@
+{
+  "_about": "The branch of Jacob Kastl, one of the seven brothers. See docs/EXTRACTION.md.",
+  "people": {
+    "jacob-kastl-1847": {
+      "name": "Jacob Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "chapter": "s046",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Jacob Kastl; also \"Jakub\" and \"Jakob\"",
+          "sources": [
+            {
+              "scan": "s046",
+              "quote": "Funeral of Jakub Kastl"
+            },
+            {
+              "scan": "s016",
+              "quote": "Jakob 1847-1935"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "5 May 1847, Všepadly, house No. 11, Bohemia",
+          "sources": [
+            {
+              "scan": "s046",
+              "quote": "Jacob Kastl was born 5 May 1847 in Vsepadly, Bohemia, house No. 11"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "25 July 1847, Ouboc (per his obituary)",
+          "sources": [
+            {
+              "scan": "s046",
+              "quote": "was born in Ouboc, Czechoslovakia, July 25, 1847"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "28 February 1935, at the home of his son Frank",
+          "sources": [
+            {
+              "scan": "s046",
+              "quote": "Jacob died 28 February 1935 and was buried at Plasi, Saunders County, Nebraska."
+            },
+            {
+              "scan": "s046",
+              "quote": "who passed away at the home of his son, Frank Kastl, Thursday, February 28"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s046",
+              "quote": "Interment was in the Plasi Cemetery."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Alzbeta Nemecek; marriage contract signed 31 January 1872, Lepadlech, Bohemia",
+          "sources": [
+            {
+              "scan": "s046",
+              "quote": "Jacob Kastl married Alzbeta Nemecek, probably at her home in Lepadlech, Bohemia where a marriage contract was signed 31 January 1872."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "1872, with his new bride",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Jakob came with his new bride some time in April 1872."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": []
+}

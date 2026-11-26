@@ -1,0 +1,82 @@
+{
+  "_about": "The branch of Wenzel Kastl, one of the seven brothers. See docs/EXTRACTION.md.",
+  "people": {
+    "wenzel-kastl-1831": {
+      "name": "Wenzel Kastl",
+      "sex": "M",
+      "branch": "wenzel",
+      "chapter": "s028",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Wenzel (James) Kastl",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "The brothers were Peter, Wenzel (James), Jan (John), Joseph, Jakub, Thomas, and Andrew"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "26 February 1831, Všepadly, house No. 11, Bohemia",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Wenzel Kastl was born 26 February 1831 in Vsepadly, Bohemia, house No. 11"
+            },
+            {
+              "scan": "s016",
+              "quote": "Wenzel 1831-"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Barbara Blachnik, in Bohemia",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Wenzel married Barbara Blachnik in Bohemia."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Arrived at Baltimore 2 October 1867 on the Humbolt, from Bremen",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "Wenzel and Barbara came to the United States in 1867, arriving at the Port of Baltimore on October 2. They left from the Port of Bremen, Germany on the vessel Humbolt"
+            },
+            {
+              "scan": "s009",
+              "quote": "On October 2, 1867, Wenzel; wife Barbara and three children John, Martin, and Wenzel arrived on the ship SS Humbolt."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Omaha",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Joseph was buried at Brainard, Nebraska; Wenzel at Omaha, and Thomas in Illinois."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Unknown — \"where he died, or was buried\" not found",
+          "sources": [
+            {
+              "scan": "s028",
+              "quote": "We have not been able to find much about Wenzel; where he died, or was buried."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": []
+}

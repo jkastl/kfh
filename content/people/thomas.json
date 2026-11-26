@@ -1,0 +1,92 @@
+{
+  "_about": "The branch of Thomas Kastl, one of the seven brothers. See docs/EXTRACTION.md.",
+  "people": {
+    "thomas-kastl-1850": {
+      "name": "Thomas Kastl",
+      "sex": "M",
+      "branch": "thomas",
+      "chapter": "s058",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 January 1850, Všepadly, house No. 11, Bohemia",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "Thomas Kastl was born 4 January 1850 in Vsepadly, Bohemia, house No. 11"
+            },
+            {
+              "scan": "s016",
+              "quote": "Tomas[?] 1850-1904"
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Arrived at Baltimore 29 May 1867 with his brother Andrew, on the Johannes–Wilhelmina, from Bremen",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "young Thomas and Andrew came to the United States, sailing from Bremen, Germany on the S.S Johannes—Wilhelmina, arriving at the Port of Baltimore on 29 May 1867."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Augusta Johns, 1873, Champaign, Illinois",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "In 1873, Thomas married Augusta Johns in Champaign."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Emma Fowler of Meredosia, Illinois, 21 February 1886",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "Thomas married Emma Fowler of Meredosia, Illinois on 21 February 1886."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "30 September 1904",
+          "sources": [
+            {
+              "scan": "s058",
+              "quote": "Thomas Kastl died 30 September 1904."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Illinois",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Wenzel at Omaha, and Thomas in Illinois."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Settled in Champaign, Illinois, where he had a buggy factory. Had 8 children; no surviving descendants.",
+          "sources": [
+            {
+              "scan": "s010",
+              "quote": "Thomas eventually settled in Champaign, Illinois, where he had a buggy factory."
+            },
+            {
+              "scan": "s058",
+              "quote": "Although Thomas had 8 children, there are no surviving descendants."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": []
+}

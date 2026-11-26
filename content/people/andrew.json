@@ -1,0 +1,72 @@
+{
+  "_about": "The branch of Andrew Kastl, one of the seven brothers. See docs/EXTRACTION.md.",
+  "people": {
+    "andrew-kastl-1853": {
+      "name": "Andrew Kastl",
+      "sex": "M",
+      "branch": "andrew",
+      "chapter": "s059",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 November 1853, Stara Hut, house No. 1, Bohemia",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Andrew Kastl was born 27 November 1853 in Stara Hut, Bohemia, house No. 1"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "5 May 1906",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Andrew died 5 May 1906, and was buried at Plasi, Saunders County, Nebraska."
+            },
+            {
+              "scan": "s016",
+              "quote": "Andrew 1853-1906"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "was buried at Plasi, Saunders County, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Barbara Valecka",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "He married Barbara Valecka."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Arrived at Baltimore 29 May 1867, aged 13, with his brother Thomas",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "young Andrew and his brother Thomas arrived at the Port of Baltimore 29 May 1867 on the ship Johannes—Wilhelmine which sailed from Bremen, Germany."
+            },
+            {
+              "scan": "s009",
+              "quote": "The next to arrive May 29, 1867, were Andrew, age 13 and Thomas, age 17."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": []
+}

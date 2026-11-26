@@ -1,0 +1,96 @@
+{
+  "_about": "The branch of Peter Kastl, one of the seven brothers. See docs/EXTRACTION.md.",
+  "people": {
+    "peter-kastl-1827": {
+      "name": "Peter Kastl",
+      "sex": "M",
+      "branch": "peter",
+      "chapter": "s017",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 November 1827, Bohemia",
+          "sources": [
+            {
+              "scan": "s017",
+              "quote": "was born in Bohemia November 1, 1827."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "1828",
+          "sources": [
+            {
+              "scan": "s016",
+              "quote": "Peter 1828-1903"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "31 October 1903",
+          "sources": [
+            {
+              "scan": "s017",
+              "quote": "Peter Kastl died 31 October 1903"
+            },
+            {
+              "scan": "s016",
+              "quote": "Peter 1828-1903"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Sts. Cyril and Methodius (Plasi) cemetery, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s017",
+              "quote": "Both are buried in the cemetery at Sts. Cyril and Methodius Church, known as Plasi, Saunders County, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Anna Frohner, January 1859, Bohemia",
+          "sources": [
+            {
+              "scan": "s017",
+              "quote": "He was married in Bohemia January 1859 to Miss Anna Frohner"
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "1866; the first of the brothers to come to America",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Peter was the first to leave. The year is unclear."
+            },
+            {
+              "scan": "s009",
+              "quote": "Andreas' History of Nebraska, Volume II, page 1400, states Peter came in 1866."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Served as an officer in the Austrian Army; first settler in Elk Precinct, Saunders County.",
+          "sources": [
+            {
+              "scan": "s010",
+              "quote": "Peter, the oldest and the first to leave Bohemia, was an officer in the Austrian Army."
+            },
+            {
+              "scan": "s010",
+              "quote": "He was the first settler in Elk precinct—Saunders County and the first Czech in Butler and Saunders Counties."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "families": []
+}

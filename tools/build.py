@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Build the Kastl Family History site.
 
-Standard library only. Reads content/pages/*.md and content/people.json, writes static HTML
-into the repo root (index.html, people/, book/, about/, search/). Fails if any quoted fact in
-people.json does not appear verbatim in the transcription of the page it cites.
+Standard library only. Reads content/pages/*.md and content/people/*.json, writes static HTML
+into the repo root (index.html, people/, tree/, book/, about/, search/). Fails if any quoted fact
+does not appear verbatim in the transcription of the page it cites.
 
     python3 tools/build.py
 """
@@ -34,12 +34,7 @@ esc = html.escape
 # Fragments kept out of f-string expressions so the script runs on Python 3.8+ (macOS ships 3.9).
 CURRENT = ' aria-current="page"'
 DIFFERS_ROW = ' class="differs-row"'
-ON_LINE_LI = ' class="on-line"'
-LINE_TAG = ' <span class="line-tag">the line continues</span>'
-
-
-def marr_span(m):
-    return f' <span class="muted">· {inline(m)}</span>' if m else ""
+DIFFERS_DOT = ' <span class="differs-dot" title="The sources differ on a fact">≠</span>'
 
 
 # ----------------------------------------------------------------------------- pages
@@ -241,12 +236,54 @@ def check_quotes(data, pages_by_scan):
 
 
 # ----------------------------------------------------------------------------- data model
+BRANCHES = [  # (branch key, founder id, label) in the book's chapter order
+    ("peter", "peter-kastl-1827", "Peter"),
+    ("wenzel", "wenzel-kastl-1831", "Wenzel"),
+    ("john", "john-kastl-1835", "John"),
+    ("josef", "josef-kastl-1840", "Josef"),
+    ("jacob", "jacob-kastl-1847", "Jacob"),
+    ("thomas", "thomas-kastl-1850", "Thomas"),
+    ("andrew", "andrew-kastl-1853", "Andrew"),
+    ("zima", "anna-kastl-1865", "Anna Kastl Zima"),
+]
+BRANCH_LABEL = {k: lbl for k, _, lbl in BRANCHES}
+BRANCH_LABEL["roots"] = "Shared roots"
+FATHER_OF_BROTHERS = "thomas-kastl-1806"
+MOTHER_OF_BROTHERS = "maria-marsalek"
+TREE_ROOT = "andreas-kastl"
+
+
+def load_people():
+    """Merge content/people/*.json. Ids must be unique across files."""
+    people, families = {}, []
+    for f in sorted((CONTENT / "people").glob("*.json")):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        for pid, p in d.get("people", {}).items():
+            if pid in people:
+                sys.exit(f"Duplicate person id {pid} in {f.name}")
+            people[pid] = p
+        families.extend(d.get("families", []))
+    return {"people": people, "families": families}
+
+
+def kin(n, sex, down):
+    """Kinship word n generations away: kin(1,'M',True)='Son', kin(3,'F',False)='Great-grandmother'."""
+    base = ("Son" if sex == "M" else "Daughter") if down else ("Father" if sex == "M" else "Mother")
+    if n == 1:
+        return base
+    grand = "grand" + base.lower()
+    if n == 2:
+        return grand[0].upper() + grand[1:]
+    if n == 3:
+        return "Great-" + grand
+    return f"{n - 2}× great-{grand}"
+
+
 class Tree:
     def __init__(self, data):
         self.data = data
         self.people = data["people"]
         self.families = data["families"]
-        self.line = data["line"]
         self.parents_of, self.families_of = {}, {}
         for fam in self.families:
             for c in fam["children"]:
@@ -255,43 +292,121 @@ class Tree:
                 self.families_of.setdefault(x, []).append(fam)
         for fams in self.families_of.values():
             fams.sort(key=lambda f: f.get("order", 1))
+        self.founders = {fid: key for key, fid, _ in BRANCHES}
+        self._chain = {}
+
+    # --- descent
+    def blood_parent(self, pid):
+        """The parent through whom pid descends from Andreas (the Kastl side), if any."""
+        fam = self.parents_of.get(pid)
+        if not fam:
+            return None
+        for x in fam["partners"]:
+            if x == TREE_ROOT or x in self.parents_of:
+                return x
+        return fam["partners"][0]
+
+    def chain(self, pid):
+        """Ancestors from the tree root down to pid, following the Kastl-side parent."""
+        if pid not in self._chain:
+            out, cur = [pid], pid
+            while True:
+                bp = self.blood_parent(cur)
+                if not bp:
+                    break
+                out.append(bp)
+                cur = bp
+            self._chain[pid] = list(reversed(out))
+        return self._chain[pid]
+
+    def is_blood(self, pid):
+        return self.chain(pid)[0] == TREE_ROOT
+
+    def spouses(self, pid):
+        out = []
+        for fam in self.families_of.get(pid, []):
+            out += [x for x in fam["partners"] if x != pid]
+        return out
+
+    def anchor(self, pid):
+        """For married-in people, the blood relative they married (first one)."""
+        if self.is_blood(pid):
+            return pid
+        for s in self.spouses(pid):
+            if self.is_blood(s):
+                return s
+        return None
+
+    def branch(self, pid):
+        return self.people[pid].get("branch", "roots")
+
+    def generation(self, pid):
+        """Generations below the brothers (a brother = 1); None above or outside."""
+        a = self.anchor(pid)
+        if not a:
+            return None
+        ch = self.chain(a)
+        for i, x in enumerate(ch):
+            if x in self.founders:
+                return len(ch) - i
+        return None
+
+    def up_from_brothers(self, pid, _seen=None):
+        """Generations above the seven brothers through either parent (their parents = 1), else None."""
+        if pid in self.founders and pid != "anna-kastl-1865":
+            return 0
+        best = None
+        for fam in self.families_of.get(pid, []):
+            for c in fam["children"]:
+                k = self.up_from_brothers(c)
+                if k is not None and (best is None or k + 1 < best):
+                    best = k + 1
+        return best
 
     def relation(self, pid):
-        """How someone off the line connects to it, e.g. 'Son of Joseph Kastl'."""
-        sex = self.people[pid].get("sex")
-        pf = self.parents_of.get(pid)
-        if pf:
-            on = [x for x in pf["partners"] if x in self.line]
-            if on:
-                return f"{'Son' if sex == 'M' else 'Daughter'} of {self.people[on[0]]['name']}"
+        p = self.people[pid]
+        sex = p.get("sex")
+        if pid in self.founders:
+            if pid == "anna-kastl-1865":
+                return "Half-sister of the seven brothers"
+            return "One of the seven brothers"
+        n = self.up_from_brothers(pid)
+        if n:
+            return f"{kin(n, sex, False)} of the seven brothers"
+        if self.is_blood(pid):
+            ch = self.chain(pid)
+            for i, x in enumerate(ch):
+                if x in self.founders:
+                    return f"{kin(len(ch) - 1 - i, sex, True)} of {self.people[x]['name']}"
+            fam = self.parents_of.get(pid)
+            if fam and FATHER_OF_BROTHERS in fam["partners"]:
+                if MOTHER_OF_BROTHERS in fam["partners"]:
+                    return ("Brother" if sex == "M" else "Sister") + " of the seven brothers"
+                return ("Half-brother" if sex == "M" else "Half-sister") + " of the seven brothers"
+        for s in self.spouses(pid):
+            if s == FATHER_OF_BROTHERS:
+                return "Second wife of Thomas Kastl"
+            if self.is_blood(s):
+                return f"{'Husband' if sex == 'M' else 'Wife'} of {self.people[s]['name']}"
         for fam in self.families_of.get(pid, []):
-            on = [x for x in fam["partners"] if x in self.line]
-            if on:
-                return f"{'Husband' if sex == 'M' else 'Wife'} of {self.people[on[0]]['name']}"
             for c in fam["children"]:
-                for f2 in self.families_of.get(c, []):
-                    on = [x for x in f2["partners"] if x in self.line and x != c]
-                    if on:
-                        return f"{'Father' if sex == 'M' else 'Mother'}-in-law of {self.people[on[0]]['name']}"
-        return "Family of the line"
-
-    def gen(self, pid):
-        return self.line.index(pid) + 1 if pid in self.line else None
+                return f"{'Father' if sex == 'M' else 'Mother'} of {self.people[c]['name']}"
+        return ""
 
     def facts(self, pid, t):
         return [f for f in self.people[pid]["facts"] if f["type"] == t]
 
+    def year_list(self, pid, t):
+        out = []
+        for f in self.facts(pid, t):
+            for y in re.findall(r"\b1[5-9]\d\d\b", f["value"]):
+                if y not in out:
+                    out.append(y)
+        return out
+
     def years(self, pid):
-        def yrs(t):
-            out = []
-            for f in self.facts(pid, t):
-                for y in re.findall(r"\b1[5-9]\d\d\b", f["value"]):
-                    if y not in out:
-                        out.append(y)
-            return out
-        b, d = yrs("birth"), yrs("death")
-        bs = "/".join(b) if b else ""
-        ds = "/".join(d) if d else ""
+        b, d = self.year_list(pid, "birth"), self.year_list(pid, "death")
+        bs, ds = "/".join(b), "/".join(d)
         if not bs and not ds:
             return ""
         if bs and not ds:
@@ -300,19 +415,53 @@ class Tree:
             return f"d. {ds}"
         return f"{bs}–{ds}"
 
+    def has_conflict(self, pid):
+        by = {}
+        for f in self.people[pid]["facts"]:
+            by.setdefault(f["type"], []).append(f)
+        return any(t in CONFLICT_TYPES and len(fs) > 1 and not all(f["value"].startswith("(") for f in fs)
+                   for t, fs in by.items())
+
+    def descendants(self, pid):
+        out = []
+        for fam in self.families_of.get(pid, []):
+            for c in fam["children"]:
+                out.append(c)
+                out += self.descendants(c)
+        return out
+
+
+def short_fact(tree, pid, t):
+    fs = tree.facts(pid, t)
+    if not fs:
+        return ""
+    vals = []
+    for f in fs:
+        if f["value"] not in vals:
+            vals.append(f["value"])
+    return vals[0] + (" (sources differ)" if len(vals) > 1 and t in CONFLICT_TYPES else "")
+
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "1"
+CSS_VERSION = "3"
+PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
+        ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
+
+
+def pdf_links(prefix, cls=""):
+    c = f' class="{cls}"' if cls else ""
+    return " ".join(
+        f'<a{c} href="{prefix}{href}" target="_blank" rel="noopener" title="Opens in a new tab">{label} <span class="muted">({size})</span><span class="visually-hidden"> (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>'
+        for href, label, size in PDFS)
 
 
 def layout(prefix, title, body, *, description, path, active=""):
     full_title = f"{title} · {TITLE}" if title != TITLE else TITLE
     url = SITE_URL + path
-    nav = [("index.html", "Line of descent", "home"), ("book/index.html", "The book", "book"),
-           ("about/index.html", "About", "about")]
+    nav = [("tree/index.html", "Family tree", "tree"), ("people/index.html", "People", "people"),
+           ("book/index.html", "The book", "book"), ("about/index.html", "About", "about")]
     links = "".join(
-        f'<a href="{prefix}{h}"{CURRENT if k == active else ""}>{t}</a>'
-        for h, t, k in nav)
+        f'<a href="{prefix}{h}"{CURRENT if k == active else ""}>{t}</a>' for h, t, k in nav)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -351,7 +500,7 @@ def layout(prefix, title, body, *, description, path, active=""):
 <footer class="site-foot">
   <div class="wrap">
     <p>Transcribed from <cite>Kastl Family History</cite> by Evelyn Coufal and Francis Vech (printed 1985, Catholic Quote, Valparaiso, Nebraska) and its 1986 Supplementary Section. Names, dates and spellings are given as the book prints them.</p>
-    <p><a href="{prefix}about/index.html">About this site</a> · <a href="{prefix}book/index.html">Read the book</a> · <a href="{prefix}source/kastl-family-history-part1.pdf">PDF part 1</a> · <a href="{prefix}source/kastl-family-history-part2.pdf">PDF part 2</a></p>
+    <p><a href="{prefix}about/index.html">About this site</a> · <a href="{prefix}book/index.html">Read the book</a> · {pdf_links(prefix)}</p>
   </div>
 </footer>
 </body>
@@ -399,33 +548,46 @@ def person_link(tree, pid, prefix, cls=""):
     return f'<a{c} href="{prefix}people/{pid}/index.html">{esc(p["name"])}</a>{y}'
 
 
-def build_person(tree, pid, pages_by_scan, root_name):
+def descent_html(tree, pid, prefix):
+    a = tree.anchor(pid)
+    if not a:
+        return ""
+    ch = tree.chain(a)
+    if len(ch) < 2 and a == pid:
+        return ""
+    items = []
+    for x in ch:
+        name = esc(tree.people[x]["name"])
+        if x == pid:
+            items.append(f'<li aria-current="page"><span>{name}</span></li>')
+        else:
+            cls = ' class="founder"' if x in tree.founders else ""
+            items.append(f'<li{cls}><a href="{prefix}people/{x}/index.html">{name}</a></li>')
+    lead = "Descent" if a == pid else f"Married into the family · descent of {esc(tree.people[a]['name'])}"
+    if a != pid:
+        items.append(f'<li aria-current="page"><span>{esc(tree.people[pid]["name"])}</span></li>')
+    return (f'<nav class="descent" aria-label="Line of descent"><p class="descent-h">{lead}</p>'
+            f'<ol>{"".join(items)}</ol></nav>')
+
+
+def build_person(tree, pid, pages_by_scan):
     prefix = "../../"
     p = tree.people[pid]
-    gen = tree.gen(pid)
     parts = []
-
-    # heading
-    kicker = (f"Generation {gen} of {len(tree.line)} · the line of {esc(root_name)}" if gen
-              else esc(tree.relation(pid)))
+    br = tree.branch(pid)
+    rel = tree.relation(pid)
+    bits = [esc(rel)] if rel else []
+    if br in BRANCH_LABEL and br != "roots":
+        bits.append(f'<a href="{prefix}tree/index.html?focus={pid}">{esc(BRANCH_LABEL[br])}’s branch</a>')
     if p.get("uncertain"):
-        kicker += " · existence unconfirmed"
-    parts.append(f'<p class="kicker">{kicker}</p>')
+        bits.append("existence unconfirmed")
+    parts.append(f'<p class="kicker">{" · ".join(bits)}</p>')
     parts.append(f'<h1>{esc(p["name"])}</h1>')
     yrs = tree.years(pid)
     if yrs:
         parts.append(f'<p class="lede-years">{esc(yrs)}</p>')
-
-    # line navigation
-    if gen:
-        prev_id = tree.line[gen - 2] if gen > 1 else None
-        next_id = tree.line[gen] if gen < len(tree.line) else None
-        nav = []
-        if prev_id:
-            nav.append(f'<a class="ln-prev" href="{prefix}people/{prev_id}/index.html">↑ {esc(tree.people[prev_id]["name"])}<small>previous generation</small></a>')
-        if next_id:
-            nav.append(f'<a class="ln-next" href="{prefix}people/{next_id}/index.html">↓ {esc(tree.people[next_id]["name"])}<small>next generation</small></a>')
-        parts.append(f'<nav class="line-nav" aria-label="Line of descent">{"".join(nav)}</nav>')
+    parts.append(descent_html(tree, pid, prefix))
+    parts.append(f'<p class="person-tools"><a class="btn ghost small" href="{prefix}tree/index.html?focus={pid}">Show in the family tree</a></p>')
 
     # photos
     photos = []
@@ -449,9 +611,7 @@ def build_person(tree, pid, pages_by_scan, root_name):
         differs = t in CONFLICT_TYPES and len(fs) > 1 and not numbered
         for i, f in enumerate(fs):
             label = FACT_LABELS[t] if i == 0 else ""
-            flag = ""
-            if differs and i == 0:
-                flag = '<span class="differs">The sources differ</span>'
+            flag = '<span class="differs">The sources differ</span>' if differs and i == 0 else ""
             rows.append(
                 f'<tr{DIFFERS_ROW if differs else ""}><th scope="row">{label}{flag}</th>'
                 f'<td><span class="fact">{inline(f["value"])}</span>{sources_block(f["sources"], pages_by_scan, prefix)}</td></tr>')
@@ -464,22 +624,21 @@ def build_person(tree, pid, pages_by_scan, root_name):
     if pf:
         par = " and ".join(person_link(tree, x, prefix) for x in pf["partners"])
         fam_html.append(f'<h3>Parents</h3><p>{par}</p>')
-    for fam in tree.families_of.get(pid, []):
+    fams = tree.families_of.get(pid, [])
+    for fam in fams:
         other = [x for x in fam["partners"] if x != pid]
-        heading = "Spouse" if len(tree.families_of[pid]) == 1 else ("First wife" if fam.get("order") == 1 else "Second wife")
+        if len(fams) == 1:
+            heading = "Spouse"
+        else:
+            heading = {1: "First marriage", 2: "Second marriage", 3: "Third marriage"}.get(fam.get("order", 1), "Marriage")
         sp = " ".join(person_link(tree, x, prefix) for x in other)
-        m = ""
-        if fam.get("marriage"):
-            m = "".join(
-                f'<p class="marr">Married {inline(mm["value"])} {sources_block(mm["sources"], pages_by_scan, prefix)}</p>'
-                for mm in fam["marriage"])
-        kids = []
-        for c in fam["children"]:
-            on_line = c in tree.line
-            kids.append(f'<li{ON_LINE_LI if on_line else ""}>{person_link(tree, c, prefix)}'
-                        f'{LINE_TAG if on_line else ""}</li>')
+        m = "".join(
+            f'<p class="marr">Married {inline(mm["value"])} {sources_block(mm["sources"], pages_by_scan, prefix)}</p>'
+            for mm in fam.get("marriage", []))
+        kids = "".join(f"<li>{person_link(tree, c, prefix)}</li>" for c in fam["children"])
         note = f'<p class="note">{esc(fam["note"])}</p>' if fam.get("note") else ""
-        fam_html.append(f'<h3>{heading}</h3><p>{sp}</p>{m}<h3>Children</h3><ol class="kids">{"".join(kids)}</ol>{note}')
+        kids_html = f'<h3>Children</h3><ol class="kids">{kids}</ol>' if kids else ""
+        fam_html.append(f'<h3>{heading}</h3><p>{sp}</p>{m}{kids_html}{note}')
     if p.get("continues"):
         links = ", ".join(src_link(s, pages_by_scan, prefix) for s in p["continues"])
         fam_html.append(f'<p class="continues">This family’s descendants are listed in the book: {links}. '
@@ -498,99 +657,86 @@ def build_person(tree, pid, pages_by_scan, root_name):
 
     photo_html = f'<div class="person-photos">{"".join(photos)}</div>' if photos else ""
     content = f'<article class="wrap person">{"".join(parts)}{photo_html}{"".join(body_cols)}</article>'
-    desc_bits = [p["name"], yrs] + [f["value"] for f in tree.facts(pid, "birth")[:1]]
-    desc = f'{p["name"]} ({yrs}) in Kastl Family History.' if yrs else f'{p["name"]} in Kastl Family History.'
+    desc = (f'{p["name"]} ({yrs}), {rel.lower() if rel else "of the Kastl family"}, in Kastl Family History.')
     write(f"people/{pid}/index.html",
-          layout(prefix, p["name"], content, description=desc, path=f"people/{pid}/", active="home"))
+          layout(prefix, p["name"], content, description=desc, path=f"people/{pid}/", active="people"))
 
 
 # ----------------------------------------------------------------------------- home
-ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
-
-
-def short_fact(tree, pid, t):
-    fs = tree.facts(pid, t)
-    if not fs:
-        return ""
-    vals = []
-    for f in fs:
-        if f["value"] not in vals:
-            vals.append(f["value"])
-    return vals[0] + (" (sources differ)" if len(vals) > 1 and t in CONFLICT_TYPES else "")
-
-
 def build_home(tree, pages_by_scan):
-    prefix = ""
-    root = tree.people[tree.data["root"]]
+    roots = tree.chain(FATHER_OF_BROTHERS)
+    root_strip = "".join(
+        f'<li><a href="people/{x}/index.html">{esc(tree.people[x]["name"])}</a> <span class="yrs">{esc(tree.years(x))}</span></li>'
+        for x in roots)
     cards = []
-    for i, pid in enumerate(tree.line):
-        p = tree.people[pid]
-        born = short_fact(tree, pid, "birth")
-        died = short_fact(tree, pid, "death")
-        vit = []
+    for key, fid, label in BRANCHES:
+        p = tree.people[fid]
+        born = short_fact(tree, fid, "birth")
+        arrived = short_fact(tree, fid, "immigration")
+        died = short_fact(tree, fid, "death")
+        marr = [f["value"] for f in tree.facts(fid, "marriage")]
+        n_desc = len(set(tree.descendants(fid)))
+        built = n_desc > 0
+        rows = []
         if born:
-            vit.append(f"<span>Born {inline(born)}</span>")
+            rows.append(f"<dt>Born</dt><dd>{inline(born)}</dd>")
+        if marr:
+            rows.append(f"<dt>Married</dt><dd>{inline('; '.join(marr))}</dd>")
+        if arrived:
+            rows.append(f"<dt>Came to America</dt><dd>{inline(arrived)}</dd>")
         if died:
-            vit.append(f"<span>Died {inline(died)}</span>")
-        fams = []
-        for fam in tree.families_of.get(pid, []):
-            other = [x for x in fam["partners"] if x != pid]
-            m = fam.get("marriage", [{}])[0].get("value", "")
-            sp = ", ".join(f'<a href="people/{x}/index.html">{esc(tree.people[x]["name"])}</a>' for x in other)
-            kids = []
-            for c in fam["children"]:
-                cls = "chip on-line" if c in tree.line else "chip"
-                yr = tree.years(c)
-                kids.append(f'<a class="{cls}" href="people/{c}/index.html">{esc(tree.people[c]["name"].split(" ")[0])}'
-                            f'{f"<small>{esc(yr)}</small>" if yr else ""}</a>')
-            fams.append(
-                f'<div class="gen-fam"><p class="gen-spouse">m. {sp}{marr_span(m)}</p>'
-                + (f'<div class="chips" aria-label="Children">{"".join(kids)}</div>' if kids else "") + "</div>")
-        cards.append(f"""<li class="gen" id="gen-{i + 1}">
-  <div class="gen-num" aria-hidden="true">{ROMAN[i]}</div>
-  <div class="gen-card">
-    <p class="gen-label">Generation {i + 1}</p>
-    <h3><a href="people/{pid}/index.html">{esc(p["name"])}</a> <span class="yrs">{esc(tree.years(pid))}</span></h3>
-    <p class="gen-vitals">{" ".join(vit)}</p>
-    {"".join(fams)}
-  </div>
+            rows.append(f"<dt>Died</dt><dd>{inline(died)}</dd>")
+        chap = pages_by_scan[p["chapter"]] if p.get("chapter") else None
+        links = [f'<a href="people/{fid}/index.html">About {esc(label if key != "zima" else "Anna")}</a>']
+        if chap:
+            links.append(f'<a href="book/{chap["slug"]}/index.html">Chapter, {esc(chap["short"])}</a>')
+        links.append(f'<a href="tree/index.html?focus={fid}">In the tree</a>')
+        status = (f'<p class="branch-status built">{n_desc} descendants recorded so far</p>' if built
+                  else '<p class="branch-status">Family to be added — read it in the book for now</p>')
+        kind = "Half-sister" if key == "zima" else "Brother"
+        cards.append(f"""<li class="brother">
+  <p class="gen-label">{kind}</p>
+  <h3><a href="people/{fid}/index.html">{esc(p["name"])}</a> <span class="yrs">{esc(tree.years(fid))}</span></h3>
+  <dl class="b-facts">{"".join(rows)}</dl>
+  {status}
+  <p class="b-links">{" · ".join(links)}</p>
 </li>""")
-    crumbs = "".join(
-        f'<li><a href="#gen-{i + 1}">{esc(tree.people[pid]["name"].split(" ")[0])}</a></li>'
-        for i, pid in enumerate(tree.line))
+    w, h = jpeg_size(ROOT / "media/pages/s001.jpg")
     body = f"""<section class="hero">
   <div class="wrap hero-inner">
     <div>
       <p class="kicker">From Bohemia to Nebraska</p>
       <h1>The Kastl Family History</h1>
-      <p class="lede">A family history compiled by Evelyn Coufal and Francis Vech, printed in 1985, with a supplement in 1986. It follows the seven Kastl brothers who left Bohemia for America in the 1860s and 1870s, and their descendants.</p>
-      <p class="lede">This site begins with one thread through the book: the line from the earliest recorded Kastl, Andreas, down to {esc(root["name"])}, born in 1983.</p>
-      <p class="hero-links"><a class="btn" href="#line">Follow the line</a> <a class="btn ghost" href="book/index.html">Read the book</a></p>
+      <p class="lede">In the 1860s and early 1870s, seven Kastl brothers — sons of Thomas Kastl, a farmer near Všepadly in Bohemia — left for America. Six made their homes in Nebraska; Thomas settled in Illinois. This is their family’s history, compiled by Evelyn Coufal and Francis Vech and printed in 1985, with a supplement in 1986.</p>
+      <p class="hero-links"><a class="btn" href="#brothers">Meet the brothers</a> <a class="btn ghost" href="tree/index.html">Family tree</a> <a class="btn ghost" href="book/index.html">Read the book</a></p>
     </div>
-    <a class="hero-cover" href="book/cover/index.html"><img src="media/pages/s001.jpg" alt="The book's cover: a sailing ship, its sails lettered Kastl Family History" width="{jpeg_size(ROOT / 'media/pages/s001.jpg')[0]}" height="{jpeg_size(ROOT / 'media/pages/s001.jpg')[1]}"></a>
+    <a class="hero-cover" href="book/cover/index.html"><img src="media/pages/s001.jpg" alt="The book's cover: a sailing ship, its sails lettered Kastl Family History" width="{w}" height="{h}"></a>
   </div>
 </section>
-<section class="wrap" id="line" aria-labelledby="line-h">
-  <div class="section-head">
-    <h2 id="line-h">The line of descent</h2>
-    <button class="btn ghost small" type="button" id="flip" aria-pressed="false">Start from {esc(root["name"].split(" ")[0])}</button>
-  </div>
-  <p class="muted">Ten generations, father to son. Each card shows the couple and their children as the book lists them; the child who carries the line is marked. Open anyone for every recorded fact and the page it comes from.</p>
-  <ol class="crumbs" aria-label="Generations">{crumbs}</ol>
-  <ol class="generations" id="generations">
+<section class="wrap" aria-labelledby="roots-h">
+  <h2 id="roots-h">Shared roots</h2>
+  <p class="muted">The earliest Kastls the book could trace, from church records in the archives at Plzen. Thomas married twice: Maria Marsalek, mother of the seven brothers, and after her death Barbara Kellner.</p>
+  <ol class="roots">{root_strip}</ol>
+</section>
+<section class="wrap" id="brothers" aria-labelledby="brothers-h">
+  <h2 id="brothers-h">The seven brothers</h2>
+  <p class="muted">Each brother has his own chapter in the book. A half-sister, Anna, stayed in Bohemia; her son James Zima came to Nebraska in 1922.</p>
+  <ol class="brothers">
 {"".join(cards)}
   </ol>
 </section>
-<script>
-(function(){{var b=document.getElementById('flip'),l=document.getElementById('generations');
-if(!b||!l)return;b.addEventListener('click',function(){{var on=b.getAttribute('aria-pressed')!=='true';
-b.setAttribute('aria-pressed',on);l.classList.toggle('reversed',on);
-b.textContent=on?'Start from Andreas':'Start from {esc(root["name"].split(" ")[0])}';
-Array.prototype.slice.call(l.children).reverse().forEach(function(c){{l.appendChild(c);}});}});}})();
-</script>"""
-    write("index.html", layout(prefix, TITLE, body,
-                               description="Explore Kastl Family History (1985): the Kastl family from Bohemia to Nebraska, with page scans, transcriptions and the line of descent.",
-                               path="", active="home"))
+<section class="wrap explore" aria-labelledby="explore-h">
+  <h2 id="explore-h">Explore</h2>
+  <ul class="explore-grid">
+    <li><a href="tree/index.html"><strong>Family tree</strong><span>From Andreas Kastl down through every branch built so far.</span></a></li>
+    <li><a href="people/index.html"><strong>Everyone, in a table</strong><span>Filter and sort by name, dates, branch; download as CSV.</span></a></li>
+    <li><a href="book/index.html"><strong>The book, page by page</strong><span>All 76 scans beside their transcriptions.</span></a></li>
+    <li><a href="search/index.html"><strong>Search</strong><span>Names, places and years across the whole book.</span></a></li>
+  </ul>
+</section>"""
+    write("index.html", layout("", TITLE, body,
+                               description="Kastl Family History (1985): seven Kastl brothers from Bohemia and their descendants in Nebraska — family tree, people and the full book with transcriptions.",
+                               path=""))
 
 
 # ----------------------------------------------------------------------------- book
@@ -644,7 +790,7 @@ def build_book(tree, pages, pages_by_scan):
 <p class="kicker">The book</p>
 <h1>Kastl Family History</h1>
 <p class="lede">All 76 scanned pages of the 1985 book and its 1986 Supplementary Section, each shown beside a faithful transcription. Sections follow the book’s own contents page.</p>
-<p><a class="btn ghost small" href="{prefix}source/kastl-family-history-part1.pdf">Download scans, part 1 (PDF, 28 MB)</a> <a class="btn ghost small" href="{prefix}source/kastl-family-history-part2.pdf">Part 2 (PDF, 27 MB)</a></p>
+<p class="pdf-links">{pdf_links(prefix)}</p>
 {"".join(groups)}
 </div>"""
     write("book/index.html", layout(prefix, "The book", body,
@@ -716,12 +862,12 @@ def build_about(tree):
     body = f"""<article class="wrap prose">
 <p class="kicker">About</p>
 <h1>About this site</h1>
-<p class="lede"><cite>Kastl Family History</cite> was compiled by Evelyn Coufal and Francis Vech and printed in 1985 by Catholic Quote of Valparaiso, Nebraska. A Supplementary Section followed in 1986. This site presents the book page by page, and draws out one line of descent from it as linked family records.</p>
+<p class="lede"><cite>Kastl Family History</cite> was compiled by Evelyn Coufal and Francis Vech and printed in 1985 by Catholic Quote of Valparaiso, Nebraska. A Supplementary Section followed in 1986. This site presents the book page by page and is turning its family lists into linked records you can browse as a tree or a table.</p>
 
 <h2>What is here</h2>
 <ul>
 <li><a href="{prefix}book/index.html">The book</a>: all 76 scanned pages, each beside a transcription of its text.</li>
-<li><a href="{prefix}index.html#line">The line of descent</a>: ten generations from Andreas Kastl to {esc(tree.people[tree.data["root"]]["name"])}, with spouses, children and the parents of spouses — {n_people} people so far. The rest of the book’s families will follow.</li>
+<li><a href="{prefix}tree/index.html">The family tree</a> and <a href="{prefix}people/index.html">a table of everyone</a> — {n_people} people so far. The shared ancestors, the brothers and Josef Kastl’s descendants down to the youngest generation are in; the other branches are being added one at a time.</li>
 </ul>
 
 <h2>How it was made</h2>
@@ -774,21 +920,149 @@ def build_search(tree, pages):
                                       path="search/"))
 
 
+# ----------------------------------------------------------------------------- people table
+def person_row(tree, pid, pages_by_scan):
+    p = tree.people[pid]
+    born, died = short_fact(tree, pid, "birth"), short_fact(tree, pid, "death")
+    by, dy = tree.year_list(pid, "birth"), tree.year_list(pid, "death")
+    scans = []
+    for f in p["facts"]:
+        for s in f["sources"]:
+            if s["scan"] not in scans:
+                scans.append(s["scan"])
+    scans.sort()
+    gen = tree.generation(pid)
+    return {
+        "id": pid, "name": p["name"], "sex": p.get("sex", ""), "branch": tree.branch(pid),
+        "relation": tree.relation(pid), "generation": gen if gen is not None else "",
+        "born": born, "born_year": by[0] if by else "", "died": died, "died_year": dy[0] if dy else "",
+        "spouses": "; ".join(tree.people[s]["name"] for s in tree.spouses(pid)),
+        "parents": " and ".join(tree.people[x]["name"] for x in tree.parents_of[pid]["partners"]) if pid in tree.parents_of else "",
+        "differs": tree.has_conflict(pid),
+        "pages": ", ".join(pages_by_scan[s]["short"] for s in scans),
+    }
+
+
+def build_people_index(tree, pages_by_scan):
+    import csv
+    import io
+    prefix = "../"
+    order = sorted(tree.people, key=lambda x: (tree.people[x]["name"].split()[-1], tree.people[x]["name"]))
+    rows = [person_row(tree, pid, pages_by_scan) for pid in order]
+    # CSV
+    buf = io.StringIO()
+    cols = ["id", "name", "sex", "branch", "relation", "generation", "born", "died", "spouses", "parents", "pages"]
+    w = csv.DictWriter(buf, fieldnames=cols, extrasaction="ignore")
+    w.writeheader()
+    w.writerows(rows)
+    write("people/people.csv", buf.getvalue())
+    branches = [("roots", "Shared roots")] + [(k, BRANCH_LABEL[k]) for k, _, _ in BRANCHES]
+    opts = "".join(f'<option value="{k}">{esc(l)}</option>' for k, l in branches)
+    trs = []
+    for r in rows:
+        trs.append(
+            f'<tr data-branch="{r["branch"]}" data-differs="{1 if r["differs"] else 0}">'
+            f'<td data-sort="{esc(r["name"].split()[-1] + " " + r["name"])}"><a href="{r["id"]}/index.html">{esc(r["name"])}</a>'
+            f'{DIFFERS_DOT if r["differs"] else ""}</td>'
+            f'<td data-sort="{r["born_year"] or 9999}">{inline(r["born"])}</td>'
+            f'<td data-sort="{r["died_year"] or 9999}">{inline(r["died"])}</td>'
+            f'<td>{esc(r["relation"])}</td>'
+            f'<td data-sort="{r["generation"] if r["generation"] != "" else 99}">{r["generation"]}</td>'
+            f'<td>{esc(BRANCH_LABEL.get(r["branch"], r["branch"]))}</td>'
+            f'<td class="pages-col">{esc(r["pages"])}</td></tr>')
+    body = f"""<div class="wrap people-index">
+<p class="kicker">People</p>
+<h1>Everyone in the book, so far</h1>
+<p class="lede">{len(rows)} people. Filter by name, place or year; sort by any column. Dates are as the book prints them. <a href="people.csv" download>Download as CSV</a>.</p>
+<form class="table-tools" id="tools" onsubmit="return false">
+  <label>Filter <input type="search" id="f-text" placeholder="Name, place, year…" autocomplete="off"></label>
+  <label>Branch <select id="f-branch"><option value="">All</option>{opts}</select></label>
+  <label class="check"><input type="checkbox" id="f-differs"> Only where the sources differ</label>
+  <span class="muted" id="f-count" aria-live="polite"></span>
+</form>
+<div class="table-scroll">
+<table class="people-table" id="people">
+<thead><tr>
+  <th scope="col" aria-sort="ascending"><button type="button" data-col="0">Name</button></th>
+  <th scope="col"><button type="button" data-col="1" data-num>Born</button></th>
+  <th scope="col"><button type="button" data-col="2" data-num>Died</button></th>
+  <th scope="col"><button type="button" data-col="3">Relationship</button></th>
+  <th scope="col"><button type="button" data-col="4" data-num title="Generations below the seven brothers (a brother is 1)">Gen.</button></th>
+  <th scope="col"><button type="button" data-col="5">Branch</button></th>
+  <th scope="col">Pages</th>
+</tr></thead>
+<tbody>
+{"".join(trs)}
+</tbody>
+</table>
+</div>
+</div>
+<script src="{prefix}assets/js/table.js" defer></script>"""
+    write("people/index.html", layout(prefix, "People", body,
+                                      description="Everyone recorded so far from Kastl Family History, in a filterable, sortable table.",
+                                      path="people/", active="people"))
+
+
+# ----------------------------------------------------------------------------- tree
+def build_tree(tree):
+    prefix = "../"
+    nodes = {}
+    for pid, p in tree.people.items():
+        if not tree.is_blood(pid):
+            continue
+        kids, sp = [], []
+        for fam in tree.families_of.get(pid, []):
+            other = [x for x in fam["partners"] if x != pid]
+            sp += [tree.people[x]["name"] for x in other]
+            for c in fam["children"]:
+                kids.append([c, fam.get("order", 1)])
+        mf = tree.facts(pid, "marriage")
+        if not all(f["value"].startswith("(") for f in mf):
+            mf = mf[:1]  # differing readings of one marriage: show the first, the page has both
+        marr = [f["value"].split(",")[0] for f in mf] if not sp else []
+        nodes[pid] = {"n": p["name"], "y": tree.years(pid), "s": p.get("sex", ""), "b": tree.branch(pid),
+                      "sp": sp or marr, "c": kids, "f": 1 if pid in tree.founders else 0,
+                      "u": 1 if p.get("uncertain") else 0}
+    write("tree/tree.json", json.dumps({"root": TREE_ROOT, "nodes": nodes}, ensure_ascii=False, separators=(",", ":")))
+    body = f"""<div class="wrap tree-page">
+<p class="kicker">Family tree</p>
+<h1>The Kastl family tree</h1>
+<p class="lede">From Andreas Kastl, the earliest Kastl in the records, through Thomas Kastl, his children, and their descendants. Click a name to open their page; click <span class="kbd">+</span> to open a family. Drag to move, scroll or pinch to zoom.</p>
+<div class="tree-tools" role="toolbar" aria-label="Tree controls">
+  <button class="btn ghost small" type="button" data-act="brothers">Show the brothers</button>
+  <button class="btn ghost small" type="button" data-act="expand">Open everything</button>
+  <button class="btn ghost small" type="button" data-act="fit">Fit to screen</button>
+  <span class="zoom"><button class="btn ghost small" type="button" data-act="in" aria-label="Zoom in">+</button><button class="btn ghost small" type="button" data-act="out" aria-label="Zoom out">−</button></span>
+  <label class="tree-find">Find <input type="search" id="tree-find" list="tree-names" placeholder="Name…" autocomplete="off"></label>
+  <datalist id="tree-names"></datalist>
+</div>
+<div class="tree-wrap" id="tree-wrap">
+  <svg id="tree" role="img" aria-label="Family tree diagram. The table of people lists the same information as text."></svg>
+</div>
+<p class="muted tree-legend"><span class="lg lg-founder"></span> one of the seven brothers (or half-sister Anna) · dashed line: child of a second marriage · <span class="lg lg-more">+3</span> children not shown yet. Only Josef Kastl’s branch is built out so far; the <a href="../people/index.html">table</a> has the same people as text.</p>
+</div>
+<script src="{prefix}assets/js/tree.js" defer></script>"""
+    write("tree/index.html", layout(prefix, "Family tree", body,
+                                    description="Interactive family tree of the Kastl family: Andreas Kastl, Thomas Kastl, the seven brothers and their descendants.",
+                                    path="tree/", active="tree"))
+
+
 # ----------------------------------------------------------------------------- main
 def main():
     pages = load_pages()
     pages_by_scan = {p["scan"]: p for p in pages}
-    data = json.loads((CONTENT / "people.json").read_text(encoding="utf-8"))
+    data = load_people()
     problems = check_quotes(data, pages_by_scan)
     if problems:
         print("Quote check failed:", *problems, sep="\n  ")
         sys.exit(1)
     tree = Tree(data)
-    root_name = tree.people[data["root"]]["name"]
-    for d in ("people", "book"):
+    for d in ("people", "book", "tree"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     for pid in tree.people:
-        build_person(tree, pid, pages_by_scan, root_name)
+        build_person(tree, pid, pages_by_scan)
+    build_people_index(tree, pages_by_scan)
+    build_tree(tree)
     build_home(tree, pages_by_scan)
     build_book(tree, pages, pages_by_scan)
     build_about(tree)
