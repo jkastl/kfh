@@ -809,7 +809,7 @@ def build_home(tree, pages_by_scan):
     <div>
       <p class="kicker">From Bohemia to Nebraska</p>
       <h1>The Kastl Family History</h1>
-      <p class="lede">In the 1860s and early 1870s, seven Kastl brothers — sons of Thomas Kastl, a farmer near Všepadly in Bohemia — left for America. Six made their homes in Nebraska; Thomas settled in Illinois. This is their family’s history, compiled by Evelyn Coufal and Francis Vech and printed in 1985, with a supplement in 1986.</p>
+      <p class="lede">In the 1860s and early 1870s, seven Kastl brothers left Bohemia for America. They were the sons of Thomas Kastl, a farmer near Všepadly. Six made their homes in Nebraska, and Thomas settled in Illinois. This is their family’s history, compiled by Evelyn Coufal and Francis Vech and printed in 1985, with a supplement in 1986.</p>
       <p class="hero-links"><a class="btn" href="#brothers">Meet the brothers</a> <a class="btn ghost" href="tree/index.html">Family tree</a> <a class="btn ghost" href="book/index.html">Read the book</a></p>
     </div>
     <a class="hero-cover" href="book/cover/index.html"><img src="media/pages/s001.jpg" alt="The book's cover: a sailing ship, its sails lettered Kastl Family History" width="{w}" height="{h}"></a>
@@ -846,7 +846,7 @@ def build_home(tree, pages_by_scan):
                "description": "The Kastl family from Bohemia to Nebraska: family tree, people and the full 1985 book with its 1986 supplement.",
                "about": {"@id": SITE_URL + "#book"}}
     write("index.html", layout("", TITLE, body,
-                               description="Kastl Family History (1985): the seven Kastl brothers who came from Bohemia to Nebraska and their descendants — family tree, people and the full book with transcriptions.",
+                               description="Kastl Family History (1985): the seven Kastl brothers who came from Bohemia to America, and their descendants. A family tree, a table of everyone, and the full book with transcriptions.",
                                path="", jsonld={"@context": "https://schema.org", "@graph": [site_ld, book_ld]}))
 
 
