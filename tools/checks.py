@@ -99,6 +99,9 @@ def load_allow(path):
 HEADING = re.compile(r"^### (.+?)\s*$")
 CHILD = re.compile(r"^(\d+)\.\s+[A-Z]")
 UNNUMBERED_CHILD = re.compile(r"^[A-Z][A-Z .'\-]+ — \(")
+# A children sub-list inside a family, one per marriage: "Children of Louis Kastl and (1) Doris
+# Howard:". It is matched to a family like a heading, by its text without the final ":" or ".".
+SUBLIST = re.compile(r"^(?:The c|C)hildren of (.+?)[:.]?$")
 LINEAGE = re.compile(r"^([A-Z][A-Z .'\-]+?) \(([^)]*)\)\s*(?:,\s*)?(born|son|daughter|died)")
 
 
@@ -135,6 +138,12 @@ def sections(pages):
                     cur = None
                 continue
             if cur is None:
+                continue
+            sm = SUBLIST.match(line)
+            if sm:
+                cur = {"heading": line.rstrip(":."), "scan": p["scan"], "branch": cur["branch"],
+                       "children": [], "lineage": None}
+                out.append(cur)
                 continue
             if CHILD.match(line) or UNNUMBERED_CHILD.match(line):
                 cur["children"].append(line)
