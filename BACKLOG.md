@@ -128,6 +128,9 @@ is checked as it goes; (c)–(e) run after U7.
 - Link narrative mentions in transcriptions to person pages where unambiguous.
 
 ## Decisions
+- The book is the best available fact. The owner does not know the people in it personally, so
+  family-knowledge review is not possible; step 8d's report is for scanning for oddities only
+  (owner, 2026-11-26).
 - Search indexing: keep the site indexable (owner, 2026-11-26). Search results and 404 are noindex.
 - Pages serves `main` / root (confirmed by owner).
 

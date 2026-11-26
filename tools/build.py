@@ -1208,9 +1208,14 @@ def main():
         print("Structural checks failed (see tools/checks.py; book-caused exceptions go in "
               "content/verification/allow.json):", *errors, sep="\n  ")
         sys.exit(1)
-    warn_file = CONTENT / "verification" / "build-warnings.txt"
-    warn_file.write_text("Plausibility warnings from tools/checks.py (not errors; the book has real oddities).\n"
-                         + "".join(w + "\n" for w in warnings), encoding="utf-8")
+    if "--check" in sys.argv[1:]:  # checks only; writes nothing (safe while others build)
+        print(f"Checks passed: {summary}.")
+        for w in warnings:
+            print("  warning:", w)
+        return
+    (CONTENT / "verification" / "build-warnings.txt").write_text(
+        "Plausibility warnings from tools/checks.py (not errors; the book has real oddities).\n"
+        + "".join(w + "\n" for w in warnings), encoding="utf-8")
     for d in ("people", "book", "tree"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     for pid in tree.people:

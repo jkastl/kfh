@@ -94,6 +94,8 @@ lands, add to `content/people.json`). Shape:
 - [ ] For each family, the number of children equals the printed list (count them).
 - [ ] Supplement additions/corrections for the unit's pages are merged as extra sources/facts.
 - [ ] Add the branch key to `CHECKED_BRANCHES` in `tools/checks.py`.
+- [ ] While working (other units may be running), use the check-only mode, which writes
+      nothing: `KFH_CHECK_BRANCHES=<branch> python3 tools/build.py --check`.
 - [ ] `python3 tools/build.py` passes and the branch pages render. Besides quotes, the build checks
       that every printed family heading in the branch's chapter and supplement section has a
       family, that child counts match the printed lists, and that each printed lineage
