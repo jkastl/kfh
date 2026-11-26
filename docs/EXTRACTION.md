@@ -13,8 +13,10 @@ worked example — copy its shape.
 3. **Disagreements are recorded, not resolved.** If the 1985 pages and the 1986 supplement (or the
    chart and the text) give different values, add one fact per reading, each with its own sources.
    The site marks these "The sources differ".
-4. **Spellings as printed.** Use the book's spelling for `name`; record other spellings of the
-   same person in a `name` fact ("Josef Kastl; \"Joseph\" in the photo captions").
+4. **Spellings as printed.** Use the book's spelling for `name`. Other forms of the same
+   person's name go in one `name` fact whose value lists just those forms ("Joseph Kastl"); its
+   sources show where each appears, so don't describe locations in the value. Use two or more
+   `name` facts only when the sources genuinely disagree on who the person was named.
 5. If the transcription itself looks wrong, check the scan (`media/pages/sNNN.jpg`). Fix the
    transcription only for a real transcription error, and note it in the commit message.
 6. If you cannot tell who a passage refers to (e.g. several Joseph Kastls), leave it out and

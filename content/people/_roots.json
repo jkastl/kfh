@@ -8,7 +8,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Andreas Kastl; printed once as \"Andress Kastl\"",
+          "value": "Andress Kastl",
           "sources": [
             {
               "scan": "s009",
@@ -60,7 +60,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Wolfgang Jan Kastl; \"John Kastl\" on the Ancestral Chart",
+          "value": "John Kastl",
           "sources": [
             {
               "scan": "s009",
@@ -136,7 +136,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Jan Kastl; \"John Kastl\" on the Ancestral Chart",
+          "value": "John Kastl",
           "sources": [
             {
               "scan": "s009",
@@ -181,7 +181,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Maria Mužik (printed \"Muzik\" in the text)",
+          "value": "Maria Muzik",
           "sources": [
             {
               "scan": "s009",
@@ -250,7 +250,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Thomas Kastl; also \"Tomas Kastl\"",
+          "value": "Tomas Kastl",
           "sources": [
             {
               "scan": "s009",
@@ -323,7 +323,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Maria Marsalek; printed also \"Maraslek\" and \"Marselek\"",
+          "value": "Maria Maraslek, Maria Marselek",
           "sources": [
             {
               "scan": "s009",
@@ -372,7 +372,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Josef Marsalek; \"Joseph Marsalek\" / \"Joseph Marselek\" in the text",
+          "value": "Joseph Marsalek, Joseph Marselek",
           "sources": [
             {
               "scan": "s016",
@@ -381,6 +381,10 @@
             {
               "scan": "s009",
               "quote": "daughter of Joseph Marsalek, a magistrate manager at Kosenice, no. 33"
+            },
+            {
+              "scan": "s043",
+              "quote": "Maria, the daughter of Joseph Marselek, a magistrate manager from Kosenice."
             }
           ]
         },
@@ -568,7 +572,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Maria; \"Marie\" on the Ancestral Chart",
+          "value": "Marie",
           "sources": [
             {
               "scan": "s064",
@@ -599,7 +603,7 @@
       "facts": [
         {
           "type": "name",
-          "value": "Frantiska; \"Frances\" on the Ancestral Chart",
+          "value": "Frances",
           "sources": [
             {
               "scan": "s064",

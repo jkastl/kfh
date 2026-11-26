@@ -27,7 +27,9 @@ FACT_LABELS = {
 }
 FACT_ORDER = ["name", "birth", "occupation", "residence", "marriage", "immigration",
               "homestead", "death", "burial", "note"]
-CONFLICT_TYPES = {"birth", "death", "burial", "immigration", "marriage"}
+CONFLICT_TYPES = {"name", "birth", "death", "burial", "immigration", "marriage"}
+# One "name" fact lists other forms of the name the book uses (the page heading shows the main
+# form). Two or more "name" facts mean the sources give different names, shown as a conflict.
 
 esc = html.escape
 
@@ -703,6 +705,8 @@ def build_person(tree, pid, pages_by_scan):
         differs = t in CONFLICT_TYPES and len(fs) > 1 and not numbered
         for i, f in enumerate(fs):
             label = FACT_LABELS[t] if i == 0 else ""
+            if t == "name" and len(fs) == 1:
+                label = "Also written as"
             flag = '<span class="differs">The sources differ</span>' if differs and i == 0 else ""
             rows.append(
                 f'<tr{DIFFERS_ROW if differs else ""}><th scope="row">{label}{flag}</th>'
