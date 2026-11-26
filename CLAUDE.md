@@ -12,6 +12,13 @@ pushing), make sure the work sits on the latest code:
    raise it with the user. Don't build on code that may be stale.
 5. Say briefly what the check found ("up to date with main", "main had 3 new commits, pulled").
 
+## Where the plan lives
+
+- `BACKLOG.md`: what's next, the work units for building out the rest of the tree, open
+  questions. Update it when an item lands or a decision is made.
+- `docs/EXTRACTION.md`: how to turn transcribed pages into people data (the rules every work
+  unit follows). `TECH_DEBT.md`: known gaps.
+
 ## How this site is built and deployed
 
 - GitHub Pages deploys straight from `main` (root). **No GitHub Actions** — the owner has

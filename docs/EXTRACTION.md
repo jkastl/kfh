@@ -1,0 +1,88 @@
+# Extracting people from the book
+
+How to turn transcribed pages (`content/pages/sNNN.md`) into structured people data. Every work
+unit in `BACKLOG.md` follows this. The first slice (`content/people.json`, Josef's line) is the
+worked example — copy its shape.
+
+## Ground rules
+1. **The book is the only source.** No outside facts, no guesses, no "fixing" the book.
+2. **Every fact carries at least one verbatim quote** from the page it comes from. The build
+   (`python3 tools/build.py`) fails if a quote is not found word for word in that page's
+   transcription (whitespace and `*` emphasis ignored). Quote the smallest span that proves the
+   fact, but enough to be unambiguous.
+3. **Disagreements are recorded, not resolved.** If the 1985 pages and the 1986 supplement (or the
+   chart and the text) give different values, add one fact per reading, each with its own sources.
+   The site marks these "The sources differ".
+4. **Spellings as printed.** Use the book's spelling for `name`; record other spellings of the
+   same person in a `name` fact ("Josef Kastl; \"Joseph\" in the photo captions").
+5. If the transcription itself looks wrong, check the scan (`media/pages/sNNN.jpg`). Fix the
+   transcription only for a real transcription error, and note it in the commit message.
+6. If you cannot tell who a passage refers to (e.g. several Joseph Kastls), leave it out and
+   note it in `BACKLOG.md` under the unit.
+
+## How the book is laid out
+- Each brother's chapter opens with a narrative about him, then "The children of …" list, then
+  one **family group** per married descendant: heading "The family of X and Y", a paragraph
+  "X (lineage) born …, son/daughter of …, married Y …", then "Their children:" as a numbered list.
+- The **lineage parentheses** name ancestors back to the brother: "STANLEY KASTL (Joseph, Josef)";
+  for descendants through a daughter, her married name appears: "(Marie Kastl Burnett, Stanley,
+  Joseph W., Josef)". Use them to place people; they are the most reliable structural signal.
+- Child-list lines: `N. NAME — (b) date—place. (d) date. (m) Spouse—date.` `(bur)` buried,
+  `(div)` divorced, `(2)` second spouse, `aka` also known as.
+- The **1986 Supplement** (s071–s076) is arranged by the page it corrects: "*(Page 41 Correction
+  and Addition)*". Its entries add children born after 1985, fuller dates and corrections. Treat
+  each as a separate source; keep the 1985 reading too.
+
+## Who gets a record
+- Everyone listed as a **child** in a family group or child list.
+- Both **partners** of every family group heading ("The family of X and Y").
+- Parents of an in-marrying spouse only if the book names them as a pair with dates or as a
+  family (otherwise keep it in a fact: "daughter of Joseph Nemecek").
+- A spouse named only inside a child line ("(m) Caroline Kunasek—16 Nov. 1926") with no family
+  group of their own → a `marriage` fact on the child, not a separate record.
+
+## File and record shape
+Write only your branch file: `content/people/<branch>.json` (until the split in BACKLOG step 2
+lands, add to `content/people.json`). Shape:
+
+```json
+{
+  "people": {
+    "frank-kastl-1900": {
+      "name": "Frank Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "facts": [
+        {"type": "birth", "value": "22 September 1900, Central City, Nebraska",
+         "sources": [{"scan": "s043", "quote": "FRANK KASTL (Joseph, Josef) born 22 September 1900, Central City, Nebraska"}]}
+      ],
+      "photos": ["s044-ph1"]
+    }
+  },
+  "families": [
+    {"id": "frank1900-caroline", "partners": ["frank-kastl-1900", "caroline-kunasek"],
+     "heading": "The family of Frank Kastl and Caroline Kunasek",
+     "marriage": [{"value": "16 November 1926", "sources": [{"scan": "s044", "quote": "Caroline Kunasek 16 November 1926."}]}],
+     "children": ["mary-ann-kastl-1927", "margaret-kastl-1931"], "sources": ["s043", "s044"]}
+  ]
+}
+```
+
+- **ids**: `given-surname-birthyear` in lowercase ASCII (`mary-ann-kastl-1927`); no birth year →
+  `given-surname-<parentid-fragment>` (e.g. `robert-kastl-of-john1906`). Must be unique across
+  all files; check before adding.
+- **fact types**: `name`, `birth`, `death`, `burial`, `marriage`, `immigration`, `homestead`,
+  `occupation`, `residence`, `note`. Values are written out plainly ("22 September 1900, Central
+  City, Nebraska"); the quote carries the printed form ("22 Sept. 1900—Central City, NE.").
+- **children** in printed order, even when out of birth order; say so in the family `note`.
+- Multiple marriages: one family per marriage, with `"order": 1`, `2`.
+- `photos`: photo ids from page front matter (`s044-ph1`) where the caption names the person.
+
+## Checklist before committing a unit
+- [ ] Every `###` family heading in the unit's pages (and its supplement sections) is represented
+      by a family, or listed in the commit message with the reason it isn't.
+- [ ] For each family, the number of children equals the printed list (count them).
+- [ ] Supplement additions/corrections for the unit's pages are merged as extra sources/facts.
+- [ ] `python3 tools/build.py` passes (quote check) and the branch pages render.
+- [ ] Spot-check at least ten facts against the scan images, not just the transcription.
+- [ ] Update `BACKLOG.md` (unit done, anything left out and why).
