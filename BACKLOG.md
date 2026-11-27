@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a+U5b (Jacob) and U7 (integration) done. Step 6 is complete. Next: step 8c–e (verification), when the owner says so.
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a+U5b (Jacob) and U7 (integration) done. Step 6 is complete. Steps 6 and 8 (targeted) done. Next: the owner's future-session list (F1–F5) below.
 
 ## Next, in order
 
@@ -191,14 +191,55 @@ is checked as it goes; (c)–(e) run after U7.
 ### 7. Verification debt (see TECH_DEBT.md)
 - Done: s028–s029 (U3) and s030–s036 (U4a) re-proofread word by word against the images.
 
-## Later / ideas
-- Tree: optional top-down layout; show in-marrying spouses as their own boxes; print/export.
+## Future sessions (owner's to-do, 2026-11-27)
+Each item is meant for its own session. Start with `CLAUDE.md` (sync with main first), keep the
+book as the only source, keep the build passing, and commit to `main` when done. The owner's token
+window is limited, so prefer scripts to agents and run at most one or two agents per session.
+
+### F1. Links in the narrative
+Link names in chapter narratives and articles (`content/pages/sNNN.md`) to person pages where the
+reference is unambiguous ("his son Frank" inside Peter's chapter, "Mrs. Albert Mares" → Barbara
+Kastl). Never guess: the book has many Josephs, Johns and Marys, so skip anything ambiguous and
+list it. Suggested approach: store links as data (e.g. `content/links.json`: scan, exact phrase,
+person id), not by editing transcriptions, so they stay faithful; render them in the book reader
+and check each phrase exists, like the quote check. One agent per chapter group at most.
+
+### F2. Photo album page
+One page with every photo in the book (46 crops in `media/photos/`, ids and captions in page front
+matter), grouped by chapter or branch, each with its caption, page link, and links to the people
+it is attached to (26 photos are on person pages). Include the scene photos (dugout, Omaha 1867,
+Plasi livery stable, rabbit drive, cattle drives) and the uncaptioned ones. Script-only; no agent.
+
+### F3. Map page
+Places from facts (births, deaths, burials, residences, homesteads), normalised to a place list
+(Všepadly, Stara Hut, Plasi, Brainard, Weston, Wahoo, Omaha, Bakersfield, Yukon…), each with the
+people connected to it. Show them on a map plus a places index; also link the book's own maps
+(p.6 Pilsen sheet, p.11 homestead map). Coordinates must be added by hand (or from a static
+gazetteer file committed to the repo), not fetched at runtime; keep spellings as printed with a
+normalised key. Map library: a pinned CDN version only if needed, or a simple inline SVG of
+Nebraska plus a Bohemia inset.
+
+### F4. Emigration timeline
+1866–1872: each brother's arrival (date, port, ship, who came with him), then homesteads,
+first deaths in America, moves to California, Oklahoma and Illinois. Built from `immigration`,
+`homestead` and `residence` facts. Where sources differ (Peter's year; John's ship, SS Baltimore
+vs SS Berlin), show both readings. Script-only; no agent.
+
+### F5. Full independent audit per branch (backlog 8c, full version)
+Optional. A fresh agent per branch (not the one that extracted it) re-reads the branch's scans
+and checks every person and family: parents, spouses, children and order, each fact's value
+against its quote. The targeted audit already covered the riskiest 88 items, and the automated
+checks cover counts, lineages and quotes. Cost: about 1.5–2 token windows in total, so split it
+over several sessions, one or two branches each (e.g. John + Wenzel, Jacob, Peter, Andrew + Josef
++ Thomas + Zima + roots). Write findings to `content/verification/audit-<branch>.md`; fixes go in
+as separate commits that cite the finding.
+
+### Smaller ideas
+- Tree: optional top-down layout; in-marrying spouses as their own boxes; print/export.
+- Tree: check "Open everything" performance on an older phone (about 1,300 nodes).
 - Table: a places column; filter by place and by decade.
-- Places index (Všepadly, Hradiště, Stara Hut, Plasi, Weston, Brainard, Omaha…) and a map,
-  including the book's own maps (p.6 Pilsen sheet, p.11 homestead map).
-- Timeline: emigration (1866–1872), homesteads, deaths.
-- Per-branch reading guide: chapter narrative + photos.
-- Link narrative mentions in transcriptions to person pages where unambiguous.
+- Per-branch reading guide: chapter narrative plus photos.
+- A "suppressed" flag, should a living relative ever ask to be removed.
 
 ## Decisions
 - The book is the best available fact. The owner does not know the people in it personally, so
