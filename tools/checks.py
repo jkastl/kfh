@@ -132,7 +132,7 @@ def sections(pages):
             m = HEADING.match(line)
             if m:
                 text = m.group(1)
-                if text.startswith(("The family of", "The children of")):
+                if text.startswith(("The family of", "The children of", "Children of")):
                     cur = {"heading": text, "scan": p["scan"], "branch": chapter,
                            "children": [], "lineage": None}
                     out.append(cur)

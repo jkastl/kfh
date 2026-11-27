@@ -81,6 +81,14 @@ The family of Martin Kastl", so the six children are Martin's (one-parent family
 headings); John keeps both readings ("Mary" / "never married"). The 1867 ship list's "Wenzel,
 age 6 months" fits no child in the list and is a note, not linked. s028–s029 fully re-proofread.
 
+U4 split boundary (recorded 2026-11-27): **U4a** = s030 (John's chapter opening and his list of
+nine children, all nine get records) through s038 up to, not including, "### The family of Anna
+Kastl and Frank Mares" — i.e. the sub-families of Vaclav and of Barbara Kastl / Albert Mares
+(incl. the 1922 Emporia Gazette article s033–s035), plus supplement p.31 (s073, Kantor families)
+and pp.34–35 (s076, Ptacek). **U4b** = from "### The family of Anna Kastl and Frank Mares" (s038)
+through s042: the Anna Kastl / Frank Mares and John Kastl / Frances Havlovic sub-families. U4b
+extends john.json and reuses U4a's ids for John's children.
+
 Notes for the split units: pick the boundary where one child-of-the-brother's sub-family ends
 (check the lineage parentheses), and record the exact boundary here before starting.
 Run U4a/U4b and U5a/U5b one after another or give them disjoint id prefixes, so ids don't clash.
