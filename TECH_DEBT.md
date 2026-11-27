@@ -19,6 +19,6 @@ committing new copies.
 
 ## Scope
 Built out as structured people so far: the shared roots and the branches of Peter, Wenzel,
-Josef, Thomas, Andrew and Anna Kastl Zima, and the first part of John's. The rest of John's
-and all of Jacob's exist in the book reader
-(transcriptions + scans) only until U4b–U5 land (see BACKLOG.md).
+Josef, Thomas, Andrew, John and Anna Kastl Zima, and the first part of Jacob's. The rest of
+Jacob's exists in the book reader
+(transcriptions + scans) only until U5b lands (see BACKLOG.md).

@@ -1,4 +1,6 @@
 Plausibility warnings from tools/checks.py (not errors; the book has real oddities).
 frances1892-anton: married 1920, first child born 1915
+david1947-pamela: married 1972, first child born 1971
+ernest1923-amy: married 1950, first child born 1947
 eleanor1933-harvey: married 1958, first child born 1950
 loretta1944-dick: married 1978, first child born 1969

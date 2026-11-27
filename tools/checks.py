@@ -22,7 +22,7 @@ import unicodedata
 
 # Branches whose chapters have been built out and are checked for headings and counts.
 # Add a branch key here when its work unit lands.
-CHECKED_BRANCHES = {"josef", "peter", "wenzel", "thomas", "zima", "andrew"}
+CHECKED_BRANCHES = {"josef", "peter", "wenzel", "thomas", "zima", "andrew", "john"}
 # A work unit in progress can add its branch for a run without editing this file:
 #   KFH_CHECK_BRANCHES=peter python3 tools/build.py --check
 CHECKED_BRANCHES |= {b for b in os.environ.get("KFH_CHECK_BRANCHES", "").split(",") if b}

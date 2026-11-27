@@ -1,6 +1,7 @@
 {
   "lineage": [],
   "count": [
-    {"scan": "s036", "heading": "The family of Virgil Pokorny and Pat Hulse", "note": "The book lists two children under this heading, but labels them \"Children of Pat Hulse:\" (Laurie, b. 1967, and Mike, b. 1969, born before Virgil and Pat married in 1983). They are modelled in a one-parent family of Pat Hulse (pat-hulse-children), not as Virgil's children, so virgil1944-pat has 0 children and pat-hulse-children has the printed 2."}
+    {"scan": "s036", "heading": "The family of Virgil Pokorny and Pat Hulse", "note": "The book lists two children under this heading, but labels them \"Children of Pat Hulse:\" (Laurie, b. 1967, and Mike, b. 1969, born before Virgil and Pat married in 1983). They are modelled in a one-parent family of Pat Hulse (pat-hulse-children), not as Virgil's children, so virgil1944-pat has 0 children and pat-hulse-children has the printed 2."},
+    {"scan": "s040", "heading": "The family of Curtis Delbert Mares and Delores Johnson", "note": "The book lists six children under this heading, after \"He married Delores Johnson. Divorced. Married (2) Delores Englebrecht. Their children:\". The children's own entries (Janet Kay, Vicki Lynn and Patricia Ann on s040; Susan Marie and Delbert Donald on s041) each name their parents as Curtis Mares and Delores Englebrecht, so all six are modelled in the second-marriage family curtis1927-delores-englebrecht (6 children); the heading's family, curtis1927-delores-johnson, has 0."}
   ]
 }

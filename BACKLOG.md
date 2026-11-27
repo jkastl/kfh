@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a (John part 1) done; next U4b + U5a (scheduled), then U5b, U7.
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a (Jacob part 1) done; next U5b (scheduled for after the owner's window reset), then U7.
 
 ## Next, in order
 
@@ -58,8 +58,8 @@ each unit must also read the supplement sections that name its pages.
 | U2 | Peter — DONE (2026-11-26): 205 people, 49 families; 54 headings checked | 15–25 (s017–s027) | p.20, p.21, p.22 ×2 (s071–s072) | 36 / 122 |
 | U3 | Wenzel + Thomas + Anna Kastl Zima — DONE (2026-11-26): 70 people, 15 families; 16 headings checked | 26–27, 56, 62 (s028–s029, s058, s064) | p.26, p.27 (s072) | 15 / 65 |
 | U4a | John, first part — DONE (2026-11-27): 199 people, 48 families; 47 headings checked | 28–33 (s030–s035) | p.31 (s073) | split at a sub-family boundary |
-| U4b | John, second part | 34–40 (s036–s042) | pp.34–35 (s076) | (John total 80 / 244) |
-| U5a | Jacob, first part | 44–49 (s046–s051) | p.47 (s076) | split at a sub-family boundary |
+| U4b | John, second part — DONE (2026-11-27): 150 people, 41 families; John's chapter fully checked | 34–40 (s036–s042) | pp.34–35 (s076) | (John total 80 / 244) |
+| U5a | Jacob, first part — DONE (2026-11-27): 134 people, 37 families; 40 headings checked | 44–49 (s046–s051) | p.47 (s076) | split at a sub-family boundary |
 | U5b | Jacob, second part | 50–55 (s052–s057) | p.54 (s076) | (Jacob total 72 / 229) |
 | U6 | Andrew — DONE (2026-11-27): 164 people, 38 families; 41 headings/sub-lists checked | 57–61 (s059–s063) | p.60 (s076) | 35 / 120 |
 | U7 | Integration | all | all | cross-branch marriages, duplicate people, unresolved supplement entries, final counts |
@@ -75,6 +75,27 @@ U2 notes: Thomas J. Kastl's children are recorded as Kastle ("Family changed nam
 Not attached to anyone, because the caption is ambiguous: "Joseph Sedlacek (cousin)" in s017-ph2,
 and the "Joseph C. Kastl Ranch" photo (s020). Two 1986 "Their grandchild:" lines name no parents
 and are notes. s071 numbers re-checked by eye (all match the transcription).
+
+U5 split boundary (recorded 2026-11-27): **U5a** = s046–s053 up to, not including, "### The family
+of Jacob Kastl and Mary Stara" (chapter opening, marriage agreement, 1935 obituary, all 11
+children, the Dobry and John Joseph Kastl sub-families) plus s076 "Page 47 Correction".
+**U5b** = from "The family of Jacob Kastl and Mary Stara" (s053) through s057, plus s076 from
+"*(Page 54 Correction and Addition)*" to "## Andrew Kastl" (Rerucha, Kohoutek).
+For U5b: reuse U5a's ids for Jacob's children (`jacob-kastl-1885`, `frank-kastl-1885`,
+`anton-peter-kastl-1887`, `elizabeth-kastl-1891`, `antonia-kastl-1893`), remove their `continues`,
+add Jacob Jr.'s s053 birth "20 March 1883" as a second reading, add the s076 Page 54 "ELIZABETH
+KASTL RERUCHA (d) 1968." as a second source on Elizabeth's 1968 death, and give records to the
+spouses U5a left as marriage facts (Mary Stara, Frances Rathovec, Julia Hanska, J. Cyril Rerucha,
+Joseph Rathovec). Then add "jacob" to CHECKED_BRANCHES.
+
+U4b notes: Curtis Mares's six children are printed under "…and Delores Johnson" but their own
+entries name Delores Englebrecht (his second wife), so they sit in the second-marriage family
+(allow-listed). Adopted children kept where printed, with notes (Curtis; Patricia and Jeanne
+Mares). No supplement section for pp. 36–40.
+
+U5a notes: Elizabeth's death 1965 (1985) vs 1968 (1986). "Step-son from second marriage (2)
+Rachel Wall" (Gary Allen) is a one-parent family of Rachel Wall; allow-listed. The 1872 marriage
+agreement and the 1935 obituary are excerpts on Jacob.
 
 U4a notes: all nine of John's children have records; `anna-kastl-1870` and `john-kastl-1883`
 carry `continues` until U4b builds their families (U4b removes it and adds "john" to

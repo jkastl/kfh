@@ -547,13 +547,6 @@
       "name": "Anna Kastl",
       "sex": "F",
       "branch": "john",
-      "continues": [
-        "s038",
-        "s039",
-        "s040",
-        "s041",
-        "s042"
-      ],
       "facts": [
         {
           "type": "birth",
@@ -562,39 +555,68 @@
             {
               "scan": "s030",
               "quote": "3. ANNA — (b) 26 July 1870, Bohemia, (d) 5 Jan. 1925, (m) Frank Mares—5 Nov. 1886."
+            },
+            {
+              "scan": "s038",
+              "quote": "ANNA KASTL (John, Thomas, John, John, Andreas) born 26 July 1870, in Bohemia"
             }
           ]
         },
         {
           "type": "immigration",
-          "value": "Aged 3, with her parents, arriving at Baltimore 14 August 1872",
+          "value": "Aged 3, with her parents, arriving at Baltimore 14 August 1872 on the S.S. Baltimore",
           "sources": [
             {
               "scan": "s030",
               "quote": "arriving at the Port of Baltimore on the 14th of August 1872, with four children, Wenzel 8, Barbara 6, Anna 3, and Josef 11 months."
+            },
+            {
+              "scan": "s038",
+              "quote": "came to the United States with her parents, arriving at the Port of Baltimore 14 August 1872 on the ship S.S. Baltimore. She was listed on the ship records as 3 yrs. old."
             }
           ]
         },
         {
           "type": "marriage",
-          "value": "Frank Mares, 5 November 1886",
+          "value": "Frank Mares, 5 November 1886, Plasi, Nebraska",
           "sources": [
             {
               "scan": "s030",
               "quote": "3. ANNA — (b) 26 July 1870, Bohemia, (d) 5 Jan. 1925, (m) Frank Mares—5 Nov. 1886."
+            },
+            {
+              "scan": "s038",
+              "quote": "She married Frank Mares 5 November 1886 at Plasi, Nebraska."
             }
           ]
         },
         {
           "type": "death",
-          "value": "5 January 1925",
+          "value": "5 January 1925, Butler County, Nebraska",
           "sources": [
             {
               "scan": "s030",
               "quote": "3. ANNA — (b) 26 July 1870, Bohemia, (d) 5 Jan. 1925, (m) Frank Mares—5 Nov. 1886."
+            },
+            {
+              "scan": "s038",
+              "quote": "Anna died 5 January 1925 in Butler County, Nebraska and was buried at Dwight."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Dwight",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "Anna died 5 January 1925 in Butler County, Nebraska and was buried at Dwight."
             }
           ]
         }
+      ],
+      "photos": [
+        "s038-ph1"
       ]
     },
     "joseph-kastl-1871": {
@@ -871,27 +893,32 @@
       "name": "John Kastl",
       "sex": "M",
       "branch": "john",
-      "continues": [
-        "s042"
-      ],
       "facts": [
         {
           "type": "birth",
-          "value": "12 May 1883",
+          "value": "12 May 1883, Saunders County, Nebraska",
           "sources": [
             {
               "scan": "s030",
               "quote": "9. JOHN — (b) 12 May 1883, (d) 22 Dec. 1948, (m) Frances Havlovic—20 Feb. 1906 (2) Aloise Pokorny."
+            },
+            {
+              "scan": "s042",
+              "quote": "JOHN KASTL (John, Thomas, John, John, Andreas) born 12 May 1883, Saunders County, Nebraska"
             }
           ]
         },
         {
           "type": "marriage",
-          "value": "Frances Havlovic, 20 February 1906",
+          "value": "Frances Havlovic, 20 February 1906, Plasi, Nebraska",
           "sources": [
             {
               "scan": "s030",
               "quote": "9. JOHN — (b) 12 May 1883, (d) 22 Dec. 1948, (m) Frances Havlovic—20 Feb. 1906 (2) Aloise Pokorny."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Frances Havlovic 20 February 1906 at Plasi, Nebraska."
             }
           ]
         },
@@ -902,6 +929,10 @@
             {
               "scan": "s030",
               "quote": "9. JOHN — (b) 12 May 1883, (d) 22 Dec. 1948, (m) Frances Havlovic—20 Feb. 1906 (2) Aloise Pokorny."
+            },
+            {
+              "scan": "s042",
+              "quote": "John married (2) Aloise Pokorny."
             }
           ]
         },
@@ -912,6 +943,20 @@
             {
               "scan": "s030",
               "quote": "9. JOHN — (b) 12 May 1883, (d) 22 Dec. 1948, (m) Frances Havlovic—20 Feb. 1906 (2) Aloise Pokorny."
+            },
+            {
+              "scan": "s042",
+              "quote": "died 22 December 1948 and was buried at Bee, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "died 22 December 1948 and was buried at Bee, Nebraska."
             }
           ]
         }
@@ -6009,6 +6054,4094 @@
           ]
         }
       ]
+    },
+    "frank-mares-1864": {
+      "name": "Frank Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 October 1864, Bezdekov, Bohemia",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "He was born 11 October 1864 at Bezdekov, Bohemia, son of Jacob Mares and Marie Franek, died 9 October 1935"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Jacob Mares and Marie Franek",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "son of Jacob Mares and Marie Franek"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "9 October 1935",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "He was born 11 October 1864 at Bezdekov, Bohemia, son of Jacob Mares and Marie Franek, died 9 October 1935"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "died 9 October 1935, and was buried at Dwight, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s038-ph1"
+      ]
+    },
+    "albert-john-mares-1887": {
+      "name": "Albert John Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Albert J. Mares",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "ALBERT J. MARES (Anna Kastl Mares, John) born 18 December 1887"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "18 December 1887, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. ALBERT JOHN — (b) 18 Dec. 1887. (d) 22 Oct. 1970. (m) Emma Lefler—23 June 1908."
+            },
+            {
+              "scan": "s038",
+              "quote": "ALBERT J. MARES (Anna Kastl Mares, John) born 18 December 1887, Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Emma Lefler, 23 June 1908",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. ALBERT JOHN — (b) 18 Dec. 1887. (d) 22 Oct. 1970. (m) Emma Lefler—23 June 1908."
+            },
+            {
+              "scan": "s038",
+              "quote": "He married Emma Lefler 23 June 1908."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "22 October 1970",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. ALBERT JOHN — (b) 18 Dec. 1887. (d) 22 Oct. 1970. (m) Emma Lefler—23 June 1908."
+            },
+            {
+              "scan": "s038",
+              "quote": "died 22 October 1970, and was buried at Seward, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "died 22 October 1970, and was buried at Seward, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s038-ph1"
+      ]
+    },
+    "frank-charles-mares-1889": {
+      "name": "Frank Charles Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Frank C. Mares",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "FRANK C. MARES (Anna Kastl Mares, John) born 7 August 1889"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "7 August 1889, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. FRANK CHARLES — (b) 7 Aug. 1889. (d) 16 June 1963. (m) Anna E. Soukup—29 Oct. 1912."
+            },
+            {
+              "scan": "s039",
+              "quote": "FRANK C. MARES (Anna Kastl Mares, John) born 7 August 1889, Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Anna E. Soukup, 29 October 1912, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. FRANK CHARLES — (b) 7 Aug. 1889. (d) 16 June 1963. (m) Anna E. Soukup—29 Oct. 1912."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Anna E. Soukup 29 October 1912 at Brainard, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "16 June 1963",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. FRANK CHARLES — (b) 7 Aug. 1889. (d) 16 June 1963. (m) Anna E. Soukup—29 Oct. 1912."
+            },
+            {
+              "scan": "s039",
+              "quote": "died 16 June 1963, and was buried at Dwight, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "died 16 June 1963, and was buried at Dwight, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s038-ph1"
+      ]
+    },
+    "barbara-frances-mares-1891": {
+      "name": "Barbara Frances Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Barbara F. Mares, Barbara Mares",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "BARBARA F. MARES (Anna Kastl Mares, John) born 9 June 1891"
+            },
+            {
+              "scan": "s040",
+              "quote": "daughter of Barbara Mares and Thomas Coufal."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "9 June 1891, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "3. BARBARA FRANCES — (b) 9 June 1891. (m) Thomas Coufal—21 Nov. 1911."
+            },
+            {
+              "scan": "s039",
+              "quote": "BARBARA F. MARES (Anna Kastl Mares, John) born 9 June 1891, Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Thomas W. Coufal, 21 November 1911, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "3. BARBARA FRANCES — (b) 9 June 1891. (m) Thomas Coufal—21 Nov. 1911."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married Thomas W. Coufal 21 November 1911 at Dwight, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s038-ph1"
+      ]
+    },
+    "james-samuel-mares-1893": {
+      "name": "James Samuel Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 November 1893",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "4. JAMES SAMUEL — (b) 15 Nov. 1893. (d) 27 June 1934."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "27 June 1934",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "4. JAMES SAMUEL — (b) 15 Nov. 1893. (d) 27 June 1934."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s038-ph1"
+      ]
+    },
+    "louis-emanuel-mares-1895": {
+      "name": "Louis Emanuel Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Louis E. Mares, Louis Mares",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "LOUIS E. MARES (Anna Kastl Mares, John) born 11 March 1895"
+            },
+            {
+              "scan": "s040",
+              "quote": "ELAINE F. MARES (Louis Mares, Anna Kastl Mares, John)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "11 March 1895, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "5. LOUIS EMANUEL — (b) 11 Mar. 1895. (d) 19 Dec. 1971. (m) Clara Hunsche—27 June 1923."
+            },
+            {
+              "scan": "s040",
+              "quote": "LOUIS E. MARES (Anna Kastl Mares, John) born 11 March 1895, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Clara Hunsche, 27 June 1923, Ulysses, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "5. LOUIS EMANUEL — (b) 11 Mar. 1895. (d) 19 Dec. 1971. (m) Clara Hunsche—27 June 1923."
+            },
+            {
+              "scan": "s040",
+              "quote": "He married Clara Hunsche 27 June 1923 at Ulysses, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "19 December 1971",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "5. LOUIS EMANUEL — (b) 11 Mar. 1895. (d) 19 Dec. 1971. (m) Clara Hunsche—27 June 1923."
+            },
+            {
+              "scan": "s040",
+              "quote": "died 19 December 1971 and was buried at Burwell, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Burwell, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "died 19 December 1971 and was buried at Burwell, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s038-ph1"
+      ]
+    },
+    "fred-john-mares-1897": {
+      "name": "Fred John Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Fred J. Mares",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "FRED J. MARES (Anna Kastl Mares, John) born 9 April 1897"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "9 April 1897, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "6. FRED JOHN — (b) 9 Apr. 1897. (d) 9 Feb. 1980. (m) Agnes M. Slosar—25 Nov. 1919."
+            },
+            {
+              "scan": "s041",
+              "quote": "FRED J. MARES (Anna Kastl Mares, John) born 9 April 1897, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Agnes M. Slosar, 25 November 1919",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "6. FRED JOHN — (b) 9 Apr. 1897. (d) 9 Feb. 1980. (m) Agnes M. Slosar—25 Nov. 1919."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Agnes J. Slosar 25 November 1919."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "9 February 1980",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "6. FRED JOHN — (b) 9 Apr. 1897. (d) 9 Feb. 1980. (m) Agnes M. Slosar—25 Nov. 1919."
+            },
+            {
+              "scan": "s041",
+              "quote": "died 9 February 1980, and was buried at Seward, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "died 9 February 1980, and was buried at Seward, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s038-ph1"
+      ]
+    },
+    "helen-anna-mares-1900": {
+      "name": "Helen Anna Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 May 1900",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "7. HELEN ANNA — (b) 20 May 1900. (m) John R. Liska—17 June 1919."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John R. Liska, 17 June 1919",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "7. HELEN ANNA — (b) 20 May 1900. (m) John R. Liska—17 June 1919."
+            }
+          ]
+        }
+      ]
+    },
+    "eleanor-marie-mares-1902": {
+      "name": "Eleanor Marie Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 March 1902",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "8. ELEANOR MARIE — (b) 17 Mar. 1902. (m) Edward Liska—27 Oct. 1919."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Edward Liska, 27 October 1919",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "8. ELEANOR MARIE — (b) 17 Mar. 1902. (m) Edward Liska—27 Oct. 1919."
+            }
+          ]
+        }
+      ]
+    },
+    "edward-lucas-mares-1908": {
+      "name": "Edward Lucas Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Edward L. Mares, Edward Mares",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "EDWARD L. MARES (Anna Kastl Mares, John) born 4 July 1908"
+            },
+            {
+              "scan": "s041",
+              "quote": "DENNIS E. MARES (Edward Mares, Anna Kastl Mares, John)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "4 July 1908, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "9. EDWARD LUCAS — (b) 4 July 1908. (d) 6 June 1975. (m) Agnes L. Moravec 21—Oct. 1929."
+            },
+            {
+              "scan": "s041",
+              "quote": "EDWARD L. MARES (Anna Kastl Mares, John) born 4 July 1908, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Agnes L. Moravec, 21 October 1929, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "9. EDWARD LUCAS — (b) 4 July 1908. (d) 6 June 1975. (m) Agnes L. Moravec 21—Oct. 1929."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Agnes L. Moravec 21 October 1929, Bee, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "6 June 1975",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "9. EDWARD LUCAS — (b) 4 July 1908. (d) 6 June 1975. (m) Agnes L. Moravec 21—Oct. 1929."
+            },
+            {
+              "scan": "s041",
+              "quote": "died 6 June 1975, and was buried at Dwight, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "died 6 June 1975, and was buried at Dwight, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-mares-1908": {
+      "name": "Mary Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 July 1908",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "10. MARY — (b) 4 July 1908. (Infant Death)"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "In infancy",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "10. MARY — (b) 4 July 1908. (Infant Death)"
+            }
+          ]
+        }
+      ]
+    },
+    "emma-lefler": {
+      "name": "Emma Lefler",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 October 1887",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "She was born 25 October 1887."
+            }
+          ]
+        }
+      ]
+    },
+    "lucille-e-mares-1909": {
+      "name": "Lucille E. Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Lucille Mares",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "The family of Lucille Mares and Bernard Pearson"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "5 February 1909, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. LUCILLE E. — (b) 5 Feb. 1909. (m) Bernard Pearson—10 Nov. 1940."
+            },
+            {
+              "scan": "s038",
+              "quote": "LUCILLE E. MARES (Albert J. Mares, Anna Kastl Mares, John) born 5 February 1909, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bernard Pearson, 10 November 1940",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. LUCILLE E. — (b) 5 Feb. 1909. (m) Bernard Pearson—10 Nov. 1940."
+            },
+            {
+              "scan": "s038",
+              "quote": "She married Bernard Pearson 10 November 1940."
+            }
+          ]
+        }
+      ]
+    },
+    "mildred-a-mares-1910": {
+      "name": "Mildred A. Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 August 1910",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. MILDRED A. — (b) 1 Aug. 1910. (d) 10 Feb. 1956. (m) C.L. Weimers-14 June 1937. (No Children)"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "C.L. Weimers, 14 June 1937",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. MILDRED A. — (b) 1 Aug. 1910. (d) 10 Feb. 1956. (m) C.L. Weimers-14 June 1937. (No Children)"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "10 February 1956",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. MILDRED A. — (b) 1 Aug. 1910. (d) 10 Feb. 1956. (m) C.L. Weimers-14 June 1937. (No Children)"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No children",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. MILDRED A. — (b) 1 Aug. 1910. (d) 10 Feb. 1956. (m) C.L. Weimers-14 June 1937. (No Children)"
+            }
+          ]
+        }
+      ]
+    },
+    "margaret-m-mares-1912": {
+      "name": "Margaret M. Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 August 1912, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "3. MARGARET M. — (b) 1 Aug. 1912. (m) Carl Fink—5 June 1937."
+            },
+            {
+              "scan": "s039",
+              "quote": "MARGARET M. MARES (Albert J. Mares, Anna Kastl Mares, John) born 1 August 1912, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Carl Fink, 5 June 1937",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "3. MARGARET M. — (b) 1 Aug. 1912. (m) Carl Fink—5 June 1937."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married Carl Fink 5 June 1937."
+            }
+          ]
+        }
+      ]
+    },
+    "ethel-l-mares-1918": {
+      "name": "Ethel L. Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 May 1918",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "4. ETHEL L. — (b) 22 May 1918. (d) 4 Jan. 1967. (m) Roger Drown—16 July 1942."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Roger Drown, 16 July 1942",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "4. ETHEL L. — (b) 22 May 1918. (d) 4 Jan. 1967. (m) Roger Drown—16 July 1942."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 January 1967",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "4. ETHEL L. — (b) 22 May 1918. (d) 4 Jan. 1967. (m) Roger Drown—16 July 1942."
+            }
+          ]
+        }
+      ]
+    },
+    "bernard-pearson": {
+      "name": "Bernard Pearson",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "merwyn-pearson-1947": {
+      "name": "Merwyn Pearson",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 February 1947, Platte County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. MERWYN — (b) 28 Feb. 1947—Platte Co., NE."
+            }
+          ]
+        }
+      ]
+    },
+    "joyce-pearson-1947": {
+      "name": "Joyce Pearson",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 February 1947, Platte County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. JOYCE — (b) 28 Feb. 1947—Platte Co., NE. (m) Merle Savage—22 May 1967."
+            },
+            {
+              "scan": "s038",
+              "quote": "JOYCE PEARSON (Lucille Mares Pearson, Albert J. Mares, Anna Kastl Mares, John) born 28 February 1947, Platte County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Merle Savage, 22 May 1967",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. JOYCE — (b) 28 Feb. 1947—Platte Co., NE. (m) Merle Savage—22 May 1967."
+            },
+            {
+              "scan": "s038",
+              "quote": "She married Merle Savage 22 May 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "merle-savage": {
+      "name": "Merle Savage",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "john-savage-1969": {
+      "name": "John Savage",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 October 1969, Douglas County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. JOHN — (b) 31 Oct. 1969—Douglas, Co., NE."
+            }
+          ]
+        }
+      ]
+    },
+    "james-savage-1974": {
+      "name": "James Savage",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 January 1974, Douglas County, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. JAMES — (b) 20 Jan. 1974—Douglas Co., NE."
+            }
+          ]
+        }
+      ]
+    },
+    "carl-fink": {
+      "name": "Carl Fink",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 August 1907",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "He was born 8 August 1907 and died 22 may 1981."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "22 May 1981",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "He was born 8 August 1907 and died 22 may 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "stanley-albert-fink-1938": {
+      "name": "Stanley Albert Fink",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Stanley A. Fink",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "STANLEY A. FINK (Margaret Mares Fink, Albert J. Mares, Anna Kastl Mares, John) born 29 October 1938"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "29 October 1938",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. STANLEY ALBERT — (b) 29 Oct. 1938. (m) Evelyn Cauwfield—27 Aug. 1966."
+            },
+            {
+              "scan": "s039",
+              "quote": "STANLEY A. FINK (Margaret Mares Fink, Albert J. Mares, Anna Kastl Mares, John) born 29 October 1938"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Evelyn Cauwfield, 27 August 1966",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. STANLEY ALBERT — (b) 29 Oct. 1938. (m) Evelyn Cauwfield—27 Aug. 1966."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Evelyn Cauwfield 27 August 1966."
+            }
+          ]
+        }
+      ]
+    },
+    "evelyn-cauwfield": {
+      "name": "Evelyn Cauwfield",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 January 1941",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "She was born 1 January 1941."
+            }
+          ]
+        }
+      ]
+    },
+    "douglas-alan-fink-1970": {
+      "name": "Douglas Alan Fink",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 October 1970",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. DOUGLAS ALAN — (b) 27 Oct. 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "bradley-evan-fink-1972": {
+      "name": "Bradley Evan Fink",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 September 1972",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. BRADLEY EVAN — (b) 6 Sept. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "anna-e-soukup": {
+      "name": "Anna E. Soukup",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Anna Soukup",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "son of Frank C. Mares and Anna Soukup."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "28 March 1893",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "She was born 28 March 1893 and died 27 July 1978, and was buried at Dwight."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "27 July 1978",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "She was born 28 March 1893 and died 27 July 1978, and was buried at Dwight."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Dwight",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "She was born 28 March 1893 and died 27 July 1978, and was buried at Dwight."
+            }
+          ]
+        }
+      ]
+    },
+    "raymond-mares-1915": {
+      "name": "Raymond Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "21 July 1915, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. RAYMOND — (b) 21 July 1915. (m) Martha Kozisek—2 Sept. 1947."
+            },
+            {
+              "scan": "s039",
+              "quote": "RAYMOND MARES (Frank C. Mares, Anna Kastl Mares, John) born 21 July 1915, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Martha Kozisek, 2 September 1947",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. RAYMOND — (b) 21 July 1915. (m) Martha Kozisek—2 Sept. 1947."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Martha Kozisek—2 September 1947."
+            }
+          ]
+        }
+      ]
+    },
+    "sylvia-mares-1918": {
+      "name": "Sylvia Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 September 1918, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. SYLVIA — (b) 10 Sept. 1918. (m) John B. Hotovy—10 Aug. 1942."
+            },
+            {
+              "scan": "s039",
+              "quote": "SYLVIA MARES (Frank C. Mares, Anna Kastl Mares, John) born 10 September 1918, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John B. Hotovy, 10 August 1942, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. SYLVIA — (b) 10 Sept. 1918. (m) John B. Hotovy—10 Aug. 1942."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married John B. Hottovy 10 August 1942 at Dwight, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "martha-kozisek": {
+      "name": "Martha Kozisek",
+      "sex": "F",
+      "branch": "john",
+      "facts": []
+    },
+    "patricia-mares-1948": {
+      "name": "Patricia Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 April 1948",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. PATRICIA — (b) 24 Apr. 1948. (m) Douglas Wiginton."
+            },
+            {
+              "scan": "s039",
+              "quote": "PATRICIA MARES (Raymond Mares, Frank C. Mares, Anna Kastl Mares, John) born 24 April 1948"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Douglas Wiginton",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. PATRICIA — (b) 24 Apr. 1948. (m) Douglas Wiginton."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married Douglas Wiginton."
+            }
+          ]
+        }
+      ]
+    },
+    "ronald-mares-1950": {
+      "name": "Ronald Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 June 1950",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. RONALD — (b) 4 June 1950."
+            }
+          ]
+        }
+      ]
+    },
+    "larry-mares-1952": {
+      "name": "Larry Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 May 1952",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "3. LARRY — (b) 24 May 1952."
+            }
+          ]
+        }
+      ]
+    },
+    "douglas-wiginton": {
+      "name": "Douglas Wiginton",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "chris-wiginton-1971": {
+      "name": "Chris Wiginton",
+      "sex": "U",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 August 1971",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. CHRIS — (b) 12 Aug. 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "chad-wiginton-1975": {
+      "name": "Chad Wiginton",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 July 1975",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. CHAD — (b) 4 July 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "kimberly-wiginton-1977": {
+      "name": "Kimberly Wiginton",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 February 1977",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "3. KIMBERLY — (b) 23 Feb. 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "john-b-hotovy": {
+      "name": "John B. Hotovy",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "John B. Hottovy",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "She married John B. Hottovy 10 August 1942 at Dwight, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "23 December 1917",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "He was born 23 December 1917, son of Cyril Hotovy and Julia Makes."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Cyril Hotovy and Julia Makes",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "son of Cyril Hotovy and Julia Makes"
+            }
+          ]
+        }
+      ]
+    },
+    "david-lee-hotovy-1943": {
+      "name": "David Lee Hotovy",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "David L. Hotovy",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "The family of David L. Hotovy and Diana Bohlen"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "28 November 1943",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. DAVID LEE — (b) 28 Nov. 1943. (m) Diane Bohlen—15 Aug. 1970."
+            },
+            {
+              "scan": "s039",
+              "quote": "DAVID LEE HOTOVY (Sylvia Mares Hotovy, Frank C. Mares, Anna Kastl Mares, John) born 28 November 1943"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Diana Bohlen, 15 August 1970",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. DAVID LEE — (b) 28 Nov. 1943. (m) Diane Bohlen—15 Aug. 1970."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Diana Bohlen 15 August 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "roger-jean-hotovy-1946": {
+      "name": "Roger Jean Hotovy",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Roger J. Hotovy",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "ROGER J. HOTOVY (Sylvia Mares Hotovy, Frank C. Mares, Anna Kastl Mares, John) born 11 August 1946"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "11 August 1946",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. ROGER JEAN — (b) 11 Aug. 1946. (m) Janelle Bruner—6 Apr. 1968."
+            },
+            {
+              "scan": "s039",
+              "quote": "ROGER J. HOTOVY (Sylvia Mares Hotovy, Frank C. Mares, Anna Kastl Mares, John) born 11 August 1946"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Janelle Bruner, 6 April 1968",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. ROGER JEAN — (b) 11 Aug. 1946. (m) Janelle Bruner—6 Apr. 1968."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Janelle Bruner 6 April 1968"
+            }
+          ]
+        }
+      ]
+    },
+    "alan-james-hotovy-1948": {
+      "name": "Alan James Hotovy",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 June 1948",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "3. ALAN JAMES — (b) 8 June 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "sharon-marie-hotovy-1951": {
+      "name": "Sharon Marie Hotovy",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Sharon M. Hotovy",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "SHARON M. Hotovy (Sylvia Mares Hotovy, Frank C. Mares, Anna Kastl Mares, John) born 14 October 1951"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "14 October 1951",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "4. SHARON MARIE — (b) 14 Oct. 1951. (m) Duane Swoboda—15 Dec. 1973."
+            },
+            {
+              "scan": "s039",
+              "quote": "SHARON M. Hotovy (Sylvia Mares Hotovy, Frank C. Mares, Anna Kastl Mares, John) born 14 October 1951"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Duane Swoboda, 15 December 1973",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "4. SHARON MARIE — (b) 14 Oct. 1951. (m) Duane Swoboda—15 Dec. 1973."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married Duane Swoboda 15 December 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "diana-bohlen": {
+      "name": "Diana Bohlen",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Diane Bohlen",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. DAVID LEE — (b) 28 Nov. 1943. (m) Diane Bohlen—15 Aug. 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "linda-sue-hotovy-1971": {
+      "name": "Linda Sue Hotovy",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 October 1971",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. LINDA SUE — (b) 5 Oct. 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "janelle-bruner": {
+      "name": "Janelle Bruner",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Daughter of John Bruner",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "He married Janelle Bruner 6 April 1968, daughter of John Bruner."
+            }
+          ]
+        }
+      ]
+    },
+    "brenda-ann-hotovy-1968": {
+      "name": "Brenda Ann Hotovy",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 August 1968",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. BRENDA ANN — (b) 2 Aug. 1968."
+            }
+          ]
+        }
+      ]
+    },
+    "laura-beth-hotovy-1969": {
+      "name": "Laura Beth Hotovy",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 June 1969",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. LAURA BETH — (b) 23 June 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "kelsi-hotovy-1980": {
+      "name": "Kelsi Hotovy",
+      "sex": "U",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 January 1980",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "3. KELSI — (b) 8 Jan. 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "kyle-roger-hotovy-1983": {
+      "name": "Kyle Roger Hotovy",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 April 1983",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "4. KYLE ROGER — (b) 15 Apr. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "duane-swoboda": {
+      "name": "Duane Swoboda",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Son of William C. Swoboda",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "He is the son of William C. Swoboda."
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-duane-swoboda-1976": {
+      "name": "Daniel Duane Swoboda",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 October 1976",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. DANIEL Duane — (b) 23 Oct. 1976."
+            }
+          ]
+        }
+      ]
+    },
+    "jeffrey-john-swoboda-1980": {
+      "name": "Jeffrey John Swoboda",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 May 1980",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. JEFFREY JOHN — (b) 10 May 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "kathleen-marie-swoboda-1984": {
+      "name": "Kathleen Marie Swoboda",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "21 December 1984",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "3. KATHLEEN MARIE — (b) 21 Dec. 1984."
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-w-coufal": {
+      "name": "Thomas W. Coufal",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Thomas Coufal",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "3. BARBARA FRANCES — (b) 9 June 1891. (m) Thomas Coufal—21 Nov. 1911."
+            },
+            {
+              "scan": "s040",
+              "quote": "daughter of Barbara Mares and Thomas Coufal."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "29 January 1887, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "He was born 29 January 1887, Butler County, Nebraska, the son of Hubert Coufal and Mary Dobesh, died 31 July 1971"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Hubert Coufal and Mary Dobesh",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "the son of Hubert Coufal and Mary Dobesh"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "31 July 1971",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "died 31 July 1971, and was buried at York, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "York, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "died 31 July 1971, and was buried at York, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "evelyn-coufal-1912": {
+      "name": "Evelyn Coufal",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 October 1912",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. EVELYN — (b) 20 Oct. 1912."
+            }
+          ]
+        }
+      ]
+    },
+    "edna-coufal-1916": {
+      "name": "Edna Coufal",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 March 1916, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. EDNA — (b) 5 Mar. 1916. (m) Edward Ryan—12 June 1948."
+            },
+            {
+              "scan": "s039",
+              "quote": "EDNA COUFAL (Barbara F. Mares Coufal, Anna Kastl Mares, John) born 5 March 1916, Dwight,"
+            },
+            {
+              "scan": "s040",
+              "quote": "Nebraska, daughter of Barbara Mares and Thomas Coufal."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Edward Ryan, 12 June 1948, Madison, Connecticut",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. EDNA — (b) 5 Mar. 1916. (m) Edward Ryan—12 June 1948."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Edward Ryan 12 June 1948 at Madison, Connecticut."
+            }
+          ]
+        }
+      ]
+    },
+    "edward-ryan": {
+      "name": "Edward Ryan",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 February 1919, Brooklyn, New York",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "He was born 20 February 1919 at Brooklyn, New York, son of Lorne M. Ryan and Valerie Britton."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Lorne M. Ryan and Valerie Britton",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "son of Lorne M. Ryan and Valerie Britton"
+            }
+          ]
+        }
+      ]
+    },
+    "cordelia-evelyn-ryan-1950": {
+      "name": "Cordelia Evelyn Ryan",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Cordelia E. Ryan",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "CORDELIA E. RYAN (Edna Coufal Ryan, Barbara Mares Coufal, Anna Kastl Mares, John) born 15 August 1950"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 August 1950, Washington, D.C.",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. CORDELIA EVELYN — (b) 15 Aug. 1950—Washington, D.C. (m) Daniel D. Garms—12 July 1975."
+            },
+            {
+              "scan": "s040",
+              "quote": "CORDELIA E. RYAN (Edna Coufal Ryan, Barbara Mares Coufal, Anna Kastl Mares, John) born 15 August 1950"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Daniel D. Garms, 12 July 1975, Chevy Chase, Maryland",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. CORDELIA EVELYN — (b) 15 Aug. 1950—Washington, D.C. (m) Daniel D. Garms—12 July 1975."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Daniel D. Garms 12 July 1975, Chevy Chase, Maryland."
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-d-garms": {
+      "name": "Daniel D. Garms",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "ryan-thomas-garms-1979": {
+      "name": "Ryan Thomas Garms",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 August 1979, Fairfax County, Virginia",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. RYAN THOMAS — (b) 27 Aug. 1979—Fairfax, Co., VA."
+            }
+          ]
+        }
+      ]
+    },
+    "clara-hunsche": {
+      "name": "Clara Hunsche",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 November 1901, Ulysses, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "She was born 13 November 1901, Ulysses, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "elaine-f-mares-1925": {
+      "name": "Elaine F. Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Elaine Mares",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "son of Elaine Mares and Warren Krause."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "18 December 1925, Uylsses, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. ELAINE F. — (b) 18 Dec. 1925. (m) Warren Krause 15 June 1944."
+            },
+            {
+              "scan": "s040",
+              "quote": "ELAINE F. MARES (Louis Mares, Anna Kastl Mares, John) born 18 December 1925, Uylsses, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Warren Krause, 15 June 1944",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. ELAINE F. — (b) 18 Dec. 1925. (m) Warren Krause 15 June 1944."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Wararen Krause 15 June 1944."
+            }
+          ]
+        }
+      ]
+    },
+    "curtis-delbert-mares-1927": {
+      "name": "Curtis Delbert Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Curtis D. Mares, Curtis Mares",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "CURTIS D. MARES (Louis Mares, Anna Kastl Mares, John) born 2 January 1927"
+            },
+            {
+              "scan": "s040",
+              "quote": "JANET KAY MARES (Curtis Mares, Louis Mares, Anna Kastl Mares, John)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "2 January 1927, Beatrice, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. CURTIS — (b) 2 Jan. 1927. (m) Delores Johnson (2) Delores Englebrecht."
+            },
+            {
+              "scan": "s040",
+              "quote": "CURTIS D. MARES (Louis Mares, Anna Kastl Mares, John) born 2 January 1927, Beatrice, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted in 1928, at the age of 1 year, 11 months, by Louis Mares and Clara Hunsche",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "Adopted in 1928, age of 1 year, 11 months by Louis Mares and Clara Hunsche."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Delores Johnson; divorced",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. CURTIS — (b) 2 Jan. 1927. (m) Delores Johnson (2) Delores Englebrecht."
+            },
+            {
+              "scan": "s040",
+              "quote": "He married Delores Johnson. Divorced."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Delores Englebrecht",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. CURTIS — (b) 2 Jan. 1927. (m) Delores Johnson (2) Delores Englebrecht."
+            },
+            {
+              "scan": "s040",
+              "quote": "Married (2) Delores Englebrecht."
+            }
+          ]
+        }
+      ]
+    },
+    "roy-mares-1937": {
+      "name": "Roy Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 October 1937, Ulysses, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "3. ROY — (b) 16 Oct. 1937. (m) Frances Spilnek—29 Sept. 1962."
+            },
+            {
+              "scan": "s041",
+              "quote": "ROY MARES (Louis Mares, Anna Kastl Mares, John) born 16 October 1937, Ulysses, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Frances Spilnek, 29 September 1962, Ord, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "3. ROY — (b) 16 Oct. 1937. (m) Frances Spilnek—29 Sept. 1962."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Frances Spilnek 29 September 1962, Ord, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "warren-krause": {
+      "name": "Warren Krause",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Wararen Krause",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "She married Wararen Krause 15 June 1944."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "7 May 1927, Cordova, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "He was born 7 May 1927, Cordova, Nebraska, son of Henry William Krause and Addie Eaton."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Henry William Krause and Addie Eaton",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "son of Henry William Krause and Addie Eaton"
+            }
+          ]
+        }
+      ]
+    },
+    "katherine-sue-krause-1947": {
+      "name": "Katherine Sue Krause",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 January 1947, Ord, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. KATHERINE SUE — (b) 12 Jan. 1947. (m) Philip A. Mann—25 June 1967."
+            },
+            {
+              "scan": "s040",
+              "quote": "KATHERINE SUE KRAUSE (Elaine Mares Krause, Louis Mares, Anna Kastl Mares, John) born 12 January 1947, Ord, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Philip Allan Mann, 25 June 1967, Burwell, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. KATHERINE SUE — (b) 12 Jan. 1947. (m) Philip A. Mann—25 June 1967."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Philip Allan Mann 25 June 1967 at Burwell, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "scott-louis-krause-1948": {
+      "name": "Scott Louis Krause",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Scott L. Krause",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "SCOTT L. KRAUSE (Elaine Mares Krause, Louis Mares, Anna Kastl Mares, John) born 28 October 1948"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "28 October 1948, Ord, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. SCOTT LOUIS — (b) 28 Oct. 1948. (m) Debra Kay Bunger—28 Nov. 1971."
+            },
+            {
+              "scan": "s040",
+              "quote": "SCOTT L. KRAUSE (Elaine Mares Krause, Louis Mares, Anna Kastl Mares, John) born 28 October 1948, Ord, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Debra Kay Bunger, 28 November 1971, Minden, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. SCOTT LOUIS — (b) 28 Oct. 1948. (m) Debra Kay Bunger—28 Nov. 1971."
+            },
+            {
+              "scan": "s040",
+              "quote": "He married Debra Kay Bunger 28 November 1971, Minden, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "philip-allan-mann": {
+      "name": "Philip Allan Mann",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Philip A. Mann",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. KATHERINE SUE — (b) 12 Jan. 1947. (m) Philip A. Mann—25 June 1967."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "16 June 1944, Ord, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "He was born 16 June 1944, Ord, Nebraska, son of Glen Mann and Stella Harpham."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Glen Mann and Stella Harpham",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "son of Glen Mann and Stella Harpham"
+            }
+          ]
+        }
+      ]
+    },
+    "garrett-glen-mann-1970": {
+      "name": "Garrett Glen Mann",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 March 1970, Plainview, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. GARRETT GLEN — (b) 12 Mar. 1970—Plainview, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "derek-warren-mann-1974": {
+      "name": "Derek Warren Mann",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 September 1974, O'Neil, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. DEREK WARREN — (b) 19 Sept. 1974—O'Neil, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "debra-kay-bunger": {
+      "name": "Debra Kay Bunger",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 August 1951, Minden, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "She was born 11 August 1951, Minden, Nebraska, daughter of Earl H. Bunger and Wilma Eileen."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Earl H. Bunger and Wilma Eileen",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "daughter of Earl H. Bunger and Wilma Eileen"
+            }
+          ]
+        }
+      ]
+    },
+    "jill-eileen-krause-1974": {
+      "name": "Jill Eileen Krause",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 June 1974, Burwell, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. JILL EILEEN — (b) 10 June 1974—Burwell, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-scott-krause-1978": {
+      "name": "Thomas Scott Krause",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "21 January 1978, Ord, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. THOMAS SCOTT — (b) 21 Jan. 1978—Ord, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "delores-johnson": {
+      "name": "Delores Johnson",
+      "sex": "F",
+      "branch": "john",
+      "facts": []
+    },
+    "delores-englebrecht": {
+      "name": "Delores Englebrecht",
+      "sex": "F",
+      "branch": "john",
+      "facts": []
+    },
+    "janet-kay-mares-1949": {
+      "name": "Janet Kay Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 February 1949, Spokane, Washington",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. JANET KAY — (b) 18 Feb. 1949. (m) Elden Adrian."
+            },
+            {
+              "scan": "s040",
+              "quote": "JANET KAY MARES (Curtis Mares, Louis Mares, Anna Kastl Mares, John) born 18 February 1949, Spokane, Washington"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Elden Adrian, 12 February 1966, Blythe, California",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. JANET KAY — (b) 18 Feb. 1949. (m) Elden Adrian."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Elden Adrian 12 February 1966, Blythe, California."
+            }
+          ]
+        }
+      ]
+    },
+    "vicki-lynn-mares-1950": {
+      "name": "Vicki Lynn Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 July 1950, Spokane, Washington",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. VICKI LYNN — (b) 20 July 1950. (m) Gary Dean Covel."
+            },
+            {
+              "scan": "s040",
+              "quote": "VICKI LYNN MARES (Curtis Mares, Louis Mares, Anna Kastl Mares, John) born 20 July 1950, Spokane, Washington"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Gary Dean Covel, Blythe, California (no date printed)",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. VICKI LYNN — (b) 20 July 1950. (m) Gary Dean Covel."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Gary Dean Covel at Blythe, California."
+            }
+          ]
+        }
+      ]
+    },
+    "patricia-ann-mares-1951": {
+      "name": "Patricia Ann Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 October 1951, Spokane, Washington",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "3. PATRICIA ANN — (b) 13 Oct. 1951. (m) Ralph Herron."
+            },
+            {
+              "scan": "s040",
+              "quote": "PATRICIA ANN MARES (Curtis Mares, Louis Mares, Anna Kastl Mares, John) born 13 October 1951, Spokane, Washington"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Ralph Herron, 10 June 1972, Blythe, California",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "3. PATRICIA ANN — (b) 13 Oct. 1951. (m) Ralph Herron."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Ralph Herron 10 June 1972 at Blythe, California."
+            }
+          ]
+        }
+      ]
+    },
+    "sandra-lee-mares-1952": {
+      "name": "Sandra Lee Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "7 October 1952",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "4. SANDRA LEE — (b) 7 Oct. 1952. (m) Barney Smith."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Barney Smith",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "4. SANDRA LEE — (b) 7 Oct. 1952. (m) Barney Smith."
+            }
+          ]
+        }
+      ]
+    },
+    "susan-marie-mares-1953": {
+      "name": "Susan Marie Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 December 1953, St. Paul, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "5. SUSAN MARIE — (b) 13 Dec. 1953. (m) Allen Daniel."
+            },
+            {
+              "scan": "s041",
+              "quote": "SUSAN MARIE MARES (Curtis Mares, Louis Mares, Anna Kastl Mares, John) born 13 December 1953, St. Paul, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Allen Daniel, 18 March 1972, Las Vegas, Nevada",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "5. SUSAN MARIE — (b) 13 Dec. 1953. (m) Allen Daniel."
+            },
+            {
+              "scan": "s041",
+              "quote": "She married Allen Daniel 18 March 1972 at Las Vegas, Nevada."
+            }
+          ]
+        }
+      ]
+    },
+    "delbert-donald-mares-1955": {
+      "name": "Delbert Donald Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 July 1955, Kokomo, California",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "6. DELBERT DONALD — (b) 8 July 1955. (m) Roxanna Lee Crawford."
+            },
+            {
+              "scan": "s041",
+              "quote": "DELBERT DONALD MARES (Curtis Mares, Louis Mares, Anna Kastl Mares, John) born 8 July 1955, Kokomo, California"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Roxanna Lee Crawford, 2 February 1974, Desert Hot Springs, California",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "6. DELBERT DONALD — (b) 8 July 1955. (m) Roxanna Lee Crawford."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Roxanna Lee Crawford 2 February 1974 at Desert Hot Springs, California."
+            }
+          ]
+        }
+      ]
+    },
+    "elden-adrian": {
+      "name": "Elden Adrian",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "julie-lynn-adrian-1966": {
+      "name": "Julie Lynn Adrian",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 October 1966",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. JULIE LYNN — (b) 5 Oct. 1966."
+            }
+          ]
+        }
+      ]
+    },
+    "kimberly-kay-adrian-1968": {
+      "name": "Kimberly Kay Adrian",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 December 1968",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. KIMBERLY KAY — (b) 22 Dec. 1968."
+            }
+          ]
+        }
+      ]
+    },
+    "gary-dean-covel": {
+      "name": "Gary Dean Covel",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "gary-allen-covel-1965": {
+      "name": "Gary Allen Covel",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 September 1965",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. GARY ALLEN — (b) 30 Sept. 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "cynthia-rachel-covel-1971": {
+      "name": "Cynthia Rachel Covel",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 December 1971",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. CYNTHIA RACHEL — (b) 22 Dec. 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "ralph-herron": {
+      "name": "Ralph Herron",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "sandra-herron-1977": {
+      "name": "Sandra Herron",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 August 1977",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. SANDRA — (b) 18 Aug. 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "allen-daniel": {
+      "name": "Allen Daniel",
+      "sex": "M",
+      "branch": "john",
+      "facts": []
+    },
+    "bettina-marie-daniel-1972": {
+      "name": "Bettina Marie Daniel",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 October 1972",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. BETTINA MARIE — (b) 2 Oct. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "roger-ray-daniel-1975": {
+      "name": "Roger Ray Daniel",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 December 1975",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. ROGER RAY — (b) 15 Dec. 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "roxanna-lee-crawford": {
+      "name": "Roxanna Lee Crawford",
+      "sex": "F",
+      "branch": "john",
+      "facts": []
+    },
+    "louis-delbert-mares-1977": {
+      "name": "Louis Delbert Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 January 1977",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. LOUIS DELBERT — (b) 10 Jan. 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-shawn-mares-1978": {
+      "name": "Michael Shawn Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 November 1978",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. MICHAEL SHAWN — (b) 17 Nov. 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "frances-spilnek": {
+      "name": "Frances Spilnek",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 August 1942",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She was born 25 August 1942."
+            }
+          ]
+        }
+      ]
+    },
+    "karen-marie-mares-1973": {
+      "name": "Karen Marie Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 December 1973",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. KAREN MARIE — (b) 16 Dec. 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "mark-emanuel-mares-1967": {
+      "name": "Mark Emanuel Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 January 1967",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. MARK EMANUEL — (b) 12 Jan. 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "cheryl-lynn-mares-1968": {
+      "name": "Cheryl Lynn Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 June 1968",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. CHERYL LYNN — (b) 4 June 1968."
+            }
+          ]
+        }
+      ]
+    },
+    "john-edward-mares-1974": {
+      "name": "John Edward Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 August 1974",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "4. JOHN EDWARD — (b) 17 Aug. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "agnes-m-slosar": {
+      "name": "Agnes M. Slosar",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Agnes J. Slosar",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "He married Agnes J. Slosar 25 November 1919."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "19 January 1898, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She was born 19 January 1898, Butler County, Nebraska, daughter of Michael Slosar and Anna Silhacek, died 27 January 1955"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Michael Slosar and Anna Silhacek",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "daughter of Michael Slosar and Anna Silhacek"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "27 January 1955",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "died 27 January 1955, and was buried at Seward."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Seward",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "died 27 January 1955, and was buried at Seward."
+            }
+          ]
+        }
+      ]
+    },
+    "fred-a-mares-1920": {
+      "name": "Fred A. Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 December 1920, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. FRED A. (b) 4 Dec. 1920. (m) Pauline Barney—26 July 1941."
+            },
+            {
+              "scan": "s041",
+              "quote": "FRED A. MARES (Fred J. Mares, Anna Kastl Mares, John) born 4 December 1920. Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Pauline L. Barney, 26 July 1941, Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. FRED A. (b) 4 Dec. 1920. (m) Pauline Barney—26 July 1941."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Pauline L. Barney 26 July 1941 at Seward, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "ernest-richard-mares-1923": {
+      "name": "Ernest Richard Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Ernest R. Mares",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. ERNEST R. (b) 4 May 1923. (m) Amy Brungardt."
+            },
+            {
+              "scan": "s041",
+              "quote": "The family of Ernest R. Mares and Amy Brungardt"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "4 May 1923, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. ERNEST R. (b) 4 May 1923. (m) Amy Brungardt."
+            },
+            {
+              "scan": "s041",
+              "quote": "ERNEST RICHARD MARES (Fred J. Mares, Anna Kastl Mares, John) born 4 May 1923, Butler County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Amy Elinor Brungardt, 29 October 1950, Hastings, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. ERNEST R. (b) 4 May 1923. (m) Amy Brungardt."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Amy Elinor Brungardt 29 October 1950 at Hastings, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted his wife's two daughters, Patricia and Jeanne, in Erie, Pennsylvania, September 1965",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "Their two daughters, Patricia and Jeanne, were adopted by Ernest Mares in Erie, Pennsylvania, September 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "pauline-l-barney": {
+      "name": "Pauline L. Barney",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Pauline Barney",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. FRED A. (b) 4 Dec. 1920. (m) Pauline Barney—26 July 1941."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "13 December 1920",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She was born 13 December 1920, daughter of Ralph Barney and Nora Ann Wilson."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Ralph Barney and Nora Ann Wilson",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "daughter of Ralph Barney and Nora Ann Wilson"
+            }
+          ]
+        }
+      ]
+    },
+    "fred-ralph-mares-1945": {
+      "name": "Fred Ralph Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 September 1945, Los Angeles, California",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. FRED RALPH (b) 27 Sept. 1945—Los Angeles, CA."
+            }
+          ]
+        }
+      ]
+    },
+    "steven-lee-mares-1948": {
+      "name": "Steven Lee Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Steven L. Mares",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "STEVEN L. MARES (Fred A. Mares, Fred J. Mares, Anna Kastl Mares, John) born 9 December 1948"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "9 December 1948, Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. STEVEN LEE (b) 9 Dec. 1948—Seward, NE. (m) Phyllis Leavy—26 May 1981."
+            },
+            {
+              "scan": "s041",
+              "quote": "STEVEN L. MARES (Fred A. Mares, Fred J. Mares, Anna Kastl Mares, John) born 9 December 1948, Seward, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Phyllis Leavy, 26 May 1981",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. STEVEN LEE (b) 9 Dec. 1948—Seward, NE. (m) Phyllis Leavy—26 May 1981."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Phyllis Leavy 26 May 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "kathleen-kay-mares-1954": {
+      "name": "Kathleen Kay Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 November 1954, Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. KATHLEEN KAY — (b) 16 Nov. 1954—Seward, NE. (m) Michael Stolhand—12 Mar. 1980."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Michael Stolhand, 12 March 1980",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. KATHLEEN KAY — (b) 16 Nov. 1954—Seward, NE. (m) Michael Stolhand—12 Mar. 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "phyllis-leavy": {
+      "name": "Phyllis Leavy",
+      "sex": "F",
+      "branch": "john",
+      "facts": []
+    },
+    "carrie-mares-1982": {
+      "name": "Carrie Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1982",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. CARRIE — (b) 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "amy-elinor-brungardt": {
+      "name": "Amy Elinor Brungardt",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Amy Brungardt",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. ERNEST R. (b) 4 May 1923. (m) Amy Brungardt."
+            },
+            {
+              "scan": "s041",
+              "quote": "The family of Ernest R. Mares and Amy Brungardt"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "22 March 1922, Hastings, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She was born 22 March 1922 at Hastings, Nebraska, daughter of Henry Robert Brungardt and Grace Pauline Klein."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Henry Robert Brungardt and Grace Pauline Klein",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "daughter of Henry Robert Brungardt and Grace Pauline Klein"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Captain Herbert G. Lierman, who died 13 December 1949 at Osaka, Japan; their two daughters were Patricia and Jeanne",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She married Captain Herbert G. Lierman. He died 13 December 1949 at Osaka, Japan. Their two daughters, Patricia and Jeanne, were adopted by Ernest Mares in Erie, Pennsylvania, September 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "patricia-louise-mares-1947": {
+      "name": "Patricia Louise Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 June 1947, Ft. Leavenworth, Kansas",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. PATRICIA LOUISE — (b) 8 June 1947—Ft. Leavenworth, KS. (m) Kenneth C. Miller—28 Nov. 1975."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Amy Brungardt and Captain Herbert G. Lierman; adopted, with her sister Jeanne, by Ernest Mares in Erie, Pennsylvania, September 1965",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She married Captain Herbert G. Lierman. He died 13 December 1949 at Osaka, Japan. Their two daughters, Patricia and Jeanne, were adopted by Ernest Mares in Erie, Pennsylvania, September 1965."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kenneth C. Miller, 28 November 1975",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. PATRICIA LOUISE — (b) 8 June 1947—Ft. Leavenworth, KS. (m) Kenneth C. Miller—28 Nov. 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "jeanne-elizabeth-mares-1949": {
+      "name": "Jeanne Elizabeth Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 March 1949, Offit AF Base, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. JEANNE ELIZABETH — (b) 25 Mar. 1949—Offit AF Base, NE. (m) John K. Kleene—2 Dec. 1972."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Amy Brungardt and Captain Herbert G. Lierman; adopted, with her sister Patricia, by Ernest Mares in Erie, Pennsylvania, September 1965",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She married Captain Herbert G. Lierman. He died 13 December 1949 at Osaka, Japan. Their two daughters, Patricia and Jeanne, were adopted by Ernest Mares in Erie, Pennsylvania, September 1965."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John K. Kleene, 2 December 1972",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. JEANNE ELIZABETH — (b) 25 Mar. 1949—Offit AF Base, NE. (m) John K. Kleene—2 Dec. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "deborah-marie-mares-1952": {
+      "name": "Deborah Marie Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 February 1952, Schenectady, New York",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. DEBORAH MARIE (b) 27 Feb. 1952—Schenectady, NY. (m) Vincent Randisi—15 July 1978."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Vincent Randisi, 15 July 1978",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. DEBORAH MARIE (b) 27 Feb. 1952—Schenectady, NY. (m) Vincent Randisi—15 July 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "laura-ellen-mares-1956": {
+      "name": "Laura Ellen Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 May 1956, Erie, Pennsylvania",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "4. LAURA ELLEN — (b) 16 May 1956—Erie, PA."
+            }
+          ]
+        }
+      ]
+    },
+    "brian-richard-mares-1958": {
+      "name": "Brian Richard Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 January 1958, Erie, Pennsylvania",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "5. BRIAN RICHARD — (b) 25 Jan. 1958—Erie, PA. (d) 27 Apr. 1983."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "27 April 1983",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "5. BRIAN RICHARD — (b) 25 Jan. 1958—Erie, PA. (d) 27 Apr. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "agnes-l-moravec": {
+      "name": "Agnes L. Moravec",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Agnes Moravec",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "son of Edward Mares and Agnes Moravec."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "19 April 1908, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She was born 19 April 1908, Bee, Nebraska, daughter of Joseph Moravec and Mary Melacek, died 24 November 1981"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Joseph Moravec and Mary Melacek",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "daughter of Joseph Moravec and Mary Melacek"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "24 November 1981",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "died 24 November 1981, and was buried at Dwight."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Dwight",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "died 24 November 1981, and was buried at Dwight."
+            }
+          ]
+        }
+      ]
+    },
+    "dennis-e-mares-1935": {
+      "name": "Dennis E. Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 September 1935, Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. DENNIS E. — (b) 13 Sept. 1935. (m) Rosemarie Berniklau—22 Apr. 1961."
+            },
+            {
+              "scan": "s041",
+              "quote": "DENNIS E. MARES (Edward Mares, Anna Kastl Mares, John) born 13 September 1935, Seward, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Rosemarie Berniklau, 22 April 1961, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. DENNIS E. — (b) 13 Sept. 1935. (m) Rosemarie Berniklau—22 Apr. 1961."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Rosemarie Berniklau 22 April 1961, Lincoln, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "marjorie-a-mares-1939": {
+      "name": "Marjorie A. Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 January 1939, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. MARJORIE A. — (b) 6 Jan. 1939. (m) Bernard Grossman—14 Aug. 1965."
+            },
+            {
+              "scan": "s042",
+              "quote": "MARJORIE A. MARES (Edward Mares, Anna Kastl Mares, John) born 6 January 1939, Dwight, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bernard Grossman, 14 August 1965, Littleton, Colorado",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. MARJORIE A. — (b) 6 Jan. 1939. (m) Bernard Grossman—14 Aug. 1965."
+            },
+            {
+              "scan": "s042",
+              "quote": "She married Bernard Grossman 14 August 1965, Littleton, Colorado."
+            }
+          ]
+        }
+      ]
+    },
+    "betty-jean-mares-1941": {
+      "name": "Betty Jean Mares",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Betty J. Mares",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "BETTY J. MARES (Edward Mares, Anna Kastl Mares, John) born 14 November 1941"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "14 November 1941, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. BETTY JEAN — (b) 14 Nov. 1941. (m) John R. Sedlak—5 May 1962."
+            },
+            {
+              "scan": "s042",
+              "quote": "BETTY J. MARES (Edward Mares, Anna Kastl Mares, John) born 14 November 1941, Dwight, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John R. Sedlak, 5 May 1962, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. BETTY JEAN — (b) 14 Nov. 1941. (m) John R. Sedlak—5 May 1962."
+            },
+            {
+              "scan": "s042",
+              "quote": "She married John R. Sedlak 5 May 1962, Dwight, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "rosemarie-berniklau": {
+      "name": "Rosemarie Berniklau",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 April 1940, Touhy, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "She was born 5 April 1940, Touhy, Nebraska, daughter of Vladimir Berniklau and Rosalie Sercl."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Vladimir Berniklau and Rosalie Sercl",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "daughter of Vladimir Berniklau and Rosalie Sercl"
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-e-mares-1966": {
+      "name": "Daniel E. Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 March 1966, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. DANIEL E. — (b) 14 Mar. 1966—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "donald-d-mares-1972": {
+      "name": "Donald D. Mares",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 September 1972, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. DONALD D. (b) 12 Sept. 1972—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "bernard-grossman": {
+      "name": "Bernard Grossman",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 April 1940, Omaha, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "He was born 14 April 1940, Omaha, Nebraska, son of Moe Grossman and Ethyl Stoller."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Moe Grossman and Ethyl Stoller",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "son of Moe Grossman and Ethyl Stoller"
+            }
+          ]
+        }
+      ]
+    },
+    "scott-m-grossman-1967": {
+      "name": "Scott M. Grossman",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 July 1967, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. SCOTT M. — (b) 27 July 1967—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "cynthia-m-grossman-1968": {
+      "name": "Cynthia M. Grossman",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 December 1968, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "2. CYNTHIA M. — (b) 12 Dec. 1968—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "debra-s-grossman-1970": {
+      "name": "Debra S. Grossman",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 May 1970, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "3. DEBRA S. — (b) 12 May 1970—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "edward-a-grossman-1976": {
+      "name": "Edward A. Grossman",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 January 1976, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "4. EDWARD A. — (b) 22 Jan. 1976—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "john-r-sedlak": {
+      "name": "John R. Sedlak",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 May 1941, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "He was born 15 May 1941, Bee, Nebraska, son of Ivan Sedlak and Katherine Krenk."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Ivan Sedlak and Katherine Krenk",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "son of Ivan Sedlak and Katherine Krenk"
+            }
+          ]
+        }
+      ]
+    },
+    "dale-j-sedlak-1964": {
+      "name": "Dale J. Sedlak",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 March 1964, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. DALE J. — (b) 11 Mar. 1964—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "david-l-sedlak-1966": {
+      "name": "David L. Sedlak",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 January 1966, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "2. DAVID L. — (b) 9 Jan. 1966—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "kenneth-m-sedlak-1967": {
+      "name": "Kenneth M. Sedlak",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 November 1967, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "3. KENNETH M. — (b) 19 Nov. 1967—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "james-r-sedlak-1969": {
+      "name": "James R. Sedlak",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 January 1969, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "4. JAMES R. — (b) 5 Jan. 1969—Lincoln, NE."
+            }
+          ]
+        }
+      ]
+    },
+    "frances-havlovic": {
+      "name": "Frances Havlovic",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 March 1887",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "She was born 9 March 1887, daughter of Andrew Havlovic and Frances Novak, died 28 November 1935"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Andrew Havlovic and Frances Novak",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "daughter of Andrew Havlovic and Frances Novak"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "28 November 1935",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "She was born 9 March 1887, daughter of Andrew Havlovic and Frances Novak, died 28 November 1935"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "died 28 November 1935, and was buried at Bee, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "edmund-kastl-1909": {
+      "name": "Edmund Kastl",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 March 1909, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. EDMUND — (b) 2 Mar. 1909. (m) Mary Coufal—11 June 1934."
+            },
+            {
+              "scan": "s042",
+              "quote": "EDMUND KASTL (John, John) born 2 March 1909, Bee, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mary Coufal, 11 June 1934",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. EDMUND — (b) 2 Mar. 1909. (m) Mary Coufal—11 June 1934."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Mary Coufal 11 June 1934."
+            }
+          ]
+        }
+      ]
+    },
+    "ernest-kastl-1914": {
+      "name": "Ernest Kastl",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 August 1914",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "2. ERNEST — (b) 24 Aug. 1914."
+            }
+          ]
+        }
+      ]
+    },
+    "bernard-kastl-1921": {
+      "name": "Bernard Kastl",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 May 1921, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "3. BERNARD — (b) 13 May 1921. (m) Arlene Moravec—17 June 1947."
+            },
+            {
+              "scan": "s042",
+              "quote": "BERNARD KASTL (John, John) born 13 May 1921, Bee, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Arlene Moravec, 17 June 1947, Ulysses, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "3. BERNARD — (b) 13 May 1921. (m) Arlene Moravec—17 June 1947."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Arlene Moravec 17 June 1947, Ulysses, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-coufal": {
+      "name": "Mary Coufal",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 December 1911",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "She was born 28 December 1911, daughter of Frank Coufal and Mary Bartek."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Frank Coufal and Mary Bartek",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "daughter of Frank Coufal and Mary Bartek"
+            }
+          ]
+        }
+      ]
+    },
+    "john-edmund-kastl-1936": {
+      "name": "John Edmund Kastl",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "John E. Kastl",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "JOHN E. KASTL (Edmund, John, John) born 22 January 1936"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "22 January 1936, Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. JOHN EDMUND — (b) 22 Jan. 1936. (m) Rose Marie Holmberg—19 June 1965."
+            },
+            {
+              "scan": "s042",
+              "quote": "JOHN E. KASTL (Edmund, John, John) born 22 January 1936, Seward, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Rose Marie Holmberg, 19 June 1965",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. JOHN EDMUND — (b) 22 Jan. 1936. (m) Rose Marie Holmberg—19 June 1965."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Rose Marie Holmberg 19 June 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "rose-marie-holmberg": {
+      "name": "Rose Marie Holmberg",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Rose M. Holmberg",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "The family of John E. Kastl and Rose M. Holmberg"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "2 September 1942",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "She was born 2 September 1942, daughter of Harry Holmberg and Helen Sharon."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Harry Holmberg and Helen Sharon",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "daughter of Harry Holmberg and Helen Sharon"
+            }
+          ]
+        }
+      ]
+    },
+    "john-andrew-kastl-1966": {
+      "name": "John Andrew Kastl",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 July 1966",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. JOHN ANDREW — (b) 20 July 1966."
+            }
+          ]
+        }
+      ]
+    },
+    "teresa-marie-kastl-1968": {
+      "name": "Teresa Marie Kastl",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 July 1968",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "2. TERESA MARIE — (b) 20 July 1968."
+            }
+          ]
+        }
+      ]
+    },
+    "arlene-moravec": {
+      "name": "Arlene Moravec",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 May 1928",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "She was born 11 May 1928, daughter of James Moravec and Caroline Rerucha."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of James Moravec and Caroline Rerucha",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "daughter of James Moravec and Caroline Rerucha"
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-kastl-1948": {
+      "name": "Barbara Kastl",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 May 1948",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. BARBARA — (b) 24 May 1948. (m) Ronald J. Sypal—3 May 1969."
+            },
+            {
+              "scan": "s042",
+              "quote": "BARBARA KASTL (Bernard, John, John) born 24 May 1948"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Ronald J. Sypal, 3 May 1969, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. BARBARA — (b) 24 May 1948. (m) Ronald J. Sypal—3 May 1969."
+            },
+            {
+              "scan": "s042",
+              "quote": "She married Ronald J. Sypal 3 May 1969 at Bee, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "ronald-j-sypal": {
+      "name": "Ronald J. Sypal",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 February 1947, David City, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "He was born 15 February 1947, David City, Nebraska, son of Valerian B. Sypal and Cecilia Nemec."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Valerian B. Sypal and Cecilia Nemec",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "son of Valerian B. Sypal and Cecilia Nemec"
+            }
+          ]
+        }
+      ]
+    },
+    "angela-marie-sypal-1970": {
+      "name": "Angela Marie Sypal",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 September 1970",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. ANGELA MARIE — (b) 4 Sept. 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "diana-catherine-sypal-1972": {
+      "name": "Diana Catherine Sypal",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 June 1972",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "2. DIANA CATHERINE — (b) 23 June 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "lora-beth-sypal-1974": {
+      "name": "Lora Beth Sypal",
+      "sex": "F",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 March 1974",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "3. LORA BETH — (b) 10 Mar. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "bryan-james-sypal-1977": {
+      "name": "Bryan James Sypal",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 June 1977",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "4. BRYAN JAMES — (b) 16 June 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "kevin-jerome-sypal-1979": {
+      "name": "Kevin Jerome Sypal",
+      "sex": "M",
+      "branch": "john",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 July 1979",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "5. KEVIN JEROME — (b) 20 July 1979."
+            }
+          ]
+        }
+      ]
     }
   },
   "families": [
@@ -7455,6 +11588,1242 @@
       ],
       "sources": [
         "s038"
+      ]
+    },
+    {
+      "id": "anna1870-frank",
+      "partners": [
+        "anna-kastl-1870",
+        "frank-mares-1864"
+      ],
+      "heading": "The family of Anna Kastl and Frank Mares",
+      "marriage": [
+        {
+          "value": "5 November 1886, Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "3. ANNA — (b) 26 July 1870, Bohemia, (d) 5 Jan. 1925, (m) Frank Mares—5 Nov. 1886."
+            },
+            {
+              "scan": "s038",
+              "quote": "She married Frank Mares 5 November 1886 at Plasi, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "albert-john-mares-1887",
+        "frank-charles-mares-1889",
+        "barbara-frances-mares-1891",
+        "james-samuel-mares-1893",
+        "louis-emanuel-mares-1895",
+        "fred-john-mares-1897",
+        "helen-anna-mares-1900",
+        "eleanor-marie-mares-1902",
+        "edward-lucas-mares-1908",
+        "mary-mares-1908"
+      ],
+      "note": "Frank Mares is printed as a son of Jacob Mares and Marie Franek, born at Bezdekov, Bohemia; the same parents and birthplace are printed for Albert Mares, the husband of Anna's sister Barbara (p. 31).",
+      "sources": [
+        "s030",
+        "s038"
+      ]
+    },
+    {
+      "id": "albert1887-emma",
+      "partners": [
+        "albert-john-mares-1887",
+        "emma-lefler"
+      ],
+      "heading": "The family of Albert J. Mares and Emma Lefler",
+      "marriage": [
+        {
+          "value": "23 June 1908",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. ALBERT JOHN — (b) 18 Dec. 1887. (d) 22 Oct. 1970. (m) Emma Lefler—23 June 1908."
+            },
+            {
+              "scan": "s038",
+              "quote": "He married Emma Lefler 23 June 1908."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "lucille-e-mares-1909",
+        "mildred-a-mares-1910",
+        "margaret-m-mares-1912",
+        "ethel-l-mares-1918"
+      ],
+      "sources": [
+        "s038"
+      ]
+    },
+    {
+      "id": "lucille1909-bernard",
+      "partners": [
+        "lucille-e-mares-1909",
+        "bernard-pearson"
+      ],
+      "heading": "The family of Lucille Mares and Bernard Pearson",
+      "marriage": [
+        {
+          "value": "10 November 1940",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "1. LUCILLE E. — (b) 5 Feb. 1909. (m) Bernard Pearson—10 Nov. 1940."
+            },
+            {
+              "scan": "s038",
+              "quote": "She married Bernard Pearson 10 November 1940."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "merwyn-pearson-1947",
+        "joyce-pearson-1947"
+      ],
+      "sources": [
+        "s038"
+      ]
+    },
+    {
+      "id": "joyce1947-merle",
+      "partners": [
+        "joyce-pearson-1947",
+        "merle-savage"
+      ],
+      "heading": "The family of Joyce Pearson and Merle Savage",
+      "marriage": [
+        {
+          "value": "22 May 1967",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. JOYCE — (b) 28 Feb. 1947—Platte Co., NE. (m) Merle Savage—22 May 1967."
+            },
+            {
+              "scan": "s038",
+              "quote": "She married Merle Savage 22 May 1967."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "john-savage-1969",
+        "james-savage-1974"
+      ],
+      "sources": [
+        "s038"
+      ]
+    },
+    {
+      "id": "margaret1912-carl",
+      "partners": [
+        "margaret-m-mares-1912",
+        "carl-fink"
+      ],
+      "heading": "The family of Margaret M. Mares and Carl Fink",
+      "marriage": [
+        {
+          "value": "5 June 1937",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "3. MARGARET M. — (b) 1 Aug. 1912. (m) Carl Fink—5 June 1937."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married Carl Fink 5 June 1937."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "stanley-albert-fink-1938"
+      ],
+      "sources": [
+        "s038",
+        "s039"
+      ]
+    },
+    {
+      "id": "stanley1938-evelyn",
+      "partners": [
+        "stanley-albert-fink-1938",
+        "evelyn-cauwfield"
+      ],
+      "heading": "The family of Stanley A. Fink and Evelyn Cauwfield",
+      "marriage": [
+        {
+          "value": "27 August 1966",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. STANLEY ALBERT — (b) 29 Oct. 1938. (m) Evelyn Cauwfield—27 Aug. 1966."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Evelyn Cauwfield 27 August 1966."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "douglas-alan-fink-1970",
+        "bradley-evan-fink-1972"
+      ],
+      "sources": [
+        "s039"
+      ]
+    },
+    {
+      "id": "frank1889-anna-soukup",
+      "partners": [
+        "frank-charles-mares-1889",
+        "anna-e-soukup"
+      ],
+      "heading": "The family of Frank C. Mares and Anna E. Soukup",
+      "marriage": [
+        {
+          "value": "29 October 1912, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "2. FRANK CHARLES — (b) 7 Aug. 1889. (d) 16 June 1963. (m) Anna E. Soukup—29 Oct. 1912."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Anna E. Soukup 29 October 1912 at Brainard, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "raymond-mares-1915",
+        "sylvia-mares-1918"
+      ],
+      "sources": [
+        "s038",
+        "s039"
+      ]
+    },
+    {
+      "id": "raymond1915-martha",
+      "partners": [
+        "raymond-mares-1915",
+        "martha-kozisek"
+      ],
+      "heading": "The family of Raymond Mares and Martha Kozisek",
+      "marriage": [
+        {
+          "value": "2 September 1947",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. RAYMOND — (b) 21 July 1915. (m) Martha Kozisek—2 Sept. 1947."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Martha Kozisek—2 September 1947."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "patricia-mares-1948",
+        "ronald-mares-1950",
+        "larry-mares-1952"
+      ],
+      "sources": [
+        "s039"
+      ]
+    },
+    {
+      "id": "patricia1948-douglas",
+      "partners": [
+        "patricia-mares-1948",
+        "douglas-wiginton"
+      ],
+      "heading": "The family of Patricia Mares and Douglas Wiginton",
+      "children": [
+        "chris-wiginton-1971",
+        "chad-wiginton-1975",
+        "kimberly-wiginton-1977"
+      ],
+      "sources": [
+        "s039"
+      ]
+    },
+    {
+      "id": "sylvia1918-john",
+      "partners": [
+        "sylvia-mares-1918",
+        "john-b-hotovy"
+      ],
+      "heading": "The family of Sylvia Mares and John B. Hotovy",
+      "marriage": [
+        {
+          "value": "10 August 1942, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. SYLVIA — (b) 10 Sept. 1918. (m) John B. Hotovy—10 Aug. 1942."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married John B. Hottovy 10 August 1942 at Dwight, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "david-lee-hotovy-1943",
+        "roger-jean-hotovy-1946",
+        "alan-james-hotovy-1948",
+        "sharon-marie-hotovy-1951"
+      ],
+      "sources": [
+        "s039"
+      ]
+    },
+    {
+      "id": "david1943-diana",
+      "partners": [
+        "david-lee-hotovy-1943",
+        "diana-bohlen"
+      ],
+      "heading": "The family of David L. Hotovy and Diana Bohlen",
+      "marriage": [
+        {
+          "value": "15 August 1970",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "1. DAVID LEE — (b) 28 Nov. 1943. (m) Diane Bohlen—15 Aug. 1970."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Diana Bohlen 15 August 1970."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "linda-sue-hotovy-1971"
+      ],
+      "sources": [
+        "s039"
+      ]
+    },
+    {
+      "id": "roger1946-janelle",
+      "partners": [
+        "roger-jean-hotovy-1946",
+        "janelle-bruner"
+      ],
+      "heading": "The family of Roger J. Hotovy and Janelle Bruner",
+      "marriage": [
+        {
+          "value": "6 April 1968",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. ROGER JEAN — (b) 11 Aug. 1946. (m) Janelle Bruner—6 Apr. 1968."
+            },
+            {
+              "scan": "s039",
+              "quote": "He married Janelle Bruner 6 April 1968"
+            }
+          ]
+        }
+      ],
+      "children": [
+        "brenda-ann-hotovy-1968",
+        "laura-beth-hotovy-1969",
+        "kelsi-hotovy-1980",
+        "kyle-roger-hotovy-1983"
+      ],
+      "sources": [
+        "s039"
+      ]
+    },
+    {
+      "id": "sharon1951-duane",
+      "partners": [
+        "sharon-marie-hotovy-1951",
+        "duane-swoboda"
+      ],
+      "heading": "The family of Sharon M. Hotovy and Duane Swoboda",
+      "marriage": [
+        {
+          "value": "15 December 1973",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "4. SHARON MARIE — (b) 14 Oct. 1951. (m) Duane Swoboda—15 Dec. 1973."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married Duane Swoboda 15 December 1973."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "daniel-duane-swoboda-1976",
+        "jeffrey-john-swoboda-1980",
+        "kathleen-marie-swoboda-1984"
+      ],
+      "sources": [
+        "s039"
+      ]
+    },
+    {
+      "id": "barbara1891-thomas",
+      "partners": [
+        "barbara-frances-mares-1891",
+        "thomas-w-coufal"
+      ],
+      "heading": "The family of Barbara F. Mares and Thomas W. Coufal",
+      "marriage": [
+        {
+          "value": "21 November 1911, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "3. BARBARA FRANCES — (b) 9 June 1891. (m) Thomas Coufal—21 Nov. 1911."
+            },
+            {
+              "scan": "s039",
+              "quote": "She married Thomas W. Coufal 21 November 1911 at Dwight, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "evelyn-coufal-1912",
+        "edna-coufal-1916"
+      ],
+      "sources": [
+        "s038",
+        "s039"
+      ]
+    },
+    {
+      "id": "edna1916-edward",
+      "partners": [
+        "edna-coufal-1916",
+        "edward-ryan"
+      ],
+      "heading": "The family of Edna Coufal and Edward Ryan",
+      "marriage": [
+        {
+          "value": "12 June 1948, Madison, Connecticut",
+          "sources": [
+            {
+              "scan": "s039",
+              "quote": "2. EDNA — (b) 5 Mar. 1916. (m) Edward Ryan—12 June 1948."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Edward Ryan 12 June 1948 at Madison, Connecticut."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "cordelia-evelyn-ryan-1950"
+      ],
+      "sources": [
+        "s039",
+        "s040"
+      ]
+    },
+    {
+      "id": "cordelia1950-daniel",
+      "partners": [
+        "cordelia-evelyn-ryan-1950",
+        "daniel-d-garms"
+      ],
+      "heading": "The family of Cordelia E. Ryan and Daniel D. Garms",
+      "marriage": [
+        {
+          "value": "12 July 1975, Chevy Chase, Maryland",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. CORDELIA EVELYN — (b) 15 Aug. 1950—Washington, D.C. (m) Daniel D. Garms—12 July 1975."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Daniel D. Garms 12 July 1975, Chevy Chase, Maryland."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "ryan-thomas-garms-1979"
+      ],
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "louis1895-clara",
+      "partners": [
+        "louis-emanuel-mares-1895",
+        "clara-hunsche"
+      ],
+      "heading": "The family of Louis E. Mares and Clara Hunsche",
+      "marriage": [
+        {
+          "value": "27 June 1923, Ulysses, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "5. LOUIS EMANUEL — (b) 11 Mar. 1895. (d) 19 Dec. 1971. (m) Clara Hunsche—27 June 1923."
+            },
+            {
+              "scan": "s040",
+              "quote": "He married Clara Hunsche 27 June 1923 at Ulysses, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "elaine-f-mares-1925",
+        "curtis-delbert-mares-1927",
+        "roy-mares-1937"
+      ],
+      "note": "Curtis was adopted in 1928, at the age of 1 year, 11 months (p. 38).",
+      "sources": [
+        "s038",
+        "s040"
+      ]
+    },
+    {
+      "id": "elaine1925-warren",
+      "partners": [
+        "elaine-f-mares-1925",
+        "warren-krause"
+      ],
+      "heading": "The family of Elaine F. Mares and Warren Krause",
+      "marriage": [
+        {
+          "value": "15 June 1944",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. ELAINE F. — (b) 18 Dec. 1925. (m) Warren Krause 15 June 1944."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Wararen Krause 15 June 1944."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "katherine-sue-krause-1947",
+        "scott-louis-krause-1948"
+      ],
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "katherine1947-philip",
+      "partners": [
+        "katherine-sue-krause-1947",
+        "philip-allan-mann"
+      ],
+      "heading": "The family of Katherine Sue Krause and Philip Allan Mann",
+      "marriage": [
+        {
+          "value": "25 June 1967, Burwell, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. KATHERINE SUE — (b) 12 Jan. 1947. (m) Philip A. Mann—25 June 1967."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Philip Allan Mann 25 June 1967 at Burwell, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "garrett-glen-mann-1970",
+        "derek-warren-mann-1974"
+      ],
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "scott1948-debra",
+      "partners": [
+        "scott-louis-krause-1948",
+        "debra-kay-bunger"
+      ],
+      "heading": "The family of Scott L. Krause and Debra Kay Bunger",
+      "marriage": [
+        {
+          "value": "28 November 1971, Minden, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. SCOTT LOUIS — (b) 28 Oct. 1948. (m) Debra Kay Bunger—28 Nov. 1971."
+            },
+            {
+              "scan": "s040",
+              "quote": "He married Debra Kay Bunger 28 November 1971, Minden, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jill-eileen-krause-1974",
+        "thomas-scott-krause-1978"
+      ],
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "curtis1927-delores-johnson",
+      "partners": [
+        "curtis-delbert-mares-1927",
+        "delores-johnson"
+      ],
+      "order": 1,
+      "heading": "The family of Curtis Delbert Mares and Delores Johnson",
+      "children": [],
+      "note": "The printed heading names Delores Johnson, Curtis's first wife; no marriage date is printed, and they divorced (\"He married Delores Johnson. Divorced. Married (2) Delores Englebrecht. Their children:\"). The six children listed under it are printed in their own entries as children of Curtis Mares and Delores Englebrecht, so they are in the second-marriage family, curtis1927-delores-englebrecht. No children of this marriage are printed.",
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "curtis1927-delores-englebrecht",
+      "partners": [
+        "curtis-delbert-mares-1927",
+        "delores-englebrecht"
+      ],
+      "order": 2,
+      "children": [
+        "janet-kay-mares-1949",
+        "vicki-lynn-mares-1950",
+        "patricia-ann-mares-1951",
+        "sandra-lee-mares-1952",
+        "susan-marie-mares-1953",
+        "delbert-donald-mares-1955"
+      ],
+      "note": "Listed under the heading \"The family of Curtis Delbert Mares and Delores Johnson\", after \"Married (2) Delores Englebrecht. Their children:\". The entries for Janet Kay, Vicki Lynn, Patricia Ann (p. 38), Susan Marie and Delbert Donald (p. 39) each call them a daughter or son \"of Curtis Mares and Delores Englebrecht\"; Sandra Lee has no entry of her own and is kept with her printed siblings.",
+      "sources": [
+        "s040",
+        "s041"
+      ]
+    },
+    {
+      "id": "janet1949-elden",
+      "partners": [
+        "janet-kay-mares-1949",
+        "elden-adrian"
+      ],
+      "heading": "The family of Janet Kay Mares and Elden Adrian",
+      "marriage": [
+        {
+          "value": "12 February 1966, Blythe, California",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "1. JANET KAY — (b) 18 Feb. 1949. (m) Elden Adrian."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Elden Adrian 12 February 1966, Blythe, California."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "julie-lynn-adrian-1966",
+        "kimberly-kay-adrian-1968"
+      ],
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "vicki1950-gary",
+      "partners": [
+        "vicki-lynn-mares-1950",
+        "gary-dean-covel"
+      ],
+      "heading": "The family of Vicki Lynn Mares and Gary Dean Covel",
+      "marriage": [
+        {
+          "value": "Blythe, California (no date printed)",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "2. VICKI LYNN — (b) 20 July 1950. (m) Gary Dean Covel."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Gary Dean Covel at Blythe, California."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "gary-allen-covel-1965",
+        "cynthia-rachel-covel-1971"
+      ],
+      "note": "Gary Allen's birth year, 1965, is as printed; his mother Vicki Lynn is printed as born 20 July 1950.",
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "patricia1951-ralph",
+      "partners": [
+        "patricia-ann-mares-1951",
+        "ralph-herron"
+      ],
+      "heading": "The family of Patricia Ann Mares and Ralph Herron",
+      "marriage": [
+        {
+          "value": "10 June 1972, Blythe, California",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "3. PATRICIA ANN — (b) 13 Oct. 1951. (m) Ralph Herron."
+            },
+            {
+              "scan": "s040",
+              "quote": "She married Ralph Herron 10 June 1972 at Blythe, California."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "sandra-herron-1977"
+      ],
+      "sources": [
+        "s040"
+      ]
+    },
+    {
+      "id": "susan1953-allen",
+      "partners": [
+        "susan-marie-mares-1953",
+        "allen-daniel"
+      ],
+      "heading": "The family of Susan Marie Mares and Allen Daniel",
+      "marriage": [
+        {
+          "value": "18 March 1972, Las Vegas, Nevada",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "5. SUSAN MARIE — (b) 13 Dec. 1953. (m) Allen Daniel."
+            },
+            {
+              "scan": "s041",
+              "quote": "She married Allen Daniel 18 March 1972 at Las Vegas, Nevada."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "bettina-marie-daniel-1972",
+        "roger-ray-daniel-1975"
+      ],
+      "sources": [
+        "s040",
+        "s041"
+      ]
+    },
+    {
+      "id": "delbert1955-roxanna",
+      "partners": [
+        "delbert-donald-mares-1955",
+        "roxanna-lee-crawford"
+      ],
+      "heading": "The family of Delbert Donald Mares and Roxanna Lee Crawford",
+      "marriage": [
+        {
+          "value": "2 February 1974, Desert Hot Springs, California",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "6. DELBERT DONALD — (b) 8 July 1955. (m) Roxanna Lee Crawford."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Roxanna Lee Crawford 2 February 1974 at Desert Hot Springs, California."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "louis-delbert-mares-1977",
+        "michael-shawn-mares-1978"
+      ],
+      "sources": [
+        "s040",
+        "s041"
+      ]
+    },
+    {
+      "id": "roy1937-frances",
+      "partners": [
+        "roy-mares-1937",
+        "frances-spilnek"
+      ],
+      "heading": "The family of Roy Mares and Frances Spilnek",
+      "marriage": [
+        {
+          "value": "29 September 1962, Ord, Nebraska",
+          "sources": [
+            {
+              "scan": "s040",
+              "quote": "3. ROY — (b) 16 Oct. 1937. (m) Frances Spilnek—29 Sept. 1962."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Frances Spilnek 29 September 1962, Ord, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "karen-marie-mares-1973",
+        "mark-emanuel-mares-1967",
+        "cheryl-lynn-mares-1968",
+        "john-edward-mares-1974"
+      ],
+      "note": "Children in printed order, which is not birth order: Karen Marie (16 Dec. 1973) is numbered first, before Mark Emanuel (1967) and Cheryl Lynn (1968), and eight months before John Edward (17 Aug. 1974). The dates are as printed.",
+      "sources": [
+        "s040",
+        "s041"
+      ]
+    },
+    {
+      "id": "fred1897-agnes",
+      "partners": [
+        "fred-john-mares-1897",
+        "agnes-m-slosar"
+      ],
+      "heading": "The family of Fred J. Mares and Agnes M. Slosar",
+      "marriage": [
+        {
+          "value": "25 November 1919",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "6. FRED JOHN — (b) 9 Apr. 1897. (d) 9 Feb. 1980. (m) Agnes M. Slosar—25 Nov. 1919."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Agnes J. Slosar 25 November 1919."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "fred-a-mares-1920",
+        "ernest-richard-mares-1923"
+      ],
+      "note": "The wife is printed \"Agnes M. Slosar\" in the heading, in her husband's child line and in her son Fred A.'s and Ernest's entries, but \"Agnes J. Slosar\" in the sentence giving the marriage.",
+      "sources": [
+        "s038",
+        "s041"
+      ]
+    },
+    {
+      "id": "fred1920-pauline",
+      "partners": [
+        "fred-a-mares-1920",
+        "pauline-l-barney"
+      ],
+      "heading": "The family of Fred A. Mares and Pauline L. Barney",
+      "marriage": [
+        {
+          "value": "26 July 1941, Seward, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. FRED A. (b) 4 Dec. 1920. (m) Pauline Barney—26 July 1941."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Pauline L. Barney 26 July 1941 at Seward, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "fred-ralph-mares-1945",
+        "steven-lee-mares-1948",
+        "kathleen-kay-mares-1954"
+      ],
+      "sources": [
+        "s041"
+      ]
+    },
+    {
+      "id": "steven1948-phyllis",
+      "partners": [
+        "steven-lee-mares-1948",
+        "phyllis-leavy"
+      ],
+      "heading": "The family of Steven L. Mares and Phyllis Leavy",
+      "marriage": [
+        {
+          "value": "26 May 1981",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. STEVEN LEE (b) 9 Dec. 1948—Seward, NE. (m) Phyllis Leavy—26 May 1981."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Phyllis Leavy 26 May 1981."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "carrie-mares-1982"
+      ],
+      "sources": [
+        "s041"
+      ]
+    },
+    {
+      "id": "ernest1923-amy",
+      "partners": [
+        "ernest-richard-mares-1923",
+        "amy-elinor-brungardt"
+      ],
+      "heading": "The family of Ernest R. Mares and Amy Brungardt",
+      "marriage": [
+        {
+          "value": "29 October 1950, Hastings, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. ERNEST R. (b) 4 May 1923. (m) Amy Brungardt."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Amy Elinor Brungardt 29 October 1950 at Hastings, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "patricia-louise-mares-1947",
+        "jeanne-elizabeth-mares-1949",
+        "deborah-marie-mares-1952",
+        "laura-ellen-mares-1956",
+        "brian-richard-mares-1958"
+      ],
+      "note": "Patricia Louise (b. 1947) and Jeanne Elizabeth (b. 1949) were Amy's daughters by her first husband, Captain Herbert G. Lierman (d. 13 December 1949, Osaka, Japan), and were adopted by Ernest Mares in Erie, Pennsylvania, September 1965. The book lists all five under \"Their children\", so they are kept in this family; their birth surname is not printed.",
+      "sources": [
+        "s041"
+      ]
+    },
+    {
+      "id": "edward1908-agnes",
+      "partners": [
+        "edward-lucas-mares-1908",
+        "agnes-l-moravec"
+      ],
+      "heading": "The family of Edward L. Mares and Agnes L. Moravec",
+      "marriage": [
+        {
+          "value": "21 October 1929, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s038",
+              "quote": "9. EDWARD LUCAS — (b) 4 July 1908. (d) 6 June 1975. (m) Agnes L. Moravec 21—Oct. 1929."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Agnes L. Moravec 21 October 1929, Bee, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "dennis-e-mares-1935",
+        "marjorie-a-mares-1939",
+        "betty-jean-mares-1941"
+      ],
+      "sources": [
+        "s038",
+        "s041"
+      ]
+    },
+    {
+      "id": "dennis1935-rosemarie",
+      "partners": [
+        "dennis-e-mares-1935",
+        "rosemarie-berniklau"
+      ],
+      "heading": "The family of Dennis E. Mares and Rosemarie Berniklau",
+      "marriage": [
+        {
+          "value": "22 April 1961, Lincoln, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "1. DENNIS E. — (b) 13 Sept. 1935. (m) Rosemarie Berniklau—22 Apr. 1961."
+            },
+            {
+              "scan": "s041",
+              "quote": "He married Rosemarie Berniklau 22 April 1961, Lincoln, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "daniel-e-mares-1966",
+        "donald-d-mares-1972"
+      ],
+      "sources": [
+        "s041"
+      ]
+    },
+    {
+      "id": "marjorie1939-bernard",
+      "partners": [
+        "marjorie-a-mares-1939",
+        "bernard-grossman"
+      ],
+      "heading": "The family of Marjorie A. Mares and Bernard Grossman",
+      "marriage": [
+        {
+          "value": "14 August 1965, Littleton, Colorado",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "2. MARJORIE A. — (b) 6 Jan. 1939. (m) Bernard Grossman—14 Aug. 1965."
+            },
+            {
+              "scan": "s042",
+              "quote": "She married Bernard Grossman 14 August 1965, Littleton, Colorado."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "scott-m-grossman-1967",
+        "cynthia-m-grossman-1968",
+        "debra-s-grossman-1970",
+        "edward-a-grossman-1976"
+      ],
+      "sources": [
+        "s041",
+        "s042"
+      ]
+    },
+    {
+      "id": "betty1941-john",
+      "partners": [
+        "betty-jean-mares-1941",
+        "john-r-sedlak"
+      ],
+      "heading": "The family of Betty J. Mares and John R. Sedlak",
+      "marriage": [
+        {
+          "value": "5 May 1962, Dwight, Nebraska",
+          "sources": [
+            {
+              "scan": "s041",
+              "quote": "3. BETTY JEAN — (b) 14 Nov. 1941. (m) John R. Sedlak—5 May 1962."
+            },
+            {
+              "scan": "s042",
+              "quote": "She married John R. Sedlak 5 May 1962, Dwight, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "dale-j-sedlak-1964",
+        "david-l-sedlak-1966",
+        "kenneth-m-sedlak-1967",
+        "james-r-sedlak-1969"
+      ],
+      "sources": [
+        "s041",
+        "s042"
+      ]
+    },
+    {
+      "id": "john1883-frances",
+      "partners": [
+        "john-kastl-1883",
+        "frances-havlovic"
+      ],
+      "heading": "The family of John Kastl and Frances Havlovic",
+      "marriage": [
+        {
+          "value": "20 February 1906, Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "9. JOHN — (b) 12 May 1883, (d) 22 Dec. 1948, (m) Frances Havlovic—20 Feb. 1906 (2) Aloise Pokorny."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Frances Havlovic 20 February 1906 at Plasi, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "edmund-kastl-1909",
+        "ernest-kastl-1914",
+        "bernard-kastl-1921"
+      ],
+      "note": "John married (2) Aloise Pokorny (no date printed); no children of that marriage are listed. The book prints John's lineage as \"(John, Thomas, John, John, Andreas)\" and his sons' as \"(John, John)\".",
+      "sources": [
+        "s030",
+        "s042"
+      ]
+    },
+    {
+      "id": "edmund1909-mary",
+      "partners": [
+        "edmund-kastl-1909",
+        "mary-coufal"
+      ],
+      "heading": "The family of Edmund Kastl and Mary Coufal",
+      "marriage": [
+        {
+          "value": "11 June 1934",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. EDMUND — (b) 2 Mar. 1909. (m) Mary Coufal—11 June 1934."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Mary Coufal 11 June 1934."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "john-edmund-kastl-1936"
+      ],
+      "sources": [
+        "s042"
+      ]
+    },
+    {
+      "id": "john1936-rose",
+      "partners": [
+        "john-edmund-kastl-1936",
+        "rose-marie-holmberg"
+      ],
+      "heading": "The family of John E. Kastl and Rose M. Holmberg",
+      "marriage": [
+        {
+          "value": "19 June 1965",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. JOHN EDMUND — (b) 22 Jan. 1936. (m) Rose Marie Holmberg—19 June 1965."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Rose Marie Holmberg 19 June 1965."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "john-andrew-kastl-1966",
+        "teresa-marie-kastl-1968"
+      ],
+      "sources": [
+        "s042"
+      ]
+    },
+    {
+      "id": "bernard1921-arlene",
+      "partners": [
+        "bernard-kastl-1921",
+        "arlene-moravec"
+      ],
+      "heading": "The family of Bernard Kastl and Arlene Moravec",
+      "marriage": [
+        {
+          "value": "17 June 1947, Ulysses, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "3. BERNARD — (b) 13 May 1921. (m) Arlene Moravec—17 June 1947."
+            },
+            {
+              "scan": "s042",
+              "quote": "He married Arlene Moravec 17 June 1947, Ulysses, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "barbara-kastl-1948"
+      ],
+      "sources": [
+        "s042"
+      ]
+    },
+    {
+      "id": "barbara1948-ronald",
+      "partners": [
+        "barbara-kastl-1948",
+        "ronald-j-sypal"
+      ],
+      "heading": "The family of Barbara Kastl and Ronald J. Sypal",
+      "marriage": [
+        {
+          "value": "3 May 1969, Bee, Nebraska",
+          "sources": [
+            {
+              "scan": "s042",
+              "quote": "1. BARBARA — (b) 24 May 1948. (m) Ronald J. Sypal—3 May 1969."
+            },
+            {
+              "scan": "s042",
+              "quote": "She married Ronald J. Sypal 3 May 1969 at Bee, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "angela-marie-sypal-1970",
+        "diana-catherine-sypal-1972",
+        "lora-beth-sypal-1974",
+        "bryan-james-sypal-1977",
+        "kevin-jerome-sypal-1979"
+      ],
+      "sources": [
+        "s042"
       ]
     }
   ]
