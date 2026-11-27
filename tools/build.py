@@ -575,7 +575,7 @@ def src_link(scan, pages_by_scan, prefix, quote=None):
     return f'<a class="src" href="{href}"{t}>{esc(label)}</a>'
 
 
-OWNER_LABEL = "Added by the site owner · not in the book"
+OWNER_LABEL = "Unsourced"
 
 
 def sources_block(sources, pages_by_scan, prefix):
@@ -692,7 +692,7 @@ def build_person(tree, pid, pages_by_scan):
     if p.get("uncertain"):
         bits.append("existence unconfirmed")
     if p.get("owner_added"):
-        bits.append("not in the book")
+        bits.append("unsourced")
     parts.append(f'<p class="kicker">{" · ".join(bits)}</p>')
     parts.append(f'<h1>{esc(p["name"])}</h1>')
     yrs = tree.years(pid)
@@ -729,10 +729,8 @@ def build_person(tree, pid, pages_by_scan):
             rows.append(
                 f'<tr{DIFFERS_ROW if differs else ""}><th scope="row">{label}{flag}</th>'
                 f'<td><span class="fact">{inline(f["value"])}</span>{sources_block(f["sources"], pages_by_scan, prefix)}</td></tr>')
-    facts_h = "Added by the site owner" if p.get("owner_added") else "What the book records"
-    owner_note = ('<p class="notice">Not in <cite>Kastl Family History</cite> (1985) or its 1986 supplement. '
-                  'The site owner added this person.</p>') if p.get("owner_added") else ""
-    body_cols.append(f'<section class="facts" aria-labelledby="facts-h"><h2 id="facts-h">{facts_h}</h2>{owner_note}'
+    facts_h = "Unsourced" if p.get("owner_added") else "What the book records"
+    body_cols.append(f'<section class="facts" aria-labelledby="facts-h"><h2 id="facts-h">{facts_h}</h2>'
                      f'<table class="fact-table"><tbody>{"".join(rows)}</tbody></table></section>')
 
     # family
@@ -1003,8 +1001,7 @@ def build_about(tree):
     n_people = len(tree.people)
     n_owner = sum(1 for p in tree.people.values() if p.get("owner_added"))
     owner_line = (f'<p>The only exception: {"one person" if n_owner == 1 else f"{n_owner} people"} born after the supplement, '
-                  f'added by the site owner and marked “Added by the site owner” on '
-                  f'{"their page" if n_owner == 1 else "their pages"}.</p>') if n_owner else ""
+                  f'added by the site owner and marked “Unsourced”.</p>') if n_owner else ""
     body = f"""<article class="wrap prose">
 <p class="kicker">About</p>
 <h1>About this site</h1>
@@ -1033,7 +1030,7 @@ def build_about(tree):
 <li><strong>Spellings are the book’s own.</strong> The authors wrote that “no attempt has been made to standardize the spelling of names”: Josef and Joseph, Jan and John, Marsalek and Marselek all appear. Typing slips are kept too, marked <span class="sic">[sic]</span> where they might look like transcription errors.</li>
 <li><strong>When the book disagrees with itself</strong>, every version is shown with its source, marked “The sources differ”. The 1986 Supplement often corrects the 1985 pages; both readings are kept.</li>
 <li><span class="unsure">[?]</span> marks a reading that the scan does not make certain.</li>
-<li>Nothing has been added from outside the book, except the few entries marked “Added by the site owner”.</li>
+<li>Nothing has been added from outside the book, except the few entries marked “Unsourced”.</li>
 </ul>
 
 <h2>The book’s own words</h2>
