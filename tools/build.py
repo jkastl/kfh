@@ -448,7 +448,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "7"
+CSS_VERSION = "8"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -1036,7 +1036,7 @@ def build_search(tree, pages):
 <p class="muted" id="search-status" aria-live="polite"></p>
 <div id="results"></div>
 </div>
-<script src="{prefix}assets/js/search.js" defer></script>"""
+<script src="{prefix}assets/js/search.js?v={CSS_VERSION}" defer></script>"""
     write("search/index.html", layout(prefix, "Search", body,
                                       description="Search the transcribed text of Kastl Family History.",
                                       path="search/", noindex=True))
@@ -1119,7 +1119,7 @@ def build_people_index(tree, pages_by_scan):
 </table>
 </div>
 </div>
-<script src="{prefix}assets/js/table.js" defer></script>"""
+<script src="{prefix}assets/js/table.js?v={CSS_VERSION}" defer></script>"""
     write("people/index.html", layout(prefix, "People", body,
                                       description="Everyone recorded so far from Kastl Family History, in a filterable, sortable table.",
                                       path="people/", active="people"))
@@ -1155,7 +1155,7 @@ def build_tree(tree):
   <button class="btn ghost small" type="button" data-act="expand">Open everything</button>
   <button class="btn ghost small" type="button" data-act="fit">Fit to screen</button>
   <span class="zoom"><button class="btn ghost small" type="button" data-act="in" aria-label="Zoom in">+</button><button class="btn ghost small" type="button" data-act="out" aria-label="Zoom out">−</button></span>
-  <label class="tree-find">Find <input type="search" id="tree-find" list="tree-names" placeholder="Name…" autocomplete="off"></label>
+  <form class="tree-find" role="search" action="#"><label for="tree-find">Find</label> <input type="search" id="tree-find" list="tree-names" placeholder="Name…" autocomplete="off" enterkeyhint="search"></form>
   <datalist id="tree-names"></datalist>
 </div>
 <div class="tree-wrap" id="tree-wrap">
@@ -1163,7 +1163,7 @@ def build_tree(tree):
 </div>
 <p class="muted tree-legend"><span class="lg lg-founder"></span> one of the seven brothers (or half-sister Anna) · dashed line: child of a second marriage · <span class="lg lg-more">+3</span> children not shown yet. Only Josef Kastl’s branch is built out so far; the <a href="../people/index.html">table</a> has the same people as text.</p>
 </div>
-<script src="{prefix}assets/js/tree.js" defer></script>"""
+<script src="{prefix}assets/js/tree.js?v={CSS_VERSION}" defer></script>"""
     write("tree/index.html", layout(prefix, "Family tree", body,
                                     description="Interactive family tree of the Kastl family: Andreas Kastl, Thomas Kastl, the seven brothers and their descendants.",
                                     path="tree/", active="tree"))

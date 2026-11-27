@@ -218,12 +218,34 @@
     else if (act === "brothers") { defaults(); focusId = null; render(); home(); }
     else if (act === "expand") { Object.keys(nodes).forEach(function (id) { expanded[id] = true; }); render(); fit(); }
   });
+  // Find: Return (or the keyboard's Search key) and picking a suggestion both jump to the person
+  // and close the on-screen keyboard. "change" alone is unreliable on phones.
   var find = document.getElementById("tree-find");
-  find.addEventListener("change", function () {
-    var v = find.value.trim().toLowerCase();
-    var id = Object.keys(nodes).filter(function (i) { return label(i).toLowerCase() === v; })[0] ||
-      Object.keys(nodes).filter(function (i) { return nodes[i].n.toLowerCase().indexOf(v) !== -1; })[0];
-    if (!id) return;
+  function lookup(v) {
+    v = v.trim().toLowerCase();
+    if (!v) return null;
+    var ids = Object.keys(nodes);
+    return ids.filter(function (i) { return label(i).toLowerCase() === v; })[0] ||
+      ids.filter(function (i) { return nodes[i].n.toLowerCase().indexOf(v) !== -1; })[0] || null;
+  }
+  function go(id) {
     reveal(id); focusId = id; render(); centerOn(id, Math.max(view.k, 0.9));
+    find.setCustomValidity("");
+    find.blur();
+  }
+  find.form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!data) return;
+    var id = lookup(find.value);
+    if (id) go(id);
+    else if (find.value.trim()) { find.setCustomValidity("No one by that name in the tree."); find.reportValidity(); }
+  });
+  find.addEventListener("input", function () {
+    find.setCustomValidity("");
+    if (!data) return;
+    // A picked suggestion fills in an exact "Name (years)" label.
+    var v = find.value.trim().toLowerCase();
+    var id = Object.keys(nodes).filter(function (i) { return label(i).toLowerCase() === v; })[0];
+    if (id) go(id);
   });
 })();

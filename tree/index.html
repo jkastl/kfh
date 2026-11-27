@@ -26,7 +26,7 @@
 <meta name="theme-color" content="#f4eee2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1b1814" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../assets/css/site.css?v=7">
+<link rel="stylesheet" href="../assets/css/site.css?v=8">
 <script src="../assets/js/stats.js" defer></script>
 </head>
 <body>
@@ -52,7 +52,7 @@
   <button class="btn ghost small" type="button" data-act="expand">Open everything</button>
   <button class="btn ghost small" type="button" data-act="fit">Fit to screen</button>
   <span class="zoom"><button class="btn ghost small" type="button" data-act="in" aria-label="Zoom in">+</button><button class="btn ghost small" type="button" data-act="out" aria-label="Zoom out">−</button></span>
-  <label class="tree-find">Find <input type="search" id="tree-find" list="tree-names" placeholder="Name…" autocomplete="off"></label>
+  <form class="tree-find" role="search" action="#"><label for="tree-find">Find</label> <input type="search" id="tree-find" list="tree-names" placeholder="Name…" autocomplete="off" enterkeyhint="search"></form>
   <datalist id="tree-names"></datalist>
 </div>
 <div class="tree-wrap" id="tree-wrap">
@@ -60,7 +60,7 @@
 </div>
 <p class="muted tree-legend"><span class="lg lg-founder"></span> one of the seven brothers (or half-sister Anna) · dashed line: child of a second marriage · <span class="lg lg-more">+3</span> children not shown yet. Only Josef Kastl’s branch is built out so far; the <a href="../people/">table</a> has the same people as text.</p>
 </div>
-<script src="../assets/js/tree.js" defer></script>
+<script src="../assets/js/tree.js?v=8" defer></script>
 </main>
 <footer class="site-foot">
   <div class="wrap">
