@@ -12,7 +12,7 @@ Live at <https://jkastl.github.io/kfh/>.
 | `source/` | The scanned book as two PDFs (Family History Library microfilm scan). |
 | `media/pages/`, `media/thumbs/` | One image per scan, `s001`–`s076`, cut from the PDFs. |
 | `content/pages/sNNN.md` | Faithful transcription of each scan (JSON front matter + Markdown). |
-| `content/people.json` | Structured people and families, every fact cited to a scan. |
+| `content/people/*.json` | Structured people and families, one file per branch; every fact cited to a scan. |
 | `content/verification/` | Logs from the independent proofreading pass. |
 | `tools/build.py` | Regenerates all HTML. Python 3 standard library only. |
 

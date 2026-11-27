@@ -34,7 +34,7 @@ pushing), make sure the work sits on the latest code:
 - `content/pages/sNNN.md` is a faithful transcription of scan `sNNN` of the book (1985) and its
   1986 supplement. Transcriptions keep the book's own spellings, typos and inconsistencies.
   Never "correct" the book; only fix transcription mistakes, checked against the page image.
-- `content/people.json` holds the structured family data. Every fact cites the scan(s) it comes
+- `content/people/*.json` hold the structured family data (one file per branch, plus `_roots.json`). Every fact cites the scan(s) it comes
   from. When sources disagree (book vs. supplement, chart vs. text), record every reading with its
   source; never silently pick one.
 - Do not add facts from outside the book without the owner's say-so, and label them if added.

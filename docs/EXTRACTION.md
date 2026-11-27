@@ -1,8 +1,8 @@
 # Extracting people from the book
 
 How to turn transcribed pages (`content/pages/sNNN.md`) into structured people data. Every work
-unit in `BACKLOG.md` follows this. The first slice (`content/people.json`, Josef's line) is the
-worked example — copy its shape.
+unit in `BACKLOG.md` follows this. The finished branch files in `content/people/` are the
+worked examples — copy their shape.
 
 ## Ground rules
 1. **The book is the only source.** No outside facts, no guesses, no "fixing" the book.
@@ -51,8 +51,7 @@ check ignores owner-added children. On a book record, an owner addition may only
   group of their own → a `marriage` fact on the child, not a separate record.
 
 ## File and record shape
-Write only your branch file: `content/people/<branch>.json` (until the split in BACKLOG step 2
-lands, add to `content/people.json`). Shape:
+Write only your branch file: `content/people/<branch>.json`. Shape:
 
 ```json
 {
