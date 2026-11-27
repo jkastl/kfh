@@ -38,3 +38,14 @@ pushing), make sure the work sits on the latest code:
   from. When sources disagree (book vs. supplement, chart vs. text), record every reading with its
   source; never silently pick one.
 - Do not add facts from outside the book without the owner's say-so, and label them if added.
+
+## Versioning
+
+The site uses semantic versioning. The version lives in `VERSION`, shows in every page's footer,
+and each release gets an entry in `CHANGELOG.md` and an annotated git tag (`vX.Y.Z`) on `main`.
+- **MAJOR**: a break for anyone linking to the site or using its data, e.g. person URLs or ids
+  change, pages removed, the CSV/JSON shape changes.
+- **MINOR**: something new, e.g. a new page or feature (map, timeline, photo album, narrative links)
+  or a substantial addition of people.
+- **PATCH**: fixes, e.g. data or transcription corrections, audit fixes, wording, styling.
+Bump `VERSION`, add the changelog entry, rebuild, commit, then tag the commit and push the tag.

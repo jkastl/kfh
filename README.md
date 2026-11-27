@@ -13,6 +13,7 @@ Live at <https://jkastl.github.io/kfh/>.
 | `media/pages/`, `media/thumbs/` | One image per scan, `s001`–`s076`, cut from the PDFs. |
 | `content/pages/sNNN.md` | Faithful transcription of each scan (JSON front matter + Markdown). |
 | `content/people/*.json` | Structured people and families, one file per branch; every fact cited to a scan. |
+| `VERSION`, `CHANGELOG.md` | The site's semantic version (shown in the footer) and release notes. |
 | `content/verification/` | Logs from the independent proofreading pass. |
 | `tools/build.py` | Regenerates all HTML. Python 3 standard library only. |
 

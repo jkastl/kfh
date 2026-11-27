@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 SITE_URL = "https://jkastl.github.io/kfh/"
 TITLE = "Kastl Family History"
+SITE_VERSION = (Path(__file__).resolve().parent.parent / "VERSION").read_text(encoding="utf-8").strip()  # semver; see CLAUDE.md
 
 FACT_LABELS = {
     "name": "Name", "birth": "Born", "death": "Died", "burial": "Buried",
@@ -453,7 +454,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "10"
+CSS_VERSION = "11"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -541,6 +542,7 @@ def layout(prefix, title, body, *, description, path, active="", image=None, ima
   <div class="wrap">
     <p>Transcribed from <cite>Kastl Family History</cite> by Evelyn Coufal and Francis Vech (printed 1985, Catholic Quote, Valparaiso, Nebraska) and its 1986 Supplementary Section. Names, dates and spellings are given as the book prints them.</p>
     <p><a href="{prefix}about/index.html">About this site</a> · <a href="{prefix}book/index.html">Read the book</a> · {pdf_links(prefix)}</p>
+    <p class="site-version">Version {SITE_VERSION}</p>
   </div>
 </footer>
 </body>

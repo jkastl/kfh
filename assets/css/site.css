@@ -312,3 +312,5 @@ cite { font-style: italic; }
 .rv-table th { position: sticky; top: 0; background: var(--card); color: var(--ink-3); font-weight: 600; }
 .rv-table .src { margin-right: 0.2rem; }
 .review ul li { margin: 0.2rem 0; }
+
+.site-version { font: 0.75rem var(--sans); color: var(--ink-3); margin-top: 0.4rem; }
