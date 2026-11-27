@@ -453,7 +453,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "9"
+CSS_VERSION = "10"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -1197,6 +1197,110 @@ def build_tree(tree):
 
 
 # ----------------------------------------------------------------------------- 404 + sitemap
+# ----------------------------------------------------------------------------- review report (unlisted)
+def build_review(tree, pages_by_scan, warnings):
+    """An unlisted page for the owner to scan for anything that looks wrong: everyone by branch in
+    tree order, with parents, spouses, children and pages, plus every warning, every place the
+    sources differ and every book-caused exception. Not linked from the site; noindex."""
+    prefix = "../"
+    P = tree.people
+
+    def link(pid):
+        return f'<a href="{prefix}people/{pid}/index.html">{esc(P[pid]["name"])}</a>'
+
+    def pages_of(pid):
+        scans = []
+        for f in P[pid]["facts"]:
+            for s in f["sources"]:
+                if "scan" in s and s["scan"] not in scans:
+                    scans.append(s["scan"])
+        return " ".join(src_link(sc, pages_by_scan, prefix) for sc in sorted(scans)) or (
+            '<span class="src owner">Unsourced</span>' if P[pid].get("owner_added") else "")
+
+    def row(pid, depth, seen):
+        seen.add(pid)
+        p = P[pid]
+        fam = tree.parents_of.get(pid)
+        parents = " &amp; ".join(link(x) for x in fam["partners"]) if fam else ""
+        sp = ", ".join(link(x) for x in tree.spouses(pid))
+        kids = sum(len(f["children"]) for f in tree.families_of.get(pid, []))
+        flags = []
+        if tree.has_conflict(pid):
+            flags.append('<span class="differs" title="The sources differ">≠</span>')
+        if p.get("owner_added"):
+            flags.append("unsourced")
+        out = [f'<tr><td style="padding-left:{0.4 + depth * 0.9:.1f}rem">{link(pid)} {" ".join(flags)}</td>'
+               f'<td>{esc(tree.years(pid))}</td><td>{parents}</td><td>{sp}</td><td>{kids or ""}</td><td>{pages_of(pid)}</td></tr>']
+        for f in tree.families_of.get(pid, []):
+            for c in f["children"]:
+                if c not in seen:
+                    out += row(c, depth + 1, seen)
+        return out
+
+    head = ('<thead><tr><th>Name</th><th>Years</th><th>Parents</th><th>Spouse(s)</th>'
+            '<th>Children</th><th>Pages</th></tr></thead>')
+    seen = set()
+    sections = []
+    roots = [x for x in tree.chain(FATHER_OF_BROTHERS)]
+    for key, fid, label in BRANCHES:
+        rows = row(fid, 0, seen)
+        sections.append(f'<details class="rv"><summary><strong>{esc(label)}</strong> · {len(rows)} people</summary>'
+                        f'<div class="table-wrap"><table class="rv-table">{head}<tbody>{"".join(rows)}</tbody></table></div></details>')
+    # Ancestors, the brothers' siblings and their in-laws: everyone not already under a branch,
+    # one row each (their descendants are the branches above).
+    root_rows = []
+    for pid in roots + [x for x in P if x not in roots]:
+        if pid not in seen and P[pid].get("branch", "roots") == "roots":
+            root_rows += row(pid, 0, seen | {c for f in tree.families_of.get(pid, []) for c in f["children"]})
+    sections.insert(0, f'<details class="rv"><summary><strong>Ancestors and the brothers’ siblings</strong> · {len(root_rows)} people</summary>'
+                       f'<div class="table-wrap"><table class="rv-table">{head}<tbody>{"".join(root_rows)}</tbody></table></div></details>')
+
+    differs = []
+    for pid in P:
+        if tree.has_conflict(pid):
+            by = {}
+            for f in P[pid]["facts"]:
+                by.setdefault(f["type"], []).append(f)
+            for t, fs in by.items():
+                if t in CONFLICT_TYPES and len(fs) > 1 and not all(f["value"].startswith("(") for f in fs):
+                    vals = " · ".join(f"{esc(f['value'])} {pages_of_sources(f['sources'], pages_by_scan, prefix)}" for f in fs)
+                    differs.append(f"<li>{link(pid)}: {FACT_LABELS[t].lower()}: {vals}</li>")
+    allow = checks.load_allow(CONTENT / "verification")
+    allowed = [f"<li>{esc(e['scan'])} · {esc(e.get('person') or e.get('heading'))}: {esc(e['note'])}</li>"
+               for k in ("lineage", "count") for e in allow.get(k, [])]
+    fam_by_id = {f["id"]: f for f in tree.families}
+
+    def readable(w):
+        head, _, rest = w.partition(": ")
+        if head in fam_by_id:
+            return " &amp; ".join(link(x) for x in fam_by_id[head]["partners"]) + ": " + esc(rest)
+        if head in P:
+            return link(head) + ": " + esc(rest)
+        return esc(w)
+    warn_html = "".join(f"<li>{readable(w)}</li>" for w in warnings)
+    body = f"""<article class="wrap review">
+<p class="kicker">Review</p>
+<h1>Review report</h1>
+<p class="lede">Everyone in the data, branch by branch in tree order, for scanning by eye. This page is not linked from the site and is not indexed.</p>
+<p class="muted">{len(P)} people · {len(tree.families)} families · {len(differs)} places where the sources differ · {len(warnings)} warnings · {len(allowed)} book-caused exceptions. ≠ marks a person whose sources differ.</p>
+<h2>Warnings</h2><p class="muted">Things that look unlikely; each has been checked against the book.</p><ul>{warn_html}</ul>
+<h2>Where the sources differ</h2><ul>{"".join(differs)}</ul>
+<h2>Book-caused exceptions to the checks</h2><ul>{"".join(allowed)}</ul>
+<h2>Everyone, by branch</h2>
+{"".join(sections)}
+</article>"""
+    write("review/index.html", layout(prefix, "Review report", body, description="Review report.",
+                                      path="review/", noindex=True))
+
+
+def pages_of_sources(sources, pages_by_scan, prefix):
+    scans = []
+    for s in sources:
+        if "scan" in s and s["scan"] not in scans:
+            scans.append(s["scan"])
+    return " ".join(src_link(sc, pages_by_scan, prefix) for sc in scans) or '<span class="src owner">Unsourced</span>'
+
+
 def build_404():
     """Served by Pages for any missing path under /kfh/, so links must be absolute."""
     prefix = "/kfh/"
@@ -1245,7 +1349,7 @@ def main():
     (CONTENT / "verification" / "build-warnings.txt").write_text(
         "Plausibility warnings from tools/checks.py (not errors; the book has real oddities).\n"
         + "".join(w + "\n" for w in warnings), encoding="utf-8")
-    for d in ("people", "book", "tree"):
+    for d in ("people", "book", "tree", "review"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     for pid in tree.people:
         build_person(tree, pid, pages_by_scan)
@@ -1256,6 +1360,7 @@ def main():
     build_about(tree)
     build_search(tree, pages)
     build_404()
+    build_review(tree, pages_by_scan, warnings)
     build_sitemap()
     nq = (sum(1 for p in data["people"].values() for f in p["facts"] for s in f["sources"] if "scan" in s)
           + sum(len(p.get("excerpts", [])) for p in data["people"].values())

@@ -302,3 +302,13 @@ cite { font-style: italic; }
 .notice { background: var(--card); border: 1px solid var(--rule); border-left: 4px solid var(--accent); border-radius: 6px; padding: 0.8rem 1rem; margin: 1rem 0 1.4rem; }
 .notice p { margin: 0.3rem 0; }
 .src.owner { background: transparent; border: 1px dashed var(--accent); color: var(--accent); }
+
+/* review report (unlisted) */
+.review { max-width: 76rem; }
+.rv { border: 1px solid var(--rule); border-radius: 6px; margin: 0.6rem 0; background: var(--card); }
+.rv > summary { cursor: pointer; padding: 0.6rem 0.9rem; font-family: var(--sans); }
+.rv-table { width: 100%; border-collapse: collapse; font: 0.85rem/1.35 var(--sans); }
+.rv-table th, .rv-table td { text-align: left; vertical-align: top; padding: 0.3rem 0.5rem; border-top: 1px solid var(--rule); }
+.rv-table th { position: sticky; top: 0; background: var(--card); color: var(--ink-3); font-weight: 600; }
+.rv-table .src { margin-right: 0.2rem; }
+.review ul li { margin: 0.2rem 0; }
