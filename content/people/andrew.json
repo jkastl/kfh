@@ -9,12 +9,32 @@
       "chapter": "s059",
       "facts": [
         {
+          "type": "name",
+          "value": "Andy",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "In the meantime a girl came from the old country and Andy married her."
+            }
+          ]
+        },
+        {
           "type": "birth",
           "value": "27 November 1853, Stara Hut, house No. 1, Bohemia",
           "sources": [
             {
               "scan": "s059",
               "quote": "Andrew Kastl was born 27 November 1853 in Stara Hut, Bohemia, house No. 1"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "Oboc, or the Old \"Hut\", Novo-Kdysky County, in the old Country",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Andrew Kastl was born in the old Country, Novo-Kdysky County, in the village of Oboc or the Old \"Hut\"."
             }
           ]
         },
@@ -29,6 +49,16 @@
             {
               "scan": "s016",
               "quote": "Andrew 1853-1906"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "Two years before the Katolik newspaper article was printed",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Andrew died 2 years ago, he was a good father, good catholic"
             }
           ]
         },
@@ -65,9 +95,5626 @@
               "quote": "The next to arrive May 29, 1867, were Andrew, age 13 and Thomas, age 17."
             }
           ]
+        },
+        {
+          "type": "note",
+          "value": "The last child of his mother Maria, who died soon after his birth. The newspaper article says she died the day after he was born, and that he was the fourteenth and last child of the first marriage.",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Andrew was the last child of Maria who died soon after his birth."
+            },
+            {
+              "scan": "s059",
+              "quote": "His mother died the next day of his birth. He was the fourteenth, and the last child born to the first maarriage, and never knew his mother."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Lived for some time with Peter Kastl after coming to America in 1867 (the article calls Peter first his brother, then his uncle); Peter found him farm work, which he did until he was 21",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "SO his father sent him to his brother Peter Kastl in America, in the year of 1867."
+            },
+            {
+              "scan": "s059",
+              "quote": "Andrew lived with his uncle for some time"
+            },
+            {
+              "scan": "s059",
+              "quote": "When Andrew grew up, Peter found him a job on the farm. He worked hard on the farm till he was 21 years old and the pay was small."
+            }
+          ]
+        },
+        {
+          "type": "homestead",
+          "value": "Homesteaded some land and dug out a hole in the bank for his home; later sold the property and moved to Wahoo",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "At that time he homesteaded some land, dug out a hole in the bank for his home, was batching and saving his money."
+            },
+            {
+              "scan": "s059",
+              "quote": "so he sold his property and moved to Wahoo."
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "Tavern business in Wahoo with a partner, who soon put him out; then farm work again, including several years with an Irish family",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Soon he got into the Tavern business with a partner, who soon kicked him out. $700 was gone so he went to work on the farm again."
+            },
+            {
+              "scan": "s059",
+              "quote": "He found a job at one Irish family (very religious) where he stayed for several years."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Settled on school land with his brother Jakub",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Finally he settled on some school land with his brother Jakub, he loved much."
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "County assessor for many years",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "He was kind and was the county assessor for many years to the satisfaction of the citizens."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "An article about his life, \"Andrew Kastl, West Nebraska, and his large family\", was printed in the Czech newspaper Katolik (\"Katolika\" in the book's introduction), Chicago, probably in 1904.",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "An article which describes Andrew's life, was printed in the Czech newspaper Katolika, published in Chicago probably in 1904."
+            },
+            {
+              "scan": "s059",
+              "quote": "Translated from Katolik, newspaper, Chicago, ILL. (probably 1904)"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "The article says two of his daughters were married, \"one to T. Rech and one to Joe Vrbka\".",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "Two daughters are married; one to T. Rech and one to Joe Vrbka."
+            }
+          ]
+        }
+      ],
+      "excerpts": [
+        {
+          "scan": "s059",
+          "text": "Andrew Kastl was born in the old Country, Novo-Kdysky County, in the village of Oboc or the Old \"Hut\". His parents were very religious and rich. He soon had a misfortune. His mother died the next day of his birth. He was the fourteenth, and the last child born to the first maarriage, and never knew his mother. Her last words were: \"Child, who is going to take care of you now?\"\n\nHis father married again and there was big change. The little boy was neglected for 13 years. SO his father sent him to his brother Peter Kastl in America, in the year of 1867.\n\nAndrew lived with his uncle for some time, and everybody knew that he didn't have it the best. 100 miles to the Mill, 18 miles to the Mail Box, and not much money.\n\nPeter Kastl was the first settler in Saunders County. When Andrew grew up, Peter found him a job on the farm. He worked hard on the farm till he was 21 years old and the pay was small.\n\nAt that time he homesteaded some land, dug out a hole in the bank for his home, was batching and saving his money. He wasn't very happy living there alone, so he sold his property and moved to Wahoo. At that time there were only 15 houses in Wahoo. Soon he got into the Tavern business with a partner, who soon kicked him out. $700 was gone so he went to work on the farm again.\n\nTimes got better. People were moving in and price of land went up. He found a job at one Irish family (very religious) where he stayed for several years. Finally he settled on some school land with his brother Jakub, he loved much.\n\nIn the meantime a girl came from the old country and Andy married her. She is the mother of children you can see on the picture. They still live on the farm.\n\nAndrew died 2 years ago, he was a good father, good catholic and he asked his children to never marry non-catholic if they want to be satisfied. They were all well off.\n\nHe was kind and was the county assessor for many years to the satisfaction of the citizens.\n\nLived in Nebraska since 1867 and had Life Insurance for $2600.\n\nThere were 7 brothers here. Two daughters are married; one to T. Rech and one to Joe Vrbka.\n\nI hope that the rest will follow their sisters, mother and father, and will remember them."
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "barbara-valecka": {
+      "name": "Barbara Valecka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1861",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "She was born in 1861, died in 1948 and buried at Plasi."
+            }
+          ]
+        },
+        {
+          "type": "immigration",
+          "value": "Came from the old country; no date given",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "In the meantime a girl came from the old country and Andy married her."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Still living on the farm with her children when the newspaper article was written",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "She is the mother of children you can see on the picture. They still live on the farm."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1948",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "She was born in 1861, died in 1948 and buried at Plasi."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "died in 1948 and buried at Plasi."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "mary-kastl-1881": {
+      "name": "Mary Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 April 1881",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "1. MARY — (b) 3 Apr. 1881. (d) 4 Apr. 1881. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 April 1881",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "1. MARY — (b) 3 Apr. 1881. (d) 4 Apr. 1881. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "1. MARY — (b) 3 Apr. 1881. (d) 4 Apr. 1881. (bur) Plasi."
+            }
+          ]
+        }
+      ]
+    },
+    "anna-kastl-1882": {
+      "name": "Anna Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "chapter": "s059",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Anne Kastl",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "son of Anne Kastl and Joseph Vrbka."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "16 June 1882, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "2. ANNA — (b) 16 June 1882."
+            },
+            {
+              "scan": "s059",
+              "quote": "ANNA KASTL (Andrew, Thomas, John, John, Andreas) born 16 June 1882 in Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Joseph Vrbka, 30 May 1899, Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Joseph Vrbka 30 May 1899—Plasi."
+            },
+            {
+              "scan": "s059",
+              "quote": "She married Joseph Vrbka 30 May 1899 at Plasi, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1918",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(d) 1918. (bur) Shelby."
+            },
+            {
+              "scan": "s059",
+              "quote": "died in 1918, and was buried at Shelby, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Shelby, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(d) 1918. (bur) Shelby."
+            },
+            {
+              "scan": "s059",
+              "quote": "was buried at Shelby, Nebraska."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "mary-kastl-1884": {
+      "name": "Mary Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "chapter": "s061",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 January 1884, Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "3. MARY — (b) 23 Jan. 1884."
+            },
+            {
+              "scan": "s061",
+              "quote": "MARY KASTL (Andrew, Thomas, John, John, Andreas) born 23 January 1884, at Plasi, Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Frank Michalik, 22 February 1909, Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Frank Michalik 22 Feb. 1909—Plasi."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married Frank Michalik 22 February 1909 at Plasi."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "barbara-elizabeth-kastl-1885": {
+      "name": "Barbara Elizabeth Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "chapter": "s061",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "29 September 1885, Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "4. BARBARA ELIZABETH — (b) 29 Sept. 1885."
+            },
+            {
+              "scan": "s061",
+              "quote": "BARBARA ELIZABETH KASTL (Andrew, Thomas, John, John, Andreas) born 29 September 1885 at Plasi, Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John F. Rech, 24 October 1905, Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) John F. Rech 24 Oct. 1905—Plasi."
+            },
+            {
+              "scan": "s061",
+              "quote": "SHe married John F. Rech 24 October 1905 at Plasi."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "A farm near Brainard, later the town of Brainard",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "Barbara and John first lived on a farm near Brainard, later moving to town"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 February 1933",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(d) 4 Feb. 1933."
+            },
+            {
+              "scan": "s061",
+              "quote": "died 4 February 1933."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "rose-kastl-1889": {
+      "name": "Rose Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 May 1889",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "5. ROSE — (b) 30 May 1889. (d) 17 July 1911. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "17 July 1911",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "5. ROSE — (b) 30 May 1889. (d) 17 July 1911. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "5. ROSE — (b) 30 May 1889. (d) 17 July 1911. (bur) Plasi."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "catherine-kastl-1891": {
+      "name": "Catherine Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 May 1891",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "6. CATHERINE — (b) 24 May 1891. (d) 10 June 1891. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "10 June 1891",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "6. CATHERINE — (b) 24 May 1891. (d) 10 June 1891. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "6. CATHERINE — (b) 24 May 1891. (d) 10 June 1891. (bur) Plasi."
+            }
+          ]
+        }
+      ]
+    },
+    "frances-kastl-1892": {
+      "name": "Frances Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "chapter": "s061",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 April 1892, Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "7. FRANCES — (b) 15 Apr. 1892."
+            },
+            {
+              "scan": "s061",
+              "quote": "FRANCES KASTL (Andrew, Thomas, John, John, Andreas) born 15 April 1892, at Plasi, Saunders County Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Otto Dvorak; he died 1918",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Otto Dvorak"
+            },
+            {
+              "scan": "s061",
+              "quote": "SHe married (1) Otto Dvorak. He died 1918."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Anton Janak, 20 June 1920, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(2) Anton Janak—20 June 1920—Brainard."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married (2) Anton Janak 20 June 1920 at Brainard, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1982",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "7. FRANCES — (b) 15 Apr. 1892. (d) 1982."
+            },
+            {
+              "scan": "s061",
+              "quote": "daughter of Andrew Kastl and Barbara Valecka, died 1982."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "anastasia-kastl-1894": {
+      "name": "Anastasia Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 May 1894",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "8. ANASTASIA — (b) 20 May 1894. (d) 21 Jan. 1895."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "21 January 1895",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "8. ANASTASIA — (b) 20 May 1894. (d) 21 Jan. 1895."
+            }
+          ]
+        }
+      ]
+    },
+    "john-kastl-1896": {
+      "name": "John Kastl",
+      "sex": "M",
+      "branch": "andrew",
+      "chapter": "s062",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 October 1896, Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "9. JOHN — (b) 23 Oct. 1896."
+            },
+            {
+              "scan": "s062",
+              "quote": "JOHN KASTL (Andrew, Thomas, John, John, Andreas) born 23 October 1896, at Plasi, Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Emily Steinbach, 15 September 1925",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Emily Steinbach—15 Sept. 1925."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Emily Steinbach 15 September 1925."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "23 February 1983 (child list)",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "9. JOHN — (b) 23 Oct. 1896. (d) 23 Feb. 1983."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "22 February 1983 (family text)",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "son of Andrew Kastl and Barbara Valecka, died 22 February 1983, and buried at Plasi."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(d) 23 Feb. 1983. (bur) Plasi."
+            },
+            {
+              "scan": "s062",
+              "quote": "died 22 February 1983, and buried at Plasi."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "emma-kastl-1898": {
+      "name": "Emma Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "chapter": "s062",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 October 1898, Plasi, Saunders County, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "10. EMMA — (b) 23 Oct. 1898."
+            },
+            {
+              "scan": "s062",
+              "quote": "EMMA KASTL (Andrew, Thomas, John, John, Andreas) born 23 October 1898, at Plasi, Saunders County, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Louis Tlamka",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Louis Tlamka."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married Louis Tlamka."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "18 June 1973, Osceola, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(d) 18 June 1973."
+            },
+            {
+              "scan": "s062",
+              "quote": "died 18 June 1973, at Osceola, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Osceloa, Nebraska (spelled so in the child list)",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(bur) Osceloa, NE."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "agnes-kastl-1901": {
+      "name": "Agnes Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "chapter": "s063",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "21 November 1901",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "11. AGNES — (b) 21 Nov. 1901."
+            },
+            {
+              "scan": "s063",
+              "quote": "AGNES KASTL (Andrew, Thomas, John, John, Andreas) born 21 November 1901"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Joseph Stanek, 14 February 1922",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Joseph Stanek—14 Feb. 1922."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Joseph Stanek 14 February 1922."
+            }
+          ]
+        }
+      ],
+      "photos": [
+        "s060-ph1"
+      ]
+    },
+    "joseph-vrbka": {
+      "name": "Joseph Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Joe Vrbka",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "one to T. Rech and one to Joe Vrbka."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Frank Vrbka and Antonie Maly",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "He was the son of Frank Vrbka and Antonie Maly."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-vrbka-1900": {
+      "name": "Joseph Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 March 1900",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "1. JOSEPH — (b) 15 Mar. 1900."
+            },
+            {
+              "scan": "s060",
+              "quote": "JOSEPH VRBKA (Anna Kastl Vrbka, Andrew) born 15 March 1900"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Tillie Sedlak, 3 January 1923",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Tillie Sedlak—3 Jan. 1923."
+            },
+            {
+              "scan": "s060",
+              "quote": "He married Tillie Sedlak 3 January 1923."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "28 February 1969",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(d) 28 Feb. 1969. (bur) Shelby."
+            },
+            {
+              "scan": "s060",
+              "quote": "died 28 February 1969, and was buried at Shelby, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Shelby, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(d) 28 Feb. 1969. (bur) Shelby."
+            },
+            {
+              "scan": "s060",
+              "quote": "was buried at Shelby, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "edward-vrbka-1902": {
+      "name": "Edward Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 May 1902",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "2. EDWARD — (b) 9 May 1902. (d) 23 Oct. 1918. (bur) Shelby."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "23 October 1918",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "2. EDWARD — (b) 9 May 1902. (d) 23 Oct. 1918. (bur) Shelby."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Shelby",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "2. EDWARD — (b) 9 May 1902. (d) 23 Oct. 1918. (bur) Shelby."
+            }
+          ]
+        }
+      ]
+    },
+    "stella-vrbka-1904": {
+      "name": "Stella Vrbka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 January 1904",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "3. STELLA — (b) 24 Jan. 1904. (d) 3 July 1955. (bur) Shelby. (m) Edward Pokorny (No children)"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "3 July 1955",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "3. STELLA — (b) 24 Jan. 1904. (d) 3 July 1955. (bur) Shelby. (m) Edward Pokorny (No children)"
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Shelby",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "3. STELLA — (b) 24 Jan. 1904. (d) 3 July 1955. (bur) Shelby. (m) Edward Pokorny (No children)"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Edward Pokorny",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "3. STELLA — (b) 24 Jan. 1904. (d) 3 July 1955. (bur) Shelby. (m) Edward Pokorny (No children)"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No children",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "3. STELLA — (b) 24 Jan. 1904. (d) 3 July 1955. (bur) Shelby. (m) Edward Pokorny (No children)"
+            }
+          ]
+        }
+      ]
+    },
+    "anton-vrbka-1906": {
+      "name": "Anton Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 January 1906",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "4. ANTON — (b) 8 Jan. 1906."
+            }
+          ]
+        }
+      ]
+    },
+    "anna-vrbka-1908": {
+      "name": "Anna Vrbka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 January 1908",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "5. ANNA — (b) 30 Jan. 1908."
+            },
+            {
+              "scan": "s060",
+              "quote": "ANNA VRBKA (Anna Kastl Vrbka, Andrew) born 30 January 1908"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "George Nekl, 5 January 1930",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) George Nekl—5 Jan. 1930."
+            },
+            {
+              "scan": "s060",
+              "quote": "She married George Nekl 5 January 1930."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Lyle, Minnesota",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "They live in Lyle, Minnesota."
+            }
+          ]
+        }
+      ]
+    },
+    "emil-vrbka-1910": {
+      "name": "Emil Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 July 1910",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "6. EMIL — (b) 17 July 1910."
+            },
+            {
+              "scan": "s060",
+              "quote": "EMIL VRBKA (Anna Kastl Vrbka, Andrew) born 17 July 1910"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Cecilia Nekl",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "(m) Cecilia Nekl."
+            },
+            {
+              "scan": "s060",
+              "quote": "He married Cecilia Nekl."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 January 1982",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "(d) 4 Jan. 1982."
+            },
+            {
+              "scan": "s060",
+              "quote": "son of Anna Kastl and Joseph Vrbka, died 4 January 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "frank-vrbka-1912": {
+      "name": "Frank Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 October 1912",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "7. FRANK — (b) 5 Oct. 1912. (d) 1 Feb. 1971. (bur) David City."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1 February 1971",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "7. FRANK — (b) 5 Oct. 1912. (d) 1 Feb. 1971. (bur) David City."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "David City",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "7. FRANK — (b) 5 Oct. 1912. (d) 1 Feb. 1971. (bur) David City."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-vrbka-1914": {
+      "name": "Mary Vrbka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 October 1914",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "8. MARY — (b) 24 Oct. 1914. (d) 10 Nov. 1914."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "10 November 1914",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "8. MARY — (b) 24 Oct. 1914. (d) 10 Nov. 1914."
+            }
+          ]
+        }
+      ]
+    },
+    "agnes-vrbka-1916": {
+      "name": "Agnes Vrbka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 February 1916",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "9. AGNES — (b) 9 Feb. 1916. (d) 25 Feb. 1916."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "25 February 1916",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "9. AGNES — (b) 9 Feb. 1916. (d) 25 Feb. 1916."
+            }
+          ]
+        }
+      ]
+    },
+    "louis-vrbka-1917": {
+      "name": "Louis Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 October 1917",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "10. LOUIS — (b) 12 Oct. 1917."
+            },
+            {
+              "scan": "s060",
+              "quote": "LOUIS VRBKA (Anna Kastl Vrbka, Andrew) born 12 October 1917"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Anna Speicher, 21 June 1948",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "(m) Anna Speicher—21 June 1948."
+            },
+            {
+              "scan": "s060",
+              "quote": "He married Anna Speicher 21 June 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "tillie-sedlak": {
+      "name": "Tillie Sedlak",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1903",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "She was born 1903."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) George Navratil, after Joseph Vrbka died",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "After Joseph died, Tillie married George Navratil."
+            }
+          ]
+        }
+      ]
+    },
+    "evelyn-vrbka-1924": {
+      "name": "Evelyn Vrbka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 March 1924",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "1. EVELYN — (b) 22 Mar. 1924. (m) Bert Patterson—12 Apr. 1947."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bert Patterson, 12 April 1947",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "1. EVELYN — (b) 22 Mar. 1924. (m) Bert Patterson—12 Apr. 1947."
+            }
+          ]
+        }
+      ]
+    },
+    "raymond-vrbka-1925": {
+      "name": "Raymond Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "29 May 1925",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "2. RAYMOND — (b) 29 May 1925. (m) Elizabeth Augustin—17 Feb. 1949."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Elizabeth Augustin, 17 February 1949",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "2. RAYMOND — (b) 29 May 1925. (m) Elizabeth Augustin—17 Feb. 1949."
+            }
+          ]
+        }
+      ]
+    },
+    "leonard-vrbka-1928": {
+      "name": "Leonard Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 January 1928",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "3. LEONARD — (b) 28 Jan 1928. (m) Lois Saddarth—26 Jan. 1952."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Lois Saddarth, 26 January 1952",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "3. LEONARD — (b) 28 Jan 1928. (m) Lois Saddarth—26 Jan. 1952."
+            }
+          ]
+        }
+      ]
+    },
+    "donald-vrbka-1930": {
+      "name": "Donald Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 December 1930",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "4. DONALD — (b) 30 Dec. 1930. (m) Peg Hostieter—6 June 1959."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Peg Hostieter, 6 June 1959",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "4. DONALD — (b) 30 Dec. 1930. (m) Peg Hostieter—6 June 1959."
+            }
+          ]
+        }
+      ]
+    },
+    "laverne-vrbka-1938": {
+      "name": "Laverne Vrbka",
+      "sex": "U",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 June 1938",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "5. LAVERNE — (b) 1 June 1938. (m) Polly Rahn—16 July 1962."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Polly Rahn, 16 July 1962",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "5. LAVERNE — (b) 1 June 1938. (m) Polly Rahn—16 July 1962."
+            }
+          ]
+        }
+      ]
+    },
+    "robert-vrbka-1942": {
+      "name": "Robert Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 May 1942",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "6. ROBERT — (b) 30 May 1942. (m) Dorothy Watts—26 June 1965."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Dorothy Watts, 26 June 1965",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "6. ROBERT — (b) 30 May 1942. (m) Dorothy Watts—26 June 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "gary-vrbka-1946": {
+      "name": "Gary Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 November 1946",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "7. GARY — (b) 23 Nov. 1946. (m) Candice Toddiken—10 May 1969."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Candice Toddiken, 10 May 1969",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "7. GARY — (b) 23 Nov. 1946. (m) Candice Toddiken—10 May 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "george-nekl": {
+      "name": "George Nekl",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 March 1907",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "He was born 31 March 1907."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Lyle, Minnesota",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "They live in Lyle, Minnesota."
+            }
+          ]
+        }
+      ]
+    },
+    "deloris-nekl-1934": {
+      "name": "Deloris Nekl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "7 February 1934",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "1. DELORIS — (b) 7 Feb. 1934. (m) Dennis Svoboda—2 Jan."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Dennis Svoboda, 2 January (no year printed)",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "1. DELORIS — (b) 7 Feb. 1934. (m) Dennis Svoboda—2 Jan."
+            }
+          ]
+        }
+      ]
+    },
+    "cecilia-nekl": {
+      "name": "Cecilia Nekl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "death",
+          "value": "16 February 1978",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "She died 16 February 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "richard-vrbka-1931": {
+      "name": "Richard Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 November 1931",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "1. RICHARD — (b) 17 Nov. 1931. (m) Katherine Rathje—16 June 1955."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Katherine Rathje, 16 June 1955",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "1. RICHARD — (b) 17 Nov. 1931. (m) Katherine Rathje—16 June 1955."
+            }
+          ]
+        }
+      ]
+    },
+    "anna-speicher": {
+      "name": "Anna Speicher",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 September 1915",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "She was born 30 September 1915."
+            }
+          ]
+        }
+      ]
+    },
+    "stephen-vrbka-1949": {
+      "name": "Stephen Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 March 1949",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "1. STEPHEN — (b) 30 Mar. 1949."
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-vrbka-1953": {
+      "name": "Daniel Vrbka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "7 November 1953",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "2. DANIEL — (b) 7 Nov. 1953. (m) Sandy Richards—13 Oct. 1973."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Sandy Richards, 13 October 1973",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "2. DANIEL — (b) 7 Nov. 1953. (m) Sandy Richards—13 Oct. 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "sara-vrbka-1959": {
+      "name": "Sara Vrbka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 September 1959",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "3. SARA — (b) 5 Sept. 1959. (m) Myron Detrich—29 Sept. 1979."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Myron Detrich, 29 September 1979",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "3. SARA — (b) 5 Sept. 1959. (m) Myron Detrich—29 Sept. 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "marilee-vrbka-1965": {
+      "name": "Marilee Vrbka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 April 1965",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "4. MARILEE — (b) 6 Apr. 1965. (m) Van Grossmicklaus—23 Feb. 1984."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Van Grossmicklaus, 23 February 1984",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "4. MARILEE — (b) 6 Apr. 1965. (m) Van Grossmicklaus—23 Feb. 1984."
+            }
+          ]
+        }
+      ]
+    },
+    "frank-michalik": {
+      "name": "Frank Michalik",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Son of Martin Michalik and Theresia Jindrich",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "He was the son of Martin Michalik and Theresia Jindrich."
+            }
+          ]
+        }
+      ]
+    },
+    "ernest-michalik-1910": {
+      "name": "Ernest Michalik",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 December 1910",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. ERNEST — (b) 8 Dec. 1910."
+            },
+            {
+              "scan": "s061",
+              "quote": "ERNEST MICHALIK (Mary Kastl Michalik, Andrew) born 8 December 1910"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mary Heyman, 1934",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Mary Heyman—1934."
+            },
+            {
+              "scan": "s061",
+              "quote": "He married Mary Heyman 1934."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-heyman": {
+      "name": "Mary Heyman",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 April 1915",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "She was born 2 April 1915."
+            }
+          ]
+        }
+      ]
+    },
+    "dorothy-michalik-1935": {
+      "name": "Dorothy Michalik",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1935",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. DOROTHY — (b) 1935 (d) 1967. (m) Gale Turner—1955."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1967",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. DOROTHY — (b) 1935 (d) 1967. (m) Gale Turner—1955."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Gale Turner, 1955",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. DOROTHY — (b) 1935 (d) 1967. (m) Gale Turner—1955."
+            }
+          ]
+        }
+      ]
+    },
+    "eugene-michalik-of-ernest1910": {
+      "name": "Eugene Michalik",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. EUGENE — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "doris-michalik-of-ernest1910": {
+      "name": "Doris Michalik",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "3. DORIS (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "bernard-michalik-of-ernest1910": {
+      "name": "Bernard Michalik",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "4. BERNARD — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "donald-michalik-of-ernest1910": {
+      "name": "Donald Michalik",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "5. DONALD — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "john-f-rech": {
+      "name": "John F. Rech",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 January 1885, Cleveland, Ohio",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "He was born 10 January 1885, in Cleveland, Ohio, son of John Rech and Joanne Osmera, and died 1937."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of John Rech and Joanne Osmera",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "son of John Rech and Joanne Osmera"
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "A farm near Brainard, later the town of Brainard",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "Barbara and John first lived on a farm near Brainard, later moving to town"
+            }
+          ]
+        },
+        {
+          "type": "occupation",
+          "value": "Implement business in Brainard; later a rural mail carrier for 26½ years",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "later moving to town where he was in the implement business. Later, he was a rural mail carrier for 26½ years."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1937",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "son of John Rech and Joanne Osmera, and died 1937."
+            }
+          ]
+        }
+      ]
+    },
+    "helen-rech-1906": {
+      "name": "Helen Rech",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 October 1906, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. HELEN — (b) 22 Oct. 1906."
+            },
+            {
+              "scan": "s061",
+              "quote": "HELEN RECH (Barbara Kastl Rech, Andrew) born 22 October 1906 at Brainard, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Steven F. Wolfe, 21 August 1928, Brainard",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Steven F. Wolfe—21 Aug. 1928."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married Steven F. Wolfe 21 August 1928 at Brainard."
+            }
+          ]
+        }
+      ]
+    },
+    "rudolph-rech-1916": {
+      "name": "Rudolph Rech",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 March 1916",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. RUDOLPH — (b) 25 Mar. 1916. (m) Alice Polack—Mar. 1943. (No children)"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Alice Polack, March 1943",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. RUDOLPH — (b) 25 Mar. 1916. (m) Alice Polack—Mar. 1943. (No children)"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No children",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. RUDOLPH — (b) 25 Mar. 1916. (m) Alice Polack—Mar. 1943. (No children)"
+            }
+          ]
+        }
+      ]
+    },
+    "steven-f-wolfe": {
+      "name": "Steven F. Wolfe",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 December 1901, near Clay Center, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "He was born 9 December 1901 near Clay Center, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "deloris-ann-wolfe-of-helen1906": {
+      "name": "Deloris Ann Wolfe",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "death",
+          "value": "In infancy",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. DELORIS ANN — (b) Infant Death. (bur) Brainard."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Brainard",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. DELORIS ANN — (b) Infant Death. (bur) Brainard."
+            }
+          ]
+        }
+      ]
+    },
+    "raymond-wolfe-1931": {
+      "name": "Raymond Wolfe",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 March 1931, near Spring Ranch, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. RAYMOND — (b) 14 Mar. 1931."
+            },
+            {
+              "scan": "s061",
+              "quote": "born 14 March 1931, near Spring Ranch, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Ardyce Shane, Hastings, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Ardyce Shane."
+            },
+            {
+              "scan": "s061",
+              "quote": "He married Ardyce Shane at Hastings, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "colletta-wolfe-1933": {
+      "name": "Colletta Wolfe",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Colleta Wolfe",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "The family of Colleta Wolfe and Gene Pomeroy"
+            },
+            {
+              "scan": "s061",
+              "quote": "COLLETA WOLFE (Helen rech Wolfe, Barbara Kastl Rech, Andrew)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "13 August 1933, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "3. COLLETTA — (b) 13 Aug. 1933."
+            },
+            {
+              "scan": "s061",
+              "quote": "born 13 August 1933 at Brainard, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Gene Pomeroy, 25 May 1955, Sutton, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Gene Pomeroy—25 May 1955."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married Gene Pomeroy 25 May 1955 in Sutton, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Dwaine Kubicek, 15 June 1975; he was born 1938",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(2) Dwaine Kubicek—15 June 1975."
+            },
+            {
+              "scan": "s061",
+              "quote": "Colletta married (2) Dwaine Kubicek 15 June 1975. He was born 1938."
+            }
+          ]
+        }
+      ]
+    },
+    "ardyce-shane": {
+      "name": "Ardyce Shane",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 October 1936, near Fairfield, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "She was born 6 October 1936 near Fairfield, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "bruce-wolfe-1960": {
+      "name": "Bruce Wolfe",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 February 1960",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. BRUCE — (b) 9 Feb. 1960."
+            }
+          ]
+        }
+      ]
+    },
+    "brian-wolfe-1964": {
+      "name": "Brian Wolfe",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 July 1964",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. BRIAN — (b) 1 July 1964."
+            }
+          ]
+        }
+      ]
+    },
+    "gene-pomeroy": {
+      "name": "Gene Pomeroy",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 November 1926",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "He was born 11 November 1926, died 29 January 1968."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "29 January 1968",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "died 29 January 1968."
+            }
+          ]
+        }
+      ]
+    },
+    "curtis-allan-pomeroy-1955": {
+      "name": "Curtis Allan Pomeroy",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 February 1955",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. CURTIS ALLAN — (b) 25 Feb. 1955. (m) Beth Wuland Rasmussen—31 Mar. 1979."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Beth Wuland Rasmussen, 31 March 1979",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. CURTIS ALLAN — (b) 25 Feb. 1955. (m) Beth Wuland Rasmussen—31 Mar. 1979."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Children listed under his entry: Monica Rasmussen, born 15 November 1973 (from a previous marriage), and Cole Allan Pomeroy, born 21 October 1982",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "Children: Monica Rasmussen (b) 15 Nov. 1973 (Previous Marriage). Cole Allan Pomeroy (b) 21 Oct. 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "kathleen-marie-pomeroy-1956": {
+      "name": "Kathleen Marie Pomeroy",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 March 1956",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. KATHLEEN MARIE — (b) 19 Mar. 1956. (m) Donald Holmes—17 Mar. 1979."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Donald Holmes, 17 March 1979",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. KATHLEEN MARIE — (b) 19 Mar. 1956. (m) Donald Holmes—17 Mar. 1979."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Child listed under her entry: Jeanine, born 3 October 1979",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "Children: Jeanine (b) 3 Oct. 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "anton-janak": {
+      "name": "Anton Janak",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "ernest-janak-1915": {
+      "name": "Ernest Janak",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 May 1915",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. ERNEST (Son of Anton) — (b) 4 May 1915. (m) Olga Svoboda."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Olga Svoboda",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. ERNEST (Son of Anton) — (b) 4 May 1915. (m) Olga Svoboda."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Printed as \"(Son of Anton)\"",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. ERNEST (Son of Anton) — (b) 4 May 1915."
+            }
+          ]
+        }
+      ]
+    },
+    "arnold-janak-1925": {
+      "name": "Arnold Janak",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 October 1925, Butler County",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. ARNOLD — (b) 17 Oct. 1925."
+            },
+            {
+              "scan": "s061",
+              "quote": "ARNOLD JANAK (Frances Kastl Janak, Andrew) born 17 October 1925, in Butler County"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Marcella Hofbauer, 28 June 1949",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Marcella Hofbauer—28 June 1949."
+            },
+            {
+              "scan": "s061",
+              "quote": "He married Marcella Hofbauer 28 June 1949."
+            }
+          ]
+        }
+      ]
+    },
+    "marcella-hofbauer": {
+      "name": "Marcella Hofbauer",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 June 1928, Butler County, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "She was born 13 June 1928 in Butler County, Nebraska, daughter of Jacob Hofbauer."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Jacob Hofbauer",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "daughter of Jacob Hofbauer."
+            }
+          ]
+        }
+      ]
+    },
+    "beverly-janak-1954": {
+      "name": "Beverly Janak",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 June 1954, David City",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "1. BEVERLY — (b) 28 June 1954—David City."
+            }
+          ]
+        }
+      ]
+    },
+    "gale-janak-1956": {
+      "name": "Gale Janak",
+      "sex": "U",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 July 1956, David City",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. GALE — (b) 17 July 1956—David City. (m) Connie Hottovy—28 Nov. 1981."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Connie Hottovy, 28 November 1981",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "2. GALE — (b) 17 July 1956—David City. (m) Connie Hottovy—28 Nov. 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "gregg-janak-1958": {
+      "name": "Gregg Janak",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 April 1958, David City",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "3. GREGG — (b) 1 Apr. 1958—David City. (m) Mary Lou Hottovy—24 Nov. 1979."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mary Lou Hottovy, 24 November 1979",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "3. GREGG — (b) 1 Apr. 1958—David City. (m) Mary Lou Hottovy—24 Nov. 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "sandra-janak-1960": {
+      "name": "Sandra Janak",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 August 1960, David City",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "4. SANDRA — (b) 20 Aug. 1960—David City. (m) John Lanka—11 Oct. 1980."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John Lanka, 11 October 1980",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "4. SANDRA — (b) 20 Aug. 1960—David City. (m) John Lanka—11 Oct. 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "mark-janak-1963": {
+      "name": "Mark Janak",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 April 1963, David City",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "5. MARK — (b) 19 Apr. 1963—David City."
+            }
+          ]
+        }
+      ]
+    },
+    "emily-steinbach": {
+      "name": "Emily Steinbach",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 November 1906, Prague, Nebraska",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "She was born 25 November 1906 at Prague, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "leontine-kastl-1926": {
+      "name": "Leontine Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 August 1926",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. LEONTINE — (b) 1 Aug. 1926."
+            },
+            {
+              "scan": "s062",
+              "quote": "LEONTINE KASTL (John, Andrew) born 1 August 1926"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Emil Herms, 15 September 1945",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Emil Herms—15 Sept. 1945."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married Emil Herms 15 September 1945."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Emil Herms, 24 September 1945",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "LEONTINE (m) 24 Sept. 1945."
+            },
+            {
+              "scan": "s076",
+              "quote": "Married 24 Sept. 1945."
+            }
+          ]
+        }
+      ]
+    },
+    "eldon-kastl-1935": {
+      "name": "Eldon Kastl",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 July 1935, Bruno, Nebraska",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. ELDON — (b) 8 July 1935."
+            },
+            {
+              "scan": "s062",
+              "quote": "ELDON KASTL (John, Andrew) born 8 July 1935 at Bruno, Nebraska"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Barbara Grubaugh, 20 February 1959",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Barbara Grubaugh-20 Feb. 1959."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Barbara Grubaugh 20 February 1959."
+            }
+          ]
+        }
+      ]
+    },
+    "emil-herms": {
+      "name": "Emil Herms",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 April 1926",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "He was born 6 April 1926."
+            }
+          ]
+        }
+      ]
+    },
+    "ron-herms-1950": {
+      "name": "Ron Herms",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 August 1950, Columbus, Nebraska",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. RON — (b) 2 Aug. 1950—Columbus."
+            },
+            {
+              "scan": "s076",
+              "quote": "RON HERMS (Leontine Kastl Herms, John, Andrew) born 2 August 1950, Columbus, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Annette George; she died 6 April 1981",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Anette George."
+            },
+            {
+              "scan": "s076",
+              "quote": "He married Anette George, and she died 6 Apr. 1981."
+            },
+            {
+              "scan": "s076",
+              "quote": "He married (1) Annette George."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Rebecca Stewart, 4 September 1983",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "He married (2) Rebecca Stewart—4 Sept. 1983."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "6 April 1980",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. RON — (b) 2 Aug. 1950—Columbus. (d) 6 Apr. 1980. (m) Anette George."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "Still living",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "RON still living."
+            }
+          ]
+        }
+      ]
+    },
+    "cynthia-lee-herms-1953": {
+      "name": "Cynthia Lee Herms",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 February 1953",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "CYNTHIA LEE — (b) 3 Feb. 1953 (d) 4 Feb. 1953."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 February 1953",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "CYNTHIA LEE — (b) 3 Feb. 1953 (d) 4 Feb. 1953."
+            }
+          ]
+        }
+      ]
+    },
+    "annette-george": {
+      "name": "Annette George",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Anette George",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Anette George."
+            },
+            {
+              "scan": "s076",
+              "quote": "He married Anette George, and she died 6 Apr. 1981."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "6 April 1981",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "He married Anette George, and she died 6 Apr. 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "lanita-marie-herms-1977": {
+      "name": "Lanita Marie Herms",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 March 1977",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. LANITA MARIE — (b) 17 Mar. 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-lee-herms-1978": {
+      "name": "Mary Lee Herms",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 August 1978",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "2. MARY LEE — (b) 30 Aug. 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-grubaugh": {
+      "name": "Barbara Grubaugh",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 July 1939, Rising City, Nebraska",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "She was born 4 July 1939 at Rising City, Nebraska, daughter of Arthur Grubaugh."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Daughter of Arthur Grubaugh",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "daughter of Arthur Grubaugh."
+            }
+          ]
+        }
+      ]
+    },
+    "debra-kastl-1959": {
+      "name": "Debra Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 October 1959, Schyuler",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. DEBRA — (b) 2 Oct. 1959—Schyuler. (m) Ronald Robotham—7 Nov. 1981."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Ronald Robotham, 7 November 1981",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. DEBRA — (b) 2 Oct. 1959—Schyuler. (m) Ronald Robotham—7 Nov. 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "cheryl-kastl-1960": {
+      "name": "Cheryl Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 October 1960, Schyuler",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. CHERYL — (b) 18 Oct. 1960—Schyuler. (m) Mike Woita—16 Dec. 1978."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mike Woita, 16 December 1978",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. CHERYL — (b) 18 Oct. 1960—Schyuler. (m) Mike Woita—16 Dec. 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "joanne-kastl-1962": {
+      "name": "Joanne Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 February 1962, Schyuler",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "3. JOANNE — (b) 16 Feb. 1962—Schyuler. (m) Eldon Nelson—5 Dec. 1981."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Eldon Nelson, 5 December 1981",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "3. JOANNE — (b) 16 Feb. 1962—Schyuler. (m) Eldon Nelson—5 Dec. 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "susan-kastl-1967": {
+      "name": "Susan Kastl",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 May 1967, Schyuler",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "4. SUSAN — (b) 6 May 1967—Schyuler."
+            }
+          ]
+        }
+      ]
+    },
+    "louis-tlamka": {
+      "name": "Louis Tlamka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "death",
+          "value": "7 August 1957, Osceola",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "He died 7 August 1957, at Osceola."
+            }
+          ]
+        }
+      ]
+    },
+    "ludmilla-tlamka-1920": {
+      "name": "Ludmilla Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Luella Tlamka",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "LUDMILLA (aka) Luella TLAMKA (Emma Kastl Tlamka, Andrew)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "17 August 1920",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. LUDMILLA — (b) 17 Aug. 1920."
+            },
+            {
+              "scan": "s062",
+              "quote": "born 17 August 1920, daughter of Emma Kastl and Louis Tlamka"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "David Anderson, 8 May 1943",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) David Anderson—8 May 1943."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married David Anderson 8 May 1943."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "September 1980",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(d) Sept. 1980."
+            },
+            {
+              "scan": "s062",
+              "quote": "died September 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "raymond-tlamka-1921": {
+      "name": "Raymond Tlamka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 December 1921",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. RAYMOND — (b) 28 Dec. 1921."
+            },
+            {
+              "scan": "s062",
+              "quote": "RAYMOND TLAMKA (Emma Kastl Tlamka, Andrew) born 28 December 1921"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bertha Shonka, 11 February 1945",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Bertha Shonka—11 Feb. 1945."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Bertha Shonka 11 February 1945."
+            }
+          ]
+        }
+      ]
+    },
+    "agnes-tlamka-1923": {
+      "name": "Agnes Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 November 1923",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "3. AGNES — (b) 6 Nov. 1923."
+            },
+            {
+              "scan": "s062",
+              "quote": "AGNES TLAMKA (Emma Kastl Tlamka, Andrew) born 6 November 1923"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Fred Topil, 31 May 1943",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Fred Topil—31 May 1943."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married Fred Topil 31 May 1943."
+            }
+          ]
+        }
+      ]
+    },
+    "martha-tlamka-1926": {
+      "name": "Martha Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 April 1926",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "4. MARTHA — (b) 14 Apr. 1926."
+            },
+            {
+              "scan": "s063",
+              "quote": "MARTHA TLAMKA (Emma Kastl Tlamka, Andrew) born 14 April 1926"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Algot Larsen, 16 April 1947",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Algot Larsen—16 Apr. 1947."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Algot Larsen 16 April 1947."
+            }
+          ]
+        }
+      ]
+    },
+    "mildred-tlamka-1928": {
+      "name": "Mildred Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 April 1928",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "5. MILDRED — (b) 18 Apr. 1928."
+            },
+            {
+              "scan": "s063",
+              "quote": "MILDRED TLAMKA (Emma Kastl Tlamka, Andrew) born 18 April 1928"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Conrad Olson, 14 February 1950",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Conrad Olson—14 Feb. 1950."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Conrad Olson 14 February 1950."
+            }
+          ]
+        }
+      ]
+    },
+    "david-anderson": {
+      "name": "David Anderson",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "donald-anderson-1945": {
+      "name": "Donald Anderson",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 July 1945",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. DONALD — (b) 26 July 1945."
+            }
+          ]
+        }
+      ]
+    },
+    "bertha-shonka": {
+      "name": "Bertha Shonka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "linda-tlamka-1948": {
+      "name": "Linda Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "June 1948",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. LINDA — (b) June 1948. (m) Henry Bruner—Sept. 1967."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Henry Bruner, September 1967",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. LINDA — (b) June 1948. (m) Henry Bruner—Sept. 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "carol-tlamka-1949": {
+      "name": "Carol Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "June 1949",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. CAROL — (b) June 1949. (m) Allan Hughes."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Allan Hughes",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. CAROL — (b) June 1949. (m) Allan Hughes."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-tlamka-of-raymond1921": {
+      "name": "Mary Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 December (no year printed)",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "3. MARY — (b) 28 Dec. (m) William Maybe."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "William Maybe",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "3. MARY — (b) 28 Dec. (m) William Maybe."
+            }
+          ]
+        }
+      ]
+    },
+    "cheryl-tlamka-of-raymond1921": {
+      "name": "Cheryl Tlamka",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "marriage",
+          "value": "Bob Tooker",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "4. CHERYL — (m) Bob Tooker."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No birth date is printed",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "4. CHERYL — (m) Bob Tooker."
+            }
+          ]
+        }
+      ]
+    },
+    "raymond-tlamka-jr-of-raymond1921": {
+      "name": "Raymond Tlamka, Jr.",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "5. RAYMOND JR. (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "ron-tlamka-1958": {
+      "name": "Ron Tlamka",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 April 1958",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "6. RON — (b) 8 Apr. 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "fred-topil": {
+      "name": "Fred Topil",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "jerry-f-topil-1946": {
+      "name": "Jerry F. Topil",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Jerry Topil",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "Children of Jerry Topil and (1) Julie Reese:"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "19 November 1946",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. JERRY F. (b) 19 Nov. 1946."
+            },
+            {
+              "scan": "s062",
+              "quote": "JERRY F. TOPIL (Agnes Tlamka Topil, Emma Kastl Tlamka, Andrew) born 19 November 1946"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Julie Reese, 19 June 1968",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Julie Reese—19 June 1968"
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Julie Reese 19 June 1968."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Cheryl (Farwell) Vogt, 31 May 1981",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(2) Cheryl (Farewell) Vogt 31 May 1981."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married (2) Cheryl (Farwell) Vogt 31 May 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "rosella-topil-1948": {
+      "name": "Rosella Topil",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 March 1948",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. ROSELLA — (b) 23 Mar. 1948."
+            },
+            {
+              "scan": "s062",
+              "quote": "ROSELLA TOPIL (Agnes Tlamka Topil, Emma Kastl Tlamka, Andrew) born 23 March 1948"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Tom Richards, Jr., 22 June 1968",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Tom Richards, Jr.—22 June 1968."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married Tom Richards, Jr. 22 June 1968."
+            }
+          ]
+        }
+      ]
+    },
+    "henry-j-topil-1952": {
+      "name": "Henry J. Topil",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Henry Topil",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "Children of Henry Topil and (1) Cheryl Higgenbotham:"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "5 March 1952",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "3. HENRY J. — (b) 5 Mar. 1952."
+            },
+            {
+              "scan": "s062",
+              "quote": "HENRY J. TOPIL (Agnes Tlamka Topil, Emma Kastl Tlamka, Andrew) born 5 March 1952"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Cheryl Higgenbotham, 10 August 1972",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Cheryl Higgenbotham—10 Aug. 1972"
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Cheryl Higgenbotham 10 Aug. 1972."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Barbara Stachura, 21 November 1981",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(2) Barbara Stachura—21 Nov. 1981."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married (2) Barbara Stachura 21 November 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "julie-reese": {
+      "name": "Julie Reese",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "cheryl-vogt": {
+      "name": "Cheryl (Farwell) Vogt",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Cheryl (Farewell) Vogt, Cheryl Vogt",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(2) Cheryl (Farewell) Vogt 31 May 1981."
+            },
+            {
+              "scan": "s062",
+              "quote": "Children of Jerry Topil and (2) Cheryl Vogt:"
+            }
+          ]
+        }
+      ]
+    },
+    "jody-topil-1973": {
+      "name": "Jody Topil",
+      "sex": "U",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "July 1973",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. JODY — (b) July 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "jill-topil-1975": {
+      "name": "Jill Topil",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "August 1975",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. JILL — (b) Aug. 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "noah-topil-1984": {
+      "name": "Noah Topil",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 March 1984",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. NOAH — (b) 6 Mar. 1984."
+            }
+          ]
+        }
+      ]
+    },
+    "tom-richards-jr": {
+      "name": "Tom Richards, Jr.",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "james-henry-ross-richards-1969": {
+      "name": "James Henry Ross Richards",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 January 1969",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "1. James Henry Ross — (b) 22 Jan. 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "tina-marie-richards-1976": {
+      "name": "Tina Marie Richards",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 January 1976",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "2. Tina Marie — (b) 25 Jan. 1976."
+            }
+          ]
+        }
+      ]
+    },
+    "cheryl-higgenbotham": {
+      "name": "Cheryl Higgenbotham",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "barbara-stachura": {
+      "name": "Barbara Stachura",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "chadwick-steven-topil-1974": {
+      "name": "Chadwick Steven Topil",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 October 1974",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. CHADWICK STEVEN — (b) 24 Oct. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "trisha-coreen-topil-1977": {
+      "name": "Trisha Coreen Topil",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 March 1977",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. TRISHA COREEN — (b) 9 Mar. 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "craig-joseph-topil-1982": {
+      "name": "Craig Joseph Topil",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 December 1982",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. CRAIG JOSEPH — (b) 12 Dec. 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "algot-larsen": {
+      "name": "Algot Larsen",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "bobby-larsen-1947": {
+      "name": "Bobby Larsen",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 September 1947",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. BOBBY — (b) 18 Sept. 1947."
+            }
+          ]
+        }
+      ]
+    },
+    "dennis-larsen-1956": {
+      "name": "Dennis Larsen",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 August 1956",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. DENNIS — (b) 8 Aug. 1956. (m) 16 June 1984."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "16 June 1984 (spouse not named)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. DENNIS — (b) 8 Aug. 1956. (m) 16 June 1984."
+            }
+          ]
+        }
+      ]
+    },
+    "conrad-olson": {
+      "name": "Conrad Olson",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "bonnie-olson-1950": {
+      "name": "Bonnie Olson",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 October 1950",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. BONNIE — (b) 30 Oct. 1950."
+            }
+          ]
+        }
+      ]
+    },
+    "richard-olson-1952": {
+      "name": "Richard Olson",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 January 1952",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. RICHARD — (b) 17 Jan. 1952."
+            },
+            {
+              "scan": "s063",
+              "quote": "RICHARD OLSON (Mildred Tlamka Olson, Emma Kastl Tlamka, Andrew) born 17 January 1952"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kathy Dahle, 13 September 1975",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Kathy Dahle—13 Sept. 1975."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Kathy Dahle 13 September 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "janet-olson-1953": {
+      "name": "Janet Olson",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 August 1953",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "3. JANET — (b) 13 Aug. 1953."
+            },
+            {
+              "scan": "s063",
+              "quote": "JANET OLSON (Mildred Tlamka Olson, Emma Kastl Tlamka, Andrew) born 13 August 1953"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John Ready, 21 October 1972",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) John Ready—21 Oct. 1972."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married John Ready 21 October 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "janice-olson-1953": {
+      "name": "Janice Olson",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 August 1953",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "4. JANICE — (b) 13 Aug. 1953."
+            },
+            {
+              "scan": "s063",
+              "quote": "JANICE OLSON (Mildred Tlamka Olson, Emma Kastl Tlamka, Andrew) born 13 August 1953"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Russell Jacobsen, 12 July 1972",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Russell Jacobsen—12 July 1972."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Russell Jacobsen 12 July 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "roger-olson-1957": {
+      "name": "Roger Olson",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 December 1957",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "5. ROGER — (b) 16 Dec. 1957."
+            },
+            {
+              "scan": "s063",
+              "quote": "ROGER OLSON (Mildred Tlamka Olson, Emma Kastl Tlamka, Andrew) born 16 December 1957"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Susan Cramer, 7 June 1980",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Susan Cramer—7 June 1980."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Susan Cramer 7 June 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "orwin-olson-1962": {
+      "name": "Orwin Olson",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 December 1962",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "6. ORWIN — (b) 30 Dec. 1962."
+            }
+          ]
+        }
+      ]
+    },
+    "kathy-dahle": {
+      "name": "Kathy Dahle",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "adam-james-olson-1980": {
+      "name": "Adam James Olson",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 July 1980",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. ADAM JAMES — (b) 8 July 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "alisssa-olson-1983": {
+      "name": "Alisssa Olson",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 July 1983",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. ALISSSA — (b) 28 July 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "john-ready": {
+      "name": "John Ready",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "jason-ready-1973": {
+      "name": "Jason Ready",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 September 1973",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. JASON — (b) 14 Sept. 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "jennifer-ready-1974": {
+      "name": "Jennifer Ready",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 October 1974",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. JENNIFER — (b) 28 Oct. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "russell-jacobsen": {
+      "name": "Russell Jacobsen",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "nathan-jacobsen-1972": {
+      "name": "Nathan Jacobsen",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 July 1972",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. NATHAN — (b) 3 July 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "troy-jacobsen-1975": {
+      "name": "Troy Jacobsen",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 August 1975",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. TROY — (b) 8 Aug. 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "susan-cramer": {
+      "name": "Susan Cramer",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "jessica-olson-1982": {
+      "name": "Jessica Olson",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 December 1982",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. JESSICA — (b) 19 Dec. 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-stanek": {
+      "name": "Joseph Stanek",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 March 1896",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "He was born 16 March 1896."
+            }
+          ]
+        }
+      ]
+    },
+    "helen-martha-stanek-of-agnes1901": {
+      "name": "Helen Martha Stanek",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Helen M. Stanek",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "The family of Helen M. Stanek and Ennis Dwight Magruder"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "No birth date is printed: the child list gives none, and her entry reads \"born daughter of …\"",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. HELEN MARTHA — (m) Ennis Dwight Magruder—14 Dec. 1945."
+            },
+            {
+              "scan": "s063",
+              "quote": "HELEN MARTHA STANEK (Agnes Kastl Stanek, Andrew) born daughter of Agnes Kastl and Joseph Stanek."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Ennis Dwight Magruder, 14 December 1945",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Ennis Dwight Magruder—14 Dec. 1945."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Ennis Dwight Magruder—14 December 1945."
+            }
+          ]
+        }
+      ]
+    },
+    "richard-joe-stanek-1932": {
+      "name": "Richard Joe Stanek",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Richard J. Stanek",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "RICHARD J. STANEK (Agnes Kastl Stanek, Andrew)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "26 September 1932",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. RICHARD JOE — (b) 26 Sept. 1932."
+            },
+            {
+              "scan": "s063",
+              "quote": "RICHARD J. STANEK (Agnes Kastl Stanek, Andrew) born 26 September 1932"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Gladys C. Peterson, 18 December 1958",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Gladys C. Peterson—18 Dec. 1958."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Gladys C. Peterson 18 December 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "leonard-john-stanek-1934": {
+      "name": "Leonard John Stanek",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 July 1934",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "3. LEONARD JOHN — (b) 8 July 1934."
+            },
+            {
+              "scan": "s063",
+              "quote": "LEONARD JOHN STANEK (Agnes Kastl Stanek, Andrew) born 8 July 1934"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Betty McMullen, 18 September 1960; she died, leaving no children",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Betty McMullen—18 Sept. 1960 (Died) No children"
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Betty McMullen 18 September 1960. She died, leaving no children."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Doline Helen Horky, 1966",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(2) Doline Helen Horky—1966."
+            },
+            {
+              "scan": "s064",
+              "quote": "(2) Doline Helen Horky in 1966."
+            }
+          ]
+        }
+      ]
+    },
+    "willard-james-stanek-1943": {
+      "name": "Willard James Stanek",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Willard J. Stanek",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "The family of Willard J. Stanek and Karen Lingel"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "28 October 1943",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "4. WILLARD JAMES — (b) 28 Oct. 1943."
+            },
+            {
+              "scan": "s064",
+              "quote": "WILLARD JAMES STANEK (Agnes Kastl Stanek, Andrew) born 28 October 1943"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Karen Lingel",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Karen Lingel."
+            },
+            {
+              "scan": "s064",
+              "quote": "He married Karen Lingel."
+            }
+          ]
+        }
+      ]
+    },
+    "ennis-dwight-magruder": {
+      "name": "Ennis Dwight Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": []
+    },
+    "sharon-darlene-magruder-of-helen-ennis": {
+      "name": "Sharon Darlene Magruder",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. SHARON DARLENE (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "donald-eugene-magruder-of-helen-ennis": {
+      "name": "Donald Eugene Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. DONALD EUGENE (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "geneva-irene-magruder-of-helen-ennis": {
+      "name": "Geneva Irene Magruder",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "3. GENEVA IRENE (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "carroll-leon-magruder-of-helen-ennis": {
+      "name": "Carroll Leon Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "4. CARROLL LEON (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "lonnie-joe-magruder-of-helen-ennis": {
+      "name": "Lonnie Joe Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "5. LONNIE JOE (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "robert-lewis-magruder-of-helen-ennis": {
+      "name": "Robert Lewis Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "6. ROBERT LEWIS (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "raymond-lee-magruder-of-helen-ennis": {
+      "name": "Raymond Lee Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "7. RAYMOND LEE (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "charlotte-kay-magruder-of-helen-ennis": {
+      "name": "Charlotte Kay Magruder",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "8. CHARLOTTE KAY (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "roger-allen-magruder-of-helen-ennis": {
+      "name": "Roger Allen Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "9. ROGER ALLEN (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "marvin-lloyd-magruder-of-helen-ennis": {
+      "name": "Marvin Lloyd Magruder",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "10. MARVIN LLOYD (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-ann-magruder-of-helen-ennis": {
+      "name": "Barbara Ann Magruder",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "11. BARBARA ANN — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "gladys-c-peterson": {
+      "name": "Gladys C. Peterson",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "patricia-kay-stanek-of-richard1932": {
+      "name": "Patricia Kay Stanek",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "1. PATRICIA KAY — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "bonnie-sue-stanek-of-richard1932": {
+      "name": "Bonnie Sue Stanek",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "2. BONNIE SUE — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "paul-allen-stanek-of-richard1932": {
+      "name": "Paul Allen Stanek",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "3. PAUL ALLEN — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "susan-pauline-stanek-of-richard1932": {
+      "name": "Susan Pauline Stanek",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "4. SUSAN PAULINE — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "doline-helen-horky": {
+      "name": "Doline Helen Horky",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Doline H. Horky",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "The family of Leonard John Stanek and Doline H. Horky (2)"
+            }
+          ]
+        }
+      ]
+    },
+    "trudy-marie-stanek-of-leonard1934": {
+      "name": "Trudy Marie Stanek",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. TRUDY MARIE (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "karen-lingel": {
+      "name": "Karen Lingel",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": []
+    },
+    "jimmie-joe-stanek-of-willard1943": {
+      "name": "Jimmie Joe Stanek",
+      "sex": "M",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "1. JIMMIE JOE — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "judy-sue-stanek-of-willard1943": {
+      "name": "Judy Sue Stanek",
+      "sex": "F",
+      "branch": "andrew",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child with no birth date (\"(b)\" is printed blank)",
+          "sources": [
+            {
+              "scan": "s064",
+              "quote": "2. JUDY SUE — (b)"
+            }
+          ]
         }
       ]
     }
   },
-  "families": []
+  "families": [
+    {
+      "id": "andrew1853-barbara",
+      "partners": [
+        "andrew-kastl-1853",
+        "barbara-valecka"
+      ],
+      "heading": "The children of Andrew Kastl and Barbara Valecka",
+      "children": [
+        "mary-kastl-1881",
+        "anna-kastl-1882",
+        "mary-kastl-1884",
+        "barbara-elizabeth-kastl-1885",
+        "rose-kastl-1889",
+        "catherine-kastl-1891",
+        "frances-kastl-1892",
+        "anastasia-kastl-1894",
+        "john-kastl-1896",
+        "emma-kastl-1898",
+        "agnes-kastl-1901"
+      ],
+      "note": "The photo captioned \"Andrew Kastl family\" (p. 58) names \"Top—Mary, Rose, Frances, Barbara. Bottom—Andrew, John, Barbara, Agnes, Emma, and Anna.\" It is attached to Andrew, to Barbara Valecka (taken as the Barbara in the bottom row), and to the children named; the Mary is taken to be Mary born 1884, since the first Mary died in 1881, and the other Barbara to be Barbara Elizabeth.",
+      "sources": [
+        "s059",
+        "s060"
+      ]
+    },
+    {
+      "id": "anna1882-joseph",
+      "partners": [
+        "anna-kastl-1882",
+        "joseph-vrbka"
+      ],
+      "heading": "The family of Anna Kastl and Joseph Vrbka",
+      "marriage": [
+        {
+          "value": "30 May 1899, Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Joseph Vrbka 30 May 1899—Plasi."
+            },
+            {
+              "scan": "s059",
+              "quote": "She married Joseph Vrbka 30 May 1899 at Plasi, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "joseph-vrbka-1900",
+        "edward-vrbka-1902",
+        "stella-vrbka-1904",
+        "anton-vrbka-1906",
+        "anna-vrbka-1908",
+        "emil-vrbka-1910",
+        "frank-vrbka-1912",
+        "mary-vrbka-1914",
+        "agnes-vrbka-1916",
+        "louis-vrbka-1917"
+      ],
+      "sources": [
+        "s059",
+        "s060"
+      ]
+    },
+    {
+      "id": "joseph1900-tillie",
+      "partners": [
+        "joseph-vrbka-1900",
+        "tillie-sedlak"
+      ],
+      "heading": "The family of Joseph Vrbka and Tillie Sedlak",
+      "marriage": [
+        {
+          "value": "3 January 1923",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Tillie Sedlak—3 Jan. 1923."
+            },
+            {
+              "scan": "s060",
+              "quote": "He married Tillie Sedlak 3 January 1923."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "evelyn-vrbka-1924",
+        "raymond-vrbka-1925",
+        "leonard-vrbka-1928",
+        "donald-vrbka-1930",
+        "laverne-vrbka-1938",
+        "robert-vrbka-1942",
+        "gary-vrbka-1946"
+      ],
+      "sources": [
+        "s059",
+        "s060"
+      ]
+    },
+    {
+      "id": "anna1908-george",
+      "partners": [
+        "anna-vrbka-1908",
+        "george-nekl"
+      ],
+      "heading": "The family of Anna Vrbka and George Nekl",
+      "marriage": [
+        {
+          "value": "5 January 1930",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) George Nekl—5 Jan. 1930."
+            },
+            {
+              "scan": "s060",
+              "quote": "She married George Nekl 5 January 1930."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "deloris-nekl-1934"
+      ],
+      "sources": [
+        "s059",
+        "s060"
+      ]
+    },
+    {
+      "id": "emil1910-cecilia",
+      "partners": [
+        "emil-vrbka-1910",
+        "cecilia-nekl"
+      ],
+      "heading": "The family of Emil Vrbka and Cecilia Nekl",
+      "children": [
+        "richard-vrbka-1931"
+      ],
+      "sources": [
+        "s060"
+      ]
+    },
+    {
+      "id": "louis1917-anna",
+      "partners": [
+        "louis-vrbka-1917",
+        "anna-speicher"
+      ],
+      "heading": "The family of Louis Vrbka and Anna Speicher",
+      "marriage": [
+        {
+          "value": "21 June 1948",
+          "sources": [
+            {
+              "scan": "s060",
+              "quote": "(m) Anna Speicher—21 June 1948."
+            },
+            {
+              "scan": "s060",
+              "quote": "He married Anna Speicher 21 June 1948."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "stephen-vrbka-1949",
+        "daniel-vrbka-1953",
+        "sara-vrbka-1959",
+        "marilee-vrbka-1965"
+      ],
+      "sources": [
+        "s060",
+        "s061"
+      ]
+    },
+    {
+      "id": "mary1884-frank",
+      "partners": [
+        "mary-kastl-1884",
+        "frank-michalik"
+      ],
+      "heading": "The family of Mary Kastl and Frank Michalik",
+      "marriage": [
+        {
+          "value": "22 February 1909, Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Frank Michalik 22 Feb. 1909—Plasi."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married Frank Michalik 22 February 1909 at Plasi."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "ernest-michalik-1910"
+      ],
+      "sources": [
+        "s059",
+        "s061"
+      ]
+    },
+    {
+      "id": "ernest1910-mary",
+      "partners": [
+        "ernest-michalik-1910",
+        "mary-heyman"
+      ],
+      "heading": "The family of Ernest Michalik and Mary Heyman",
+      "marriage": [
+        {
+          "value": "1934",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Mary Heyman—1934."
+            },
+            {
+              "scan": "s061",
+              "quote": "He married Mary Heyman 1934."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "dorothy-michalik-1935",
+        "eugene-michalik-of-ernest1910",
+        "doris-michalik-of-ernest1910",
+        "bernard-michalik-of-ernest1910",
+        "donald-michalik-of-ernest1910"
+      ],
+      "sources": [
+        "s061"
+      ]
+    },
+    {
+      "id": "barbara1885-john",
+      "partners": [
+        "barbara-elizabeth-kastl-1885",
+        "john-f-rech"
+      ],
+      "heading": "The family of Barbara Kastl and John F. Rech",
+      "marriage": [
+        {
+          "value": "24 October 1905, Plasi",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) John F. Rech 24 Oct. 1905—Plasi."
+            },
+            {
+              "scan": "s061",
+              "quote": "SHe married John F. Rech 24 October 1905 at Plasi."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "helen-rech-1906",
+        "rudolph-rech-1916"
+      ],
+      "sources": [
+        "s059",
+        "s061"
+      ]
+    },
+    {
+      "id": "helen1906-steven",
+      "partners": [
+        "helen-rech-1906",
+        "steven-f-wolfe"
+      ],
+      "heading": "The family of Helen Rech and Steven F. Wolfe",
+      "marriage": [
+        {
+          "value": "21 August 1928, Brainard",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Steven F. Wolfe—21 Aug. 1928."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married Steven F. Wolfe 21 August 1928 at Brainard."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "deloris-ann-wolfe-of-helen1906",
+        "raymond-wolfe-1931",
+        "colletta-wolfe-1933"
+      ],
+      "sources": [
+        "s061"
+      ]
+    },
+    {
+      "id": "raymond1931-ardyce",
+      "partners": [
+        "raymond-wolfe-1931",
+        "ardyce-shane"
+      ],
+      "heading": "The family of Raymond Wolfe and Ardyce Shane",
+      "marriage": [
+        {
+          "value": "Hastings, Nebraska (no date printed)",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "He married Ardyce Shane at Hastings, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "bruce-wolfe-1960",
+        "brian-wolfe-1964"
+      ],
+      "sources": [
+        "s061"
+      ]
+    },
+    {
+      "id": "colletta1933-gene",
+      "partners": [
+        "colletta-wolfe-1933",
+        "gene-pomeroy"
+      ],
+      "heading": "The family of Colleta Wolfe and Gene Pomeroy",
+      "marriage": [
+        {
+          "value": "25 May 1955, Sutton, Nebraska",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Gene Pomeroy—25 May 1955."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married Gene Pomeroy 25 May 1955 in Sutton, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "curtis-allan-pomeroy-1955",
+        "kathleen-marie-pomeroy-1956"
+      ],
+      "note": "The heading and lineage spell her name Colleta; the child list and the text also use Colletta. Curtis Allan is printed as born 25 February 1955, three months before the marriage of 25 May 1955; both are kept as printed. The paragraph under this heading also records Colletta's second marriage, to Dwaine Kubicek in 1975, before \"Their children:\"; the children (born 1955 and 1956) are placed with Gene Pomeroy, as the heading has it. The grandchildren printed after each child's line (\"Children: …\") are kept as notes on Curtis Allan and Kathleen Marie.",
+      "sources": [
+        "s061"
+      ]
+    },
+    {
+      "id": "frances1892-anton",
+      "partners": [
+        "frances-kastl-1892",
+        "anton-janak"
+      ],
+      "heading": "The family of Frances Kastl and (2) Anton Janak",
+      "marriage": [
+        {
+          "value": "20 June 1920, Brainard, Nebraska",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(2) Anton Janak—20 June 1920—Brainard."
+            },
+            {
+              "scan": "s061",
+              "quote": "She married (2) Anton Janak 20 June 1920 at Brainard, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "ernest-janak-1915",
+        "arnold-janak-1925"
+      ],
+      "note": "This is Frances's second marriage; her first husband, Otto Dvorak, died in 1918, and no children are listed for that marriage. ERNEST is printed \"(Son of Anton)\" and born 4 May 1915, before this marriage of 1920; the book lists him among \"Their children\" and does not say who his mother was. He is kept in this family as printed, with the surname Janak implied by \"Son of Anton\".",
+      "sources": [
+        "s059",
+        "s061"
+      ]
+    },
+    {
+      "id": "arnold1925-marcella",
+      "partners": [
+        "arnold-janak-1925",
+        "marcella-hofbauer"
+      ],
+      "heading": "The family of Arnold Janak and Marcella Hofbauer",
+      "marriage": [
+        {
+          "value": "28 June 1949",
+          "sources": [
+            {
+              "scan": "s061",
+              "quote": "(m) Marcella Hofbauer—28 June 1949."
+            },
+            {
+              "scan": "s061",
+              "quote": "He married Marcella Hofbauer 28 June 1949."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "beverly-janak-1954",
+        "gale-janak-1956",
+        "gregg-janak-1958",
+        "sandra-janak-1960",
+        "mark-janak-1963"
+      ],
+      "sources": [
+        "s061"
+      ]
+    },
+    {
+      "id": "john1896-emily",
+      "partners": [
+        "john-kastl-1896",
+        "emily-steinbach"
+      ],
+      "heading": "The family of John Kastl and Emily Steinbach",
+      "marriage": [
+        {
+          "value": "15 September 1925",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Emily Steinbach—15 Sept. 1925."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Emily Steinbach 15 September 1925."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "leontine-kastl-1926",
+        "eldon-kastl-1935"
+      ],
+      "sources": [
+        "s059",
+        "s062",
+        "s076"
+      ]
+    },
+    {
+      "id": "leontine1926-emil",
+      "partners": [
+        "leontine-kastl-1926",
+        "emil-herms"
+      ],
+      "heading": "The family of Leontine Kastl and Emil Herms",
+      "marriage": [
+        {
+          "value": "15 September 1945",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Emil Herms—15 Sept. 1945."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married Emil Herms 15 September 1945."
+            }
+          ]
+        },
+        {
+          "value": "24 September 1945",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "LEONTINE (m) 24 Sept. 1945."
+            },
+            {
+              "scan": "s076",
+              "quote": "Married 24 Sept. 1945."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "ron-herms-1950",
+        "cynthia-lee-herms-1953"
+      ],
+      "note": "The 1985 book lists only Ron, printed as died 6 Apr. 1980. The 1986 supplement's unnumbered \"Children:\" section under this heading says \"RON still living\", gives the death date 6 Apr. 1981 for his wife Anette George, and adds CYNTHIA LEE (b. 3 Feb., d. 4 Feb. 1953). Both readings of Ron's death are kept. The supplement also gives the marriage as 24 Sept. 1945 instead of 15 Sept. 1945.",
+      "sources": [
+        "s062",
+        "s076"
+      ]
+    },
+    {
+      "id": "ron1950-annette",
+      "partners": [
+        "ron-herms-1950",
+        "annette-george"
+      ],
+      "heading": "The family of Ron Herms and Annette George",
+      "children": [
+        "lanita-marie-herms-1977",
+        "mary-lee-herms-1978"
+      ],
+      "note": "Ron's second marriage, to Rebecca Stewart on 4 Sept. 1983, is recorded on his own page; no children are listed for it.",
+      "sources": [
+        "s062",
+        "s076"
+      ]
+    },
+    {
+      "id": "eldon1935-barbara",
+      "partners": [
+        "eldon-kastl-1935",
+        "barbara-grubaugh"
+      ],
+      "heading": "The family of Eldon Kastl and Barbara Grubaugh",
+      "marriage": [
+        {
+          "value": "20 February 1959",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Barbara Grubaugh-20 Feb. 1959."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Barbara Grubaugh 20 February 1959."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "debra-kastl-1959",
+        "cheryl-kastl-1960",
+        "joanne-kastl-1962",
+        "susan-kastl-1967"
+      ],
+      "sources": [
+        "s062"
+      ]
+    },
+    {
+      "id": "emma1898-louis",
+      "partners": [
+        "emma-kastl-1898",
+        "louis-tlamka"
+      ],
+      "heading": "The family of Emma Kastl and Louis Tlamka",
+      "children": [
+        "ludmilla-tlamka-1920",
+        "raymond-tlamka-1921",
+        "agnes-tlamka-1923",
+        "martha-tlamka-1926",
+        "mildred-tlamka-1928"
+      ],
+      "sources": [
+        "s059",
+        "s062"
+      ]
+    },
+    {
+      "id": "ludmilla1920-david",
+      "partners": [
+        "ludmilla-tlamka-1920",
+        "david-anderson"
+      ],
+      "heading": "The family of Ludmilla Tlamka and David Anderson",
+      "marriage": [
+        {
+          "value": "8 May 1943",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) David Anderson—8 May 1943."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married David Anderson 8 May 1943."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "donald-anderson-1945"
+      ],
+      "sources": [
+        "s062"
+      ]
+    },
+    {
+      "id": "raymond1921-bertha",
+      "partners": [
+        "raymond-tlamka-1921",
+        "bertha-shonka"
+      ],
+      "heading": "The family of Raymond Tlamka and Bertha Shonka",
+      "marriage": [
+        {
+          "value": "11 February 1945",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Bertha Shonka—11 Feb. 1945."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Bertha Shonka 11 February 1945."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "linda-tlamka-1948",
+        "carol-tlamka-1949",
+        "mary-tlamka-of-raymond1921",
+        "cheryl-tlamka-of-raymond1921",
+        "raymond-tlamka-jr-of-raymond1921",
+        "ron-tlamka-1958"
+      ],
+      "sources": [
+        "s062"
+      ]
+    },
+    {
+      "id": "agnes1923-fred",
+      "partners": [
+        "agnes-tlamka-1923",
+        "fred-topil"
+      ],
+      "heading": "The family of Agnes Tlamka and Fred Topil",
+      "marriage": [
+        {
+          "value": "31 May 1943",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Fred Topil—31 May 1943."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married Fred Topil 31 May 1943."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jerry-f-topil-1946",
+        "rosella-topil-1948",
+        "henry-j-topil-1952"
+      ],
+      "sources": [
+        "s062"
+      ]
+    },
+    {
+      "id": "jerry1946-julie",
+      "partners": [
+        "jerry-f-topil-1946",
+        "julie-reese"
+      ],
+      "order": 1,
+      "heading": [
+        "The family of Jerry F. Topil and (1) Julie Reese and (2) Cheryl (Farwell) Vogt",
+        "Children of Jerry Topil and (1) Julie Reese"
+      ],
+      "marriage": [
+        {
+          "value": "19 June 1968",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Julie Reese—19 June 1968"
+            },
+            {
+              "scan": "s062",
+              "quote": "He married Julie Reese 19 June 1968."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jody-topil-1973",
+        "jill-topil-1975"
+      ],
+      "note": "The book's heading names both wives (\"The family of Jerry F. Topil and (1) Julie Reese and (2) Cheryl (Farwell) Vogt\"); it lists the children of each marriage separately, under \"Children of Jerry Topil and (1) Julie Reese\" and \"Children of Jerry Topil and (2) Cheryl Vogt\".",
+      "sources": [
+        "s062"
+      ]
+    },
+    {
+      "id": "jerry1946-cheryl",
+      "partners": [
+        "jerry-f-topil-1946",
+        "cheryl-vogt"
+      ],
+      "order": 2,
+      "heading": "Children of Jerry Topil and (2) Cheryl Vogt",
+      "marriage": [
+        {
+          "value": "31 May 1981",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(2) Cheryl (Farewell) Vogt 31 May 1981."
+            },
+            {
+              "scan": "s062",
+              "quote": "He married (2) Cheryl (Farwell) Vogt 31 May 1981."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "noah-topil-1984"
+      ],
+      "note": "The book's heading names both wives (\"The family of Jerry F. Topil and (1) Julie Reese and (2) Cheryl (Farwell) Vogt\"); it lists the children of each marriage separately, under \"Children of Jerry Topil and (1) Julie Reese\" and \"Children of Jerry Topil and (2) Cheryl Vogt\". Her maiden name is printed \"Farewell\" in the child list and \"Farwell\" in the heading and text.",
+      "sources": [
+        "s062"
+      ]
+    },
+    {
+      "id": "rosella1948-tom",
+      "partners": [
+        "rosella-topil-1948",
+        "tom-richards-jr"
+      ],
+      "heading": "The family of Rosella Topil and Tom Richards, Jr.",
+      "marriage": [
+        {
+          "value": "22 June 1968",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Tom Richards, Jr.—22 June 1968."
+            },
+            {
+              "scan": "s062",
+              "quote": "She married Tom Richards, Jr. 22 June 1968."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "james-henry-ross-richards-1969",
+        "tina-marie-richards-1976"
+      ],
+      "sources": [
+        "s062"
+      ]
+    },
+    {
+      "id": "henry1952-cheryl",
+      "partners": [
+        "henry-j-topil-1952",
+        "cheryl-higgenbotham"
+      ],
+      "order": 1,
+      "heading": [
+        "The family of Henry J. Topil and (1) Cheryl Higgenbotham",
+        "Children of Henry Topil and (1) Cheryl Higgenbotham"
+      ],
+      "marriage": [
+        {
+          "value": "10 August 1972",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Cheryl Higgenbotham—10 Aug. 1972"
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Cheryl Higgenbotham 10 Aug. 1972."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "chadwick-steven-topil-1974",
+        "trisha-coreen-topil-1977"
+      ],
+      "sources": [
+        "s062",
+        "s063"
+      ]
+    },
+    {
+      "id": "henry1952-barbara",
+      "partners": [
+        "henry-j-topil-1952",
+        "barbara-stachura"
+      ],
+      "order": 2,
+      "heading": "Chidren of Henry Topil and (2) Barbara Stachura",
+      "marriage": [
+        {
+          "value": "21 November 1981",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(2) Barbara Stachura—21 Nov. 1981."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married (2) Barbara Stachura 21 November 1981."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "craig-joseph-topil-1982"
+      ],
+      "note": "The book labels this list \"Chidren of Henry Topil and (2) Barbara Stachura\", as printed.",
+      "sources": [
+        "s062",
+        "s063"
+      ]
+    },
+    {
+      "id": "martha1926-algot",
+      "partners": [
+        "martha-tlamka-1926",
+        "algot-larsen"
+      ],
+      "heading": "The family of Martha Tlamka and Algot Larsen",
+      "marriage": [
+        {
+          "value": "16 April 1947",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Algot Larsen—16 Apr. 1947."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Algot Larsen 16 April 1947."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "bobby-larsen-1947",
+        "dennis-larsen-1956"
+      ],
+      "sources": [
+        "s062",
+        "s063"
+      ]
+    },
+    {
+      "id": "mildred1928-conrad",
+      "partners": [
+        "mildred-tlamka-1928",
+        "conrad-olson"
+      ],
+      "heading": "The family of Mildred Tlamka and Conrad Olson",
+      "marriage": [
+        {
+          "value": "14 February 1950",
+          "sources": [
+            {
+              "scan": "s062",
+              "quote": "(m) Conrad Olson—14 Feb. 1950."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Conrad Olson 14 February 1950."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "bonnie-olson-1950",
+        "richard-olson-1952",
+        "janet-olson-1953",
+        "janice-olson-1953",
+        "roger-olson-1957",
+        "orwin-olson-1962"
+      ],
+      "note": "Janet and Janice are both printed as born 13 Aug. 1953.",
+      "sources": [
+        "s062",
+        "s063"
+      ]
+    },
+    {
+      "id": "richard1952-kathy",
+      "partners": [
+        "richard-olson-1952",
+        "kathy-dahle"
+      ],
+      "heading": "The family of Richard Olson and Kathy Dahle",
+      "marriage": [
+        {
+          "value": "13 September 1975",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Kathy Dahle—13 Sept. 1975."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Kathy Dahle 13 September 1975."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "adam-james-olson-1980",
+        "alisssa-olson-1983"
+      ],
+      "note": "ALISSSA is spelled so in the book.",
+      "sources": [
+        "s063"
+      ]
+    },
+    {
+      "id": "janet1953-john",
+      "partners": [
+        "janet-olson-1953",
+        "john-ready"
+      ],
+      "heading": "The family of Janet Olson and John Ready",
+      "marriage": [
+        {
+          "value": "21 October 1972",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) John Ready—21 Oct. 1972."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married John Ready 21 October 1972."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jason-ready-1973",
+        "jennifer-ready-1974"
+      ],
+      "sources": [
+        "s063"
+      ]
+    },
+    {
+      "id": "janice1953-russell",
+      "partners": [
+        "janice-olson-1953",
+        "russell-jacobsen"
+      ],
+      "heading": "The family of Janice Olson and Russell Jacobsen",
+      "marriage": [
+        {
+          "value": "12 July 1972",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Russell Jacobsen—12 July 1972."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Russell Jacobsen 12 July 1972."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "nathan-jacobsen-1972",
+        "troy-jacobsen-1975"
+      ],
+      "note": "Nathan is printed as born 3 July 1972, nine days before the marriage of 12 July 1972; both are kept as printed.",
+      "sources": [
+        "s063"
+      ]
+    },
+    {
+      "id": "roger1957-susan",
+      "partners": [
+        "roger-olson-1957",
+        "susan-cramer"
+      ],
+      "heading": "The family of Roger Olson and Susan Cramer",
+      "marriage": [
+        {
+          "value": "7 June 1980",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Susan Cramer—7 June 1980."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Susan Cramer 7 June 1980."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jessica-olson-1982"
+      ],
+      "sources": [
+        "s063"
+      ]
+    },
+    {
+      "id": "agnes1901-joseph",
+      "partners": [
+        "agnes-kastl-1901",
+        "joseph-stanek"
+      ],
+      "heading": "The family of Agnes Kastl and Joseph Stanek",
+      "marriage": [
+        {
+          "value": "14 February 1922",
+          "sources": [
+            {
+              "scan": "s059",
+              "quote": "(m) Joseph Stanek—14 Feb. 1922."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Joseph Stanek 14 February 1922."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "helen-martha-stanek-of-agnes1901",
+        "richard-joe-stanek-1932",
+        "leonard-john-stanek-1934",
+        "willard-james-stanek-1943"
+      ],
+      "sources": [
+        "s059",
+        "s063"
+      ]
+    },
+    {
+      "id": "helen-ennis",
+      "partners": [
+        "helen-martha-stanek-of-agnes1901",
+        "ennis-dwight-magruder"
+      ],
+      "heading": "The family of Helen M. Stanek and Ennis Dwight Magruder",
+      "marriage": [
+        {
+          "value": "14 December 1945",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Ennis Dwight Magruder—14 Dec. 1945."
+            },
+            {
+              "scan": "s063",
+              "quote": "She married Ennis Dwight Magruder—14 December 1945."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "sharon-darlene-magruder-of-helen-ennis",
+        "donald-eugene-magruder-of-helen-ennis",
+        "geneva-irene-magruder-of-helen-ennis",
+        "carroll-leon-magruder-of-helen-ennis",
+        "lonnie-joe-magruder-of-helen-ennis",
+        "robert-lewis-magruder-of-helen-ennis",
+        "raymond-lee-magruder-of-helen-ennis",
+        "charlotte-kay-magruder-of-helen-ennis",
+        "roger-allen-magruder-of-helen-ennis",
+        "marvin-lloyd-magruder-of-helen-ennis",
+        "barbara-ann-magruder-of-helen-ennis"
+      ],
+      "note": "No birth dates are printed for the eleven children.",
+      "sources": [
+        "s063"
+      ]
+    },
+    {
+      "id": "richard1932-gladys",
+      "partners": [
+        "richard-joe-stanek-1932",
+        "gladys-c-peterson"
+      ],
+      "heading": "The family of Richard Joe Stanek and Gladys C. Peterson",
+      "marriage": [
+        {
+          "value": "18 December 1958",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(m) Gladys C. Peterson—18 Dec. 1958."
+            },
+            {
+              "scan": "s063",
+              "quote": "He married Gladys C. Peterson 18 December 1958."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "patricia-kay-stanek-of-richard1932",
+        "bonnie-sue-stanek-of-richard1932",
+        "paul-allen-stanek-of-richard1932",
+        "susan-pauline-stanek-of-richard1932"
+      ],
+      "note": "No birth dates are printed for the four children.",
+      "sources": [
+        "s063"
+      ]
+    },
+    {
+      "id": "leonard1934-doline",
+      "partners": [
+        "leonard-john-stanek-1934",
+        "doline-helen-horky"
+      ],
+      "heading": "The family of Leonard John Stanek and Doline H. Horky (2)",
+      "marriage": [
+        {
+          "value": "1966",
+          "sources": [
+            {
+              "scan": "s063",
+              "quote": "(2) Doline Helen Horky—1966."
+            },
+            {
+              "scan": "s064",
+              "quote": "(2) Doline Helen Horky in 1966."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "trudy-marie-stanek-of-leonard1934"
+      ],
+      "note": "This is Leonard's second marriage. His first wife, Betty McMullen (married 18 September 1960), died leaving no children; that marriage is recorded on his page.",
+      "sources": [
+        "s063",
+        "s064"
+      ]
+    },
+    {
+      "id": "willard1943-karen",
+      "partners": [
+        "willard-james-stanek-1943",
+        "karen-lingel"
+      ],
+      "heading": "The family of Willard J. Stanek and Karen Lingel",
+      "children": [
+        "jimmie-joe-stanek-of-willard1943",
+        "judy-sue-stanek-of-willard1943"
+      ],
+      "sources": [
+        "s063",
+        "s064"
+      ]
+    }
+  ]
 }

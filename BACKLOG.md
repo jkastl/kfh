@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima) done; next U4 (John), U5 (Jacob), U6 (Andrew), then U7.
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew) done; U4a (John) running; then U4b, U5a, U5b, U7.
 
 ## Next, in order
 
@@ -61,7 +61,7 @@ each unit must also read the supplement sections that name its pages.
 | U4b | John, second part | 34–40 (s036–s042) | pp.34–35 (s076) | (John total 80 / 244) |
 | U5a | Jacob, first part | 44–49 (s046–s051) | p.47 (s076) | split at a sub-family boundary |
 | U5b | Jacob, second part | 50–55 (s052–s057) | p.54 (s076) | (Jacob total 72 / 229) |
-| U6 | Andrew | 57–61 (s059–s063) | p.60 (s076) | 35 / 120 |
+| U6 | Andrew — DONE (2026-11-27): 164 people, 38 families; 41 headings/sub-lists checked | 57–61 (s059–s063) | p.60 (s076) | 35 / 120 |
 | U7 | Integration | all | all | cross-branch marriages, duplicate people, unresolved supplement entries, final counts |
 
 U1 notes: spouses named only in a child line stay `marriage` facts (Howard Thomas, Laura Foote,
@@ -75,6 +75,12 @@ U2 notes: Thomas J. Kastl's children are recorded as Kastle ("Family changed nam
 Not attached to anyone, because the caption is ambiguous: "Joseph Sedlacek (cousin)" in s017-ph2,
 and the "Joseph C. Kastl Ranch" photo (s020). Two 1986 "Their grandchild:" lines name no parents
 and are notes. s071 numbers re-checked by eye (all match the transcription).
+
+U6 notes: Leontine Kastl's marriage (15 vs 24 Sept. 1945) and Ron Herms ("(d) 6 Apr. 1980" in
+1985, "still living" in 1986) are kept as differing readings. Ernest Janak "(Son of Anton)" is
+born 1915, before Frances married Anton in 1920 (plausibility warning, as printed). Inline
+grandchildren on s061 (Pomeroy) are notes, not records. Childless second marriages with no
+heading are marriage facts. The newspaper article on s057 is an excerpt on Andrew.
 
 U3 notes: the 1986 supplement says "The family of John Kastl and Mary is an error. It should be:
 The family of Martin Kastl", so the six children are Martin's (one-parent family carrying both

@@ -1,4 +1,6 @@
 id,name,sex,branch,relation,generation,born,died,spouses,parents,pages
+david-anderson,David Anderson,M,andrew,Husband of Ludmilla Tlamka,3,,,Ludmilla Tlamka,,
+donald-anderson-1945,Donald Anderson,M,andrew,Great-grandson of Andrew Kastl,4,26 July 1945,,,Ludmilla Tlamka and David Anderson,p. 60
 barbara-wife-of-john-1742,Barbara,F,roots,Great-grandmother of the seven brothers,,,,Wolfgang Jan Kastl,,"p. 7, p. 14"
 kellner-mother,Elizabeth Pankraz or Alzbeta Bauer,F,roots,Mother of Barbara Kellner,,,,Simon Kellner,,"p. 14, p. 62"
 eva-behensky,Eva Behensky,F,roots,Grandmother of the seven brothers,,,,Josef Marsalek,,p. 14
@@ -46,12 +48,14 @@ steven-carlson,Steven Carlson,M,peter,Husband of Denise Harling,5,,,Denise Harli
 eric-christiansen-1963,Eric Christiansen,M,peter,2× great-grandson of Peter Kastl,5,14 August 1963,,,Nona Lorraine Kastl and Russell E. Christiansen,p. 24
 lisa-christiansen-1960,Lisa Christiansen,F,peter,2× great-granddaughter of Peter Kastl,5,10 December 1960,,,Nona Lorraine Kastl and Russell E. Christiansen,p. 24
 russell-e-christiansen,Russell E. Christiansen,M,peter,Husband of Nona Lorraine Kastl,4,,,Nona Lorraine Kastl,,
+susan-cramer,Susan Cramer,F,andrew,Wife of Roger Olson,4,,,Roger Olson,,
 barbara-joanne-cuda-1931,Barbara Joanne Cuda,F,peter,Great-granddaughter of Peter Kastl,4,15 May 1931,,James V. Stone,Frank Thomas Cuda and Ruth Keebaugh,p. 20
 frank-thomas-cuda-1888,Frank Thomas Cuda,M,peter,Grandson of Peter Kastl,3,"17 November 1888, Hanford, California",20 January 1943,Ruth Keebaugh,Mary Kastl and Joseph Cuda,"p. 19, p. 20"
 helen-cuda-1891,Helen Cuda,F,peter,Granddaughter of Peter Kastl,3,"29 November 1891, Bakersfield, California (sources differ)",,,Mary Kastl and Joseph Cuda,"p. 19, p. 20"
 joseph-cuda,Joseph Cuda,M,peter,Husband of Mary Kastl,2,"28 June 1864, near Prague, Bohemia",30 December 1946,Mary Kastl,,"p. 19, p. 20"
 mary-frances-cuda-1921,Mary Frances Cuda,F,peter,Great-granddaughter of Peter Kastl,4,31 May 1921,,Robert A. Harrison,Frank Thomas Cuda and Ruth Keebaugh,p. 20
 anna-cusack,Anna Cusack,F,peter,Wife of Thomas J. Kastl,2,7 February 1873,October 1962,Thomas J. Kastl,,p. 20
+kathy-dahle,Kathy Dahle,F,andrew,Wife of Richard Olson,4,,,Richard Olson,,
 nettie-mae-davidson,Nettie Mae Davidson,F,peter,Wife of Louis Kastl,3,,,Louis Kastl,,
 jane-decker,Jane Decker,F,peter,Wife of Robert Joseph Harrison,5,,,Robert Joseph Harrison,,
 marjorie-dusatko,Marjorie Dusatko,F,wenzel,Wife of Frank James Kastl,3,22 August 1904,,Frank James Kastl,,p. 27
@@ -82,6 +86,8 @@ thomas-fujan-1901,Thomas Fujan,M,peter,Grandson of Peter Kastl,3,13 September 19
 thomas-w-fujan-1960,Thomas W. Fujan,M,peter,2× great-grandson of Peter Kastl,5,22 November 1960,,,Marvin Fujan and Lucille Wotipka,Supp. p. 3
 vaclav-fujan,Vaclav Fujan,M,peter,Husband of Philomena Kastl,2,"1861, Koryta, Bohemia",3 January 1911,Philomena Kastl,,p. 21
 vaclav-fujan-1909,Vaclav Fujan,M,peter,Grandson of Peter Kastl,3,27 October 1909,15 July 1974,,Philomena Kastl and Vaclav Fujan,p. 21
+annette-george,Annette George,F,andrew,Wife of Ron Herms,4,,6 April 1981,Ron Herms,,"p. 60, Supp. p. 8"
+barbara-grubaugh,Barbara Grubaugh,F,andrew,Wife of Eldon Kastl,3,"4 July 1939, Rising City, Nebraska",,Eldon Kastl,,p. 60
 jane-hamling,Jane Hamling,F,josef,Wife of Richard Kastl,5,,,Richard Kastl,,
 denise-harling-1955,Denise Harling,F,peter,2× great-granddaughter of Peter Kastl,5,7 February 1955,,Steven Carlson,Frances Fujan and Donald Harling,Supp. p. 3
 donald-harling,Donald Harling,M,peter,Husband of Frances Fujan,4,"26 February 1923, Friend, Nebraska",,Frances Fujan,,Supp. p. 3
@@ -100,49 +106,81 @@ joseph-samuel-hayes-1985,Joseph Samuel Hayes,M,josef,2× great-grandson of Josef
 linda-hayes-1947,Linda Hayes,F,josef,Great-granddaughter of Josef Kastl,4,8 December 1947,,Larry Lehmer,Rose Kastl and John Hayes,"p. 42, Supp. p. 7"
 sam-john-hayes-1944,Sam John Hayes,M,josef,Great-grandson of Josef Kastl,4,21 December 1944,,Kathleen Livojevich,Rose Kastl and John Hayes,"p. 42, Supp. p. 7"
 edith-hentges,Edith Hentges,F,josef,Wife of Stanley Kastl,3,"21 February 1907, Malmo, Nebraska",,Stanley Kastl,,p. 41
+cynthia-lee-herms-1953,Cynthia Lee Herms,F,andrew,Great-granddaughter of Andrew Kastl,4,3 February 1953,4 February 1953,,Leontine Kastl and Emil Herms,Supp. p. 8
+emil-herms,Emil Herms,M,andrew,Husband of Leontine Kastl,3,6 April 1926,,Leontine Kastl,,p. 60
+lanita-marie-herms-1977,Lanita Marie Herms,F,andrew,2× great-granddaughter of Andrew Kastl,5,17 March 1977,,,Ron Herms and Annette George,Supp. p. 8
+mary-lee-herms-1978,Mary Lee Herms,F,andrew,2× great-granddaughter of Andrew Kastl,5,30 August 1978,,,Ron Herms and Annette George,Supp. p. 8
+ron-herms-1950,Ron Herms,M,andrew,Great-grandson of Andrew Kastl,4,"2 August 1950, Columbus, Nebraska",6 April 1980 (sources differ),Annette George,Leontine Kastl and Emil Herms,"p. 60, Supp. p. 8"
+mary-heyman,Mary Heyman,F,andrew,Wife of Ernest Michalik,3,2 April 1915,,Ernest Michalik,,p. 59
+cheryl-higgenbotham,Cheryl Higgenbotham,F,andrew,Wife of Henry J. Topil,4,,,Henry J. Topil,,
+marcella-hofbauer,Marcella Hofbauer,F,andrew,Wife of Arnold Janak,3,"13 June 1928, Butler County, Nebraska",,Arnold Janak,,p. 59
+doline-helen-horky,Doline Helen Horky,F,andrew,Wife of Leonard John Stanek,3,,,Leonard John Stanek,,p. 61
 brett-hraban-1980,Brett Hraban,M,peter,3× great-grandson of Peter Kastl,6,9 August 1980,,,Annette Vech and Donald Hraban,Supp. p. 4
 donald-hraban,Donald Hraban,M,peter,Husband of Annette Vech,5,,,Annette Vech,,
 stephanie-hraban-1984,Stephanie Hraban,F,peter,3× great-granddaughter of Peter Kastl,6,19 June 1984,,,Annette Vech and Donald Hraban,Supp. p. 4
 ben-hranek,Ben Hranek,M,peter,Husband of Viola Kastl,3,,,Viola Kastl,,
 marilyn-hranek-1928,Marilyn Hranek,F,peter,Great-granddaughter of Peter Kastl,4,7 February 1928,,Eldon Bretz,Viola Kastl and Ben Hranek,p. 24
+nathan-jacobsen-1972,Nathan Jacobsen,M,andrew,2× great-grandson of Andrew Kastl,5,3 July 1972,,,Janice Olson and Russell Jacobsen,p. 61
+russell-jacobsen,Russell Jacobsen,M,andrew,Husband of Janice Olson,4,,,Janice Olson,,
+troy-jacobsen-1975,Troy Jacobsen,M,andrew,2× great-grandson of Andrew Kastl,5,8 August 1975,,,Janice Olson and Russell Jacobsen,p. 61
+anton-janak,Anton Janak,M,andrew,Husband of Frances Kastl,2,,,Frances Kastl,,
+arnold-janak-1925,Arnold Janak,M,andrew,Grandson of Andrew Kastl,3,"17 October 1925, Butler County",,Marcella Hofbauer,Frances Kastl and Anton Janak,p. 59
+beverly-janak-1954,Beverly Janak,F,andrew,Great-granddaughter of Andrew Kastl,4,"28 June 1954, David City",,,Arnold Janak and Marcella Hofbauer,p. 59
+ernest-janak-1915,Ernest Janak,M,andrew,Grandson of Andrew Kastl,3,4 May 1915,,,Frances Kastl and Anton Janak,p. 59
+gale-janak-1956,Gale Janak,U,andrew,Great-grandchild of Andrew Kastl,4,"17 July 1956, David City",,,Arnold Janak and Marcella Hofbauer,p. 59
+gregg-janak-1958,Gregg Janak,M,andrew,Great-grandson of Andrew Kastl,4,"1 April 1958, David City",,,Arnold Janak and Marcella Hofbauer,p. 59
+mark-janak-1963,Mark Janak,M,andrew,Great-grandson of Andrew Kastl,4,"19 April 1963, David City",,,Arnold Janak and Marcella Hofbauer,p. 59
+sandra-janak-1960,Sandra Janak,F,andrew,Great-granddaughter of Andrew Kastl,4,"20 August 1960, David City",,,Arnold Janak and Marcella Hofbauer,p. 59
 joylene-jansa,Joylene Jansa,F,josef,Wife of Raymond Kastl,4,,,Raymond Kastl,,
 augusta-johns,Augusta Johns,F,thomas,Wife of Thomas Kastl,1,"Poland, near Warsaw",1 May 1885,Thomas Kastl,,p. 56
 fred-jones,Fred Jones,M,peter,Husband of Stella Fujan,3,,,Stella Fujan,,
 frederick-jones-1946,Frederick Jones,M,peter,Great-grandson of Peter Kastl,4,13 December 1946,,,Stella Fujan and Fred Jones,p. 22
 james-milliken-1923,"James Milliken, Jr.",M,peter,Great-grandson of Peter Kastl,4,19 August 1923,,,Marian Kastle and James Dale Milliken,p. 21
+raymond-tlamka-jr-of-raymond1921,"Raymond Tlamka, Jr.",M,andrew,Great-grandson of Andrew Kastl,4,,,,Raymond Tlamka and Bertha Shonka,p. 60
+tom-richards-jr,"Tom Richards, Jr.",M,andrew,Husband of Rosella Topil,4,,,Rosella Topil,,
 wenzel-kastl-1877,"Wenzel Kastl, Jr.",M,wenzel,Son of Wenzel Kastl,2,"15 November 1877, Nebraska",26 May 1938,Mary Menousek,Wenzel Kastl and Barbara Blachnik,"p. 26, p. 27, Supp. p. 4"
 barbara-kasper,Barbara Ann Kaspar,F,peter,Wife of Charles Anton Kastl,2,20 September 1874,17 September 1928,Charles Anton Kastl,,p. 22
+agnes-kastl-1901,Agnes Kastl,F,andrew,Daughter of Andrew Kastl,2,21 November 1901,,Joseph Stanek,Andrew Kastl and Barbara Valecka,"p. 57, p. 61"
 aloysium-kastl-1876,Aloysium Kastl,M,peter,Son of Peter Kastl,2,1876,"15 December 1879, Plasi, Nebraska",,Peter Kastl and Anna Frohner,p. 16
 alzbeta-kastl-1857,Alzbeta Kastl,F,roots,Half-sister of the seven brothers,,12 November 1857,"1 December 1857, in infancy",,Thomas Kastl and Barbara Kellner,"p. 14, p. 62"
 alzbeta-kastl-1869,Alzbeta Kastl,F,roots,Half-sister of the seven brothers,,"20 December 1869, Stara Hut, house No. 3",,,Thomas Kastl and Barbara Kellner,"p. 14, p. 62"
+anastasia-kastl-1894,Anastasia Kastl,F,andrew,Daughter of Andrew Kastl,2,20 May 1894,21 January 1895,,Andrew Kastl and Barbara Valecka,p. 57
 andreas-kastl,Andreas Kastl,M,roots,2× great-grandfather of the seven brothers,,,,Margarita,,"p. 7, p. 14"
-andrew-kastl-1853,Andrew Kastl,M,andrew,One of the seven brothers,1,"27 November 1853, Stara Hut, house No. 1, Bohemia",5 May 1906,,Thomas Kastl and Maria Marsalek,"p. 7, p. 14, p. 57"
+andrew-kastl-1853,Andrew Kastl,M,andrew,One of the seven brothers,1,"27 November 1853, Stara Hut, house No. 1, Bohemia (sources differ)",5 May 1906 (sources differ),Barbara Valecka,Thomas Kastl and Maria Marsalek,"p. 7, p. 14, p. 57"
 angela-kastl-of-richard-jane,Angela Kastl,F,josef,3× great-granddaughter of Josef Kastl,6,,,,Richard Kastl and Jane Hamling,Supp. p. 6
 anita-kastl-1903,Anita Kastl,F,peter,Granddaughter of Peter Kastl,3,"17 November 1903, Bakersfield, California",,James Hoadley Sargent,Joseph Kastl and Mary Fujan,p. 17
 ann-marie-kastl-1955,Ann Marie Kastl,F,wenzel,Great-granddaughter of Wenzel Kastl,4,5 February 1955,,,James Edward Kastl and Mary H. Carl,"p. 27, Supp. p. 4"
+anna-kastl-1882,Anna Kastl,F,andrew,Daughter of Andrew Kastl,2,"16 June 1882, Saunders County, Nebraska",1918,Joseph Vrbka,Andrew Kastl and Barbara Valecka,"p. 57, p. 58"
 anna-kastl-1860,Anna Kastl,F,peter,Daughter of Peter Kastl,2,"24 February 1860, Bohemia",7 June 1940,Joseph Sedlacek,Peter Kastl and Anna Frohner,"p. 15, p. 16"
 anna-kastl-1891,Anna Kastl,F,peter,Granddaughter of Peter Kastl,3,"1 May 1891, Prague, Nebraska",17 October 1975,,Joseph Kastl and Mary Fujan,p. 17
 anna-kastl-1872,Anna Kastl,F,wenzel,Daughter of Wenzel Kastl,2,1872,,,Wenzel Kastl and Barbara Blachnik,p. 26
 anna-kastl-1865,Anna Kastl,F,zima,Half-sister of the seven brothers,1,"12 March 1865, Stara Hut, house No. 3, Bohemia",In Bohemia,Joseph Zima,Thomas Kastl and Barbara Kellner,p. 62
 augusta-kastl-1876,Augusta Kastl,F,thomas,Daughter of Thomas Kastl,2,24 September 1876,7 July 1951,,Thomas Kastl and Augusta Johns,p. 56
+barbara-elizabeth-kastl-1885,Barbara Elizabeth Kastl,F,andrew,Daughter of Andrew Kastl,2,"29 September 1885, Plasi, Saunders County, Nebraska",4 February 1933,John F. Rech,Andrew Kastl and Barbara Valecka,"p. 57, p. 59"
 beatrice-kastl-1898,Beatrice Kastl,F,wenzel,Granddaughter of Wenzel Kastl,3,"1898, California",,,Martin Kastl,p. 26
 brad-kastl-1968,Brad Kastl,M,josef,2× great-grandson of Josef Kastl,5,"3 November 1968, Lincoln, Nebraska",,,Raymond Kastl and Joylene Jansa,Supp. p. 6
 brian-kastl-1966,Brian Kastl,M,josef,2× great-grandson of Josef Kastl,5,"31 January 1966, Wahoo, Nebraska",,,Raymond Kastl and Joylene Jansa,Supp. p. 6
 carol-kastl-1942,Carol Kastl,F,wenzel,Great-granddaughter of Wenzel Kastl,4,11 April 1942,,,Frank James Kastl and Marjorie Dusatko,p. 27
+catherine-kastl-1891,Catherine Kastl,F,andrew,Daughter of Andrew Kastl,2,24 May 1891,10 June 1891,,Andrew Kastl and Barbara Valecka,p. 57
 charles-kastl-1872,Charles Anton Kastl,M,peter,Son of Peter Kastl,2,6 January 1872,31 March 1961,Barbara Ann Kaspar,Peter Kastl and Anna Frohner,"p. 15, p. 22"
 charlotte-kastl-1979,Charlotte Kastl,F,josef,2× great-granddaughter of Josef Kastl,5,"April 1979, Cincinnati, Ohio",,,Robert John Kastl and Barbara Moxley,Supp. p. 7
+cheryl-kastl-1960,Cheryl Kastl,F,andrew,Great-granddaughter of Andrew Kastl,4,"18 October 1960, Schyuler",,,Eldon Kastl and Barbara Grubaugh,p. 60
 christopher-john-kastl-1948,Christopher John Kastl,M,wenzel,Great-grandson of Wenzel Kastl,4,10 May 1948,,,James Edward Kastl and Mary H. Carl,"p. 27, Supp. p. 4"
 christopher-kastl-1981,Christopher Kastl,M,josef,2× great-grandson of Josef Kastl,5,"August 1981, Cincinnati, Ohio",,,Robert John Kastl and Barbara Moxley,Supp. p. 7
 coralie-kastl-1962,Coralie Kastl,F,josef,2× great-granddaughter of Josef Kastl,5,"19 May 1962, Wahoo, Nebraska",,,Raymond Kastl and Joylene Jansa,Supp. p. 6
 daniel-lee-kastl-1966,Daniel Lee Kastl,M,josef,2× great-grandson of Josef Kastl,5,"26 January 1966, Omaha, Nebraska",,,Patrick Kastl,Supp. p. 6
+debra-kastl-1959,Debra Kastl,F,andrew,Great-granddaughter of Andrew Kastl,4,"2 October 1959, Schyuler",,,Eldon Kastl and Barbara Grubaugh,p. 60
 dennis-stanley-kastl-1930,Dennis Stanley Kastl,M,josef,Great-grandson of Josef Kastl,4,"4 August 1930, Weston, Nebraska",,Lois Ann Whipple,Stanley Kastl and Edith Hentges,"p. 41, Supp. p. 5"
 dorothy-kastl-1930,Dorothy Kastl,F,josef,Great-granddaughter of Josef Kastl,4,9 June 1930,,,Edward Kastl and Marie Kunasek,p. 42
 edward-kastl-1904,Edward Kastl,M,josef,Grandson of Josef Kastl,3,"17 March 1904, Omaha, Nebraska",14 March 1977,Marie Kunasek,Joseph Kastl and Frances Fixa,"p. 41, p. 42"
 edward-kastl-of-edward1904,Edward Kastl,M,josef,Great-grandson of Josef Kastl,4,,,Marian Bobek,Edward Kastl and Marie Kunasek,"p. 42, Supp. p. 6"
+eldon-kastl-1935,Eldon Kastl,M,andrew,Grandson of Andrew Kastl,3,"8 July 1935, Bruno, Nebraska",,Barbara Grubaugh,John Kastl and Emily Steinbach,p. 60
 eleanor-kastl-1933,Eleanor Kastl,F,josef,Great-granddaughter of Josef Kastl,4,"10 February 1933, Weston, Nebraska",,Harvey Schroeder,Stanley Kastl and Edith Hentges,"p. 41, Supp. p. 6"
 elmer-j-kastl-1889,Elmer J. Kastl,M,wenzel,Grandson of Wenzel Kastl,3,"1889, Nebraska",,,Martin Kastl,p. 26
+emma-kastl-1898,Emma Kastl,F,andrew,Daughter of Andrew Kastl,2,"23 October 1898, Plasi, Saunders County, Nebraska","18 June 1973, Osceola, Nebraska",Louis Tlamka,Andrew Kastl and Barbara Valecka,"p. 57, p. 60"
 emma-kathryn-kastl-1890,Emma Kathryn Kastl,F,thomas,Daughter of Thomas Kastl,2,3 November 1890,,,Thomas Kastl and Emma Fowler,p. 56
 eva-kastl,Eva Kastl,F,roots,Sister of the seven brothers,,,,,Thomas Kastl and Maria Marsalek,"p. 7, p. 44"
+frances-kastl-1892,Frances Kastl,F,andrew,Daughter of Andrew Kastl,2,"15 April 1892, Plasi, Saunders County, Nebraska",1982,Anton Janak,Andrew Kastl and Barbara Valecka,"p. 57, p. 59"
 frank-james-kastl-1903,Frank James Kastl,M,wenzel,Grandson of Wenzel Kastl,3,30 May 1903,5 July 1964,Marjorie Dusatko,"Wenzel Kastl, Jr. and Mary Menousek",p. 27
 frank-kastl-1900,Frank Kastl,M,josef,Grandson of Josef Kastl,3,"22 September 1900, Central City, Nebraska",16 February 1976,Caroline Kunasek,Joseph Kastl and Frances Fixa,"p. 41, p. 42"
 frank-kastl-1874,Frank Kastl,M,peter,Son of Peter Kastl,2,"6 January 1874, Prague, Nebraska",July 1963,Anna M. Mantel,Peter Kastl and Anna Frohner,"p. 16, p. 22"
@@ -157,6 +195,8 @@ john-kastl-1777,Jan Kastl,M,roots,Grandfather of the seven brothers,,"13 March 1
 jane-a-kastl-of-karel1911,Jane A. Kastl,F,peter,Great-granddaughter of Peter Kastl,4,,,,Karel George Kastl and Pricilla Edwards,"p. 22, Supp. p. 4"
 jane-frances-kastl-1947,Jane Frances Kastl,F,josef,Great-granddaughter of Josef Kastl,4,28 May 1945 (sources differ),,Allyn Brehl,John R. Kastl and Mildred Schinker,"p. 42, Supp. p. 7, Supp. p. 8"
 jo-ann-kastl-1930,Jo Ann Kastl,F,wenzel,Great-granddaughter of Wenzel Kastl,4,10 February 1930,,,Frank James Kastl and Marjorie Dusatko,p. 27
+joanne-kastl-1962,Joanne Kastl,F,andrew,Great-granddaughter of Andrew Kastl,4,"16 February 1962, Schyuler",,,Eldon Kastl and Barbara Grubaugh,p. 60
+john-kastl-1896,John Kastl,M,andrew,Son of Andrew Kastl,2,"23 October 1896, Plasi, Saunders County, Nebraska",23 February 1983 (child list) (sources differ),Emily Steinbach,Andrew Kastl and Barbara Valecka,"p. 57, p. 60"
 john-kastl-1835,John Kastl,M,john,One of the seven brothers,1,"29 November 1835, Všepadly, house No. 11, Bohemia",20 December 1890,,Thomas Kastl and Maria Marsalek,"p. 7, p. 14, p. 28"
 john-kastl-1895,John Kastl,M,thomas,Son of Thomas Kastl,2,2 August 1895,1 January 1914,,Thomas Kastl and Emma Fowler,p. 56
 john-kastl-1861,John Kastl,M,wenzel,Son of Wenzel Kastl,2,"1861 or 1862, Bohemia","30 May 1936, Norfolk, Nebraska",Mary,Wenzel Kastl and Barbara Blachnik,"p. 7, p. 26, Supp. p. 4"
@@ -172,6 +212,7 @@ karl-kastl-1879,Karl Kastl,M,thomas,Son of Thomas Kastl,2,1879,13 February 1906,
 kenneth-charles-kastl-1960,Kenneth Charles Kastl,M,wenzel,Great-grandson of Wenzel Kastl,4,22 September 1960,,,James Edward Kastl and Mary H. Carl,"p. 27, Supp. p. 4"
 laura-kastl-1893,Laura Kastl,F,wenzel,Granddaughter of Wenzel Kastl,3,"1893, Nebraska",,,Martin Kastl,"p. 26, Supp. p. 4"
 leo-kastl-1908,Leo Kastl,M,josef,Grandson of Josef Kastl,3,November 1908,21 May 1915,,Joseph Kastl and Frances Fixa,p. 41
+leontine-kastl-1926,Leontine Kastl,F,andrew,Granddaughter of Andrew Kastl,3,1 August 1926,,Emil Herms,John Kastl and Emily Steinbach,"p. 60, Supp. p. 8"
 lillian-kastl-1896,Lillian Kastl,F,peter,Granddaughter of Peter Kastl,3,4 October 1896,,James E. Vech,Charles Anton Kastl and Barbara Ann Kaspar,p. 22
 linda-starr-kastl-1960,Linda Starr Kastl,F,josef,2× great-granddaughter of Josef Kastl,5,11 October 1960,,,Dennis Stanley Kastl and Lois Ann Whipple,Supp. p. 5
 loretta-kastl-1944,Loretta Kastl,F,josef,Great-granddaughter of Josef Kastl,4,18 July 1944,,Dick Messman,Stanley Kastl and Edith Hentges,"p. 41, Supp. p. 6"
@@ -190,6 +231,8 @@ martin-kastl-1864,Martin Kastl,M,wenzel,Son of Wenzel Kastl,2,"1864, Bohemia",,,
 mary-agnes-kastl-1870,Mary Agnes Kastl,F,wenzel,Daughter of Wenzel Kastl,2,1870,20 May 1954,,Wenzel Kastl and Barbara Blachnik,p. 26
 mary-alice-kastl-1928,Mary Alice Kastl,F,wenzel,Great-granddaughter of Wenzel Kastl,4,26 March 1928,,,Frank James Kastl and Marjorie Dusatko,p. 27
 mary-ann-kastl-1927,Mary Ann Kastl,F,josef,Great-granddaughter of Josef Kastl,4,10 October 1927,,Dennis Kripal,Frank Kastl and Caroline Kunasek,"p. 42, Supp. p. 6"
+mary-kastl-1881,Mary Kastl,F,andrew,Daughter of Andrew Kastl,2,3 April 1881,4 April 1881,,Andrew Kastl and Barbara Valecka,p. 57
+mary-kastl-1884,Mary Kastl,F,andrew,Daughter of Andrew Kastl,2,"23 January 1884, Plasi, Saunders County, Nebraska",,Frank Michalik,Andrew Kastl and Barbara Valecka,"p. 57, p. 59"
 mary-kastl-1875,Mary Kastl,F,josef,Daughter of Josef Kastl,2,"10 June 1875, Weston, Nebraska",3 July 1947,John F. Shalon,Josef Kastl and Dorota Blaha,"p. 41, p. 43"
 mary-kastl-1865,Mary Kastl,F,peter,Daughter of Peter Kastl,2,"26 August 1865, Bohemia",22 February 1902,Joseph Cuda,Peter Kastl and Anna Frohner,"p. 15, p. 17, p. 20"
 mary-kastl-of-karel1911,Mary Kastl,F,peter,Great-granddaughter of Peter Kastl,4,,,,Karel George Kastl and Pricilla Edwards,"p. 22, Supp. p. 4"
@@ -213,11 +256,13 @@ richard-kastl-of-edward-marian,Richard Kastl,M,josef,2× great-grandson of Josef
 rita-jean-kastl-1942,Rita Jean Kastl,F,josef,Great-granddaughter of Josef Kastl,4,14 February 1942 (sources differ),,Wiley Secrest,John R. Kastl and Mildred Schinker,"p. 42, Supp. p. 7"
 robert-john-kastl-1945,Robert John Kastl,M,josef,Great-grandson of Josef Kastl,4,28 May 1945,,Barbara Moxley,John R. Kastl and Mildred Schinker,"p. 42, Supp. p. 7"
 robert-m-kastl-of-edward-marian,Robert M. Kastl,M,josef,2× great-grandson of Josef Kastl,5,,,,Edward Kastl and Marian Bobek,Supp. p. 6
+rose-kastl-1889,Rose Kastl,F,andrew,Daughter of Andrew Kastl,2,30 May 1889,17 July 1911,,Andrew Kastl and Barbara Valecka,p. 57
 rose-kastl-1919,Rose Kastl,F,josef,Granddaughter of Josef Kastl,3,"31 August 1919, Omaha, Nebraska (sources differ)",,John Hayes,Joseph Kastl and Frances Fixa,"p. 41, p. 42, Supp. p. 7"
 rose-kastl-1898,Rose Kastl,F,peter,Granddaughter of Peter Kastl,3,15 April 1898,,Guy Richard McDonald,Charles Anton Kastl and Barbara Ann Kaspar,p. 22
 rose-kastl-1874,Rose Kastl,F,thomas,Daughter of Thomas Kastl,2,9 June 1874,24 December 1894,,Thomas Kastl and Augusta Johns,p. 56
 sophie-kastl-1902,Sophie Kastl,F,josef,Granddaughter of Josef Kastl,3,"12 April 1902, Omaha",,,Joseph Kastl and Frances Fixa,"p. 41, p. 42"
 stanley-kastl-1898,Stanley Kastl,M,josef,Grandson of Josef Kastl,3,"13 November 1898, Central City, Nebraska",,Edith Hentges,Joseph Kastl and Frances Fixa,p. 41
+susan-kastl-1967,Susan Kastl,F,andrew,Great-granddaughter of Andrew Kastl,4,"6 May 1967, Schyuler",,,Eldon Kastl and Barbara Grubaugh,p. 60
 teresa-kastl-1907,Teresa Kastl,F,wenzel,Granddaughter of Wenzel Kastl,3,4 July 1907,,,"Wenzel Kastl, Jr. and Mary Menousek",p. 27
 teresa-kastl-1937,Teresa Kastl,F,wenzel,Great-granddaughter of Wenzel Kastl,4,12 December 1937,,,Frank James Kastl and Marjorie Dusatko,p. 27
 theresia-kastl-1867,Theresia Kastl,F,josef,Daughter of Josef Kastl,2,"1866 or 1867, Bohemia","1868 or 1869, soon after arriving in Nebraska",,Josef Kastl and Dorota Blaha,"p. 10, p. 41"
@@ -265,14 +310,30 @@ mary-kubr,Mary Kubr,F,peter,Wife of Charles Sedlacek,3,14 August 1894,15 October
 anna-kunasek,Anna Kunasek,F,josef,Wife of Thomas Shalon,3,26 March 1906,,Thomas Shalon,,p. 43
 caroline-kunasek,Caroline Kunasek,F,josef,Wife of Frank Kastl,3,"September 1899, McLouth, Kansas",6 March 1984,Frank Kastl,,p. 42
 marie-kunasek,Marie Kunasek,F,josef,Wife of Edward Kastl,3,3 January 1903,19 January 1954,Edward Kastl,,p. 42
+algot-larsen,Algot Larsen,M,andrew,Husband of Martha Tlamka,3,,,Martha Tlamka,,
+bobby-larsen-1947,Bobby Larsen,M,andrew,Great-grandson of Andrew Kastl,4,18 September 1947,,,Martha Tlamka and Algot Larsen,p. 61
+dennis-larsen-1956,Dennis Larsen,M,andrew,Great-grandson of Andrew Kastl,4,8 August 1956,,,Martha Tlamka and Algot Larsen,p. 61
 aaron-guthrie-lehmer-1971,Aaron Guthrie Lehmer,M,josef,2× great-grandson of Josef Kastl,5,"2 September 1971, Vacaville, California",,,Linda Hayes and Larry Lehmer,Supp. p. 7
 bret-darby-lehmer-1980,Bret Darby Lehmer,M,josef,2× great-grandson of Josef Kastl,5,"13 August 1980, Des Monies, Iowa",,,Linda Hayes and Larry Lehmer,Supp. p. 7
 larry-lehmer,Larry Lehmer,M,josef,Husband of Linda Hayes,4,,,Linda Hayes,,p. 42
 meghan-lurene-lehmer-1977,Meghan Lurene Lehmer,F,josef,2× great-granddaughter of Josef Kastl,5,"28 February 1977, Council Bluffs, Iowa",,,Linda Hayes and Larry Lehmer,Supp. p. 7
+karen-lingel,Karen Lingel,F,andrew,Wife of Willard James Stanek,3,,,Willard James Stanek,,
 kathleen-livojevich,Kathleen Livojevich,F,josef,Wife of Sam John Hayes,4,,,Sam John Hayes,,"p. 42, Supp. p. 7"
 jane-elizabeth-loflin,Jane Elizabeth Loflin,F,peter,Wife of James Vech,5,19 June 1949,,James Vech,,Supp. p. 4
 wilma-lowe,Wilma Lowe,F,peter,Wife of Raymond Kastl,3,11 May 1901,,Raymond Kastl,,p. 24
 velma-lundberg,Velma Lundberg,F,josef,Wife of Ronald Burnett,5,18 January 1947,,Ronald Burnett,,Supp. p. 5
+barbara-ann-magruder-of-helen-ennis,Barbara Ann Magruder,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+carroll-leon-magruder-of-helen-ennis,Carroll Leon Magruder,M,andrew,Great-grandson of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+charlotte-kay-magruder-of-helen-ennis,Charlotte Kay Magruder,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+donald-eugene-magruder-of-helen-ennis,Donald Eugene Magruder,M,andrew,Great-grandson of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+ennis-dwight-magruder,Ennis Dwight Magruder,M,andrew,Husband of Helen Martha Stanek,3,,,Helen Martha Stanek,,
+geneva-irene-magruder-of-helen-ennis,Geneva Irene Magruder,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+lonnie-joe-magruder-of-helen-ennis,Lonnie Joe Magruder,M,andrew,Great-grandson of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+marvin-lloyd-magruder-of-helen-ennis,Marvin Lloyd Magruder,M,andrew,Great-grandson of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+raymond-lee-magruder-of-helen-ennis,Raymond Lee Magruder,M,andrew,Great-grandson of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+robert-lewis-magruder-of-helen-ennis,Robert Lewis Magruder,M,andrew,Great-grandson of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+roger-allen-magruder-of-helen-ennis,Roger Allen Magruder,M,andrew,Great-grandson of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
+sharon-darlene-magruder-of-helen-ennis,Sharon Darlene Magruder,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Helen Martha Stanek and Ennis Dwight Magruder,p. 61
 anna-m-mantel,Anna M. Mantel,F,peter,Wife of Frank Kastl,2,19 December 1883,June 1970,Frank Kastl,,"p. 22, p. 24"
 margarita,Margarita,F,roots,2× great-grandmother of the seven brothers,,,,Andreas Kastl,,"p. 7, p. 14"
 josef-marsalek,Josef Marsalek,M,roots,Grandfather of the seven brothers,,,,Eva Behensky,,"p. 7, p. 14, p. 41"
@@ -290,12 +351,22 @@ susan-mcintierff,Susan McIntierff,F,peter,Wife of Michael Andrew Harrison,5,,,Mi
 sheila-dawn-mcmahon,Sheila Dawn McMahon,F,josef,Wife of Mark Alan Schroeder,5,"6 June 1964, Lincoln, Nebraska",,Mark Alan Schroeder,,Supp. p. 6
 mary-menousek,Mary Menousek,F,wenzel,"Wife of Wenzel Kastl, Jr.",2,12 August 1880,9 July 1952,"Wenzel Kastl, Jr.",,p. 27
 dick-messman,Dick Messman,M,josef,Husband of Loretta Kastl,4,,,Loretta Kastl,,
+bernard-michalik-of-ernest1910,Bernard Michalik,M,andrew,Great-grandson of Andrew Kastl,4,,,,Ernest Michalik and Mary Heyman,p. 59
+donald-michalik-of-ernest1910,Donald Michalik,M,andrew,Great-grandson of Andrew Kastl,4,,,,Ernest Michalik and Mary Heyman,p. 59
+doris-michalik-of-ernest1910,Doris Michalik,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Ernest Michalik and Mary Heyman,p. 59
+dorothy-michalik-1935,Dorothy Michalik,F,andrew,Great-granddaughter of Andrew Kastl,4,1935,1967,,Ernest Michalik and Mary Heyman,p. 59
+ernest-michalik-1910,Ernest Michalik,M,andrew,Grandson of Andrew Kastl,3,8 December 1910,,Mary Heyman,Mary Kastl and Frank Michalik,p. 59
+eugene-michalik-of-ernest1910,Eugene Michalik,M,andrew,Great-grandson of Andrew Kastl,4,,,,Ernest Michalik and Mary Heyman,p. 59
+frank-michalik,Frank Michalik,M,andrew,Husband of Mary Kastl,2,,,Mary Kastl,,p. 59
 james-dale-milliken,James Dale Milliken,M,peter,Husband of Marian Kastle,3,,,Marian Kastle,,
 thomas-john-milliken-1928,Thomas John Milliken,M,peter,Great-grandson of Peter Kastl,4,"23 March 1928, Santa Maria, California",,,Marian Kastle and James Dale Milliken,p. 21
 janet-mitchell,Janet Mitchell,F,josef,Wife of William Novak,5,,,William Novak,,
 barbara-moxley,Barbara Moxley,F,josef,Wife of Robert John Kastl,4,,,Robert John Kastl,,
 andreas-muzik,Andreas Mužik,M,roots,Great-grandfather of the seven brothers,,,,Rosina,,"p. 7, p. 14"
 maria-muzik,Maria Mužik,F,roots,Grandmother of the seven brothers,,"18 February 1784, Všepadly, house No. 11",,Jan Kastl,Andreas Mužik and Rosina,"p. 7, p. 14"
+cecilia-nekl,Cecilia Nekl,F,andrew,Wife of Emil Vrbka,3,,16 February 1978,Emil Vrbka,,p. 58
+deloris-nekl-1934,Deloris Nekl,F,andrew,Great-granddaughter of Andrew Kastl,4,7 February 1934,,,Anna Vrbka and George Nekl,p. 58
+george-nekl,George Nekl,M,andrew,Husband of Anna Vrbka,3,31 March 1907,,Anna Vrbka,,p. 58
 kevin-novak-1983,Kevin Novak,M,josef,3× great-grandson of Josef Kastl,6,12 October 1983,,,William Novak and Janet Mitchell,Supp. p. 7
 lawrence-john-novak-1951,Lawrence John Novak,M,josef,2× great-grandson of Josef Kastl,5,2 October 1951,,Carla Witzel,Margaret Kastl and Leo Novak,Supp. p. 7
 leo-novak,Leo Novak,M,josef,Husband of Margaret Kastl,4,,,Margaret Kastl,,
@@ -303,12 +374,26 @@ mary-ann-novak-1951,Mary Ann Novak,F,josef,2× great-granddaughter of Josef Kast
 nathan-novak-1979,Nathan Novak,M,josef,3× great-grandson of Josef Kastl,6,5 August 1979,,,Lawrence John Novak and Carla Witzel,Supp. p. 7
 traci-novak-1981,Traci Novak,F,josef,3× great-granddaughter of Josef Kastl,6,14 November 1981,,,Lawrence John Novak and Carla Witzel,Supp. p. 7
 william-novak-1959,William Novak,M,josef,2× great-grandson of Josef Kastl,5,24 January 1959,,Janet Mitchell,Margaret Kastl and Leo Novak,Supp. p. 7
+adam-james-olson-1980,Adam James Olson,M,andrew,2× great-grandson of Andrew Kastl,5,8 July 1980,,,Richard Olson and Kathy Dahle,p. 61
+alisssa-olson-1983,Alisssa Olson,F,andrew,2× great-granddaughter of Andrew Kastl,5,28 July 1983,,,Richard Olson and Kathy Dahle,p. 61
+bonnie-olson-1950,Bonnie Olson,F,andrew,Great-granddaughter of Andrew Kastl,4,30 October 1950,,,Mildred Tlamka and Conrad Olson,p. 61
+conrad-olson,Conrad Olson,M,andrew,Husband of Mildred Tlamka,3,,,Mildred Tlamka,,
+janet-olson-1953,Janet Olson,F,andrew,Great-granddaughter of Andrew Kastl,4,13 August 1953,,John Ready,Mildred Tlamka and Conrad Olson,p. 61
+janice-olson-1953,Janice Olson,F,andrew,Great-granddaughter of Andrew Kastl,4,13 August 1953,,Russell Jacobsen,Mildred Tlamka and Conrad Olson,p. 61
+jessica-olson-1982,Jessica Olson,F,andrew,2× great-granddaughter of Andrew Kastl,5,19 December 1982,,,Roger Olson and Susan Cramer,p. 61
+orwin-olson-1962,Orwin Olson,M,andrew,Great-grandson of Andrew Kastl,4,30 December 1962,,,Mildred Tlamka and Conrad Olson,p. 61
+richard-olson-1952,Richard Olson,M,andrew,Great-grandson of Andrew Kastl,4,17 January 1952,,Kathy Dahle,Mildred Tlamka and Conrad Olson,p. 61
+roger-olson-1957,Roger Olson,M,andrew,Great-grandson of Andrew Kastl,4,16 December 1957,,Susan Cramer,Mildred Tlamka and Conrad Olson,p. 61
 jodi-lynn-orr-1973,Jodi Lynn Orr,F,josef,3× great-granddaughter of Josef Kastl,6,"30 September 1973, Norfolk, Nebraska",,,Diane Lynn Schroeder and Ronald Jay Orr,Supp. p. 6
 rhonda-lynn-orr-1967,Rhonda Lynn Orr,F,josef,3× great-granddaughter of Josef Kastl,6,"10 October 1967, Lincoln, Nebraska",,,Diane Lynn Schroeder and Ronald Jay Orr,Supp. p. 6
 ronald-jay-orr,Ronald Jay Orr,M,josef,Husband of Diane Lynn Schroeder,5,"19 January 1949, Hartington, Nebraska",,Diane Lynn Schroeder,,Supp. p. 6
 sheri-lynn-orr-1970,Sheri Lynn Orr,F,josef,3× great-granddaughter of Josef Kastl,6,"6 June 1970, Lincoln, Nebraska",,,Diane Lynn Schroeder and Ronald Jay Orr,Supp. p. 6
+gladys-c-peterson,Gladys C. Peterson,F,andrew,Wife of Richard Joe Stanek,3,,,Richard Joe Stanek,,
 john-petska,John Petska,M,peter,Husband of Josephine Fujan,3,,,Josephine Fujan,,
 virginia-petska-of-josephine1897,Virginia Petska,F,peter,Great-granddaughter of Peter Kastl,4,,,,Josephine Fujan and John Petska,p. 21
+curtis-allan-pomeroy-1955,Curtis Allan Pomeroy,M,andrew,2× great-grandson of Andrew Kastl,5,25 February 1955,,,Colletta Wolfe and Gene Pomeroy,p. 59
+gene-pomeroy,Gene Pomeroy,M,andrew,Husband of Colletta Wolfe,4,11 November 1926,29 January 1968,Colletta Wolfe,,p. 59
+kathleen-marie-pomeroy-1956,Kathleen Marie Pomeroy,F,andrew,2× great-granddaughter of Andrew Kastl,5,19 March 1956,,,Colletta Wolfe and Gene Pomeroy,p. 59
 adrian-pospisil-1947,Adrian Pospisil,M,josef,Great-grandson of Josef Kastl,4,"28 September 1947, Wahoo, Nebraska",,,Anna Shalon and Bernard Pospisil,p. 43
 arnold-pospisil-1950,Arnold Pospisil,M,josef,Great-grandson of Josef Kastl,4,"15 February 1950, Wahoo, Nebraska",,,Anna Shalon and Bernard Pospisil,p. 43
 bernard-pospisil,Bernard Pospisil,M,josef,Husband of Anna Shalon,3,"19 August 1903, Weston, Nebraska",2 December 1979,Anna Shalon,,p. 43
@@ -320,7 +405,16 @@ gerald-protextor,Gerald Protextor,M,peter,Husband of Rose Marie Fujan,4,"25 June
 laura-protextor-1968,Laura Protextor,F,peter,2× great-granddaughter of Peter Kastl,5,7 October 1968,,,Rose Marie Fujan and Gerald Protextor,Supp. p. 3
 michael-protextor-1970,Michael Protextor,M,peter,2× great-grandson of Peter Kastl,5,6 June 1970,,,Rose Marie Fujan and Gerald Protextor,Supp. p. 3
 lorraine-rasmussen,Lorraine Rasmussen,F,peter,Wife of Francis Vech,4,,,Francis Vech,,Supp. p. 3
+jason-ready-1973,Jason Ready,M,andrew,2× great-grandson of Andrew Kastl,5,14 September 1973,,,Janet Olson and John Ready,p. 61
+jennifer-ready-1974,Jennifer Ready,F,andrew,2× great-granddaughter of Andrew Kastl,5,28 October 1974,,,Janet Olson and John Ready,p. 61
+john-ready,John Ready,M,andrew,Husband of Janet Olson,4,,,Janet Olson,,
+helen-rech-1906,Helen Rech,F,andrew,Granddaughter of Andrew Kastl,3,"22 October 1906, Brainard, Nebraska",,Steven F. Wolfe,Barbara Elizabeth Kastl and John F. Rech,p. 59
+john-f-rech,John F. Rech,M,andrew,Husband of Barbara Elizabeth Kastl,2,"10 January 1885, Cleveland, Ohio",1937,Barbara Elizabeth Kastl,,p. 59
+rudolph-rech-1916,Rudolph Rech,M,andrew,Grandson of Andrew Kastl,3,25 March 1916,,,Barbara Elizabeth Kastl and John F. Rech,p. 59
+julie-reese,Julie Reese,F,andrew,Wife of Jerry F. Topil,4,,,Jerry F. Topil,,
 bonita-rezek,Bonita Rezek,F,peter,Wife of William Vech,5,24 November 1950,,William Vech,,Supp. p. 4
+james-henry-ross-richards-1969,James Henry Ross Richards,M,andrew,2× great-grandson of Andrew Kastl,5,22 January 1969,,,"Rosella Topil and Tom Richards, Jr.",p. 60
+tina-marie-richards-1976,Tina Marie Richards,F,andrew,2× great-granddaughter of Andrew Kastl,5,25 January 1976,,,"Rosella Topil and Tom Richards, Jr.",p. 60
 rosina,Rosina,F,roots,Great-grandmother of the seven brothers,,,,Andreas Mužik,,p. 14
 james-hoadley-sargent,James Hoadley Sargent,M,peter,Husband of Anita Kastl,3,"23 March 1902, Salinas, California","7 November 1974, Arrayo Grande, California",Anita Kastl,,p. 17
 nancy-patricia-sargent-1934,Nancy Patricia Sargent,F,peter,Great-granddaughter of Peter Kastl,4,"2 March 1934, Fresno, California",,,Anita Kastl and James Hoadley Sargent,p. 17
@@ -376,15 +470,33 @@ thomas-sedlacek-1878,Thomas Sedlacek,M,peter,Grandson of Peter Kastl,3,21 August
 thomas-sedlacek-1917,Thomas Sedlacek,M,peter,Great-grandson of Peter Kastl,4,29 March 1917,,,Thomas Sedlacek and Frances Polcin Schueller,p. 16
 william-sedlacek-1915,William Sedlacek,M,peter,Great-grandson of Peter Kastl,4,12 April 1915,,,Ignatz Sedlacek and Mary Belik,p. 16
 wilma-sedlacek-1919,Wilma Sedlacek,F,peter,Great-granddaughter of Peter Kastl,4,24 May 1919,5 February 1943,,Charles Sedlacek and Mary Kubr,p. 17
+tillie-sedlak,Tillie Sedlak,F,andrew,Wife of Joseph Vrbka,3,1903,,Joseph Vrbka,,p. 58
 anna-shalon-1907,Anna Shalon,F,josef,Granddaughter of Josef Kastl,3,"3 September 1907, David City, Nebraska",,Bernard Pospisil,Mary Kastl and John F. Shalon,p. 43
 eugene-shalon-1935,Eugene Shalon,M,josef,Great-grandson of Josef Kastl,4,"9 March 1935, David City, Nebraska",,,Thomas Shalon and Anna Kunasek,p. 43
 john-f-shalon,John F. Shalon,M,josef,Husband of Mary Kastl,2,"4 March 1869, Pilzen, Bohemia",4 February 1949,Mary Kastl,,p. 43
 rose-ellen-shalon-1945,Rose Ellen Shalon,F,josef,Great-granddaughter of Josef Kastl,4,4 June 1945,,,Thomas Shalon and Anna Kunasek,p. 43
 thomas-shalon-1903,Thomas Shalon,M,josef,Grandson of Josef Kastl,3,"30 January 1903, David City, Nebraska",,Anna Kunasek,Mary Kastl and John F. Shalon,p. 43
 vaclav-shalon-of-mary1875,Vaclav Shalon,M,josef,Grandson of Josef Kastl,3,,In infancy,,Mary Kastl and John F. Shalon,p. 43
+ardyce-shane,Ardyce Shane,F,andrew,Wife of Raymond Wolfe,4,"6 October 1936, near Fairfield, Nebraska",,Raymond Wolfe,,p. 59
+bertha-shonka,Bertha Shonka,F,andrew,Wife of Raymond Tlamka,3,,,Raymond Tlamka,,
 mary-novak-skalak,Mary Novak Skalak,F,peter,Wife of Joseph Sedlacek,3,20 April 1888,9 August 1971,Joseph Sedlacek,,p. 16
 anna-sladky,Anna Sladky,F,peter,Wife of Frank Sedlacek,3,20 March 1899,13 April 1965,Frank Sedlacek,,p. 17
 lois-smith,Lois Smith,F,peter,Wife of James Kastl,3,,,James Kastl,,
+anna-speicher,Anna Speicher,F,andrew,Wife of Louis Vrbka,3,30 September 1915,,Louis Vrbka,,p. 58
+barbara-stachura,Barbara Stachura,F,andrew,Wife of Henry J. Topil,4,,,Henry J. Topil,,
+bonnie-sue-stanek-of-richard1932,Bonnie Sue Stanek,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Richard Joe Stanek and Gladys C. Peterson,p. 61
+helen-martha-stanek-of-agnes1901,Helen Martha Stanek,F,andrew,Granddaughter of Andrew Kastl,3,,,Ennis Dwight Magruder,Agnes Kastl and Joseph Stanek,p. 61
+jimmie-joe-stanek-of-willard1943,Jimmie Joe Stanek,M,andrew,Great-grandson of Andrew Kastl,4,,,,Willard James Stanek and Karen Lingel,p. 62
+joseph-stanek,Joseph Stanek,M,andrew,Husband of Agnes Kastl,2,16 March 1896,,Agnes Kastl,,p. 61
+judy-sue-stanek-of-willard1943,Judy Sue Stanek,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Willard James Stanek and Karen Lingel,p. 62
+leonard-john-stanek-1934,Leonard John Stanek,M,andrew,Grandson of Andrew Kastl,3,8 July 1934,,Doline Helen Horky,Agnes Kastl and Joseph Stanek,"p. 61, p. 62"
+patricia-kay-stanek-of-richard1932,Patricia Kay Stanek,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Richard Joe Stanek and Gladys C. Peterson,p. 61
+paul-allen-stanek-of-richard1932,Paul Allen Stanek,M,andrew,Great-grandson of Andrew Kastl,4,,,,Richard Joe Stanek and Gladys C. Peterson,p. 61
+richard-joe-stanek-1932,Richard Joe Stanek,M,andrew,Grandson of Andrew Kastl,3,26 September 1932,,Gladys C. Peterson,Agnes Kastl and Joseph Stanek,p. 61
+susan-pauline-stanek-of-richard1932,Susan Pauline Stanek,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Richard Joe Stanek and Gladys C. Peterson,p. 61
+trudy-marie-stanek-of-leonard1934,Trudy Marie Stanek,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Leonard John Stanek and Doline Helen Horky,p. 62
+willard-james-stanek-1943,Willard James Stanek,M,andrew,Grandson of Andrew Kastl,3,28 October 1943,,Karen Lingel,Agnes Kastl and Joseph Stanek,"p. 61, p. 62"
+emily-steinbach,Emily Steinbach,F,andrew,Wife of John Kastl,2,"25 November 1906, Prague, Nebraska",,John Kastl,,p. 60
 emma-stirch,Emma Stirch,F,peter,Wife of Frank Fujan,3,,,Frank Fujan,,
 frank-thomas-stone-1961,Frank Thomas Stone,M,peter,2× great-grandson of Peter Kastl,5,"28 July 1961, Denuba, California",,,Barbara Joanne Cuda and James V. Stone,"p. 20, Supp. p. 3"
 james-v-stone,James V. Stone,M,peter,Husband of Barbara Joanne Cuda,4,,,Barbara Joanne Cuda,,
@@ -403,6 +515,28 @@ lawrence-sveska-of-wilhelmina1882,Lawrence Sveska,M,wenzel,Grandson of Wenzel Ka
 minnie-j-sveska-1909,Minnie J. Sveska,F,wenzel,Granddaughter of Wenzel Kastl,3,1909,"12 October 1915, Omaha, Nebraska, of diphtheria",,Wilhelmina Kastl and Charles Sveska,p. 27
 amy-tejral-1975,Amy Tejral,F,josef,2× great-granddaughter of Josef Kastl,5,17 December 1975,,,Loretta Kastl and Dick Messman,Supp. p. 6
 linda-tejral-1969,Linda Tejral,F,josef,2× great-granddaughter of Josef Kastl,5,13 June 1969,,,Loretta Kastl and Dick Messman,Supp. p. 6
+agnes-tlamka-1923,Agnes Tlamka,F,andrew,Granddaughter of Andrew Kastl,3,6 November 1923,,Fred Topil,Emma Kastl and Louis Tlamka,p. 60
+carol-tlamka-1949,Carol Tlamka,F,andrew,Great-granddaughter of Andrew Kastl,4,June 1949,,,Raymond Tlamka and Bertha Shonka,p. 60
+cheryl-tlamka-of-raymond1921,Cheryl Tlamka,F,andrew,Great-granddaughter of Andrew Kastl,4,,,,Raymond Tlamka and Bertha Shonka,p. 60
+linda-tlamka-1948,Linda Tlamka,F,andrew,Great-granddaughter of Andrew Kastl,4,June 1948,,,Raymond Tlamka and Bertha Shonka,p. 60
+louis-tlamka,Louis Tlamka,M,andrew,Husband of Emma Kastl,2,,"7 August 1957, Osceola",Emma Kastl,,p. 60
+ludmilla-tlamka-1920,Ludmilla Tlamka,F,andrew,Granddaughter of Andrew Kastl,3,17 August 1920,September 1980,David Anderson,Emma Kastl and Louis Tlamka,p. 60
+martha-tlamka-1926,Martha Tlamka,F,andrew,Granddaughter of Andrew Kastl,3,14 April 1926,,Algot Larsen,Emma Kastl and Louis Tlamka,"p. 60, p. 61"
+mary-tlamka-of-raymond1921,Mary Tlamka,F,andrew,Great-granddaughter of Andrew Kastl,4,28 December (no year printed),,,Raymond Tlamka and Bertha Shonka,p. 60
+mildred-tlamka-1928,Mildred Tlamka,F,andrew,Granddaughter of Andrew Kastl,3,18 April 1928,,Conrad Olson,Emma Kastl and Louis Tlamka,"p. 60, p. 61"
+raymond-tlamka-1921,Raymond Tlamka,M,andrew,Grandson of Andrew Kastl,3,28 December 1921,,Bertha Shonka,Emma Kastl and Louis Tlamka,p. 60
+ron-tlamka-1958,Ron Tlamka,M,andrew,Great-grandson of Andrew Kastl,4,8 April 1958,,,Raymond Tlamka and Bertha Shonka,p. 60
+chadwick-steven-topil-1974,Chadwick Steven Topil,M,andrew,2× great-grandson of Andrew Kastl,5,24 October 1974,,,Henry J. Topil and Cheryl Higgenbotham,p. 61
+craig-joseph-topil-1982,Craig Joseph Topil,M,andrew,2× great-grandson of Andrew Kastl,5,12 December 1982,,,Henry J. Topil and Barbara Stachura,p. 61
+fred-topil,Fred Topil,M,andrew,Husband of Agnes Tlamka,3,,,Agnes Tlamka,,
+henry-j-topil-1952,Henry J. Topil,M,andrew,Great-grandson of Andrew Kastl,4,5 March 1952,,Cheryl Higgenbotham; Barbara Stachura,Agnes Tlamka and Fred Topil,"p. 60, p. 61"
+jerry-f-topil-1946,Jerry F. Topil,M,andrew,Great-grandson of Andrew Kastl,4,19 November 1946,,Julie Reese; Cheryl (Farwell) Vogt,Agnes Tlamka and Fred Topil,p. 60
+jill-topil-1975,Jill Topil,F,andrew,2× great-granddaughter of Andrew Kastl,5,August 1975,,,Jerry F. Topil and Julie Reese,p. 60
+jody-topil-1973,Jody Topil,U,andrew,2× great-grandchild of Andrew Kastl,5,July 1973,,,Jerry F. Topil and Julie Reese,p. 60
+noah-topil-1984,Noah Topil,M,andrew,2× great-grandson of Andrew Kastl,5,6 March 1984,,,Jerry F. Topil and Cheryl (Farwell) Vogt,p. 60
+rosella-topil-1948,Rosella Topil,F,andrew,Great-granddaughter of Andrew Kastl,4,23 March 1948,,"Tom Richards, Jr.",Agnes Tlamka and Fred Topil,p. 60
+trisha-coreen-topil-1977,Trisha Coreen Topil,F,andrew,2× great-granddaughter of Andrew Kastl,5,9 March 1977,,,Henry J. Topil and Cheryl Higgenbotham,p. 61
+barbara-valecka,Barbara Valecka,F,andrew,Wife of Andrew Kastl,1,1861,1948,Andrew Kastl,,p. 57
 annette-vech-1955,Annette Vech,F,peter,2× great-granddaughter of Peter Kastl,5,13 October 1955,,Donald Hraban,Francis Vech and Lorraine Rasmussen,"Supp. p. 3, Supp. p. 4"
 brian-vech-1972,Brian Vech,M,peter,3× great-grandson of Peter Kastl,6,11 December 1972,,,William Vech and Bonita Rezek,Supp. p. 4
 claire-vech-1976,Claire Vech,F,peter,3× great-granddaughter of Peter Kastl,6,30 March 1976,,,James Vech and Jane Elizabeth Loflin,Supp. p. 4
@@ -422,6 +556,30 @@ david-venable,David Venable,M,josef,Husband of Lucille Kastl,4,,"Date not printe
 david-venable-1956,David Venable,M,josef,2× great-grandson of Josef Kastl,5,22 December 1956,,,Lucille Kastl and David Venable,Supp. p. 6
 kathy-venable-1959,Kathy Venable,F,josef,2× great-granddaughter of Josef Kastl,5,13 December 1959,,,Lucille Kastl and David Venable,Supp. p. 6
 clara-vlasek,Clara Vlasek,F,peter,Wife of James Kastl,3,,,James Kastl,,
+cheryl-vogt,Cheryl (Farwell) Vogt,F,andrew,Wife of Jerry F. Topil,4,,,Jerry F. Topil,,p. 60
+agnes-vrbka-1916,Agnes Vrbka,F,andrew,Granddaughter of Andrew Kastl,3,9 February 1916,25 February 1916,,Anna Kastl and Joseph Vrbka,p. 58
+anna-vrbka-1908,Anna Vrbka,F,andrew,Granddaughter of Andrew Kastl,3,30 January 1908,,George Nekl,Anna Kastl and Joseph Vrbka,"p. 57, p. 58"
+anton-vrbka-1906,Anton Vrbka,M,andrew,Grandson of Andrew Kastl,3,8 January 1906,,,Anna Kastl and Joseph Vrbka,p. 57
+daniel-vrbka-1953,Daniel Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,7 November 1953,,,Louis Vrbka and Anna Speicher,p. 58
+donald-vrbka-1930,Donald Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,30 December 1930,,,Joseph Vrbka and Tillie Sedlak,p. 58
+edward-vrbka-1902,Edward Vrbka,M,andrew,Grandson of Andrew Kastl,3,9 May 1902,23 October 1918,,Anna Kastl and Joseph Vrbka,p. 57
+emil-vrbka-1910,Emil Vrbka,M,andrew,Grandson of Andrew Kastl,3,17 July 1910,4 January 1982,Cecilia Nekl,Anna Kastl and Joseph Vrbka,p. 58
+evelyn-vrbka-1924,Evelyn Vrbka,F,andrew,Great-granddaughter of Andrew Kastl,4,22 March 1924,,,Joseph Vrbka and Tillie Sedlak,p. 58
+frank-vrbka-1912,Frank Vrbka,M,andrew,Grandson of Andrew Kastl,3,5 October 1912,1 February 1971,,Anna Kastl and Joseph Vrbka,p. 58
+gary-vrbka-1946,Gary Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,23 November 1946,,,Joseph Vrbka and Tillie Sedlak,p. 58
+joseph-vrbka,Joseph Vrbka,M,andrew,Husband of Anna Kastl,2,,,Anna Kastl,,p. 57
+joseph-vrbka-1900,Joseph Vrbka,M,andrew,Grandson of Andrew Kastl,3,15 March 1900,28 February 1969,Tillie Sedlak,Anna Kastl and Joseph Vrbka,"p. 57, p. 58"
+laverne-vrbka-1938,Laverne Vrbka,U,andrew,Great-grandchild of Andrew Kastl,4,1 June 1938,,,Joseph Vrbka and Tillie Sedlak,p. 58
+leonard-vrbka-1928,Leonard Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,28 January 1928,,,Joseph Vrbka and Tillie Sedlak,p. 58
+louis-vrbka-1917,Louis Vrbka,M,andrew,Grandson of Andrew Kastl,3,12 October 1917,,Anna Speicher,Anna Kastl and Joseph Vrbka,p. 58
+marilee-vrbka-1965,Marilee Vrbka,F,andrew,Great-granddaughter of Andrew Kastl,4,6 April 1965,,,Louis Vrbka and Anna Speicher,p. 59
+mary-vrbka-1914,Mary Vrbka,F,andrew,Granddaughter of Andrew Kastl,3,24 October 1914,10 November 1914,,Anna Kastl and Joseph Vrbka,p. 58
+raymond-vrbka-1925,Raymond Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,29 May 1925,,,Joseph Vrbka and Tillie Sedlak,p. 58
+richard-vrbka-1931,Richard Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,17 November 1931,,,Emil Vrbka and Cecilia Nekl,p. 58
+robert-vrbka-1942,Robert Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,30 May 1942,,,Joseph Vrbka and Tillie Sedlak,p. 58
+sara-vrbka-1959,Sara Vrbka,F,andrew,Great-granddaughter of Andrew Kastl,4,5 September 1959,,,Louis Vrbka and Anna Speicher,p. 59
+stella-vrbka-1904,Stella Vrbka,F,andrew,Granddaughter of Andrew Kastl,3,24 January 1904,3 July 1955,,Anna Kastl and Joseph Vrbka,p. 57
+stephen-vrbka-1949,Stephen Vrbka,M,andrew,Great-grandson of Andrew Kastl,4,30 March 1949,,,Louis Vrbka and Anna Speicher,p. 58
 david-wehrle,David Wehrle,M,josef,Husband of Judy Kastl,5,,,Judy Kastl,,
 melissa-wehrle-of-judy-david,Melissa Wehrle,F,josef,3× great-granddaughter of Josef Kastl,6,,,,Judy Kastl and David Wehrle,Supp. p. 6
 ryan-wehrle-of-judy-david,Ryan Wehrle,M,josef,3× great-grandson of Josef Kastl,6,,,,Judy Kastl and David Wehrle,Supp. p. 6
@@ -431,6 +589,12 @@ david-wilson-1980,David Wilson,M,josef,3× great-grandson of Josef Kastl,6,28 Ja
 lori-wilson-1973,Lori Wilson,F,josef,3× great-granddaughter of Josef Kastl,6,2 May 1973,,,Carole Burnett and Louis Wilson,Supp. p. 5
 louis-wilson,Louis Wilson,M,josef,Husband of Carole Burnett,5,4 October 1947,,Carole Burnett,,Supp. p. 5
 carla-witzel,Carla Witzel,F,josef,Wife of Lawrence John Novak,5,,,Lawrence John Novak,,
+brian-wolfe-1964,Brian Wolfe,M,andrew,2× great-grandson of Andrew Kastl,5,1 July 1964,,,Raymond Wolfe and Ardyce Shane,p. 59
+bruce-wolfe-1960,Bruce Wolfe,M,andrew,2× great-grandson of Andrew Kastl,5,9 February 1960,,,Raymond Wolfe and Ardyce Shane,p. 59
+colletta-wolfe-1933,Colletta Wolfe,F,andrew,Great-granddaughter of Andrew Kastl,4,"13 August 1933, Brainard, Nebraska",,Gene Pomeroy,Helen Rech and Steven F. Wolfe,p. 59
+deloris-ann-wolfe-of-helen1906,Deloris Ann Wolfe,F,andrew,Great-granddaughter of Andrew Kastl,4,,In infancy,,Helen Rech and Steven F. Wolfe,p. 59
+raymond-wolfe-1931,Raymond Wolfe,M,andrew,Great-grandson of Andrew Kastl,4,"14 March 1931, near Spring Ranch, Nebraska",,Ardyce Shane,Helen Rech and Steven F. Wolfe,p. 59
+steven-f-wolfe,Steven F. Wolfe,M,andrew,Husband of Helen Rech,3,"9 December 1901, near Clay Center, Nebraska",,Helen Rech,,p. 59
 alan-wood,Alan Wood,M,josef,Husband of Mary Ann Novak,5,,,Mary Ann Novak,,
 christopher-wood-1974,Christopher Wood,M,josef,3× great-grandson of Josef Kastl,6,2 March 1974,,,Mary Ann Novak and Alan Wood,Supp. p. 7
 cory-wood-1977,Cory Wood,U,josef,3× great-grandchild of Josef Kastl,6,23 January 1977,,,Mary Ann Novak and Alan Wood,Supp. p. 7
