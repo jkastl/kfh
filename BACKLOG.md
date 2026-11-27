@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew) done; U4a (John) running; then U4b, U5a, U5b, U7.
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a (John part 1) done; next U4b + U5a (scheduled), then U5b, U7.
 
 ## Next, in order
 
@@ -57,7 +57,7 @@ each unit must also read the supplement sections that name its pages.
 | U1 | Josef — DONE (2026-11-26): 147 people, 39 families; all 40 printed headings checked | 41–43 (s043–s045) | p.41, p.42 ×2 (s073–s076 top) | was 10 / 39 + supp. pp.5–8 (actually ~35 family groups) |
 | U2 | Peter — DONE (2026-11-26): 205 people, 49 families; 54 headings checked | 15–25 (s017–s027) | p.20, p.21, p.22 ×2 (s071–s072) | 36 / 122 |
 | U3 | Wenzel + Thomas + Anna Kastl Zima — DONE (2026-11-26): 70 people, 15 families; 16 headings checked | 26–27, 56, 62 (s028–s029, s058, s064) | p.26, p.27 (s072) | 15 / 65 |
-| U4a | John, first part | 28–33 (s030–s035) | p.31 (s073) | split at a sub-family boundary |
+| U4a | John, first part — DONE (2026-11-27): 199 people, 48 families; 47 headings checked | 28–33 (s030–s035) | p.31 (s073) | split at a sub-family boundary |
 | U4b | John, second part | 34–40 (s036–s042) | pp.34–35 (s076) | (John total 80 / 244) |
 | U5a | Jacob, first part | 44–49 (s046–s051) | p.47 (s076) | split at a sub-family boundary |
 | U5b | Jacob, second part | 50–55 (s052–s057) | p.54 (s076) | (Jacob total 72 / 229) |
@@ -75,6 +75,12 @@ U2 notes: Thomas J. Kastl's children are recorded as Kastle ("Family changed nam
 Not attached to anyone, because the caption is ambiguous: "Joseph Sedlacek (cousin)" in s017-ph2,
 and the "Joseph C. Kastl Ranch" photo (s020). Two 1986 "Their grandchild:" lines name no parents
 and are notes. s071 numbers re-checked by eye (all match the transcription).
+
+U4a notes: all nine of John's children have records; `anna-kastl-1870` and `john-kastl-1883`
+carry `continues` until U4b builds their families (U4b removes it and adds "john" to
+CHECKED_BRANCHES). "Children of Pat Hulse" (printed inside Virgil Pokorny's paragraph) is a
+one-parent family; allow-listed. David James Ptacek (s076) = son of Donald L. Ptacek.
+s030–s036 proofread word by word: no text errors.
 
 U6 notes: Leontine Kastl's marriage (15 vs 24 Sept. 1945) and Ron Herms ("(d) 6 Apr. 1980" in
 1985, "still living" in 1986) are kept as differing readings. Ernest Janak "(Son of Anton)" is
@@ -138,8 +144,7 @@ Items (a) and (b) are cheap and should land **before** the build-out starts (U1)
 is checked as it goes; (c)–(e) run after U7.
 
 ### 7. Verification debt (see TECH_DEBT.md)
-- Re-proofread s030–s036 against the images (the second pass there was not thorough) in U4a/U4b.
-  s028–s029 were re-proofread word by word in U3 (one fix: "7 ANN MARIE" has no period).
+- Done: s028–s029 (U3) and s030–s036 (U4a) re-proofread word by word against the images.
 
 ## Later / ideas
 - Tree: optional top-down layout; show in-marrying spouses as their own boxes; print/export.
