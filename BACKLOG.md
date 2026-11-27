@@ -10,6 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
+- Done (1.1.0, 2026-11-27): F1 narrative links and F2 photo album.
 - Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a+U5b (Jacob) and U7 (integration) done. Step 6 is complete. Steps 6 and 8 (targeted) done. Next: the owner's future-session list (F1–F5) below.
 
 ## Next, in order
@@ -196,16 +197,29 @@ Each item is meant for its own session. Start with `CLAUDE.md` (sync with main f
 book as the only source, keep the build passing, and commit to `main` when done. The owner's token
 window is limited, so prefer scripts to agents and run at most one or two agents per session.
 
-### F1. Links in the narrative
-Link names in chapter narratives and articles (`content/pages/sNNN.md`) to person pages where the
+### F1. Links in the narrative — DONE (2026-11-27, v1.1.0)
+Result: 223 links on 21 pages (chapters 1–4, the chapter openings, the Cuda and Mares articles,
+Jacob's obituary and marriage agreement, the Katolik article on Andrew, the second-marriage
+section, the conclusion, the s071 log-house addition); 88 people get a "Mentioned in the book"
+section. 18 references are left unlinked with reasons in `content/links.json` → `skipped`
+(e.g. "Joe Kastl, Chapman Precinct" 1891, "Joseph Vrbka and family" 1935, "an Uncle Vincent
+Kastl", the 1867 ship list's infant Wenzel, the compilers' signatures). To add a link: append
+`{"scan", "phrase", "name", "person"}`; the phrase must occur exactly once on the page and the
+name is the part that becomes the link. The build checks every entry.
+
+Original brief: link names in chapter narratives and articles (`content/pages/sNNN.md`) to person pages where the
 reference is unambiguous ("his son Frank" inside Peter's chapter, "Mrs. Albert Mares" → Barbara
 Kastl). Never guess: the book has many Josephs, Johns and Marys, so skip anything ambiguous and
 list it. Suggested approach: store links as data (e.g. `content/links.json`: scan, exact phrase,
 person id), not by editing transcriptions, so they stay faithful; render them in the book reader
 and check each phrase exists, like the quote check. One agent per chapter group at most.
 
-### F2. Photo album page
-One page with every photo in the book (46 crops in `media/photos/`, ids and captions in page front
+### F2. Photo album page — DONE (2026-11-27, v1.1.0)
+Result: `/photos/` (in the main nav, home Explore and the book index): 32 photographs by the book's
+sections, then 14 maps, documents, drawings and ornaments (`PICTURE_KIND` in `tools/build.py`).
+Uncaptioned pictures say so and show the transcriber's description. 26 link to people.
+
+Original brief: one page with every photo in the book (46 crops in `media/photos/`, ids and captions in page front
 matter), grouped by chapter or branch, each with its caption, page link, and links to the people
 it is attached to (26 photos are on person pages). Include the scene photos (dugout, Omaha 1867,
 Plasi livery stable, rabbit drive, cattle drives) and the uncaptioned ones. Script-only; no agent.

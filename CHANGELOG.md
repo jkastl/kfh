@@ -3,6 +3,19 @@
 All notable changes to this site. Versions follow [semantic versioning](https://semver.org/);
 see `CLAUDE.md` for what counts as major, minor and patch here.
 
+## 1.1.0 — 2026-11-27
+
+- **Names in the narrative link to people.** In the history chapters, the chapter openings and the
+  reprinted articles and obituary, 223 names now link to the person they refer to (88 people),
+  wherever the book makes clear who is meant. Each person's page lists where the book's chapters
+  and articles mention them. The transcriptions themselves are unchanged; the links are kept in
+  `content/links.json` and checked on every build. 18 references that could mean more than one
+  person are deliberately left unlinked and listed with the reason.
+- **Photo album.** A new Photos page shows all 46 pictures in the book: 32 photographs grouped by
+  chapter, each with the book's caption, its page and the people in it, then the maps, documents
+  and drawings.
+- The family tree's legend no longer says only one branch is built out.
+
 ## 1.0.0 — 2026-11-27
 
 First complete release of *Kastl Family History* (1985) and its 1986 Supplementary Section.

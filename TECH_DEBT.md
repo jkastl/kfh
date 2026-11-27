@@ -19,5 +19,11 @@ committing new copies.
 
 ## Scope
 All seven brothers' branches, Anna Kastl Zima's and the shared roots are built out as
-structured people (1,284). Integration across branches (U7) and the full verification (BACKLOG
-step 8) are still to do.
+structured people (1,284 from the book, 1 owner addition). Integration (U7), the automated checks
+and the targeted audit (BACKLOG step 8) are done; the full per-branch audit (F5) is optional.
+
+## Narrative links (F1)
+Links cover the narrative chapters, the chapter openings, the articles and the obituary
+(`content/links.json`). The genealogy lists themselves are not linked inline: their people are
+already the structured records, listed under "People … on this page" in the reader. Excerpts
+on person pages (e.g. the 1935 obituary on Jacob) are rendered without links.

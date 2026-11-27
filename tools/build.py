@@ -245,6 +245,79 @@ def check_quotes(data, pages_by_scan):
     return problems
 
 
+# ----------------------------------------------------------------------------- narrative links
+# content/links.json links names in the narrative chapters and articles to person pages without
+# editing the transcriptions (BACKLOG F1). Each link gives a page, a phrase that occurs exactly
+# once on it, and optionally the part of the phrase (name) that becomes the link.
+LINK_OPEN, LINK_CLOSE = "\x01", "\x02"  # markers put into a page body before rendering
+LINK_BASE = 0xE000  # private-use characters number the links on a page
+
+
+def load_links():
+    f = CONTENT / "links.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"links": [], "skipped": []}
+
+
+def locate_links(links, pages_by_scan, people):
+    """Place each link in its page body. Returns ({scan: [(start, end, person, phrase)]}, problems)."""
+    spans, problems = {}, []
+    for i, l in enumerate(links.get("links", [])):
+        where = f"links.json link {i + 1} ({l.get('scan')}: {l.get('phrase')!r})"
+        p = pages_by_scan.get(l.get("scan"))
+        phrase = l.get("phrase", "")
+        name = l.get("name", phrase)
+        if not p:
+            problems.append(f"{where}: unknown scan")
+            continue
+        if l.get("person") not in people:
+            problems.append(f"{where}: unknown person {l.get('person')}")
+            continue
+        n = p["body"].count(phrase) if phrase else 0
+        if n != 1:
+            problems.append(f"{where}: the phrase occurs {n} times on the page; it must occur exactly once")
+            continue
+        k = phrase.find(name) if name else -1
+        if k < 0:
+            problems.append(f"{where}: the name {name!r} is not in the phrase")
+            continue
+        if "*" in name or "\n" in name or "[[" in name:
+            problems.append(f"{where}: the linked name must not contain markup or line breaks")
+            continue
+        start = p["body"].index(phrase) + k
+        spans.setdefault(l["scan"], []).append((start, start + len(name), l["person"], phrase))
+    for scan, ss in spans.items():
+        ss.sort()
+        for a, b in zip(ss, ss[1:]):
+            if b[0] < a[1]:
+                problems.append(f"links.json: links overlap on {scan}: {a[3]!r} and {b[3]!r}")
+    for i, s in enumerate(links.get("skipped", [])):
+        p = pages_by_scan.get(s.get("scan"))
+        if not s.get("reason"):
+            problems.append(f"links.json skipped {i + 1}: needs a reason")
+        if not p or s.get("phrase", "") not in p["body"] or not s.get("phrase"):
+            problems.append(f"links.json skipped {i + 1} ({s.get('scan')}: {s.get('phrase')!r}): phrase not on the page")
+    return spans, problems
+
+
+def mark_links(body, spans):
+    """Wrap each linked name in markers that survive render_md (it escapes HTML, not these)."""
+    for j, (s, e, _, _) in sorted(enumerate(spans), key=lambda x: -x[1][0]):
+        body = body[:s] + LINK_OPEN + chr(LINK_BASE + j) + body[s:e] + LINK_CLOSE + body[e:]
+    return body
+
+
+def unmark_links(html_text, spans, tree, prefix):
+    def open_tag(m):
+        j = ord(m.group(1)) - LINK_BASE
+        pid = spans[j][2]
+        p = tree.people[pid]
+        yrs = tree.years(pid)
+        title = p["name"] + (f" ({yrs})" if yrs else "")
+        return f'<a class="nlink" id="m{j + 1}" href="{prefix}people/{pid}/index.html" title="{esc(title)}">'
+    html_text = re.sub(LINK_OPEN + "([-])", open_tag, html_text)
+    return html_text.replace(LINK_CLOSE, "</a>")
+
+
 # ----------------------------------------------------------------------------- data model
 BRANCHES = [  # (branch key, founder id, label) in the book's chapter order
     ("peter", "peter-kastl-1827", "Peter"),
@@ -454,7 +527,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "11"
+CSS_VERSION = "12"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -488,7 +561,8 @@ def layout(prefix, title, body, *, description, path, active="", image=None, ima
               + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
               + "</script>\n")
     nav = [("tree/index.html", "Family tree", "tree"), ("people/index.html", "People", "people"),
-           ("book/index.html", "The book", "book"), ("about/index.html", "About", "about")]
+           ("photos/index.html", "Photos", "photos"), ("book/index.html", "The book", "book"),
+           ("about/index.html", "About", "about")]
     links = "".join(
         f'<a href="{prefix}{h}"{CURRENT if k == active else ""}>{t}</a>' for h, t, k in nav)
     return f"""<!doctype html>
@@ -683,7 +757,7 @@ def descent_html(tree, pid, prefix):
             f'<ol>{"".join(items)}</ol></nav>')
 
 
-def build_person(tree, pid, pages_by_scan):
+def build_person(tree, pid, pages_by_scan, mentions=()):
     prefix = "../../"
     p = tree.people[pid]
     parts = []
@@ -773,6 +847,16 @@ def build_person(tree, pid, pages_by_scan):
             for e in p["excerpts"])
         body_cols.append(f'<section class="excerpts" aria-labelledby="ex-h"><h2 id="ex-h">From the book</h2>{ex}</section>')
 
+    # where the narrative chapters and articles name this person (content/links.json)
+    if mentions:
+        items = "".join(
+            f'<li><a class="src" href="{prefix}book/{pages_by_scan[scan]["slug"]}/index.html#m{j}">'
+            f'{esc(pages_by_scan[scan]["short"])}</a> <q>{esc(strip_md(phrase))}</q></li>'
+            for scan, j, phrase in mentions)
+        body_cols.append(f'<section class="mentions" aria-labelledby="mn-h"><h2 id="mn-h">Mentioned in the book</h2>'
+                         f'<p class="muted">Where the book’s chapters and articles name {esc(p["name"])}. The link goes to the name on the page.</p>'
+                         f'<ul>{items}</ul></section>')
+
     photo_html = f'<div class="person-photos">{"".join(photos)}</div>' if photos else ""
     content = f'<article class="wrap person">{"".join(parts)}{photo_html}{"".join(body_cols)}</article>'
     bits = [f'{p["name"]}' + (f" ({yrs})" if yrs else "") + (f", {rel[0].lower() + rel[1:]}" if rel else "") + "."]
@@ -854,6 +938,7 @@ def build_home(tree, pages_by_scan):
     <li><a href="tree/index.html"><strong>Family tree</strong><span>From Andreas Kastl down through every branch.</span></a></li>
     <li><a href="people/index.html"><strong>Everyone, in a table</strong><span>Filter and sort by name, dates, branch; download as CSV.</span></a></li>
     <li><a href="book/index.html"><strong>The book, page by page</strong><span>All 76 scans beside their transcriptions.</span></a></li>
+    <li><a href="photos/index.html"><strong>Photos</strong><span>Every picture in the book, with its caption and the people in it.</span></a></li>
     <li><a href="search/index.html"><strong>Search</strong><span>Names, places and years across the whole book.</span></a></li>
   </ul>
 </section>"""
@@ -908,7 +993,7 @@ def people_on_page(tree):
     return on
 
 
-def build_book(tree, pages, pages_by_scan):
+def build_book(tree, pages, pages_by_scan, link_spans):
     on_page = people_on_page(tree)
     # index
     prefix = "../"
@@ -925,6 +1010,7 @@ def build_book(tree, pages, pages_by_scan):
 <h1>Kastl Family History</h1>
 <p class="lede">All 76 scanned pages of the 1985 book and its 1986 Supplementary Section, each shown beside a faithful transcription. Sections follow the book’s own contents page.</p>
 <p class="pdf-links">{pdf_links(prefix)}</p>
+<p><a href="{prefix}photos/index.html">Every picture in the book in one album</a>, with captions and the people in them.</p>
 {"".join(groups)}
 </div>"""
     write("book/index.html", layout(prefix, "The book", body,
@@ -939,7 +1025,11 @@ def build_book(tree, pages, pages_by_scan):
         title = page_title(p)
         w, h = jpeg_size(ROOT / "media/pages" / f"{p['scan']}.jpg")
         img_src = f"{prefix}media/pages/{p['scan']}.jpg"
-        trans = render_md(p["body"], p["photos"], prefix) if p["body"].strip() else '<p class="muted">No printed text on this page.</p>'
+        spans = link_spans.get(p["scan"], [])
+        if p["body"].strip():
+            trans = unmark_links(render_md(mark_links(p["body"], spans), p["photos"], prefix), spans, tree, prefix)
+        else:
+            trans = '<p class="muted">No printed text on this page.</p>'
         meta_bits = []
         if p.get("inferred_page"):
             meta_bits.append("The page number is not printed; it is inferred from the page’s position.")
@@ -1017,7 +1107,8 @@ def build_about(tree):
 
 <h2>What is here</h2>
 <ul>
-<li><a href="{prefix}book/index.html">The book</a>: all 76 scanned pages, each beside a transcription of its text.</li>
+<li><a href="{prefix}book/index.html">The book</a>: all 76 scanned pages, each beside a transcription of its text. Names in the narrative chapters and articles link to the person’s page wherever the book makes clear who is meant.</li>
+<li><a href="{prefix}photos/index.html">Photos</a>: every picture in the book in one album, with the book’s captions.</li>
 <li><a href="{prefix}tree/index.html">The family tree</a> and <a href="{prefix}people/index.html">a table of everyone</a>: {n_people} people, from the earliest Kastl ancestors through the seven brothers, their half-sister Anna and all their descendants named in the book.</li>
 </ul>
 
@@ -1190,12 +1281,91 @@ def build_tree(tree):
 <div class="tree-wrap" id="tree-wrap">
   <svg id="tree" role="img" aria-label="Family tree diagram. The table of people lists the same information as text."></svg>
 </div>
-<p class="muted tree-legend"><span class="lg lg-founder"></span> one of the seven brothers (or half-sister Anna) · dashed line: child of a second marriage · <span class="lg lg-more">+3</span> children not shown yet. Only Josef Kastl’s branch is built out so far; the <a href="../people/index.html">table</a> has the same people as text.</p>
+<p class="muted tree-legend"><span class="lg lg-founder"></span> one of the seven brothers (or half-sister Anna) · dashed line: child of a second marriage · <span class="lg lg-more">+3</span> children not shown yet. The <a href="../people/index.html">table</a> has the same people as text.</p>
 </div>
 <script src="{prefix}assets/js/tree.js?v={CSS_VERSION}" defer></script>"""
     write("tree/index.html", layout(prefix, "Family tree", body,
                                     description="Interactive family tree of the Kastl family: Andreas Kastl, Thomas Kastl, the seven brothers and their descendants.",
                                     path="tree/", active="tree"))
+
+
+# ----------------------------------------------------------------------------- photo album
+# What each picture is, for the ones that are not photographs (from the transcriber's
+# descriptions in the page front matter). Everything else is a photograph.
+PICTURE_KIND = {
+    "s007-ph1": "Map", "s008-ph1": "Map", "s013-ph1": "Map", "s068-ph2": "Map",
+    "s001-ph1": "Drawing", "s007-ph2": "Drawing", "s011-ph2": "Drawing", "s068-ph1": "Engraving",
+    "s069-ph1": "Drawing", "s016-ph1": "Chart", "s046-ph1": "Document", "s047-ph1": "Document",
+    "s064-ph1": "Ornament", "s065-ph1": "Ornament",
+}
+
+
+def build_photos(tree, pages, pages_by_scan):
+    """One page with every picture in the book (BACKLOG F2): photographs by the book's sections,
+    then maps, documents and drawings. Captions are the book's; uncaptioned pictures say so and
+    show the transcriber's description instead."""
+    prefix = "../"
+    on_photo = {}
+    for pid in tree.people:
+        for ph in tree.people[pid].get("photos", []):
+            on_photo.setdefault(ph, []).append(pid)
+
+    def card(ph, pg):
+        src = f"{prefix}media/photos/{ph['id']}.jpg"
+        w, h = jpeg_size(ROOT / "media" / "photos" / f"{ph['id']}.jpg")
+        cap, desc = ph.get("caption"), ph.get("description") or ""
+        alt = desc or cap or ""
+        kind = PICTURE_KIND.get(ph["id"])
+        if cap:
+            text = f'<p class="al-cap">{inline(cap)}</p>'
+        else:
+            text = '<p class="al-cap al-none">Not captioned in the book.</p>'
+            if len(desc) > 160:  # long descriptions of maps and documents fold away
+                text += f'<details class="al-desc"><summary>What it shows</summary>{esc(desc)}</details>'
+            else:
+                text += f'<p class="al-desc">{esc(desc)}</p>'
+        ppl = sorted(on_photo.get(ph["id"], []), key=lambda x: tree.chain(x)[0] != TREE_ROOT)
+        people = ""
+        if ppl:
+            people = ('<p class="al-people"><span class="muted">People:</span> '
+                      + ", ".join(f'<a href="{prefix}people/{x}/index.html">{esc(tree.people[x]["name"])}</a>' for x in ppl)
+                      + "</p>")
+        meta = [src_link(pg["scan"], pages_by_scan, prefix)]
+        if kind:
+            meta.append(f'<span class="al-kind">{kind}</span>')
+        return (f'<li class="al-item" id="{ph["id"]}"><figure class="photo">'
+                f'<a class="al-img" href="{src}" title="Open the full-size picture"><img src="{src}" alt="{esc(alt)}" width="{w}" height="{h}" loading="lazy"></a>'
+                f'<figcaption>{text}{people}<p class="al-meta">{" · ".join(meta)}</p></figcaption></figure></li>')
+
+    groups, other, n_photo = [], [], 0
+    for i, (start, title) in enumerate(SECTIONS):
+        end = SECTIONS[i + 1][0] if i + 1 < len(SECTIONS) else "s999"
+        items = []
+        for pg in pages:
+            if start <= pg["scan"] < end:
+                for ph in pg["photos"]:
+                    (other if ph["id"] in PICTURE_KIND else items).append(card(ph, pg))
+        if items:
+            n_photo += len(items)
+            groups.append((slugify(title), title, items))
+    groups.append(("maps-documents-drawings", "Maps, documents and drawings", other))
+    jump = "".join(f'<li><a href="#{k}">{esc(t)}</a> <span class="muted">{len(it)}</span></li>' for k, t, it in groups)
+    secs = "".join(f'<section class="al-sec" aria-labelledby="{k}"><h2 id="{k}">{esc(t)}</h2><ol class="album">{"".join(it)}</ol></section>'
+                   for k, t, it in groups)
+    total = n_photo + len(other)
+    n_with = sum(1 for k in on_photo)
+    body = f"""<div class="wrap photos-page">
+<p class="kicker">Photos</p>
+<h1>Pictures from the book</h1>
+<p class="lede">All {total} pictures printed in the 1985 book and its 1986 supplement: {n_photo} photographs, grouped by the book’s chapters, then {len(other)} maps, documents and drawings. Captions are the book’s own. {n_with} pictures link to the pages of the people in them.</p>
+<nav class="al-jump" aria-label="Sections"><ol>{jump}</ol></nav>
+{secs}
+</div>"""
+    write("photos/index.html", layout(prefix, "Photos", body,
+                                      description=f"Every picture in Kastl Family History (1985–86): {n_photo} family and pioneer photographs with the book’s captions, plus maps and documents.",
+                                      path="photos/", active="photos",
+                                      image="media/photos/s048-ph1.jpg",
+                                      image_alt="The Jacob Kastl family, a studio portrait of ten people"))
 
 
 # ----------------------------------------------------------------------------- 404 + sitemap
@@ -1337,28 +1507,40 @@ def main():
     if problems:
         print("Quote check failed:", *problems, sep="\n  ")
         sys.exit(1)
+    links = load_links()
+    link_spans, problems = locate_links(links, pages_by_scan, data["people"])
+    if problems:
+        print("Narrative link check failed (content/links.json):", *problems, sep="\n  ")
+        sys.exit(1)
     tree = Tree(data)
     errors, warnings, summary = checks.run(tree, pages, TREE_ROOT, CONTENT)
     if errors:
         print("Structural checks failed (see tools/checks.py; book-caused exceptions go in "
               "content/verification/allow-<branch>.json):", *errors, sep="\n  ")
         sys.exit(1)
+    n_links = sum(len(s) for s in link_spans.values())
+    link_summary = f"{n_links} narrative links checked; {len(links.get('skipped', []))} references left unlinked as ambiguous"
     if "--check" in sys.argv[1:]:  # checks only; writes nothing (safe while others build)
-        print(f"Checks passed: {summary}.")
+        print(f"Checks passed: {summary}; {link_summary}.")
         for w in warnings:
             print("  warning:", w)
         return
     (CONTENT / "verification" / "build-warnings.txt").write_text(
         "Plausibility warnings from tools/checks.py (not errors; the book has real oddities).\n"
         + "".join(w + "\n" for w in warnings), encoding="utf-8")
-    for d in ("people", "book", "tree", "review"):
+    for d in ("people", "book", "tree", "review", "photos"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
+    mentions = {}
+    for scan in sorted(link_spans):
+        for j, (_, _, pid, phrase) in enumerate(link_spans[scan]):
+            mentions.setdefault(pid, []).append((scan, j + 1, phrase))
     for pid in tree.people:
-        build_person(tree, pid, pages_by_scan)
+        build_person(tree, pid, pages_by_scan, mentions.get(pid, ()))
     build_people_index(tree, pages_by_scan)
     build_tree(tree)
     build_home(tree, pages_by_scan)
-    build_book(tree, pages, pages_by_scan)
+    build_book(tree, pages, pages_by_scan, link_spans)
+    build_photos(tree, pages, pages_by_scan)
     build_about(tree)
     build_search(tree, pages)
     build_404()
@@ -1369,6 +1551,7 @@ def main():
           + sum(len(m["sources"]) for fam in data["families"] for m in fam.get("marriage", [])))
     print(f"Built {len(tree.people)} people, {len(pages)} book pages; {nq} cited quotes verified.")
     print(f"Checks: {summary} (listed in content/verification/build-warnings.txt).")
+    print(f"Links: {link_summary} (content/links.json).")
 
 
 if __name__ == "__main__":
