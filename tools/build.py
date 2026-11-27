@@ -448,7 +448,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "6"
+CSS_VERSION = "7"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -684,7 +684,7 @@ def build_person(tree, pid, pages_by_scan):
     if yrs:
         parts.append(f'<p class="lede-years">{esc(yrs)}</p>')
     parts.append(descent_html(tree, pid, prefix))
-    parts.append(f'<p class="person-tools"><a class="btn ghost small" href="{prefix}tree/index.html?focus={pid}">Show in the family tree</a></p>')
+    parts.append(f'<p class="person-tools"><a class="btn ghost" href="{prefix}tree/index.html?focus={pid}">Show in the family tree</a></p>')
 
     # photos
     photos = []
@@ -793,14 +793,16 @@ def build_home(tree, pages_by_scan):
         if chap:
             links.append(f'<a href="book/{chap["slug"]}/index.html">Chapter, {esc(chap["short"])}</a>')
         links.append(f'<a href="tree/index.html?focus={fid}">Tree</a>')
-        status = f'<p class="branch-status">{n_desc} descendants so far</p>' if n_desc else ""
+        status = f'<p class="branch-status">{n_desc} descendants</p>' if n_desc else ""
         summary = f'<p class="b-summary">{esc(p["summary"])}</p>' if p.get("summary") else ""
         kind = '<p class="gen-label">Half-sister</p>' if key == "zima" else ""
+        cta = "View her family" if p.get("sex") == "F" else "View his family"
         cards.append(f"""<li class="brother">
   {kind}<h3><a href="people/{fid}/index.html">{esc(p["name"])}</a></h3>
   <p class="b-years">{esc(tree.years(fid))}</p>
   {summary}
   {status}
+  <p class="b-cta" aria-hidden="true">{cta} <span>→</span></p>
   <p class="b-links">{" · ".join(links)}</p>
 </li>""")
     w, h = jpeg_size(ROOT / "media/pages/s001.jpg")
