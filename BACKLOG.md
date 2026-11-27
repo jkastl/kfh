@@ -170,14 +170,20 @@ b. **Tests for the label code** — DONE (`LABEL_CASES` in `tools/checks.py`, 17
    the seven brothers", Maria Mužik = "Grandmother…", Andreas Mužik = "Great-grandfather…",
    Matthew Richard Kastl = "3× great-grandson of Josef Kastl", Barbara Kellner = "Second wife of
    Thomas Kastl", a half-sibling, a spouse, an in-law's parent. Add cases whenever a bug is found.
-c. **Independent audit per branch.** A different agent from the one that extracted the branch
+c. **Targeted audit — DONE (2026-11-27, owner chose A + B):** one independent agent re-checked
+   the 88 riskiest items against the scans (every "sources differ" person, every warning, every
+   allow-list note, 26 family-structure judgement calls): 80 OK, 6 extraction slips fixed (missing
+   "(1)" on first marriages), 2 decisions made. Report: `content/verification/audit-targeted-2026-11.md`.
+   The full per-branch audit below remains optional (~1.5–2 token windows).
+   **Full independent audit per branch (optional).** A different agent from the one that extracted the branch
    re-reads the branch's pages (scans, not just transcriptions) and checks every person and family
    record: parents, spouse(s), children and order, each fact's value against its quote. Output: a
    findings list per branch; fixes go in as separate commits that cite the finding.
-d. **Owner review aid.** A generated, unlisted report page: per branch, every person with their
+d. **Owner review aid — DONE:** `/review/` (unlisted, noindex). A generated, unlisted report page: per branch, every person with their
    parents, spouses, children and the page links, plus all warnings from (a) and the "sources
    differ" cases — so the owner can scan for anything that looks wrong from family knowledge.
-e. Record the result here: counts checked, issues found/fixed, anything left open.
+e. Results (2026-11-27): automated checks pass on all 1,285 people (308 child lists, 285 printed
+   lineages, 3,829 quotes, 17 label tests); targeted audit as in (c). Open: the optional full audit.
 
 Items (a) and (b) are cheap and should land **before** the build-out starts (U1), so every unit
 is checked as it goes; (c)–(e) run after U7.

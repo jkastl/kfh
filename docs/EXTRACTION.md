@@ -87,6 +87,13 @@ lands, add to `content/people.json`). Shape:
 - Multiple marriages: one family per marriage, with `"order": 1`, `2`. A marriage whose spouse
   the book doesn't name (e.g. "Two children were born to first marriage") is a family with one
   partner; so is a heading naming one parent ("The family of Therese Kripal").
+- Which marriage a child list belongs to, when a paragraph names two spouses before "Their
+  children:" and the book doesn't say: if the heading names one spouse, the children go with that
+  spouse; if it names both, they go with the marriage the list follows (the last one named).
+  Explain it in the family `note`. Cases: Lawrence A. Prchal (heading names Frances), Theophal
+  Kastl (heading names both; list follows Virginia McCaston).
+- Don't turn an inference into a fact. A source that simply omits a date is another source for
+  the dated fact, not a second reading.
 - `heading`: the printed heading text without `### `. Use a list when the same family is printed
   under several headings (1985 and 1986 forms). The build matches every printed heading to a
   family by this text, so copy it exactly.
