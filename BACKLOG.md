@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a+U5b (Jacob) done — all seven brothers and Anna built (1,284 people). Next: U7 (scheduled for after the owner's window reset).
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a+U5b (Jacob) and U7 (integration) done. Step 6 is complete. Next: step 8c–e (verification), when the owner says so.
 
 ## Next, in order
 
@@ -62,7 +62,7 @@ each unit must also read the supplement sections that name its pages.
 | U5a | Jacob, first part — DONE (2026-11-27): 134 people, 37 families; 40 headings checked | 44–49 (s046–s051) | p.47 (s076) | split at a sub-family boundary |
 | U5b | Jacob, second part — DONE (2026-11-27): 187 people, 47 families; Jacob's chapter fully checked | 50–55 (s052–s057) | p.54 (s076) | (Jacob total 72 / 229) |
 | U6 | Andrew — DONE (2026-11-27): 164 people, 38 families; 41 headings/sub-lists checked | 57–61 (s059–s063) | p.60 (s076) | 35 / 120 |
-| U7 | Integration | all | all | cross-branch marriages, duplicate people, unresolved supplement entries, final counts |
+| U7 | Integration — DONE (2026-11-27) | all | all | cross-branch marriages, duplicate people, unresolved supplement entries, final counts |
 
 U1 notes: spouses named only in a child line stay `marriage` facts (Howard Thomas, Laura Foote,
 Marianne Niemann, Louis Vanek, Bill Rohwer, Joyce Simodynes, Pamela Barsell, Ron Poskochil,
@@ -87,6 +87,18 @@ add Jacob Jr.'s s053 birth "20 March 1883" as a second reading, add the s076 Pag
 KASTL RERUCHA (d) 1968." as a second source on Elizabeth's 1968 death, and give records to the
 spouses U5a left as marriage facts (Mary Stara, Frances Rathovec, Julia Hanska, J. Cyril Rerucha,
 Joseph Rathovec). Then add "jacob" to CHECKED_BRANCHES.
+
+U7 results (2026-11-27): 1,285 people (1,284 from the book + 1 owner addition) and 322 families;
+_roots 21/8, peter 206/49, wenzel 42/8, john 350/89, josef 148/39, jacob 322/84, thomas 11/2,
+andrew 165/38, zima 20/5. Every printed family heading and children sub-list in all chapters and
+the supplement matches (308 child lists, 285 printed lineages). Duplicate scan: 35 same-name
+pairs, all different people (different parents/dates); Thomas's two Karls (1877, 1879) are
+separate as printed ("given the same name as his brother"). No cross-branch marriages in the book's
+families; no person carries the Kastl surname without descending from Andreas; no `continues` left.
+Supplement coverage: every line of s071–s076 is cited somewhere (the s071 Log House addition is an
+excerpt on Josef). ~100 in-law records have no facts of their own: the book names them only in a
+family heading. 39 people show "The sources differ". Roots: s030/s046 "Joseph Marselek" added
+as sources on Josef Marsalek's name.
 
 U5b notes: Frank Kohoutek and Ludvick (Louis Peter) Rerucha were adopted by Elizabeth Kastl and
 J. Cyril Rerucha (1921); no other marriage of Elizabeth's is in the book. June/Jane Marie and

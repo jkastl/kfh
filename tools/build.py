@@ -849,7 +849,7 @@ def build_home(tree, pages_by_scan):
 <section class="wrap explore" aria-labelledby="explore-h">
   <h2 id="explore-h">Explore</h2>
   <ul class="explore-grid">
-    <li><a href="tree/index.html"><strong>Family tree</strong><span>From Andreas Kastl down through every branch built so far.</span></a></li>
+    <li><a href="tree/index.html"><strong>Family tree</strong><span>From Andreas Kastl down through every branch.</span></a></li>
     <li><a href="people/index.html"><strong>Everyone, in a table</strong><span>Filter and sort by name, dates, branch; download as CSV.</span></a></li>
     <li><a href="book/index.html"><strong>The book, page by page</strong><span>All 76 scans beside their transcriptions.</span></a></li>
     <li><a href="search/index.html"><strong>Search</strong><span>Names, places and years across the whole book.</span></a></li>
@@ -1121,7 +1121,7 @@ def build_people_index(tree, pages_by_scan):
             f'<td class="pages-col">{esc(r["pages"])}</td></tr>')
     body = f"""<div class="wrap people-index">
 <p class="kicker">People</p>
-<h1>Everyone in the book, so far</h1>
+<h1>Everyone in the book</h1>
 <p class="lede">{len(rows)} people. Filter by name, place or year; sort by any column. Dates are as the book prints them. <a href="people.csv" download>Download as CSV</a>.</p>
 <form class="table-tools" id="tools" onsubmit="return false">
   <label>Filter <input type="search" id="f-text" placeholder="Name, place, year…" autocomplete="off"></label>
@@ -1148,7 +1148,7 @@ def build_people_index(tree, pages_by_scan):
 </div>
 <script src="{prefix}assets/js/table.js?v={CSS_VERSION}" defer></script>"""
     write("people/index.html", layout(prefix, "People", body,
-                                      description="Everyone recorded so far from Kastl Family History, in a filterable, sortable table.",
+                                      description="Everyone recorded in Kastl Family History, in a filterable, sortable table.",
                                       path="people/", active="people"))
 
 
