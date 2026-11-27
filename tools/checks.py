@@ -197,9 +197,10 @@ def check_lineage_and_counts(tree, pages, allow):
         # child count
         if sec["children"] and (sec["scan"], sec["heading"]) not in allow_cnt:
             n_counts += 1
-            if len(sec["children"]) != len(fam["children"]):
+            book_kids = [c for c in fam["children"] if not tree.people[c].get("owner_added")]
+            if len(sec["children"]) != len(book_kids):
                 errors.append(f"{sec['scan']}: “{sec['heading']}” prints {len(sec['children'])} children, "
-                              f"family {fam['id']} has {len(fam['children'])}")
+                              f"family {fam['id']} has {len(book_kids)}")
         # lineage
         if sec["lineage"]:
             caps, tokens, scan = sec["lineage"]

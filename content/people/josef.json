@@ -3805,6 +3805,23 @@
           ]
         }
       ]
+    },
+    "jeffrey-andrew-kastl-1986": {
+      "name": "Jeffrey Andrew Kastl",
+      "sex": "M",
+      "branch": "josef",
+      "owner_added": true,
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 October 1986",
+          "sources": [
+            {
+              "owner": "Added by the site owner, 27 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "families": [
@@ -3952,11 +3969,13 @@
         }
       ],
       "children": [
-        "matthew-richard-kastl-1983"
+        "matthew-richard-kastl-1983",
+        "jeffrey-andrew-kastl-1986"
       ],
       "sources": [
         "s073"
-      ]
+      ],
+      "note": "Jeffrey Andrew (b. 1986) is not in the book; the site owner added him."
     },
     {
       "id": "mary1875-john",

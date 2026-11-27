@@ -226,13 +226,18 @@ def check_quotes(data, pages_by_scan):
     for pid, p in data["people"].items():
         for f in p["facts"]:
             for s in f["sources"]:
+                if "owner" in s:  # added by the site owner, not from the book
+                    if not p.get("owner_added") and f["type"] not in ("note",):
+                        problems.append(f"{pid}: owner-added fact on a book record must be a note, or mark the person owner_added")
+                    continue
                 chk(s["scan"], s["quote"], pid)
         for e in p.get("excerpts", []):
             chk(e["scan"], e["text"], pid + " excerpt")
     for fam in data["families"]:
         for m in fam.get("marriage", []):
             for s in m["sources"]:
-                chk(s["scan"], s["quote"], fam["id"])
+                if "owner" not in s:
+                    chk(s["scan"], s["quote"], fam["id"])
         for x in fam["partners"] + fam["children"]:
             if x not in data["people"]:
                 problems.append(f"{fam['id']}: unknown person {x}")
@@ -448,7 +453,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "8"
+CSS_VERSION = "9"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -570,9 +575,17 @@ def src_link(scan, pages_by_scan, prefix, quote=None):
     return f'<a class="src" href="{href}"{t}>{esc(label)}</a>'
 
 
+OWNER_LABEL = "Added by the site owner · not in the book"
+
+
 def sources_block(sources, pages_by_scan, prefix):
     links = []
     seen = set()
+    if any("owner" in s for s in sources):
+        links.append(f'<span class="src owner">{OWNER_LABEL}</span>')
+    sources = [s for s in sources if "owner" not in s]
+    if not sources:
+        return f'<span class="srcs">{" ".join(links)}</span>'
     for s in sources:
         if s["scan"] not in seen:
             seen.add(s["scan"])
@@ -678,6 +691,8 @@ def build_person(tree, pid, pages_by_scan):
         bits.append(f'<a href="{prefix}tree/index.html?focus={pid}">{esc(BRANCH_LABEL[br])}’s branch</a>')
     if p.get("uncertain"):
         bits.append("existence unconfirmed")
+    if p.get("owner_added"):
+        bits.append("not in the book")
     parts.append(f'<p class="kicker">{" · ".join(bits)}</p>')
     parts.append(f'<h1>{esc(p["name"])}</h1>')
     yrs = tree.years(pid)
@@ -714,7 +729,10 @@ def build_person(tree, pid, pages_by_scan):
             rows.append(
                 f'<tr{DIFFERS_ROW if differs else ""}><th scope="row">{label}{flag}</th>'
                 f'<td><span class="fact">{inline(f["value"])}</span>{sources_block(f["sources"], pages_by_scan, prefix)}</td></tr>')
-    body_cols.append(f'<section class="facts" aria-labelledby="facts-h"><h2 id="facts-h">What the book records</h2>'
+    facts_h = "Added by the site owner" if p.get("owner_added") else "What the book records"
+    owner_note = ('<p class="notice">Not in <cite>Kastl Family History</cite> (1985) or its 1986 supplement. '
+                  'The site owner added this person.</p>') if p.get("owner_added") else ""
+    body_cols.append(f'<section class="facts" aria-labelledby="facts-h"><h2 id="facts-h">{facts_h}</h2>{owner_note}'
                      f'<table class="fact-table"><tbody>{"".join(rows)}</tbody></table></section>')
 
     # family
@@ -881,6 +899,8 @@ def people_on_page(tree):
     for pid, p in tree.people.items():
         for f in p["facts"]:
             for s in f["sources"]:
+                if "owner" in s:
+                    continue
                 on.setdefault(s["scan"], [])
                 if pid not in on[s["scan"]]:
                     on[s["scan"]].append(pid)
@@ -981,15 +1001,24 @@ def build_book(tree, pages, pages_by_scan):
 def build_about(tree):
     prefix = "../"
     n_people = len(tree.people)
+    n_owner = sum(1 for p in tree.people.values() if p.get("owner_added"))
+    owner_line = (f'<p>The only exception: {"one person" if n_owner == 1 else f"{n_owner} people"} born after the supplement, '
+                  f'added by the site owner and marked “Added by the site owner” on '
+                  f'{"their page" if n_owner == 1 else "their pages"}.</p>') if n_owner else ""
     body = f"""<article class="wrap prose">
 <p class="kicker">About</p>
 <h1>About this site</h1>
-<p class="lede"><cite>Kastl Family History</cite> was compiled by Evelyn Coufal and Francis Vech and printed in 1985 by Catholic Quote of Valparaiso, Nebraska. A Supplementary Section followed in 1986. This site presents the book page by page and is turning its family lists into linked records you can browse as a tree or a table.</p>
+<p class="lede"><cite>Kastl Family History</cite> was compiled by Evelyn Coufal and Francis Vech and printed in 1985 by Catholic Quote of Valparaiso, Nebraska. A Supplementary Section followed in 1986. This site presents the book page by page, with its family lists turned into linked records you can browse as a tree or a table.</p>
+
+<div class="notice">
+<p><strong>A record as of 1985–1986.</strong> Everything here comes from the 1985 book and its 1986 supplement. Births, marriages and deaths since then are not included, and people the book describes as living, or as living in a certain place, are described as they were in 1985–86.</p>
+{owner_line}
+</div>
 
 <h2>What is here</h2>
 <ul>
 <li><a href="{prefix}book/index.html">The book</a>: all 76 scanned pages, each beside a transcription of its text.</li>
-<li><a href="{prefix}tree/index.html">The family tree</a> and <a href="{prefix}people/index.html">a table of everyone</a> — {n_people} people so far. The shared ancestors, the brothers and Josef Kastl’s descendants down to the youngest generation are in; the other branches are being added one at a time.</li>
+<li><a href="{prefix}tree/index.html">The family tree</a> and <a href="{prefix}people/index.html">a table of everyone</a>: {n_people} people, from the earliest Kastl ancestors through the seven brothers, their half-sister Anna and all their descendants named in the book.</li>
 </ul>
 
 <h2>How it was made</h2>
@@ -1004,7 +1033,7 @@ def build_about(tree):
 <li><strong>Spellings are the book’s own.</strong> The authors wrote that “no attempt has been made to standardize the spelling of names”: Josef and Joseph, Jan and John, Marsalek and Marselek all appear. Typing slips are kept too, marked <span class="sic">[sic]</span> where they might look like transcription errors.</li>
 <li><strong>When the book disagrees with itself</strong>, every version is shown with its source, marked “The sources differ”. The 1986 Supplement often corrects the 1985 pages; both readings are kept.</li>
 <li><span class="unsure">[?]</span> marks a reading that the scan does not make certain.</li>
-<li>Nothing has been added from outside the book.</li>
+<li>Nothing has been added from outside the book, except the few entries marked “Added by the site owner”.</li>
 </ul>
 
 <h2>The book’s own words</h2>
@@ -1050,7 +1079,7 @@ def person_row(tree, pid, pages_by_scan):
     scans = []
     for f in p["facts"]:
         for s in f["sources"]:
-            if s["scan"] not in scans:
+            if "scan" in s and s["scan"] not in scans:
                 scans.append(s["scan"])
     scans.sort()
     gen = tree.generation(pid)
@@ -1230,7 +1259,7 @@ def main():
     build_search(tree, pages)
     build_404()
     build_sitemap()
-    nq = (sum(len(f["sources"]) for p in data["people"].values() for f in p["facts"])
+    nq = (sum(1 for p in data["people"].values() for f in p["facts"] for s in f["sources"] if "scan" in s)
           + sum(len(p.get("excerpts", [])) for p in data["people"].values())
           + sum(len(m["sources"]) for fam in data["families"] for m in fam.get("marriage", [])))
     print(f"Built {len(tree.people)} people, {len(pages)} book pages; {nq} cited quotes verified.")

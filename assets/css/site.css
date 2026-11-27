@@ -297,3 +297,8 @@ cite { font-style: italic; }
   .site-head, .site-foot, .pager, .nav-search, .tree-tools { display: none; }
   body { background: #fff; }
 }
+
+/* notices: the book's date range, owner additions */
+.notice { background: var(--card); border: 1px solid var(--rule); border-left: 4px solid var(--accent); border-radius: 6px; padding: 0.8rem 1rem; margin: 1rem 0 1.4rem; }
+.notice p { margin: 0.3rem 0; }
+.src.owner { background: transparent; border: 1px dashed var(--accent); color: var(--accent); }

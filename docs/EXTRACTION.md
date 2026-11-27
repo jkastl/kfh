@@ -22,6 +22,13 @@ worked example — copy its shape.
 6. If you cannot tell who a passage refers to (e.g. several Joseph Kastls), leave it out and
    note it in `BACKLOG.md` under the unit.
 
+## Additions from outside the book (owner only)
+Only the site owner can add something the book doesn't contain (CLAUDE.md). Mark it so it can't be
+mistaken for the book: give the person `"owner_added": true` and give each fact the source
+`{"owner": "Added by the site owner, <date>"}` instead of a scan and quote. The site labels these
+"Added by the site owner · not in the book", the About page counts them, and the child-count
+check ignores owner-added children. On a book record, an owner addition may only be a `note`.
+
 ## How the book is laid out
 - Each brother's chapter opens with a narrative about him, then "The children of …" list, then
   one **family group** per married descendant: heading "The family of X and Y", a paragraph
