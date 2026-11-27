@@ -1,5 +1,7 @@
 {
-  "lineage": [],
+  "lineage": [
+    {"scan": "s076", "person": "william-louis-rerucha-1954", "note": "The 1986 supplement prints \"WILLIAM LOUIS RERUCHA (Louis Peter, or Ludvik Rerucha, Elizabeth Kastl Rerucha, Jacob)\". \"Louis Peter, or Ludvik Rerucha\" is one person, his father (LUDVICK in the 1985 list, Louis Peter Rerucha in his own entry), but the comma splits it into two lineage tokens, so \"or Ludvik Rerucha\" is compared with Elizabeth. The data has the printed line of descent: Louis Peter Rerucha, Elizabeth Kastl, Jacob Kastl."}
+  ],
   "count": [
     {"scan": "s050", "heading": "Children of Frank Dobry and (1) Pauline McKinney", "note": "The sub-list numbers two children of Frank A. Dobry and Pauline McKinney (Carolyn E. and Neil Allan). The next line, \"1. GARY ALLEN — (m) Diane Dutton.\", is printed under its own label \"Step-son from second marriage (2) Rachel Wall:\", which the check does not read as a label, so it counts three. Gary Allen is modelled as Rachel Wall's son in a one-parent family (rachel-wall-children), not as a child of Frank and Pauline."}
   ]

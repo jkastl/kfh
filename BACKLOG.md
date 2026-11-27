@@ -10,7 +10,7 @@ people data in `docs/EXTRACTION.md`.
 - Done: first end-to-end slice — the father-to-son line Andreas Kastl → Matthew Richard Kastl
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
-- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a (Jacob part 1) done; next U5b (scheduled for after the owner's window reset), then U7.
+- Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a+U5b (Jacob) done — all seven brothers and Anna built (1,284 people). Next: U7 (scheduled for after the owner's window reset).
 
 ## Next, in order
 
@@ -60,7 +60,7 @@ each unit must also read the supplement sections that name its pages.
 | U4a | John, first part — DONE (2026-11-27): 199 people, 48 families; 47 headings checked | 28–33 (s030–s035) | p.31 (s073) | split at a sub-family boundary |
 | U4b | John, second part — DONE (2026-11-27): 150 people, 41 families; John's chapter fully checked | 34–40 (s036–s042) | pp.34–35 (s076) | (John total 80 / 244) |
 | U5a | Jacob, first part — DONE (2026-11-27): 134 people, 37 families; 40 headings checked | 44–49 (s046–s051) | p.47 (s076) | split at a sub-family boundary |
-| U5b | Jacob, second part | 50–55 (s052–s057) | p.54 (s076) | (Jacob total 72 / 229) |
+| U5b | Jacob, second part — DONE (2026-11-27): 187 people, 47 families; Jacob's chapter fully checked | 50–55 (s052–s057) | p.54 (s076) | (Jacob total 72 / 229) |
 | U6 | Andrew — DONE (2026-11-27): 164 people, 38 families; 41 headings/sub-lists checked | 57–61 (s059–s063) | p.60 (s076) | 35 / 120 |
 | U7 | Integration | all | all | cross-branch marriages, duplicate people, unresolved supplement entries, final counts |
 
@@ -87,6 +87,12 @@ add Jacob Jr.'s s053 birth "20 March 1883" as a second reading, add the s076 Pag
 KASTL RERUCHA (d) 1968." as a second source on Elizabeth's 1968 death, and give records to the
 spouses U5a left as marriage facts (Mary Stara, Frances Rathovec, Julia Hanska, J. Cyril Rerucha,
 Joseph Rathovec). Then add "jacob" to CHECKED_BRANCHES.
+
+U5b notes: Frank Kohoutek and Ludvick (Louis Peter) Rerucha were adopted by Elizabeth Kastl and
+J. Cyril Rerucha (1921); no other marriage of Elizabeth's is in the book. June/Jane Marie and
+Tyko/Tyk are differing readings (1986 correction). Zita's husband: Frank Vavruska (1985) vs John
+A. Surlak (1986). Theophal's three children sit with his second wife, Virginia McCaston (the
+list follows that marriage), with a note.
 
 U4b notes: Curtis Mares's six children are printed under "…and Delores Johnson" but their own
 entries name Delores Englebrecht (his second wife), so they sit in the second-marriage family

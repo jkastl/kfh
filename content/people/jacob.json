@@ -668,9 +668,6 @@
       "name": "Jacob Kastl",
       "sex": "M",
       "branch": "jacob",
-      "continues": [
-        "s053"
-      ],
       "facts": [
         {
           "type": "name",
@@ -693,12 +690,26 @@
           ]
         },
         {
+          "type": "birth",
+          "value": "20 March 1883",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "JACOB KASTL (Jacob, Thomas, John, John, Andreas) born 20 March 1883"
+            }
+          ]
+        },
+        {
           "type": "marriage",
           "value": "Mary Stara, 3 June 1911, Plasi",
           "sources": [
             {
               "scan": "s049",
               "quote": "6. JACOB — (b) 20 Mar 1885. (d) 1925. (m) Mary Stara 3 June 1911—Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Mary Maydalene Stars 3 June 1911 at Plasi."
             }
           ]
         },
@@ -709,6 +720,20 @@
             {
               "scan": "s049",
               "quote": "6. JACOB — (b) 20 Mar 1885. (d) 1925. (m) Mary Stara 3 June 1911—Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "JACOB KASTL (Jacob, Thomas, John, John, Andreas) born 20 March 1883, son of Jacob Kastl and Alzbeta Nemeck, died 1925."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Their farm near Bruno, Nebraska, all their married lives",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "Jacob and Mary lived on their farm near Bruno all their lives."
             }
           ]
         }
@@ -721,10 +746,6 @@
       "name": "Frank Kastl",
       "sex": "M",
       "branch": "jacob",
-      "continues": [
-        "s053",
-        "s054"
-      ],
       "facts": [
         {
           "type": "birth",
@@ -733,16 +754,24 @@
             {
               "scan": "s049",
               "quote": "7. FRANK — (b) 29 Mar. 1885. (d) 3 Apr. 1970. (m) Frances Rathovec 7 May 1912—Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "FRANK KASTL (Jacob, Thomas, John, John, Andreas) born 29 March 1885"
             }
           ]
         },
         {
           "type": "marriage",
-          "value": "Frances Rathovec, 7 May 1912, Plasi",
+          "value": "Frances Rathovec, 7 May 1912, Plasi, Nebraska",
           "sources": [
             {
               "scan": "s049",
               "quote": "7. FRANK — (b) 29 Mar. 1885. (d) 3 Apr. 1970. (m) Frances Rathovec 7 May 1912—Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Frances Rathovec 7 May 1912 at Plasi, Nebraska."
             }
           ]
         },
@@ -771,6 +800,10 @@
             {
               "scan": "s049",
               "quote": "7. FRANK — (b) 29 Mar. 1885. (d) 3 Apr. 1970. (m) Frances Rathovec 7 May 1912—Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "son of Jacob Kastl and Alzbeta Nemecek, died 3 April 1970."
             }
           ]
         }
@@ -783,10 +816,6 @@
       "name": "Anton Peter Kastl",
       "sex": "M",
       "branch": "jacob",
-      "continues": [
-        "s055",
-        "s056"
-      ],
       "facts": [
         {
           "type": "name",
@@ -805,6 +834,10 @@
             {
               "scan": "s049",
               "quote": "8. ANTON PETER — (b) 14 Apr. 1887. (d) 22 Dec. 1949. (m) Julia Hanska—4 Aug. 1908."
+            },
+            {
+              "scan": "s055",
+              "quote": "ANTON PETER KASTL (Jacob, Thomas, John, John, Andreas) born 14 April 1887"
             }
           ]
         },
@@ -815,6 +848,10 @@
             {
               "scan": "s049",
               "quote": "8. ANTON PETER — (b) 14 Apr. 1887. (d) 22 Dec. 1949. (m) Julia Hanska—4 Aug. 1908."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Julia Antonia Hanska 4 August 1908."
             }
           ]
         },
@@ -839,6 +876,10 @@
             {
               "scan": "s049",
               "quote": "8. ANTON PETER — (b) 14 Apr. 1887. (d) 22 Dec. 1949. (m) Julia Hanska—4 Aug. 1908."
+            },
+            {
+              "scan": "s055",
+              "quote": "son of Jacob Kastl and Alzbeta Nemeck, died 22 December 1949."
             }
           ]
         }
@@ -891,19 +932,18 @@
       "name": "Elizabeth Kastl",
       "sex": "F",
       "branch": "jacob",
-      "continues": [
-        "s056",
-        "s057",
-        "s076"
-      ],
       "facts": [
         {
           "type": "name",
-          "value": "Lizzie, Mrs. J.C. Rerucha",
+          "value": "Lizzie, Mrs. J.C. Rerucha, Elizabeth Kastl Rerucha",
           "sources": [
             {
               "scan": "s046",
               "quote": "Lizzie (Mrs. J.C. Rerucha) of Chicago, Ill."
+            },
+            {
+              "scan": "s076",
+              "quote": "ELIZABETH KASTL RERUCHA (d) 1968."
             }
           ]
         },
@@ -914,16 +954,24 @@
             {
               "scan": "s049",
               "quote": "10. ELIZABETH — (b) 17 Apr. 1891. (d) 1965. (m) John Cyril Rerucha 23 Jan. 1912—Plasi."
+            },
+            {
+              "scan": "s056",
+              "quote": "ELIZABETH KASTL (Jacob, Thomas, John, John, Andreas) born 17 April 1891"
             }
           ]
         },
         {
           "type": "marriage",
-          "value": "John Cyril Rerucha, 23 January 1912, Plasi",
+          "value": "John Cyril Rerucha, 23 January 1912, Plasi, Nebraska",
           "sources": [
             {
               "scan": "s049",
               "quote": "10. ELIZABETH — (b) 17 Apr. 1891. (d) 1965. (m) John Cyril Rerucha 23 Jan. 1912—Plasi."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married John Cyril Rerucha 23 January 1912 at Plasi, Nebraska."
             }
           ]
         },
@@ -948,6 +996,10 @@
             {
               "scan": "s049",
               "quote": "10. ELIZABETH — (b) 17 Apr. 1891. (d) 1965. (m) John Cyril Rerucha 23 Jan. 1912—Plasi."
+            },
+            {
+              "scan": "s056",
+              "quote": "daughter of Jacob Kastl and Alzbeta Nemeck, died 1965."
             }
           ]
         },
@@ -958,6 +1010,10 @@
             {
               "scan": "s076",
               "quote": "Children: ELIZABETH (d) 1968."
+            },
+            {
+              "scan": "s076",
+              "quote": "ELIZABETH KASTL RERUCHA (d) 1968."
             }
           ]
         }
@@ -970,13 +1026,10 @@
       "name": "Antonia Kastl",
       "sex": "F",
       "branch": "jacob",
-      "continues": [
-        "s057"
-      ],
       "facts": [
         {
           "type": "name",
-          "value": "Antoinette, Mrs. Joseph Ratkovec",
+          "value": "Antoinette, Mrs. Joseph Ratkovec, Antonia Kastl Rathovec",
           "sources": [
             {
               "scan": "s046",
@@ -985,6 +1038,10 @@
             {
               "scan": "s046",
               "quote": "Anton Kastl and Mrs. Joseph Ratkovec."
+            },
+            {
+              "scan": "s057",
+              "quote": "MARY RATHOVEC (Antonia Kastl Rathovec, Jacob)"
             }
           ]
         },
@@ -995,16 +1052,24 @@
             {
               "scan": "s049",
               "quote": "11. ANTONIA — (b) 20 June 1893. (m) Joseph Rathovec 12 Jan. 1915—Plasi."
+            },
+            {
+              "scan": "s057",
+              "quote": "ANTONIA KASTL (Jacob, Thomas, John, John, Andreas) born 20 June 1893"
             }
           ]
         },
         {
           "type": "marriage",
-          "value": "Joseph Rathovec, 12 January 1915, Plasi",
+          "value": "Joseph Rathovec, 12 January 1915, Plasi, Nebraska",
           "sources": [
             {
               "scan": "s049",
               "quote": "11. ANTONIA — (b) 20 June 1893. (m) Joseph Rathovec 12 Jan. 1915—Plasi."
+            },
+            {
+              "scan": "s057",
+              "quote": "She married Joseph Rathovec 12 January 1915 at Plasi, Nebraska."
             }
           ]
         },
@@ -3975,6 +4040,4810 @@
           ]
         }
       ]
+    },
+    "mary-stara": {
+      "name": "Mary Stara",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Mary Maydalene Stars, Mary Stars",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "He married Mary Maydalene Stars 3 June 1911 at Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "son of Jacob Kastl and Mary Stars."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "26 January 1888",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "She was born 26 January 1888, died 1963."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "1963",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "She was born 26 January 1888, died 1963."
+            }
+          ]
+        },
+        {
+          "type": "residence",
+          "value": "Their farm near Bruno, Nebraska, all their married lives",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "Jacob and Mary lived on their farm near Bruno all their lives."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-l-kastl-1912": {
+      "name": "Joseph L. Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 March 1912",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. JOSEPH L. — (b) 11 Mar. 1912. (m) Mollie Placek—10 June 1941."
+            },
+            {
+              "scan": "s053",
+              "quote": "JOSEPH L. KASTL (Jacob, Jacob) born 11 March 1912"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mollie Placek, 10 June 1941",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. JOSEPH L. — (b) 11 Mar. 1912. (m) Mollie Placek—10 June 1941."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Mollie Placek 10 June 1941."
+            }
+          ]
+        }
+      ]
+    },
+    "theophal-kastl-1916": {
+      "name": "Theophal Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 August 1916",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. THEOPHAL — (b) 4 Aug. 1916. (m) Josephine Kriz (Div.) (2) Virginia McCaston."
+            },
+            {
+              "scan": "s053",
+              "quote": "THEOPHAL KASTL (Jacob, Jacob) born 4 August 1916"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Josephine Kriz (divorced)",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. THEOPHAL — (b) 4 Aug. 1916. (m) Josephine Kriz (Div.) (2) Virginia McCaston."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Josephine Kriz (Div.) married (2) Virginia McCaston."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Virginia McCaston",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. THEOPHAL — (b) 4 Aug. 1916. (m) Josephine Kriz (Div.) (2) Virginia McCaston."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Josephine Kriz (Div.) married (2) Virginia McCaston."
+            }
+          ]
+        }
+      ]
+    },
+    "mollie-placek": {
+      "name": "Mollie Placek",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "July 1913",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "She was born July 1913."
+            }
+          ]
+        }
+      ]
+    },
+    "nadine-kastl-1943": {
+      "name": "Nadine Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 October 1943",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. NADINE — (b) 27 Oct. 1943. (m) Ernest Kucera (Div.) (2) Charles Kinnison."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Ernest Kucera (divorced)",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. NADINE — (b) 27 Oct. 1943. (m) Ernest Kucera (Div.) (2) Charles Kinnison."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Charles Kinnison",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. NADINE — (b) 27 Oct. 1943. (m) Ernest Kucera (Div.) (2) Charles Kinnison."
+            }
+          ]
+        }
+      ]
+    },
+    "clayton-kastl-1945": {
+      "name": "Clayton Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 January 1945",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. CLAYTON — (b) 15 Jan. 1945. (m) Dorean Janak—1968."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Dorean Janak, 1968",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. CLAYTON — (b) 15 Jan. 1945. (m) Dorean Janak—1968."
+            }
+          ]
+        }
+      ]
+    },
+    "darlene-kastl-1946": {
+      "name": "Darlene Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 April 1946",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. DARLENE — (b) 12 Apr. 1946. (m) Val Lavicky—1965 (Div.)."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Val Lavicky, 1965 (divorced)",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. DARLENE — (b) 12 Apr. 1946. (m) Val Lavicky—1965 (Div.)."
+            }
+          ]
+        }
+      ]
+    },
+    "carol-kastl-1948": {
+      "name": "Carol Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 January 1948",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "4. CAROL — (b) 20 Jan. 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "joyce-kastl-1952": {
+      "name": "Joyce Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 February 1952",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "5. JOYCE — (b) 8 Feb. 1952. (m) Jerry Novak."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Jerry Novak",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "5. JOYCE — (b) 8 Feb. 1952. (m) Jerry Novak."
+            }
+          ]
+        }
+      ]
+    },
+    "josephine-kriz": {
+      "name": "Josephine Kriz",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": []
+    },
+    "virginia-mccaston": {
+      "name": "Virginia McCaston",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": []
+    },
+    "john-h-kastl-1943": {
+      "name": "John H. Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "November 1943",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. JOHN H. — (b) Nov. 1943 (Adopted son of Virginia McCaston)."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Printed as the \"Adopted son of Virginia McCaston\"",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. JOHN H. — (b) Nov. 1943 (Adopted son of Virginia McCaston)."
+            }
+          ]
+        }
+      ]
+    },
+    "jerone-a-kastl-1948": {
+      "name": "Jerone A. Kastl",
+      "sex": "U",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 December 1948",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. JERONE A. — (b) 6 Dec. 1948. (d) 5 Dec. 1974."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "5 December 1974",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. JERONE A. — (b) 6 Dec. 1948. (d) 5 Dec. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "darryl-v-kastl-1953": {
+      "name": "Darryl V. Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 June 1953",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. DARRYL V. — (b) 6 June 1953. (m) Sharon Robertson (Div.) (2) Janet M. Roth—23 Sept. 1983."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Sharon Robertson (divorced)",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. DARRYL V. — (b) 6 June 1953. (m) Sharon Robertson (Div.) (2) Janet M. Roth—23 Sept. 1983."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Janet M. Roth, 23 September 1983",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. DARRYL V. — (b) 6 June 1953. (m) Sharon Robertson (Div.) (2) Janet M. Roth—23 Sept. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "frances-rathovec": {
+      "name": "Frances Rathovec",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Daughter of Joseph Rathovec and Maria Barta",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "She was the daughter of Joseph Rathovec and Maria Barta, and died 31 October 1937."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "31 October 1937",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "She was the daughter of Joseph Rathovec and Maria Barta, and died 31 October 1937."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-ann-kastl-1913": {
+      "name": "Mary Ann Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Mary A. Kastl Bongers",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "GLEN BONGERS (Mary A. Kastl Bongers, Frank, Jacob)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "13 February 1913",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. MARY ANN — (b) 13 Feb. 1913. (m) Joseph Bongers—16 June 1936."
+            },
+            {
+              "scan": "s053",
+              "quote": "MARY ANN KASTL (Frank, Jacob) born 13 February 1913"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Joseph Bongers, 16 June 1936",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. MARY ANN — (b) 13 Feb. 1913. (m) Joseph Bongers—16 June 1936."
+            },
+            {
+              "scan": "s053",
+              "quote": "She married Joseph Bongers 16 June 1936."
+            }
+          ]
+        }
+      ]
+    },
+    "ernest-kastl-1915": {
+      "name": "Ernest Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 March 1915",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 8 Mar. 1915. (d) 7 Nov. 1974. (m) Christine Masek—1939."
+            },
+            {
+              "scan": "s054",
+              "quote": "ERNEST KASTL (Frank, Jacob) born 8 March 1915"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Christina Masek, 1939",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 8 Mar. 1915. (d) 7 Nov. 1974. (m) Christine Masek—1939."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Christina Masek in 1939."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "7 November 1974",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 8 Mar. 1915. (d) 7 Nov. 1974. (m) Christine Masek—1939."
+            },
+            {
+              "scan": "s054",
+              "quote": "son of Frank Kastl and Frances Rathovec, died 7 November 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "theodore-kastl-1920": {
+      "name": "Theodore Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 June 1920",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. THEODORE — (b) 16 June 1920. (d) 17 Jan. 1976. (m) Frances Belik."
+            },
+            {
+              "scan": "s054",
+              "quote": "THEODORE KASTL (Frank, Jacob) born 16 June 1920"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Frances Belik",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. THEODORE — (b) 16 June 1920. (d) 17 Jan. 1976. (m) Frances Belik."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Frances Belik."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "17 January 1976",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "3. THEODORE — (b) 16 June 1920. (d) 17 Jan. 1976. (m) Frances Belik."
+            },
+            {
+              "scan": "s054",
+              "quote": "died 17 January 1976, and buried at Plasi, Nebraska."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "died 17 January 1976, and buried at Plasi, Nebraska."
+            }
+          ]
+        }
+      ]
+    },
+    "christie-kastl-1924": {
+      "name": "Christie Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 July 1924",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "4. CHRISTIE — (b) 24 July 1924. (m) Emerald Lake—5 Sept. 1946 (Div.)."
+            },
+            {
+              "scan": "s054",
+              "quote": "CHRISTIE KASTL (Frank, Jacob) born 24 July 1924"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Emerald Lake, 5 September 1946 (divorced)",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "4. CHRISTIE — (b) 24 July 1924. (m) Emerald Lake—5 Sept. 1946 (Div.)."
+            },
+            {
+              "scan": "s054",
+              "quote": "She married Emerld Lake 5 September 1946. (Div.)"
+            }
+          ]
+        }
+      ]
+    },
+    "victor-anton-kastl-1926": {
+      "name": "Victor Anton Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 May 1926",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "5. VICTOR ANTON — (b) 11 may 1926. (d) 8 Apr. 1930. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "8 April 1930",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "5. VICTOR ANTON — (b) 11 may 1926. (d) 8 Apr. 1930. (bur) Plasi."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "Plasi",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "5. VICTOR ANTON — (b) 11 may 1926. (d) 8 Apr. 1930. (bur) Plasi."
+            }
+          ]
+        }
+      ]
+    },
+    "sylvia-kastl-1928": {
+      "name": "Sylvia Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 May 1928",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "6. SYLVIA — (b) 2 May 1928. (d) 10 Aug. 1954. (m) Milton House 27 Dec. 1950—El Paso, TX."
+            },
+            {
+              "scan": "s054",
+              "quote": "SYLVIA KASTL (Frank, Jacob) born 2 May 1928"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Milton House, 27 December 1950, El Paso, Texas",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "6. SYLVIA — (b) 2 May 1928. (d) 10 Aug. 1954. (m) Milton House 27 Dec. 1950—El Paso, TX."
+            },
+            {
+              "scan": "s054",
+              "quote": "She married Milton House 27 December 1950, El Paso, Texas."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "10 August 1954",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "6. SYLVIA — (b) 2 May 1928. (d) 10 Aug. 1954. (m) Milton House 27 Dec. 1950—El Paso, TX."
+            },
+            {
+              "scan": "s054",
+              "quote": "died 10 August 1954 and buried in El Paso, Texas."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "El Paso, Texas",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "died 10 August 1954 and buried in El Paso, Texas."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-bongers": {
+      "name": "Joseph Bongers",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 January 1909",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "He was born 28 January 1909, son of Jacob Bongers and Barbara Abraham, died 18 October 1973."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Jacob Bongers and Barbara Abraham",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "He was born 28 January 1909, son of Jacob Bongers and Barbara Abraham, died 18 October 1973."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "18 October 1973",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "He was born 28 January 1909, son of Jacob Bongers and Barbara Abraham, died 18 October 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "glen-bongers-1937": {
+      "name": "Glen Bongers",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 July 1937",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. GLEN — (b) 3 July 1937. (m) Delores Meduna—1960."
+            },
+            {
+              "scan": "s053",
+              "quote": "GLEN BONGERS (Mary A. Kastl Bongers, Frank, Jacob) born 3 July 1937"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Delores Meduna, 1960",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. GLEN — (b) 3 July 1937. (m) Delores Meduna—1960."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Delores Meduna in 1960."
+            }
+          ]
+        }
+      ]
+    },
+    "ernest-bongers-1938": {
+      "name": "Ernest Bongers",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 August 1938",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 15 Aug. 1938. (m) Katherine Styskal—1963."
+            },
+            {
+              "scan": "s054",
+              "quote": "ERNEST BONGERS (Mary A. Kastl Bongers, Frank, Jacob) born 15 August 1938"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Katherine Styskal, 1963",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 15 Aug. 1938. (m) Katherine Styskal—1963."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Katherine Styskal in 1963."
+            }
+          ]
+        }
+      ]
+    },
+    "delores-meduna": {
+      "name": "Delores Meduna",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": []
+    },
+    "benjamin-bongers-1963": {
+      "name": "Benjamin Bongers",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 December 1963",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. BENJAMIN — (b) 3 Dec. 1963."
+            }
+          ]
+        }
+      ]
+    },
+    "katherine-styskal": {
+      "name": "Katherine Styskal",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": []
+    },
+    "jerald-bongers-1964": {
+      "name": "Jerald Bongers",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 September 1964",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. JERALD — (b) 5 Sept. 1964."
+            }
+          ]
+        }
+      ]
+    },
+    "linda-bongers-1965": {
+      "name": "Linda Bongers",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 November 1965",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. LINDA — (b) 20 Nov. 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "christina-masek": {
+      "name": "Christina Masek",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Christine Masek",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 8 Mar. 1915. (d) 7 Nov. 1974. (m) Christine Masek—1939."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "5 May 1924",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 5 May 1924, died 14 June 1983, and buried at El Paso, Texas."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "14 June 1983",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 5 May 1924, died 14 June 1983, and buried at El Paso, Texas."
+            }
+          ]
+        },
+        {
+          "type": "burial",
+          "value": "El Paso, Texas",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 5 May 1924, died 14 June 1983, and buried at El Paso, Texas."
+            }
+          ]
+        }
+      ]
+    },
+    "frank-kastl-1941": {
+      "name": "Frank Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 May 1941",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. FRANK — (b) 27 May 1941. (m) Patti Black—27 Dec. 1969."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Patti Black, 27 December 1969",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. FRANK — (b) 27 May 1941. (m) Patti Black—27 Dec. 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "john-kastl-1942": {
+      "name": "John Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 December 1942",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. JOHN — (b) 27 Dec. 1942. (m) Mary Lou Stelzl—28 Dec. 1965."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mary Lou Stelzl, 28 December 1965",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. JOHN — (b) 27 Dec. 1942. (m) Mary Lou Stelzl—28 Dec. 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-frances-kastl-1944": {
+      "name": "Mary Frances Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "July 1944",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. MARY FRANCES — (b) July 1944. (d) 27 Sept. 1944."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "27 September 1944",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. MARY FRANCES — (b) July 1944. (d) 27 Sept. 1944."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-kastl-1960": {
+      "name": "Joseph Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 May 1960",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. JOSEPH — (b) 13 May 1960."
+            }
+          ]
+        }
+      ]
+    },
+    "vincent-kastl-1962": {
+      "name": "Vincent Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 August 1962",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "5. VINCENT — (b) 25 Aug. 1962. (d) 17 Nov. 1981."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "17 November 1981",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "5. VINCENT — (b) 25 Aug. 1962. (d) 17 Nov. 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "frances-belik": {
+      "name": "Frances Belik",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 December 1923",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 14 December 1923."
+            }
+          ]
+        }
+      ]
+    },
+    "patricia-f-kastl-1945": {
+      "name": "Patricia F. Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 July 1945",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. PATRICIA F. — (b) 30 July 1945."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-kastl-1947": {
+      "name": "Mary Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 January 1947",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. MARY — (b) 17 Jan. 1947. (d.) 17 Jan. 1947."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "17 January 1947",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. MARY — (b) 17 Jan. 1947. (d.) 17 Jan. 1947."
+            }
+          ]
+        }
+      ]
+    },
+    "david-k-kastl-1948": {
+      "name": "David K. Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 February 1948",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. DAVID K. — (b) 9 Feb. 1948. (m) Kathy Krenk—1972."
+            },
+            {
+              "scan": "s054",
+              "quote": "DAVID K. KASTL (Theodore, Frank, Jacob) born 9 February 1948"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kathy Krenk, 1972",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. DAVID K. — (b) 9 Feb. 1948. (m) Kathy Krenk—1972."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Kathy Krenk 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "theodore-l-kastl-1950": {
+      "name": "Theodore L. Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Theodroe L. Kastl",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. THEODROE L. — (b) 8 July 1950. (m) Kathy Rezac—1975."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "8 July 1950",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. THEODROE L. — (b) 8 July 1950. (m) Kathy Rezac—1975."
+            },
+            {
+              "scan": "s054",
+              "quote": "THEODORE L. KASTL (Theodore, Frank, Jacob) born 8 July 1950"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kathy Rezac, 1975",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. THEODROE L. — (b) 8 July 1950. (m) Kathy Rezac—1975."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Kathy Rezac 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "benedict-lee-kastl-1953": {
+      "name": "Benedict Lee Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 December 1953",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "5. BENEDICT LEE — (b) 12 Dec. 1953. (m) Jackie Daro—1973."
+            },
+            {
+              "scan": "s054",
+              "quote": "BENEDICT LEE KASTL (Theodore, Frank, Jacob) born 12 December 1953"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Jackie Daro, 1973",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "5. BENEDICT LEE — (b) 12 Dec. 1953. (m) Jackie Daro—1973."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Jackie Daro 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "bernice-kastl-1953": {
+      "name": "Bernice Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 December 1953",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "6. BERNICE — (b) 12 Dec. 1953. (d) 12 Dec. 1953."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "12 December 1953",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "6. BERNICE — (b) 12 Dec. 1953. (d) 12 Dec. 1953."
+            }
+          ]
+        }
+      ]
+    },
+    "bernard-alan-kastl-1955": {
+      "name": "Bernard Alan Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 August 1955",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "7. BERNARD ALAN — (b) 4 Aug. 1955. (d) 11 July 1976. (m) Lorene Bohac—1974."
+            },
+            {
+              "scan": "s054",
+              "quote": "BERNARD ALAN KASTL (Theodore, Frank, Jacob) born 4 August 1955"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Lorene Bohac, 1974",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "7. BERNARD ALAN — (b) 4 Aug. 1955. (d) 11 July 1976. (m) Lorene Bohac—1974."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Lorene Bohac 1974."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "11 July 1976",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "7. BERNARD ALAN — (b) 4 Aug. 1955. (d) 11 July 1976. (m) Lorene Bohac—1974."
+            },
+            {
+              "scan": "s054",
+              "quote": "son of Theodore Kastl and Frances BElik, died 11 July 1976."
+            }
+          ]
+        }
+      ]
+    },
+    "valerie-jane-kastl-1957": {
+      "name": "Valerie Jane Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 January 1957",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "8. VALERIE JANE — (b) 9 Jan. 1957. (m) Mike Mitchem—1981."
+            },
+            {
+              "scan": "s054",
+              "quote": "VALERIE KASTL (Theodore, Frank, Jacob) born 9 January 1957"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Mike Mitchem, 1981",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "8. VALERIE JANE — (b) 9 Jan. 1957. (m) Mike Mitchem—1981."
+            },
+            {
+              "scan": "s054",
+              "quote": "She married Mike Mitchem 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "timothy-rae-kastl-1959": {
+      "name": "Timothy Rae Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 January 1959",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "9. TIMOTHY RAE — (b) 6 Jan. 1959. (m) Lori Edmisten—1984."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Lori Edmisten, 1984",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "9. TIMOTHY RAE — (b) 6 Jan. 1959. (m) Lori Edmisten—1984."
+            }
+          ]
+        }
+      ]
+    },
+    "kathy-krenk": {
+      "name": "Kathy Krenk",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 September 1948",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 30 September 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "jarod-kastl-1974": {
+      "name": "Jarod Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 September 1974",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. JAROD — (b) 30 Sept. 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "tad-kastl-1977": {
+      "name": "Tad Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 June 1977",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. TAD — (b) 19 June 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "aaron-kastl-1979": {
+      "name": "Aaron Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 November 1979",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. AARON — (b) 16 Nov. 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "adam-kastl-1979": {
+      "name": "Adam Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 November 1979",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. ADAM — (b) 16 Nov. 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "zachary-kastl-1983": {
+      "name": "Zachary Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 April 1983",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "5. ZACHARY — (b) 16 Apr. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "kathy-rezac": {
+      "name": "Kathy Rezac",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 February 1954",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 16 February 1954."
+            }
+          ]
+        }
+      ]
+    },
+    "teddy-joe-kastl-1978": {
+      "name": "Teddy Joe Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 March 1978",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. TEDDY JOE — (b) 1 Mar. 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "paul-kastl-1979": {
+      "name": "Paul Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "7 July 1979",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. PAUL — (b) 7 July 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "jackie-daro": {
+      "name": "Jackie Daro",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "21 October 1954",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 21 October 1954."
+            }
+          ]
+        }
+      ]
+    },
+    "kari-lee-kastl-1975": {
+      "name": "Kari Lee Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 June 1975",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. KARI LEE — (b) 30 June 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "tommy-kastl-1978": {
+      "name": "Tommy Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 August 1978",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. TOMMY — (b) 31 Aug. 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "miranda-kastl-1980": {
+      "name": "Miranda Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 November 1980",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. MIRANDA — (b) 14 Nov. 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "tyler-kastl-1984": {
+      "name": "Tyler Kastl",
+      "sex": "U",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 May 1984",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. TYLER — (b) 8 May 1984."
+            }
+          ]
+        }
+      ]
+    },
+    "lorene-bohac": {
+      "name": "Lorene Bohac",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 July 1957",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "She was born 5 July 1957."
+            }
+          ]
+        }
+      ]
+    },
+    "christopher-kastl-1974": {
+      "name": "Christopher Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 July 1974",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. CHRISTOPHER — (b) 16 July 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "mike-mitchem": {
+      "name": "Mike Mitchem",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "10 June 1953",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "He was born 10 June 1953."
+            }
+          ]
+        }
+      ]
+    },
+    "kristy-mitchem-1981": {
+      "name": "Kristy Mitchem",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 August 1981",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. KRISTY — (b) 3 Aug. 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "tracy-mitchem-1984": {
+      "name": "Tracy Mitchem",
+      "sex": "U",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "12 February 1984",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. TRACY — (b) 12 Feb. 1984."
+            }
+          ]
+        }
+      ]
+    },
+    "emerld-lake": {
+      "name": "Emerld Lake",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Emerald Lake",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "4. CHRISTIE — (b) 24 July 1924. (m) Emerald Lake—5 Sept. 1946 (Div.)."
+            }
+          ]
+        }
+      ]
+    },
+    "louise-lake-1949": {
+      "name": "Louise Lake",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 October 1949",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. LOUISE — (b) 2 Oct. 1949. (m) Kevin Katch—1973 (Div.)"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kevin Katch, 1973 (divorced)",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. LOUISE — (b) 2 Oct. 1949. (m) Kevin Katch—1973 (Div.)"
+            }
+          ]
+        }
+      ]
+    },
+    "frances-lake-1947": {
+      "name": "Frances Lake",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 September 1947, Alpena, Michigan",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. FRANCES — (b) 15 Sept. 1947—ALpena, MI."
+            }
+          ]
+        }
+      ]
+    },
+    "larry-lake-1950": {
+      "name": "Larry Lake",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 November 1950, Alpena, Michigan",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. LARRY — (b) 8 Nov. 1950—Alpena, MI."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-lake-1953": {
+      "name": "Mary Lake",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 September 1953, El Paso, Texas",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. MARY — (b) 20 Sept. 1953—El Paso, TX. (m) Bruce Jones—1974."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bruce Jones, 1974",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. MARY — (b) 20 Sept. 1953—El Paso, TX. (m) Bruce Jones—1974."
+            }
+          ]
+        }
+      ]
+    },
+    "milton-house": {
+      "name": "Milton House",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 July 1925",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "He was born 19 July 1925."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-ann-house-1951": {
+      "name": "Mary Ann House",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 November 1951",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "1. MARY ANN — (b) 25 Nov. 1951."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-house-1953": {
+      "name": "Michael House",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 June 1953",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. MICHAEL — (b) 1 June 1953. (m) Suzanne McNamel—16 May 1981."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Suzanne McNamel, 16 May 1981",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "2. MICHAEL — (b) 1 June 1953. (m) Suzanne McNamel—16 May 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "julia-antonia-hanska": {
+      "name": "Julia Antonia Hanska",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Julia A. Hanska, Julia Hanska",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "son of Anton Peter Kastl and Julia A. Hanska"
+            },
+            {
+              "scan": "s049",
+              "quote": "8. ANTON PETER — (b) 14 Apr. 1887. (d) 22 Dec. 1949. (m) Julia Hanska—4 Aug. 1908."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "29 March 1889",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 29 March 1889, died 6 November 1979."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "6 November 1979",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 29 March 1889, died 6 November 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "louis-vaclav-kastl-1910": {
+      "name": "Louis Vaclav Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Louis Kastl, Louis V. Kastl",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "Children of Louis Kastl and (1) Doris Howard:"
+            },
+            {
+              "scan": "s055",
+              "quote": "He was adopted by Louis V. Kastl and Doris E. Howard in 1945."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "19 August 1910",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. LOUIS VACLAV — (b) 19 Aug. 1910. (d) 10 Nov. 1982. (m) Doris Evelyn Howard—4 Sept. 1935 (2) Genevieve Jane Bryan—4 Feb. 1958."
+            },
+            {
+              "scan": "s055",
+              "quote": "LOUIS VACLAV KASTL (Anton Peter, Jacob) born 19 August 1910"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Doris Evelyn Howard, 4 September 1935",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. LOUIS VACLAV — (b) 19 Aug. 1910. (d) 10 Nov. 1982. (m) Doris Evelyn Howard—4 Sept. 1935 (2) Genevieve Jane Bryan—4 Feb. 1958."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Doris Evelyn Howard 4 September 1935."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Genevieve Jane Bryan, 4 February 1958",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. LOUIS VACLAV — (b) 19 Aug. 1910. (d) 10 Nov. 1982. (m) Doris Evelyn Howard—4 Sept. 1935 (2) Genevieve Jane Bryan—4 Feb. 1958."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married (2) Genevieve Jane Bryan 4 February 1958."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "10 November 1982",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. LOUIS VACLAV — (b) 19 Aug. 1910. (d) 10 Nov. 1982. (m) Doris Evelyn Howard—4 Sept. 1935 (2) Genevieve Jane Bryan—4 Feb. 1958."
+            },
+            {
+              "scan": "s055",
+              "quote": "son of Anton Peter Kastl and Julia A. Hanska, died 10 November 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "edward-joseph-kastl-1915": {
+      "name": "Edward Joseph Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 March 1915",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. EDWARD JOSEPH — (b) 18 Mar. 1915. (d) 5 Aug. 1969. (m) Maxine Phyllis Johnson—27 July 1942."
+            },
+            {
+              "scan": "s055",
+              "quote": "EDWARD JOSEPH KASTL (Anton Peter, Jacob) born 18 March 1915"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Maxine Phyllis Johnson, 27 July 1942",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. EDWARD JOSEPH — (b) 18 Mar. 1915. (d) 5 Aug. 1969. (m) Maxine Phyllis Johnson—27 July 1942."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Maxine Phyllis Johnson 27 July 1942."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "5 August 1969",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. EDWARD JOSEPH — (b) 18 Mar. 1915. (d) 5 Aug. 1969. (m) Maxine Phyllis Johnson—27 July 1942."
+            },
+            {
+              "scan": "s055",
+              "quote": "son of Anton Peter Kastl and Julia A. Hanska, died 5 August 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "emil-ernest-kastl-1919": {
+      "name": "Emil Ernest Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 November 1919",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. EMIL ERNEST — (b) 16 Nov. 1919. (m) Velma Pauline Johnson—21 Oct. 1944."
+            },
+            {
+              "scan": "s056",
+              "quote": "EMIL ERNEST KASTL (Anton Peter, Jacob) born 16 November 1919"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Velma Pauline Johnson, 21 October 1944",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. EMIL ERNEST — (b) 16 Nov. 1919. (m) Velma Pauline Johnson—21 Oct. 1944."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Velma Pauline Johnson 21 October 1944."
+            }
+          ]
+        }
+      ]
+    },
+    "doris-evelyn-howard": {
+      "name": "Doris Evelyn Howard",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Doris Howard, Doris E. Howard",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "Children of Louis Kastl and (1) Doris Howard:"
+            },
+            {
+              "scan": "s055",
+              "quote": "He was adopted by Louis V. Kastl and Doris E. Howard in 1945."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "31 January 1914",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 31 January 1914, died 18 March 1957."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "18 March 1957",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 31 January 1914, died 18 March 1957."
+            }
+          ]
+        }
+      ]
+    },
+    "genevieve-jane-bryan": {
+      "name": "Genevieve Jane Bryan",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Genevieve Bryan",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "Children of Louis Kastl and (2) Genevieve Bryan:"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "4 March 1925",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 4 March 1925, died 24 March 1976."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "24 March 1976",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 4 March 1925, died 24 March 1976."
+            }
+          ]
+        }
+      ]
+    },
+    "kenneth-howard-kastl-1936": {
+      "name": "Kenneth Howard Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 April 1936",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. KENNETH HOWARD — (b) 28 Apr. 1936—Born to Geneva Comer and Lavern A. Howard (Adopted 1945). (m) Sandra Sue Ayers—2 Sept. 1960."
+            },
+            {
+              "scan": "s055",
+              "quote": "KENNETH HOWARD KASTL (Louis Vaclav, Anton Peter, Jacob) born 28 April 1936"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Sandra Sue Ayers, 2 September 1960",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. KENNETH HOWARD — (b) 28 Apr. 1936—Born to Geneva Comer and Lavern A. Howard (Adopted 1945). (m) Sandra Sue Ayers—2 Sept. 1960."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Sandra Sue Ayers 2 September 1960."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Born to Geneva Comer and Lavern A. Howard (his own entry says \"to Geneva Comer Howard\"); adopted by Louis V. Kastl and Doris E. Howard in 1945",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. KENNETH HOWARD — (b) 28 Apr. 1936—Born to Geneva Comer and Lavern A. Howard (Adopted 1945). (m) Sandra Sue Ayers—2 Sept. 1960."
+            },
+            {
+              "scan": "s055",
+              "quote": "born 28 April 1936 to Geneva Comer Howard. He was adopted by Louis V. Kastl and Doris E. Howard in 1945."
+            }
+          ]
+        }
+      ]
+    },
+    "phillip-wayne-kastl-1946": {
+      "name": "Phillip Wayne Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 June 1946",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. PHILLIP WAYNE — (b) 22 June 1946. (m) Roxie Rose Thompson—3 Aug. 1964 (Div. 1977) (2) Delois Sunny Tarron—21 Nov. 1977."
+            },
+            {
+              "scan": "s055",
+              "quote": "PHILLIP WAYNE KASTL (Louis Vaclav, Anton Peter, Jacob) born 22 June 1946"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(1) Roxie Rose Thompson, 3 August 1964; divorced 15 May 1977",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. PHILLIP WAYNE — (b) 22 June 1946. (m) Roxie Rose Thompson—3 Aug. 1964 (Div. 1977) (2) Delois Sunny Tarron—21 Nov. 1977."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Roxie Rose Thompson 3 August 1964. Divorced 15 May 1977."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "(2) Delois Sunny Tarron, 21 November 1977",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. PHILLIP WAYNE — (b) 22 June 1946. (m) Roxie Rose Thompson—3 Aug. 1964 (Div. 1977) (2) Delois Sunny Tarron—21 Nov. 1977."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Delois Sunny Tarron 21 November 1977."
+            }
+          ]
+        }
+      ]
+    },
+    "catherine-antoinette-kastl-1958": {
+      "name": "Catherine Antoinette Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 December 1958",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. CATHERINE ANTOINETTE — (b) 24 Dec. 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "louis-anthony-kastl-1960": {
+      "name": "Louis Anthony Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 November 1960",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. LOUIS ANTHONY — (b) 1 Nov. 1960. (m) Michelle Mary Margaret Elizabeth Mebus—26 Dec. 1981."
+            },
+            {
+              "scan": "s055",
+              "quote": "LOUIS ANTHONY KASTL (Louis Vaclav, Anton Peter, Jacob) born 1 November 1960"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Michelle Mary Margaret Elizabeth Mebus, 26 December 1981",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. LOUIS ANTHONY — (b) 1 Nov. 1960. (m) Michelle Mary Margaret Elizabeth Mebus—26 Dec. 1981."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Michelle Mary Margaret Elizabeth Mebus 26 December 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "sandra-sue-ayers": {
+      "name": "Sandra Sue Ayers",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 May 1941",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 11 May 1941."
+            }
+          ]
+        }
+      ]
+    },
+    "kenneth-kevin-kastl-1962": {
+      "name": "Kenneth Kevin Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 October 1962",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. KENNETH KEVIN — (b) 11 Oct. 1962. (d) 12 Oct. 1962."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "12 October 1962",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. KENNETH KEVIN — (b) 11 Oct. 1962. (d) 12 Oct. 1962."
+            }
+          ]
+        }
+      ]
+    },
+    "kevin-shawn-kastl-1968": {
+      "name": "Kevin Shawn Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 January 1968",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. KEVIN SHAWN — (b) 24 Jan. 1968 (Adopted)."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. KEVIN SHAWN — (b) 24 Jan. 1968 (Adopted)."
+            }
+          ]
+        }
+      ]
+    },
+    "amy-suzanne-kastl-1973": {
+      "name": "Amy Suzanne Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 June 1973",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. AMY SUZANNE — (b) 14 June 1973 (Adopted)."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. AMY SUZANNE — (b) 14 June 1973 (Adopted)."
+            }
+          ]
+        }
+      ]
+    },
+    "roxie-rose-thompson": {
+      "name": "Roxie Rose Thompson",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 October 1946",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 2 October 1946."
+            }
+          ]
+        }
+      ]
+    },
+    "delois-sunny-tarron": {
+      "name": "Delois Sunny Tarron",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 October 1948",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "He married Delois Sunny Tarron 21 November 1977. She was born 24 October 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "rocky-dwayne-kastl-1964": {
+      "name": "Rocky Dwayne Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "29 December 1964",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. ROCKY DWAYNE — (b) 29 Dec. 1964."
+            }
+          ]
+        }
+      ]
+    },
+    "phillip-albert-kastl-1969": {
+      "name": "Phillip Albert Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 October 1969",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. PHILLIP ALBERT — (b) 17 Oct. 1969."
+            }
+          ]
+        }
+      ]
+    },
+    "denise-marie-kastl-1972": {
+      "name": "Denise Marie Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 March 1972",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. DENISE MARIE — (b) 11 Mar. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "keith-allen-kastl-1973": {
+      "name": "Keith Allen Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 May 1973",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "4. KEITH ALLEN — (b) 20 May 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "michelle-mebus": {
+      "name": "Michelle Mary Margaret Elizabeth Mebus",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Michelle M.M.E. Mebus",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "The family of Louis Anthony Kastl and Michelle M.M.E. Mebus"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "27 May 1963",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 27 May 1963."
+            }
+          ]
+        }
+      ]
+    },
+    "james-brandon-kastl-1982": {
+      "name": "James Brandon Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 September 1982",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. JAMES BRANDON — (b) 9 Sept. 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "maxine-phyllis-johnson": {
+      "name": "Maxine Phyllis Johnson",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 August 1920",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "She was born 5 August 1920."
+            }
+          ]
+        }
+      ]
+    },
+    "patricia-lynn-kastl-1944": {
+      "name": "Patricia Lynn Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Patricia L. Kastl",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "The family of Patricia L. Kastl and Samuel A. Muzny"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "11 April 1944",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. PATRICIA LYNN — (b) 11 Apr. 1944. (m) Samuel Alan Muzny—2 Oct. 1964."
+            },
+            {
+              "scan": "s055",
+              "quote": "PATRICIA LYNN KASTL (Edward Joseph, Anton Peter, Jacob) born 11 April 1944"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Samuel Alan Muzny, 2 October 1964",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. PATRICIA LYNN — (b) 11 Apr. 1944. (m) Samuel Alan Muzny—2 Oct. 1964."
+            },
+            {
+              "scan": "s055",
+              "quote": "She married Samuel Alan Muzny 2 October 1964."
+            }
+          ]
+        }
+      ]
+    },
+    "barbara-ann-kastl-1947": {
+      "name": "Barbara Ann Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 August 1947",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. BARBARA ANN — (b) 13 Aug. 1947. (m) Nolan Lee Arthur—27 June 1965."
+            },
+            {
+              "scan": "s055",
+              "quote": "BARBARA ANN KASTL (Edward Joseph, Anton Peter, Jacob) born 13 August 1947"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Nolan Lee Arthur, 27 June 1965",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. BARBARA ANN — (b) 13 Aug. 1947. (m) Nolan Lee Arthur—27 June 1965."
+            },
+            {
+              "scan": "s055",
+              "quote": "She married Nolan Lee Arthur 27 June 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "martha-elizabeth-kastl-1949": {
+      "name": "Martha Elizabeth Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "31 May 1949",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. MARTHA ELIZABETH — (b) 31 May 1949. (m) George William Hill—17 Apr. 1970."
+            },
+            {
+              "scan": "s055",
+              "quote": "MARTHA ELIZABETH KASTL (Edward Joseph, Anton Peter, Jacob) born 31 May 1949"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "George William Hill, 17 April 1970",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. MARTHA ELIZABETH — (b) 31 May 1949. (m) George William Hill—17 Apr. 1970."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "George William Hill, 17 April 1980",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "She married George William Hill 17 April 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-edward-kastl-1950": {
+      "name": "Daniel Edward Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 July 1950",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "4. DANIEL EDWARD — (b) 2 July 1950. (m) Hope Ann Buchanan—10 Sept. 1976."
+            },
+            {
+              "scan": "s056",
+              "quote": "DANIEL EDWARD KASTL (Edward Joseph, Anton Peter, Jacob) born 2 July 1950"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Hope Ann Buchanan, 10 September 1976",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "4. DANIEL EDWARD — (b) 2 July 1950. (m) Hope Ann Buchanan—10 Sept. 1976."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Hope Ann Buchanan 10 September 1976."
+            }
+          ]
+        }
+      ]
+    },
+    "laura-ellen-kastl-1952": {
+      "name": "Laura Ellen Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 April 1952",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "5. LAURA ELLEN — (b) 4 Apr. 1952. (m) Charles Glenn Collum—3 June 1972."
+            },
+            {
+              "scan": "s056",
+              "quote": "LAURA ELLEN KASTL (Edward Joseph, Anton Peter, Jacob) born 4 April 1952"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Charles Glenn Collum, 3 June 1972",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "5. LAURA ELLEN — (b) 4 Apr. 1952. (m) Charles Glenn Collum—3 June 1972."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married Charles Glenn Collum 3 June 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "veronica-jean-kastl-1953": {
+      "name": "Veronica Jean Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 March 1953",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "6. VERONICA JEAN — (b) 16 Mar. 1953. (m) Wallace Exile Maloney III—5 Jan. 1972."
+            },
+            {
+              "scan": "s056",
+              "quote": "VERONICA JEAN KASTL (Edward Joseph, Anton Peter, Jacob) born 16 March 1953"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Wallace Exile Maloney III, 5 January 1972",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "6. VERONICA JEAN — (b) 16 Mar. 1953. (m) Wallace Exile Maloney III—5 Jan. 1972."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married Wallace Exile Maloney III 5 January 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "samuel-alan-muzny": {
+      "name": "Samuel Alan Muzny",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Samuel A. Muzny",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "The family of Patricia L. Kastl and Samuel A. Muzny"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "28 August 1944",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "He was born 28 August 1944."
+            }
+          ]
+        }
+      ]
+    },
+    "brian-keith-muzny-1965": {
+      "name": "Brian Keith Muzny",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 September 1965",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. BRIAN KEITH — (b) 20 Sept. 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "timothy-alan-muzny-1967": {
+      "name": "Timothy Alan Muzny",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 May 1967",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. TIMOTHY ALAN — (b) 4 May 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "nolan-lee-arthur": {
+      "name": "Nolan Lee Arthur",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "29 June 1944",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "He was born 29 June 1944."
+            }
+          ]
+        }
+      ]
+    },
+    "kimberly-ann-arthur-1967": {
+      "name": "Kimberly Ann Arthur",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 June 1967",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. KIMBERLY ANN — (b) 3 June 1967."
+            }
+          ]
+        }
+      ]
+    },
+    "teresa-lynn-arthur-1970": {
+      "name": "Teresa Lynn Arthur",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "8 May 1970",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. TERESA LYNN — (b) 8 May 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "george-william-hill": {
+      "name": "George William Hill",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "George W. Hill",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "The family of Martha Elizabeth Kastl and George W. Hill"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "6 September 1949",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "He was born 6 September 1949."
+            }
+          ]
+        }
+      ]
+    },
+    "kristi-lynn-hill-1970": {
+      "name": "Kristi Lynn Hill",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 November 1970",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. KRISTI LYNN — (b) 1 Nov. 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "hope-ann-buchanan": {
+      "name": "Hope Ann Buchanan",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 October 1954",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "She was born 3 October 1954."
+            }
+          ]
+        }
+      ]
+    },
+    "brad-joseph-kastl-1978": {
+      "name": "Brad Joseph Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 August 1978",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. BRAD JOSEPH — (b) 26 Aug. 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "gary-daniel-kastl-1980": {
+      "name": "Gary Daniel Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 August 1980",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. GARY DANIEL — (b) 25 Aug. 1980."
+            }
+          ]
+        }
+      ]
+    },
+    "charles-glenn-collum": {
+      "name": "Charles Glenn Collum",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 September 1951",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "He was born 25 September 1951."
+            }
+          ]
+        }
+      ]
+    },
+    "ginger-lee-collum-1972": {
+      "name": "Ginger Lee Collum",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 December 1972",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. GINGER LEE — (b) 9 Dec. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "ashley-renee-collum-1978": {
+      "name": "Ashley Renee Collum",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 July 1978",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. ASHLEY RENEE — (b) 5 July 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "wallace-exile-maloney-iii": {
+      "name": "Wallace Exile Maloney III",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 February 1950",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "He was born 23 February 1950."
+            }
+          ]
+        }
+      ]
+    },
+    "wallace-exile-maloney-iv-1972": {
+      "name": "Wallace Exile Maloney IV",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 August 1972",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. WALLACE EXILE IV — (b) 17 Aug. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "melissa-dawn-maloney-1974": {
+      "name": "Melissa Dawn Maloney",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "28 July 1974",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. MELISSA DAWN — (b) 28 July 1974."
+            }
+          ]
+        }
+      ]
+    },
+    "velma-pauline-johnson": {
+      "name": "Velma Pauline Johnson",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 August 1922",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "She was born 11 August 1922."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-lee-kastl-1948": {
+      "name": "Michael Lee Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 June 1948",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. MICHAEL LEE — (b) 23 June 1948. (m) Teresa Margaret Castle—28 July 1973."
+            },
+            {
+              "scan": "s056",
+              "quote": "MICHAEL LEE KASTL (Emil Ernest, Anton Peter, Jacob) born 23 June 1948"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Teresa Margaret Castle, 28 July 1973",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. MICHAEL LEE — (b) 23 June 1948. (m) Teresa Margaret Castle—28 July 1973."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Teresa Margaret Castle 28 July 1973."
+            }
+          ]
+        }
+      ]
+    },
+    "beverly-ann-kastl-1949": {
+      "name": "Beverly Ann Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 November 1949",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. BEVERLY ANN — (b) 26 Nov. 1949. (d) 27 Nov. 1949."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "27 November 1949",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. BEVERLY ANN — (b) 26 Nov. 1949. (d) 27 Nov. 1949."
+            }
+          ]
+        }
+      ]
+    },
+    "constance-sue-kastl-1952": {
+      "name": "Constance Sue Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 March 1952",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. CONSTANCE SUE — (b) 15 Mar. 1952. (m) Leslie Bart Brashears—22 Nov. 1975."
+            },
+            {
+              "scan": "s056",
+              "quote": "CONSTANCE SUE KASTL (Emil Ernest, Anton Peter, Jacob) born 15 March 1952"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Leslie Bart Brashears, 22 November 1975",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. CONSTANCE SUE — (b) 15 Mar. 1952. (m) Leslie Bart Brashears—22 Nov. 1975."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married Leslie Bart Brashears 22 November 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "dennis-anthony-kastl-1954": {
+      "name": "Dennis Anthony Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "29 October 1954",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "4. DENNIS ANTHONY — (b) 29 Oct. 1954."
+            }
+          ]
+        }
+      ]
+    },
+    "timothy-kevin-kastl-1958": {
+      "name": "Timothy Kevin Kastl",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 October 1958",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "5. TIMOTHY KEVIN — (b) 1 Oct. 1958. (d) 2 Oct. 1958."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "2 October 1958",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "5. TIMOTHY KEVIN — (b) 1 Oct. 1958. (d) 2 Oct. 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "teresa-margaret-castle": {
+      "name": "Teresa Margaret Castle",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "14 October 1951",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "She was born 14 October 1951."
+            }
+          ]
+        }
+      ]
+    },
+    "jill-marie-kastl-1978": {
+      "name": "Jill Marie Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 May 1978",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. JILL MARIE — (b) 1 May 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "andrea-leigh-kastl-1981": {
+      "name": "Andrea Leigh Kastl",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "22 May 1981",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. ANDREA LEIGH — (b) 22 May 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "leslie-bart-brashears": {
+      "name": "Leslie Bart Brashears",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 April 1954",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "He was born 2 April 1954."
+            }
+          ]
+        }
+      ]
+    },
+    "angela-christine-brashears-1979": {
+      "name": "Angela Christine Brashears",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 May 1979",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. ANGELA CHRISTINE — (b) 11 May 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "christopher-todd-brashears-1981": {
+      "name": "Christopher Todd Brashears",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 June 1981",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. CHRISTOPHER TODD — (b) 23 June 1981."
+            }
+          ]
+        }
+      ]
+    },
+    "amanda-renee-brashears-1983": {
+      "name": "Amanda Renee Brashears",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 December 1983",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. AMANDA RENEE — (b) 19 Dec. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "john-cyril-rerucha": {
+      "name": "John Cyril Rerucha",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "J. Cyril Rerucha",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "The family of Elizabeth Kastl and J. Cyril Rerucha"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of John Rerucha and Catherine Jambor",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "He was the son of John Rerucha and Catherine Jambor."
+            }
+          ]
+        }
+      ]
+    },
+    "frank-kohoutek-1915": {
+      "name": "Frank Kohoutek",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 September 1915, Oakley, Michigan",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. FRANK KOHOUTEK — (b) 5 Sept. 1915—Oakley, MI. (Adopted 9 July 1921—Did not change name) (m) Carole Hjelte—20 June 1946."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Carole Hjelte, 20 June 1946",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. FRANK KOHOUTEK — (b) 5 Sept. 1915—Oakley, MI. (Adopted 9 July 1921—Did not change name) (m) Carole Hjelte—20 June 1946."
+            },
+            {
+              "scan": "s056",
+              "quote": "Frank married Carole Hjelte 20 June 1946."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "15 September 1915",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "FRANK KOHOUTEK (Elizabeth Kastl Rerucha, Jacob) born Sept. 15, 1915"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted by Elizabeth Kastl and John Cyril Rerucha on 9 July 1921 and did not change his name: he kept his original parents' last name, when all he had to show as proof of citizenship was his baptismal certificate. Louis Peter Rerucha was his natural brother",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. FRANK KOHOUTEK — (b) 5 Sept. 1915—Oakley, MI. (Adopted 9 July 1921—Did not change name) (m) Carole Hjelte—20 June 1946."
+            },
+            {
+              "scan": "s056",
+              "quote": "adopted son of Elizabeth Kastl and John Cyril Rerucha."
+            },
+            {
+              "scan": "s056",
+              "quote": "Frank kept his original parents last name, when all he had to show as proof of citizenship was his baptismal certificate."
+            },
+            {
+              "scan": "s056",
+              "quote": "Louis Rerucha was the natural brother of Frank Kohoutek."
+            }
+          ]
+        }
+      ]
+    },
+    "louis-peter-rerucha-1913": {
+      "name": "Louis Peter Rerucha",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Ludvick, Ludvik Rerucha, Louis Rerucha",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. LUDVICK — (b) Jan. 4, 1913. (Adopted 9 July 1921) (d) 20 Aug. 1981. (m) 24 May 1951—Juliette Gill."
+            },
+            {
+              "scan": "s076",
+              "quote": "(Louis Peter, or Ludvik Rerucha, Elizabeth Kastl Rerucha, Jacob)"
+            },
+            {
+              "scan": "s056",
+              "quote": "Louis Rerucha was the natural brother of Frank Kohoutek."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "4 January 1913",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. LUDVICK — (b) Jan. 4, 1913. (Adopted 9 July 1921) (d) 20 Aug. 1981. (m) 24 May 1951—Juliette Gill."
+            },
+            {
+              "scan": "s056",
+              "quote": "LOUIS PETER RERUCHA (Elizabeth Kastl Rerucha, Jacob) born 4 January 1913"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Juliette Elizabeth Gill, 24 May 1951",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. LUDVICK — (b) Jan. 4, 1913. (Adopted 9 July 1921) (d) 20 Aug. 1981. (m) 24 May 1951—Juliette Gill."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Juliette Elizabeth Gill 24 May 1951."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "20 August 1981",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. LUDVICK — (b) Jan. 4, 1913. (Adopted 9 July 1921) (d) 20 Aug. 1981. (m) 24 May 1951—Juliette Gill."
+            },
+            {
+              "scan": "s056",
+              "quote": "Died 20 August 1981."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted by Elizabeth Kastl and John Cyril Rerucha on 9 July 1921; the natural brother of Frank Kohoutek",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. LUDVICK — (b) Jan. 4, 1913. (Adopted 9 July 1921) (d) 20 Aug. 1981. (m) 24 May 1951—Juliette Gill."
+            },
+            {
+              "scan": "s056",
+              "quote": "adopted son of Elizabeth Kastl and John Cyril Rerucha. Died 20 August 1981."
+            },
+            {
+              "scan": "s056",
+              "quote": "Louis Rerucha was the natural brother of Frank Kohoutek."
+            }
+          ]
+        }
+      ]
+    },
+    "regina-rerucha-1924": {
+      "name": "Regina Rerucha",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 August 1924",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. REGINA — (b) 20 Aug. 1924. (m) Richard George—6 Sept. 1958 (Born 13, Feb. 1926) (Adopted Children)"
+            },
+            {
+              "scan": "s056",
+              "quote": "REGINA RERUCHA (Elizabeth Kastl Rerucha, Jacob) born 20 August 1924"
+            },
+            {
+              "scan": "s076",
+              "quote": "REGINA RERUCHA (Elizabeth Kastl Rerucha, Jacob) born 20 August 1924"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Richard George, 6 September 1958",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. REGINA — (b) 20 Aug. 1924. (m) Richard George—6 Sept. 1958 (Born 13, Feb. 1926) (Adopted Children)"
+            },
+            {
+              "scan": "s057",
+              "quote": "6 September 1958. Their children:"
+            },
+            {
+              "scan": "s076",
+              "quote": "She married Richard George—6 September 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "zita-rerucha-1922": {
+      "name": "Zita Rerucha",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 August 1922",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "4. ZITA — (b) 1922. (m) Frank Vavruska."
+            },
+            {
+              "scan": "s076",
+              "quote": "ZITA RERUCHA (Elizabeth Kastl Rerucha, Jacob) born 30 August 1922"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Frank Vavruska",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "4. ZITA — (b) 1922. (m) Frank Vavruska."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John A. Surlak, 14 September 1946",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "She married John A. Surlak—14 September 1946."
+            }
+          ]
+        }
+      ]
+    },
+    "carole-hjelte": {
+      "name": "Carole Hjelte",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": []
+    },
+    "william-richard-kohoutek-1947": {
+      "name": "William Richard Kohoutek",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "5 August 1947",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. WILLIAM RICHARD — (b) 5 Aug. 1947. (m) Lynn Bauman—4 Apr. 1970."
+            },
+            {
+              "scan": "s076",
+              "quote": "WILLIAM RICHARD KOHOUTEK (Frank Kohoutek, Elizabeth Kastl Rerucha, Jacob) born 5 August 1947"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Lynn Bauman, 4 April 1970",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. WILLIAM RICHARD — (b) 5 Aug. 1947. (m) Lynn Bauman—4 Apr. 1970."
+            },
+            {
+              "scan": "s076",
+              "quote": "He married Lynn Bauman—4 April 1970."
+            }
+          ]
+        }
+      ]
+    },
+    "jane-marie-kohoutek-1948": {
+      "name": "Jane Marie Kohoutek",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "June Marie Kohoutek",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. JUNE MARIE — (b) 25 July 1948. (m) Kenneth James Tyko—4 Dec. 1971."
+            }
+          ]
+        },
+        {
+          "type": "name",
+          "value": "Jane Marie Kohoutek",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "JUNE should be JANE (m) Kenneth James Tyk."
+            },
+            {
+              "scan": "s076",
+              "quote": "JANE MARIE KOHOUTEK (Frank Kohoutek, Elizabeth Kastl Rerucha, Jacob)"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "25 July 1948",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. JUNE MARIE — (b) 25 July 1948. (m) Kenneth James Tyko—4 Dec. 1971."
+            },
+            {
+              "scan": "s076",
+              "quote": "JANE MARIE KOHOUTEK (Frank Kohoutek, Elizabeth Kastl Rerucha, Jacob) born 25 July 1948"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kenneth James Tyko, 4 December 1971",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. JUNE MARIE — (b) 25 July 1948. (m) Kenneth James Tyko—4 Dec. 1971."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Kenneth James Tyk, 4 December 1971",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "JUNE should be JANE (m) Kenneth James Tyk."
+            },
+            {
+              "scan": "s076",
+              "quote": "She married Kenneth James Tyk—4 December 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "lynn-bauman": {
+      "name": "Lynn Bauman",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": []
+    },
+    "lauren-kohoutek-1967": {
+      "name": "Lauren Kohoutek",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 December 1967",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. LAUREN — (b) 18 Dec. 1967 (daughter of Lynn, adopted by William)"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Printed as \"daughter of Lynn, adopted by William\"",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. LAUREN — (b) 18 Dec. 1967 (daughter of Lynn, adopted by William)"
+            }
+          ]
+        }
+      ]
+    },
+    "karen-anne-kohoutek-1971": {
+      "name": "Karen Anne Kohoutek",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "30 March 1971",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "2. KAREN ANNE — (b) 30 Mar. 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "kenneth-james-tyk": {
+      "name": "Kenneth James Tyk",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "James Tyk",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "The family of Jane Marie Kohoutek and James Tyk"
+            }
+          ]
+        },
+        {
+          "type": "name",
+          "value": "Kenneth James Tyko",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. JUNE MARIE — (b) 25 July 1948. (m) Kenneth James Tyko—4 Dec. 1971."
+            }
+          ]
+        }
+      ]
+    },
+    "chad-michael-tyk-1972": {
+      "name": "Chad Michael Tyk",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 September 1972",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. CHAD MICHAEL — (b) 17 Sept. 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "stephen-daniel-tyk-1978": {
+      "name": "Stephen Daniel Tyk",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 November 1978",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "2. STEPHEN DANIEL — (b) 20 Nov. 1978."
+            }
+          ]
+        }
+      ]
+    },
+    "juliette-elizabeth-gill": {
+      "name": "Juliette Elizabeth Gill",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Juliette Gill",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "The family of Louis Peter Rerucha and Juliette Gill"
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "4 December 1972",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "Juliette died 4 December 1972."
+            }
+          ]
+        }
+      ]
+    },
+    "william-louis-rerucha-1954": {
+      "name": "William Louis Rerucha",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 December 1954",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. WILLIAM LOUIS — (b) 4 Dec. 1954. (m) Marie Frances Bosanac—18 Oct. 1975."
+            },
+            {
+              "scan": "s076",
+              "quote": "WILLIAM LOUIS RERUCHA (Louis Peter, or Ludvik Rerucha, Elizabeth Kastl Rerucha, Jacob) born 4 December 1954"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Marie Frances Bosanac, 18 October 1975",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. WILLIAM LOUIS — (b) 4 Dec. 1954. (m) Marie Frances Bosanac—18 Oct. 1975."
+            },
+            {
+              "scan": "s076",
+              "quote": "He married Marie Frances Bosanac—18 October 1975."
+            }
+          ]
+        }
+      ]
+    },
+    "juliette-elizabeth-rerucha-1957": {
+      "name": "Juliette Elizabeth Rerucha",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 October 1957",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. JULIETTE ELIZABETH — (b) 6 Oct. 1957."
+            }
+          ]
+        }
+      ]
+    },
+    "marie-frances-bosanac": {
+      "name": "Marie Frances Bosanac",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Marie F. Bosanac",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "The family of William Louis Rerucha and Marie F. Bosanac"
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "10 August 1954",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "She was born 10 August 1954."
+            }
+          ]
+        }
+      ]
+    },
+    "daniel-joseph-rerucha-1979": {
+      "name": "Daniel Joseph Rerucha",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 November 1979",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. DANIEL JOSEPH — (b) 1 Nov. 1979."
+            }
+          ]
+        }
+      ]
+    },
+    "sara-marie-rerucha-1982": {
+      "name": "Sara Marie Rerucha",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 January 1982",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "2. SARA MARIE — (b) 4 Jan. 1982."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-william-rerucha-1983": {
+      "name": "Michael William Rerucha",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "29 December 1983",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "3. MICHAEL WILLIAM — (b) 29 Dec. 1983."
+            }
+          ]
+        }
+      ]
+    },
+    "richard-george": {
+      "name": "Richard George",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "13 February 1926",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. REGINA — (b) 20 Aug. 1924. (m) Richard George—6 Sept. 1958 (Born 13, Feb. 1926) (Adopted Children)"
+            },
+            {
+              "scan": "s076",
+              "quote": "He was born 13 February 1926."
+            }
+          ]
+        }
+      ]
+    },
+    "christopher-george-1961": {
+      "name": "Christopher George",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "9 September 1961",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. CHRISTOPHER — (b) 9 Sept. 1961."
+            },
+            {
+              "scan": "s076",
+              "quote": "1. CHRISTOPHER — (b) 9 Sept. 1961 (adopted 14 Feb. 1964)."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted 14 February 1964",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. CHRISTOPHER — (b) 9 Sept. 1961 (adopted 14 Feb. 1964)."
+            }
+          ]
+        }
+      ]
+    },
+    "monica-george-1966": {
+      "name": "Monica George",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 July 1966",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. MONICA — (b) 26 July 1966."
+            },
+            {
+              "scan": "s076",
+              "quote": "2. MONICA — (b) 26 July 1966 (adopted 1 Mar. 1967)."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Adopted 1 March 1967",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "2. MONICA — (b) 26 July 1966 (adopted 1 Mar. 1967)."
+            }
+          ]
+        }
+      ]
+    },
+    "john-a-surlak": {
+      "name": "John A. Surlak",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": []
+    },
+    "thomas-j-surlak-1948": {
+      "name": "Thomas J. Surlak",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 November 1948",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "1. THOMAS J. — (b) 17 Nov. 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "donna-e-surlak-1958": {
+      "name": "Donna E. Surlak",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "20 April 1958",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "2. DONNA E. — (b) 20 Apr. 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "joseph-rathovec-1893": {
+      "name": "Joseph Rathovec",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "name",
+          "value": "Joseph Ratkovec",
+          "sources": [
+            {
+              "scan": "s046",
+              "quote": "Antoinette (Mrs. Joseph Ratkovec) of Rising City."
+            }
+          ]
+        },
+        {
+          "type": "birth",
+          "value": "2 February 1893, Rozsece, Moravia",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "He was born 2 February 1893 at Rozsece, Moravia, son of Joseph Rathovec and Marie Barta, and died November 1963."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "value": "Son of Joseph Rathovec and Marie Barta",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "He was born 2 February 1893 at Rozsece, Moravia, son of Joseph Rathovec and Marie Barta, and died November 1963."
+            }
+          ]
+        },
+        {
+          "type": "death",
+          "value": "November 1963",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "He was born 2 February 1893 at Rozsece, Moravia, son of Joseph Rathovec and Marie Barta, and died November 1963."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-rathovec-1925": {
+      "name": "Mary Rathovec",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 January 1925",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. MARY — (b) 3 Jan. 1925. (m) Anthony Sabata."
+            },
+            {
+              "scan": "s057",
+              "quote": "MARY RATHOVEC (Antonia Kastl Rathovec, Jacob) born 3 January 1925"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Anthony Sabata",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. MARY — (b) 3 Jan. 1925. (m) Anthony Sabata."
+            },
+            {
+              "scan": "s057",
+              "quote": "She married Anthony Sabata."
+            }
+          ]
+        }
+      ]
+    },
+    "martha-rathovec-1927": {
+      "name": "Martha Rathovec",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 May 1927",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. MARTHA — (b) 1 May 1927. (m) John B. Sabata—1948."
+            },
+            {
+              "scan": "s057",
+              "quote": "MARTHA RATHOVEC (Antonia Kastl Rathovec, Jacob) born 1 May 1927"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "John B. Sabata, 1948",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. MARTHA — (b) 1 May 1927. (m) John B. Sabata—1948."
+            },
+            {
+              "scan": "s057",
+              "quote": "She married John B. Sabata in 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "anita-rathovec-1928": {
+      "name": "Anita Rathovec",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "29 November 1928",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "3. ANITA — (b) 29 Nov. 1928. (m) Leander Svoboda—1948."
+            },
+            {
+              "scan": "s057",
+              "quote": "ANITA RATHOVEC (Antonia Kastl Rathovec, Jacob) born 29 November 1928"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Leander Svoboda, 1948",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "3. ANITA — (b) 29 Nov. 1928. (m) Leander Svoboda—1948."
+            },
+            {
+              "scan": "s057",
+              "quote": "She married Leander Svoboda in 1948."
+            }
+          ]
+        }
+      ]
+    },
+    "quentin-rathovec-1932": {
+      "name": "Quentin Rathovec",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "4 November 1932",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "4. QUENTIN — (b) 4 Nov. 1932. (m) Rose Ann Pokorny—1952."
+            },
+            {
+              "scan": "s057",
+              "quote": "QUENTIN RATHOVEC (Antonia Kastl Rathovec, Jacob) born 4 November 1932"
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Rose Ann Pokorny, 1952",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "4. QUENTIN — (b) 4 Nov. 1932. (m) Rose Ann Pokorny—1952."
+            },
+            {
+              "scan": "s057",
+              "quote": "He married Rose Ann Pokorny in 1952."
+            }
+          ]
+        }
+      ]
+    },
+    "anthony-sabata": {
+      "name": "Anthony Sabata",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "16 February 1920",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "He was born 16 February 1920."
+            }
+          ]
+        }
+      ]
+    },
+    "tony-ray-sabata-1945": {
+      "name": "Tony Ray Sabata",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 October 1945",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. TONY RAY — (b) 27 Oct. 1945. (m) Connie Runyan—1979."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Connie Runyan, 1979",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. TONY RAY — (b) 27 Oct. 1945. (m) Connie Runyan—1979."
+            }
+          ]
+        }
+      ]
+    },
+    "mary-jane-sabata-1951": {
+      "name": "Mary Jane Sabata",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 October 1951",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. MARY JANE — (b) 15 Oct. 1951. (m) James Steven Light—1983."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "James Steven Light, 1983",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. MARY JANE — (b) 15 Oct. 1951. (m) James Steven Light—1983."
+            }
+          ]
+        }
+      ]
+    },
+    "nancy-ann-sabata-of-mary1925": {
+      "name": "Nancy Ann Sabata",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child of Mary Rathovec and Anthony Sabata; \"(b)\" is printed with no date",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "3. NANCY ANN — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-lane-sabata-of-mary1925": {
+      "name": "Thomas Lane Sabata",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "note",
+          "value": "Listed as a child of Mary Rathovec and Anthony Sabata; \"(b)\" is printed with no date",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "4. THOMAS LANE — (b)"
+            }
+          ]
+        }
+      ]
+    },
+    "john-b-sabata": {
+      "name": "John B. Sabata",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 March 1926",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "He was born 26 March 1926."
+            }
+          ]
+        }
+      ]
+    },
+    "algene-sabata-1951": {
+      "name": "Algene Sabata",
+      "sex": "U",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "7 June 1951",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. ALGENE — (b) 7 June 1951. (m) James R. Schmid—1970."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "James R. Schmid, 1970",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. ALGENE — (b) 7 June 1951. (m) James R. Schmid—1970."
+            }
+          ]
+        }
+      ]
+    },
+    "john-l-sabata-1955": {
+      "name": "John L. Sabata",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "1 June 1955",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. JOHN L. — (b) 1 June 1955. (m) Rita Birkel—1974."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Rita Birkel, 1974",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. JOHN L. — (b) 1 June 1955. (m) Rita Birkel—1974."
+            }
+          ]
+        }
+      ]
+    },
+    "leander-svoboda": {
+      "name": "Leander Svoboda",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "25 February 1925",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "He was born 25 February 1925."
+            }
+          ]
+        }
+      ]
+    },
+    "carol-jean-svoboda-1949": {
+      "name": "Carol Jean Svoboda",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "23 April 1949",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. CAROL JEAN — (b) 23 Apr. 1949. (m) Michael Svatora—1971."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Michael Svatora, 1971",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. CAROL JEAN — (b) 23 Apr. 1949. (m) Michael Svatora—1971."
+            }
+          ]
+        }
+      ]
+    },
+    "patricia-ann-svoboda-1951": {
+      "name": "Patricia Ann Svoboda",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 March 1951",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. PATRICIA ANN — (b) 24 Mar. 1951. (m) Michael Egger—1973."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Michael Egger, 1973",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. PATRICIA ANN — (b) 24 Mar. 1951. (m) Michael Egger—1973."
+            }
+          ]
+        }
+      ]
+    },
+    "marilyn-svoboda-1952": {
+      "name": "Marilyn Svoboda",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "18 September 1952",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "3. MARILYN — (b) 18 Sept. 1952. (m) Bruce Schmit—1973."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Bruce Schmit, 1973",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "3. MARILYN — (b) 18 Sept. 1952. (m) Bruce Schmit—1973."
+            }
+          ]
+        }
+      ]
+    },
+    "kenneth-lee-svoboda-1955": {
+      "name": "Kenneth Lee Svoboda",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "6 August 1955",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "4. KENNETH LEE — (b) 6 Aug. 1955. (m) Beth Hiller—1978."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Beth Hiller, 1978",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "4. KENNETH LEE — (b) 6 Aug. 1955. (m) Beth Hiller—1978."
+            }
+          ]
+        }
+      ]
+    },
+    "thomas-james-svoboda-1958": {
+      "name": "Thomas James Svoboda",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "26 February 1958",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "5. THOMAS JAMES — (b) 26 Feb. 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "ronald-vincent-svoboda-1959": {
+      "name": "Ronald Vincent Svoboda",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "17 June 1959",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "6. Ronald Vincent — (b) 17 June 1959."
+            }
+          ]
+        }
+      ]
+    },
+    "sharon-marie-svoboda-1960": {
+      "name": "Sharon Marie Svoboda",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "24 September 1960",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "7. SHARON MARIE — (b) 24 Sept. 1960."
+            }
+          ]
+        }
+      ]
+    },
+    "diane-lyn-svoboda-1965": {
+      "name": "Diane Lyn Svoboda",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 June 1965",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "8. DIANE LYN — (b) 3 June 1965."
+            }
+          ]
+        }
+      ]
+    },
+    "rose-ann-pokorny": {
+      "name": "Rose Ann Pokorny",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 August 1934",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "She was born 3 August 1934."
+            }
+          ]
+        }
+      ]
+    },
+    "rose-ann-rathovec-1953": {
+      "name": "Rose Ann Rathovec",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "2 October 1953",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. ROSE ANN — (b) 2 Oct. 1953. (m) James Klein—1979."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "James Klein, 1979",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "1. ROSE ANN — (b) 2 Oct. 1953. (m) James Klein—1979."
+            }
+          ]
+        }
+      ]
+    },
+    "edward-j-rathovec-1956": {
+      "name": "Edward J. Rathovec",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "11 February 1956",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. EDWARD J. — (b) 11 Feb. 1956. (m) Diane Vanis—1976."
+            }
+          ]
+        },
+        {
+          "type": "marriage",
+          "value": "Diane Vanis, 1976",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. EDWARD J. — (b) 11 Feb. 1956. (m) Diane Vanis—1976."
+            }
+          ]
+        }
+      ]
+    },
+    "michael-rathovec-1958": {
+      "name": "Michael Rathovec",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "19 May 1958",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "3. MICHAEL — (b) 19 May 1958."
+            }
+          ]
+        }
+      ]
+    },
+    "benjamin-rathovec-1960": {
+      "name": "Benjamin Rathovec",
+      "sex": "M",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "3 January 1960",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "4. BENJAMIN — (b) 3 Jan. 1960."
+            }
+          ]
+        }
+      ]
+    },
+    "kathy-lyn-rathovec-1961": {
+      "name": "Kathy Lyn Rathovec",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "15 September 1961",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "5. KATHY LYN — (b) 15 Sept. 1961."
+            }
+          ]
+        }
+      ]
+    },
+    "susan-rathovec-1971": {
+      "name": "Susan Rathovec",
+      "sex": "F",
+      "branch": "jacob",
+      "facts": [
+        {
+          "type": "birth",
+          "value": "27 July 1971",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "6. SUSAN — (b) 27 July 1971."
+            }
+          ]
+        }
+      ]
     }
   },
   "families": [
@@ -4982,6 +9851,1468 @@
       ],
       "sources": [
         "s053"
+      ]
+    },
+    {
+      "id": "jacob1885-mary",
+      "partners": [
+        "jacob-kastl-1885",
+        "mary-stara"
+      ],
+      "heading": "The family of Jacob Kastl and Mary Stara",
+      "marriage": [
+        {
+          "value": "3 June 1911, Plasi",
+          "sources": [
+            {
+              "scan": "s049",
+              "quote": "6. JACOB — (b) 20 Mar 1885. (d) 1925. (m) Mary Stara 3 June 1911—Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Mary Maydalene Stars 3 June 1911 at Plasi."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "joseph-l-kastl-1912",
+        "theophal-kastl-1916"
+      ],
+      "note": "Jacob's birth is printed as 20 Mar 1885 in his parents' list (p. 47) and as 20 March 1883 in this entry (p. 51); both are kept. His wife is \"Mary Stara\" in the headings, in his parents' list and in Joseph L.'s entry, but \"Mary Maydalene Stars\" in this paragraph and \"Mary Stars\" in Theophal's entry.",
+      "sources": [
+        "s049",
+        "s053"
+      ]
+    },
+    {
+      "id": "joseph1912-mollie",
+      "partners": [
+        "joseph-l-kastl-1912",
+        "mollie-placek"
+      ],
+      "heading": "The family of Joseph L. Kastl and Mollie Placek",
+      "marriage": [
+        {
+          "value": "10 June 1941",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. JOSEPH L. — (b) 11 Mar. 1912. (m) Mollie Placek—10 June 1941."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Mollie Placek 10 June 1941."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "nadine-kastl-1943",
+        "clayton-kastl-1945",
+        "darlene-kastl-1946",
+        "carol-kastl-1948",
+        "joyce-kastl-1952"
+      ],
+      "sources": [
+        "s053"
+      ]
+    },
+    {
+      "id": "theophal1916-josephine",
+      "partners": [
+        "theophal-kastl-1916",
+        "josephine-kriz"
+      ],
+      "order": 1,
+      "marriage": [
+        {
+          "value": "Divorced",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. THEOPHAL — (b) 4 Aug. 1916. (m) Josephine Kriz (Div.) (2) Virginia McCaston."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Josephine Kriz (Div.) married (2) Virginia McCaston."
+            }
+          ]
+        }
+      ],
+      "children": [],
+      "note": "The book prints one heading for both of Theophal's marriages (\"The family of Theophal Kastl and Josephine Kriz (2) Virginia McCaston\") and a single list, which follows \"married (2) Virginia McCaston. Their children:\". No marriage dates are printed. John H. is printed as the \"Adopted son of Virginia McCaston\"; the book does not say which marriage Jerone A. and Darryl V. were born to. All three are kept together here, with the second marriage that the list follows.",
+      "sources": [
+        "s053"
+      ]
+    },
+    {
+      "id": "theophal1916-virginia",
+      "partners": [
+        "theophal-kastl-1916",
+        "virginia-mccaston"
+      ],
+      "order": 2,
+      "heading": "The family of Theophal Kastl and Josephine Kriz (2) Virginia McCaston",
+      "children": [
+        "john-h-kastl-1943",
+        "jerone-a-kastl-1948",
+        "darryl-v-kastl-1953"
+      ],
+      "note": "The book prints one heading for both of Theophal's marriages (\"The family of Theophal Kastl and Josephine Kriz (2) Virginia McCaston\") and a single list, which follows \"married (2) Virginia McCaston. Their children:\". No marriage dates are printed. John H. is printed as the \"Adopted son of Virginia McCaston\"; the book does not say which marriage Jerone A. and Darryl V. were born to. All three are kept together here, with the second marriage that the list follows.",
+      "sources": [
+        "s053"
+      ]
+    },
+    {
+      "id": "frank1885-frances",
+      "partners": [
+        "frank-kastl-1885",
+        "frances-rathovec"
+      ],
+      "heading": "The family of Frank Kastl and Frances Rathovec",
+      "marriage": [
+        {
+          "value": "7 May 1912, Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s049",
+              "quote": "7. FRANK — (b) 29 Mar. 1885. (d) 3 Apr. 1970. (m) Frances Rathovec 7 May 1912—Plasi."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Frances Rathovec 7 May 1912 at Plasi, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mary-ann-kastl-1913",
+        "ernest-kastl-1915",
+        "theodore-kastl-1920",
+        "christie-kastl-1924",
+        "victor-anton-kastl-1926",
+        "sylvia-kastl-1928"
+      ],
+      "sources": [
+        "s049",
+        "s053",
+        "s054"
+      ]
+    },
+    {
+      "id": "maryann1913-joseph",
+      "partners": [
+        "mary-ann-kastl-1913",
+        "joseph-bongers"
+      ],
+      "heading": "The family of Mary Ann Kastl and Joseph Bongers",
+      "marriage": [
+        {
+          "value": "16 June 1936",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. MARY ANN — (b) 13 Feb. 1913. (m) Joseph Bongers—16 June 1936."
+            },
+            {
+              "scan": "s053",
+              "quote": "She married Joseph Bongers 16 June 1936."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "glen-bongers-1937",
+        "ernest-bongers-1938"
+      ],
+      "sources": [
+        "s053"
+      ]
+    },
+    {
+      "id": "glen1937-delores",
+      "partners": [
+        "glen-bongers-1937",
+        "delores-meduna"
+      ],
+      "heading": "The family of Glen Bongers and Delores Meduna",
+      "marriage": [
+        {
+          "value": "1960",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "1. GLEN — (b) 3 July 1937. (m) Delores Meduna—1960."
+            },
+            {
+              "scan": "s053",
+              "quote": "He married Delores Meduna in 1960."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "benjamin-bongers-1963"
+      ],
+      "sources": [
+        "s053"
+      ]
+    },
+    {
+      "id": "ernest1938-katherine",
+      "partners": [
+        "ernest-bongers-1938",
+        "katherine-styskal"
+      ],
+      "heading": "The family of Ernest Bongers and Katherine Styskal",
+      "marriage": [
+        {
+          "value": "1963",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 15 Aug. 1938. (m) Katherine Styskal—1963."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Katherine Styskal in 1963."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jerald-bongers-1964",
+        "linda-bongers-1965"
+      ],
+      "sources": [
+        "s053",
+        "s054"
+      ]
+    },
+    {
+      "id": "ernest1915-christina",
+      "partners": [
+        "ernest-kastl-1915",
+        "christina-masek"
+      ],
+      "heading": "The family of Ernest Kastl and Christina Masek",
+      "marriage": [
+        {
+          "value": "1939",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "2. ERNEST — (b) 8 Mar. 1915. (d) 7 Nov. 1974. (m) Christine Masek—1939."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Christina Masek in 1939."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "frank-kastl-1941",
+        "john-kastl-1942",
+        "mary-frances-kastl-1944",
+        "joseph-kastl-1960",
+        "vincent-kastl-1962"
+      ],
+      "note": "Ernest's wife is \"Christine Masek\" in his parents' list (p. 51) and \"Christina Masek\" in this entry. Her birth is printed as 5 May 1924, fifteen years before the 1939 marriage; kept as printed.",
+      "sources": [
+        "s053",
+        "s054"
+      ]
+    },
+    {
+      "id": "theodore1920-frances",
+      "partners": [
+        "theodore-kastl-1920",
+        "frances-belik"
+      ],
+      "heading": "The family of Theodore Kastl and Frances Belik",
+      "children": [
+        "patricia-f-kastl-1945",
+        "mary-kastl-1947",
+        "david-k-kastl-1948",
+        "theodore-l-kastl-1950",
+        "benedict-lee-kastl-1953",
+        "bernice-kastl-1953",
+        "bernard-alan-kastl-1955",
+        "valerie-jane-kastl-1957",
+        "timothy-rae-kastl-1959"
+      ],
+      "note": "Benedict Lee and Bernice share the birth date 12 December 1953; the book does not say they were twins. In Theodore's entry the words \"married Frances Belik. She was born 14 December\" are set in italics; Theodore L. is printed \"THEODROE L.\" in this list.",
+      "sources": [
+        "s053",
+        "s054"
+      ]
+    },
+    {
+      "id": "david1948-kathy",
+      "partners": [
+        "david-k-kastl-1948",
+        "kathy-krenk"
+      ],
+      "heading": "The family of David K. Kastl and Kathy Krenk",
+      "marriage": [
+        {
+          "value": "1972",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "3. DAVID K. — (b) 9 Feb. 1948. (m) Kathy Krenk—1972."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Kathy Krenk 1972."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jarod-kastl-1974",
+        "tad-kastl-1977",
+        "aaron-kastl-1979",
+        "adam-kastl-1979",
+        "zachary-kastl-1983"
+      ],
+      "note": "Aaron and Adam share the birth date 16 November 1979; the book does not say they were twins.",
+      "sources": [
+        "s054"
+      ]
+    },
+    {
+      "id": "theodore1950-kathy",
+      "partners": [
+        "theodore-l-kastl-1950",
+        "kathy-rezac"
+      ],
+      "heading": "The family of Theodore L. Kastl and Kathy Rezac",
+      "marriage": [
+        {
+          "value": "1975",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "4. THEODROE L. — (b) 8 July 1950. (m) Kathy Rezac—1975."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Kathy Rezac 1975."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "teddy-joe-kastl-1978",
+        "paul-kastl-1979"
+      ],
+      "sources": [
+        "s054"
+      ]
+    },
+    {
+      "id": "benedict1953-jackie",
+      "partners": [
+        "benedict-lee-kastl-1953",
+        "jackie-daro"
+      ],
+      "heading": "The family of Benedict Kastl and Jackie Daro",
+      "marriage": [
+        {
+          "value": "1973",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "5. BENEDICT LEE — (b) 12 Dec. 1953. (m) Jackie Daro—1973."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Jackie Daro 1973."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "kari-lee-kastl-1975",
+        "tommy-kastl-1978",
+        "miranda-kastl-1980",
+        "tyler-kastl-1984"
+      ],
+      "sources": [
+        "s054"
+      ]
+    },
+    {
+      "id": "bernard1955-lorene",
+      "partners": [
+        "bernard-alan-kastl-1955",
+        "lorene-bohac"
+      ],
+      "heading": "The family of Bernard Kastl and Lorene Bohac",
+      "marriage": [
+        {
+          "value": "1974",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "7. BERNARD ALAN — (b) 4 Aug. 1955. (d) 11 July 1976. (m) Lorene Bohac—1974."
+            },
+            {
+              "scan": "s054",
+              "quote": "He married Lorene Bohac 1974."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "christopher-kastl-1974"
+      ],
+      "sources": [
+        "s054"
+      ]
+    },
+    {
+      "id": "valerie1957-mike",
+      "partners": [
+        "valerie-jane-kastl-1957",
+        "mike-mitchem"
+      ],
+      "heading": "The family of Valerie Kastl and Mike Mitchem",
+      "marriage": [
+        {
+          "value": "1981",
+          "sources": [
+            {
+              "scan": "s054",
+              "quote": "8. VALERIE JANE — (b) 9 Jan. 1957. (m) Mike Mitchem—1981."
+            },
+            {
+              "scan": "s054",
+              "quote": "She married Mike Mitchem 1981."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "kristy-mitchem-1981",
+        "tracy-mitchem-1984"
+      ],
+      "sources": [
+        "s054"
+      ]
+    },
+    {
+      "id": "christie1924-emerld",
+      "partners": [
+        "christie-kastl-1924",
+        "emerld-lake"
+      ],
+      "heading": "The family of Christie Kastl and Emerld Lake",
+      "marriage": [
+        {
+          "value": "5 September 1946; divorced",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "4. CHRISTIE — (b) 24 July 1924. (m) Emerald Lake—5 Sept. 1946 (Div.)."
+            },
+            {
+              "scan": "s054",
+              "quote": "She married Emerld Lake 5 September 1946. (Div.)"
+            }
+          ]
+        }
+      ],
+      "children": [
+        "louise-lake-1949",
+        "frances-lake-1947",
+        "larry-lake-1950",
+        "mary-lake-1953"
+      ],
+      "note": "Children in printed order: Louise (b. 1949) is listed before Frances (b. 1947). Christie's husband is \"Emerald Lake\" in her parents' list (p. 51) and \"Emerld Lake\" in this heading and entry; Frances's birthplace is printed \"ALpena, MI.\".",
+      "sources": [
+        "s053",
+        "s054"
+      ]
+    },
+    {
+      "id": "sylvia1928-milton",
+      "partners": [
+        "sylvia-kastl-1928",
+        "milton-house"
+      ],
+      "heading": "The family of Sylvia Kastl and Milton House",
+      "marriage": [
+        {
+          "value": "27 December 1950, El Paso, Texas",
+          "sources": [
+            {
+              "scan": "s053",
+              "quote": "6. SYLVIA — (b) 2 May 1928. (d) 10 Aug. 1954. (m) Milton House 27 Dec. 1950—El Paso, TX."
+            },
+            {
+              "scan": "s054",
+              "quote": "She married Milton House 27 December 1950, El Paso, Texas."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mary-ann-house-1951",
+        "michael-house-1953"
+      ],
+      "sources": [
+        "s053",
+        "s054"
+      ]
+    },
+    {
+      "id": "anton1887-julia",
+      "partners": [
+        "anton-peter-kastl-1887",
+        "julia-antonia-hanska"
+      ],
+      "heading": "The family of Anton Peter Kastl and Julia A. Hanska",
+      "marriage": [
+        {
+          "value": "4 August 1908",
+          "sources": [
+            {
+              "scan": "s049",
+              "quote": "8. ANTON PETER — (b) 14 Apr. 1887. (d) 22 Dec. 1949. (m) Julia Hanska—4 Aug. 1908."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Julia Antonia Hanska 4 August 1908."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "louis-vaclav-kastl-1910",
+        "edward-joseph-kastl-1915",
+        "emil-ernest-kastl-1919"
+      ],
+      "sources": [
+        "s049",
+        "s055"
+      ]
+    },
+    {
+      "id": "louis1910-doris",
+      "partners": [
+        "louis-vaclav-kastl-1910",
+        "doris-evelyn-howard"
+      ],
+      "order": 1,
+      "heading": [
+        "The family of Louis Vaclav Kastl and Doris Evelyn Howard (1) (2) Genevieve Jane Bryan",
+        "Children of Louis Kastl and (1) Doris Howard"
+      ],
+      "marriage": [
+        {
+          "value": "4 September 1935",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. LOUIS VACLAV — (b) 19 Aug. 1910. (d) 10 Nov. 1982. (m) Doris Evelyn Howard—4 Sept. 1935 (2) Genevieve Jane Bryan—4 Feb. 1958."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Doris Evelyn Howard 4 September 1935."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "kenneth-howard-kastl-1936",
+        "phillip-wayne-kastl-1946"
+      ],
+      "note": "The book prints one heading for both of Louis's marriages, with a children sub-list for each. Kenneth Howard was born to Geneva Comer and Lavern A. Howard and adopted in 1945.",
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "louis1910-genevieve",
+      "partners": [
+        "louis-vaclav-kastl-1910",
+        "genevieve-jane-bryan"
+      ],
+      "order": 2,
+      "heading": "Children of Louis Kastl and (2) Genevieve Bryan",
+      "marriage": [
+        {
+          "value": "4 February 1958",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. LOUIS VACLAV — (b) 19 Aug. 1910. (d) 10 Nov. 1982. (m) Doris Evelyn Howard—4 Sept. 1935 (2) Genevieve Jane Bryan—4 Feb. 1958."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married (2) Genevieve Jane Bryan 4 February 1958."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "catherine-antoinette-kastl-1958",
+        "louis-anthony-kastl-1960"
+      ],
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "kenneth1936-sandra",
+      "partners": [
+        "kenneth-howard-kastl-1936",
+        "sandra-sue-ayers"
+      ],
+      "heading": "The family of Kenneth Howard Kastl and Sandra Sue Ayers",
+      "marriage": [
+        {
+          "value": "2 September 1960",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. KENNETH HOWARD — (b) 28 Apr. 1936—Born to Geneva Comer and Lavern A. Howard (Adopted 1945). (m) Sandra Sue Ayers—2 Sept. 1960."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Sandra Sue Ayers 2 September 1960."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "kenneth-kevin-kastl-1962",
+        "kevin-shawn-kastl-1968",
+        "amy-suzanne-kastl-1973"
+      ],
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "phillip1946-roxie",
+      "partners": [
+        "phillip-wayne-kastl-1946",
+        "roxie-rose-thompson"
+      ],
+      "order": 1,
+      "heading": "The family of Phillip Wayne Kastl and Roxie Rose Thompson",
+      "marriage": [
+        {
+          "value": "3 August 1964; divorced 15 May 1977",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. PHILLIP WAYNE — (b) 22 June 1946. (m) Roxie Rose Thompson—3 Aug. 1964 (Div. 1977) (2) Delois Sunny Tarron—21 Nov. 1977."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Roxie Rose Thompson 3 August 1964. Divorced 15 May 1977."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "rocky-dwayne-kastl-1964",
+        "phillip-albert-kastl-1969",
+        "denise-marie-kastl-1972",
+        "keith-allen-kastl-1973"
+      ],
+      "note": "The heading names only Roxie Rose Thompson. The entry gives both marriages (Roxie, 3 August 1964, divorced 15 May 1977; Delois Sunny Tarron, 21 November 1977) before \"Their children:\"; all four children were born 1964-1973, during the first marriage, and are kept with the heading's family. No children of the second marriage are printed.",
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "phillip1946-delois",
+      "partners": [
+        "phillip-wayne-kastl-1946",
+        "delois-sunny-tarron"
+      ],
+      "order": 2,
+      "marriage": [
+        {
+          "value": "21 November 1977",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. PHILLIP WAYNE — (b) 22 June 1946. (m) Roxie Rose Thompson—3 Aug. 1964 (Div. 1977) (2) Delois Sunny Tarron—21 Nov. 1977."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Delois Sunny Tarron 21 November 1977."
+            }
+          ]
+        }
+      ],
+      "children": [],
+      "note": "The heading names only Roxie Rose Thompson. The entry gives both marriages (Roxie, 3 August 1964, divorced 15 May 1977; Delois Sunny Tarron, 21 November 1977) before \"Their children:\"; all four children were born 1964-1973, during the first marriage, and are kept with the heading's family. No children of the second marriage are printed.",
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "louis1960-michelle",
+      "partners": [
+        "louis-anthony-kastl-1960",
+        "michelle-mebus"
+      ],
+      "heading": "The family of Louis Anthony Kastl and Michelle M.M.E. Mebus",
+      "marriage": [
+        {
+          "value": "26 December 1981",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. LOUIS ANTHONY — (b) 1 Nov. 1960. (m) Michelle Mary Margaret Elizabeth Mebus—26 Dec. 1981."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Michelle Mary Margaret Elizabeth Mebus 26 December 1981."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "james-brandon-kastl-1982"
+      ],
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "edward1915-maxine",
+      "partners": [
+        "edward-joseph-kastl-1915",
+        "maxine-phyllis-johnson"
+      ],
+      "heading": "The family of Edward Joseph Kastl and Maxine Phyllis Johnson",
+      "marriage": [
+        {
+          "value": "27 July 1942",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. EDWARD JOSEPH — (b) 18 Mar. 1915. (d) 5 Aug. 1969. (m) Maxine Phyllis Johnson—27 July 1942."
+            },
+            {
+              "scan": "s055",
+              "quote": "He married Maxine Phyllis Johnson 27 July 1942."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "patricia-lynn-kastl-1944",
+        "barbara-ann-kastl-1947",
+        "martha-elizabeth-kastl-1949",
+        "daniel-edward-kastl-1950",
+        "laura-ellen-kastl-1952",
+        "veronica-jean-kastl-1953"
+      ],
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "patricia1944-samuel",
+      "partners": [
+        "patricia-lynn-kastl-1944",
+        "samuel-alan-muzny"
+      ],
+      "heading": "The family of Patricia L. Kastl and Samuel A. Muzny",
+      "marriage": [
+        {
+          "value": "2 October 1964",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "1. PATRICIA LYNN — (b) 11 Apr. 1944. (m) Samuel Alan Muzny—2 Oct. 1964."
+            },
+            {
+              "scan": "s055",
+              "quote": "She married Samuel Alan Muzny 2 October 1964."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "brian-keith-muzny-1965",
+        "timothy-alan-muzny-1967"
+      ],
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "barbara1947-nolan",
+      "partners": [
+        "barbara-ann-kastl-1947",
+        "nolan-lee-arthur"
+      ],
+      "heading": "The family of Barbara Ann Kastl and Nolan Lee Arthur",
+      "marriage": [
+        {
+          "value": "27 June 1965",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "2. BARBARA ANN — (b) 13 Aug. 1947. (m) Nolan Lee Arthur—27 June 1965."
+            },
+            {
+              "scan": "s055",
+              "quote": "She married Nolan Lee Arthur 27 June 1965."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "kimberly-ann-arthur-1967",
+        "teresa-lynn-arthur-1970"
+      ],
+      "sources": [
+        "s055"
+      ]
+    },
+    {
+      "id": "martha1949-george",
+      "partners": [
+        "martha-elizabeth-kastl-1949",
+        "george-william-hill"
+      ],
+      "heading": "The family of Martha Elizabeth Kastl and George W. Hill",
+      "marriage": [
+        {
+          "value": "17 April 1970",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. MARTHA ELIZABETH — (b) 31 May 1949. (m) George William Hill—17 Apr. 1970."
+            }
+          ]
+        },
+        {
+          "value": "17 April 1980",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "She married George William Hill 17 April 1980."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "kristi-lynn-hill-1970"
+      ],
+      "note": "The marriage is printed as 17 Apr. 1970 in Martha's parents' list (p. 53) and as 17 April 1980 in her own entry (p. 54); both are kept. Their daughter Kristi Lynn was born 1 Nov. 1970.",
+      "sources": [
+        "s055",
+        "s056"
+      ]
+    },
+    {
+      "id": "daniel1950-hope",
+      "partners": [
+        "daniel-edward-kastl-1950",
+        "hope-ann-buchanan"
+      ],
+      "heading": "The family of Daniel Edward Kastl and Hope Ann Buchanan",
+      "marriage": [
+        {
+          "value": "10 September 1976",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "4. DANIEL EDWARD — (b) 2 July 1950. (m) Hope Ann Buchanan—10 Sept. 1976."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Hope Ann Buchanan 10 September 1976."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "brad-joseph-kastl-1978",
+        "gary-daniel-kastl-1980"
+      ],
+      "sources": [
+        "s055",
+        "s056"
+      ]
+    },
+    {
+      "id": "laura1952-charles",
+      "partners": [
+        "laura-ellen-kastl-1952",
+        "charles-glenn-collum"
+      ],
+      "heading": "The family of Laura Ellen Kastl and Charles Glenn Collum",
+      "marriage": [
+        {
+          "value": "3 June 1972",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "5. LAURA ELLEN — (b) 4 Apr. 1952. (m) Charles Glenn Collum—3 June 1972."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married Charles Glenn Collum 3 June 1972."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "ginger-lee-collum-1972",
+        "ashley-renee-collum-1978"
+      ],
+      "sources": [
+        "s055",
+        "s056"
+      ]
+    },
+    {
+      "id": "veronica1953-wallace",
+      "partners": [
+        "veronica-jean-kastl-1953",
+        "wallace-exile-maloney-iii"
+      ],
+      "heading": "The family of Veronica Jean Kastl and Wallace Exile Maloney III",
+      "marriage": [
+        {
+          "value": "5 January 1972",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "6. VERONICA JEAN — (b) 16 Mar. 1953. (m) Wallace Exile Maloney III—5 Jan. 1972."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married Wallace Exile Maloney III 5 January 1972."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "wallace-exile-maloney-iv-1972",
+        "melissa-dawn-maloney-1974"
+      ],
+      "sources": [
+        "s055",
+        "s056"
+      ]
+    },
+    {
+      "id": "emil1919-velma",
+      "partners": [
+        "emil-ernest-kastl-1919",
+        "velma-pauline-johnson"
+      ],
+      "heading": "The family of Emil Ernest Kastl and Velma Pauline Johnson",
+      "marriage": [
+        {
+          "value": "21 October 1944",
+          "sources": [
+            {
+              "scan": "s055",
+              "quote": "3. EMIL ERNEST — (b) 16 Nov. 1919. (m) Velma Pauline Johnson—21 Oct. 1944."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Velma Pauline Johnson 21 October 1944."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "michael-lee-kastl-1948",
+        "beverly-ann-kastl-1949",
+        "constance-sue-kastl-1952",
+        "dennis-anthony-kastl-1954",
+        "timothy-kevin-kastl-1958"
+      ],
+      "sources": [
+        "s055",
+        "s056"
+      ]
+    },
+    {
+      "id": "michael1948-teresa",
+      "partners": [
+        "michael-lee-kastl-1948",
+        "teresa-margaret-castle"
+      ],
+      "heading": "The family of Michael Lee Kastl and Teresa Margaret Castle",
+      "marriage": [
+        {
+          "value": "28 July 1973",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. MICHAEL LEE — (b) 23 June 1948. (m) Teresa Margaret Castle—28 July 1973."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Teresa Margaret Castle 28 July 1973."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "jill-marie-kastl-1978",
+        "andrea-leigh-kastl-1981"
+      ],
+      "sources": [
+        "s056"
+      ]
+    },
+    {
+      "id": "constance1952-leslie",
+      "partners": [
+        "constance-sue-kastl-1952",
+        "leslie-bart-brashears"
+      ],
+      "heading": "The family of Constance Sue Kastl and Leslie Bart Brashears",
+      "marriage": [
+        {
+          "value": "22 November 1975",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. CONSTANCE SUE — (b) 15 Mar. 1952. (m) Leslie Bart Brashears—22 Nov. 1975."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married Leslie Bart Brashears 22 November 1975."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "angela-christine-brashears-1979",
+        "christopher-todd-brashears-1981",
+        "amanda-renee-brashears-1983"
+      ],
+      "sources": [
+        "s056"
+      ]
+    },
+    {
+      "id": "elizabeth1891-john",
+      "partners": [
+        "elizabeth-kastl-1891",
+        "john-cyril-rerucha"
+      ],
+      "heading": "The family of Elizabeth Kastl and J. Cyril Rerucha",
+      "marriage": [
+        {
+          "value": "23 January 1912, Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s049",
+              "quote": "10. ELIZABETH — (b) 17 Apr. 1891. (d) 1965. (m) John Cyril Rerucha 23 Jan. 1912—Plasi."
+            },
+            {
+              "scan": "s056",
+              "quote": "She married John Cyril Rerucha 23 January 1912 at Plasi, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "frank-kohoutek-1915",
+        "louis-peter-rerucha-1913",
+        "regina-rerucha-1924",
+        "zita-rerucha-1922"
+      ],
+      "note": "Children in printed order. Frank Kohoutek (b. 1915) and Ludvick, who is Louis Peter Rerucha in his own entry (b. 1913), were adopted on 9 July 1921; the book calls them natural brothers and names no other parents for them. Frank kept his original surname, and the 1986 supplement's lineages run \"(Frank Kohoutek, Elizabeth Kastl Rerucha, Jacob)\" through this adoption; the book does not mention any other marriage of Elizabeth's. Zita (b. 1922) is listed after Regina (b. 1924). Elizabeth's death is 1965 in the 1985 book and 1968 in the 1986 supplement.",
+      "sources": [
+        "s049",
+        "s056",
+        "s076"
+      ]
+    },
+    {
+      "id": "frank1915-carole",
+      "partners": [
+        "frank-kohoutek-1915",
+        "carole-hjelte"
+      ],
+      "heading": "The family of Frank Kohoutek and Carole Hjelte",
+      "marriage": [
+        {
+          "value": "20 June 1946",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. FRANK KOHOUTEK — (b) 5 Sept. 1915—Oakley, MI. (Adopted 9 July 1921—Did not change name) (m) Carole Hjelte—20 June 1946."
+            },
+            {
+              "scan": "s056",
+              "quote": "Frank married Carole Hjelte 20 June 1946."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "william-richard-kohoutek-1947",
+        "jane-marie-kohoutek-1948"
+      ],
+      "note": "The 1986 supplement corrects the second child's name: \"JUNE should be JANE\". Her husband is \"Kenneth James Tyko\" in the 1985 list and \"Kenneth James Tyk\" in the supplement.",
+      "sources": [
+        "s056",
+        "s076"
+      ]
+    },
+    {
+      "id": "william1947-lynn",
+      "partners": [
+        "william-richard-kohoutek-1947",
+        "lynn-bauman"
+      ],
+      "heading": "The family of William Richard Kohoutek and Lynn Bauman",
+      "marriage": [
+        {
+          "value": "4 April 1970",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. WILLIAM RICHARD — (b) 5 Aug. 1947. (m) Lynn Bauman—4 Apr. 1970."
+            },
+            {
+              "scan": "s076",
+              "quote": "He married Lynn Bauman—4 April 1970."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "lauren-kohoutek-1967",
+        "karen-anne-kohoutek-1971"
+      ],
+      "note": "Lauren (b. 18 Dec. 1967, before the 1970 marriage) is printed as \"daughter of Lynn, adopted by William\"; she is kept in this list as printed. No surname is printed for her.",
+      "sources": [
+        "s056",
+        "s076"
+      ]
+    },
+    {
+      "id": "jane1948-kenneth",
+      "partners": [
+        "jane-marie-kohoutek-1948",
+        "kenneth-james-tyk"
+      ],
+      "heading": "The family of Jane Marie Kohoutek and James Tyk",
+      "marriage": [
+        {
+          "value": "4 December 1971",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. JUNE MARIE — (b) 25 July 1948. (m) Kenneth James Tyko—4 Dec. 1971."
+            },
+            {
+              "scan": "s076",
+              "quote": "She married Kenneth James Tyk—4 December 1971."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "chad-michael-tyk-1972",
+        "stephen-daniel-tyk-1978"
+      ],
+      "note": "The heading names \"James Tyk\"; the entry names him \"Kenneth James Tyk\", and the 1985 list \"Kenneth James Tyko\".",
+      "sources": [
+        "s056",
+        "s076"
+      ]
+    },
+    {
+      "id": "louis1913-juliette",
+      "partners": [
+        "louis-peter-rerucha-1913",
+        "juliette-elizabeth-gill"
+      ],
+      "heading": "The family of Louis Peter Rerucha and Juliette Gill",
+      "marriage": [
+        {
+          "value": "24 May 1951",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "2. LUDVICK — (b) Jan. 4, 1913. (Adopted 9 July 1921) (d) 20 Aug. 1981. (m) 24 May 1951—Juliette Gill."
+            },
+            {
+              "scan": "s056",
+              "quote": "He married Juliette Elizabeth Gill 24 May 1951."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "william-louis-rerucha-1954",
+        "juliette-elizabeth-rerucha-1957"
+      ],
+      "sources": [
+        "s056"
+      ]
+    },
+    {
+      "id": "william1954-marie",
+      "partners": [
+        "william-louis-rerucha-1954",
+        "marie-frances-bosanac"
+      ],
+      "heading": "The family of William Louis Rerucha and Marie F. Bosanac",
+      "marriage": [
+        {
+          "value": "18 October 1975",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "1. WILLIAM LOUIS — (b) 4 Dec. 1954. (m) Marie Frances Bosanac—18 Oct. 1975."
+            },
+            {
+              "scan": "s076",
+              "quote": "He married Marie Frances Bosanac—18 October 1975."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "daniel-joseph-rerucha-1979",
+        "sara-marie-rerucha-1982",
+        "michael-william-rerucha-1983"
+      ],
+      "sources": [
+        "s056",
+        "s076"
+      ]
+    },
+    {
+      "id": "regina1924-richard",
+      "partners": [
+        "regina-rerucha-1924",
+        "richard-george"
+      ],
+      "heading": "The family of Regina Rerucha and Richard George",
+      "marriage": [
+        {
+          "value": "6 September 1958",
+          "sources": [
+            {
+              "scan": "s056",
+              "quote": "3. REGINA — (b) 20 Aug. 1924. (m) Richard George—6 Sept. 1958 (Born 13, Feb. 1926) (Adopted Children)"
+            },
+            {
+              "scan": "s057",
+              "quote": "6 September 1958. Their children:"
+            },
+            {
+              "scan": "s076",
+              "quote": "She married Richard George—6 September 1958."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "christopher-george-1961",
+        "monica-george-1966"
+      ],
+      "note": "Printed in the 1985 book (pp. 54-55) and again in the 1986 supplement, which calls the children \"Their adopted children\" and adds their adoption dates. Regina's line in her parents' list notes \"(Adopted Children)\".",
+      "sources": [
+        "s056",
+        "s057",
+        "s076"
+      ]
+    },
+    {
+      "id": "zita1922-john",
+      "partners": [
+        "zita-rerucha-1922",
+        "john-a-surlak"
+      ],
+      "heading": "The family of Zita Rerucha and John A. Surlak",
+      "marriage": [
+        {
+          "value": "14 September 1946",
+          "sources": [
+            {
+              "scan": "s076",
+              "quote": "She married John A. Surlak—14 September 1946."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "thomas-j-surlak-1948",
+        "donna-e-surlak-1958"
+      ],
+      "note": "Printed only in the 1986 supplement. Zita's line in the 1985 list (p. 54) gives her husband as Frank Vavruska; the supplement names John A. Surlak. Both are kept on her record; the book does not explain the difference.",
+      "sources": [
+        "s076"
+      ]
+    },
+    {
+      "id": "antonia1893-joseph",
+      "partners": [
+        "antonia-kastl-1893",
+        "joseph-rathovec-1893"
+      ],
+      "heading": "The family of Antonia Kastl and Joseph Rathovec",
+      "marriage": [
+        {
+          "value": "12 January 1915, Plasi, Nebraska",
+          "sources": [
+            {
+              "scan": "s049",
+              "quote": "11. ANTONIA — (b) 20 June 1893. (m) Joseph Rathovec 12 Jan. 1915—Plasi."
+            },
+            {
+              "scan": "s057",
+              "quote": "She married Joseph Rathovec 12 January 1915 at Plasi, Nebraska."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "mary-rathovec-1925",
+        "martha-rathovec-1927",
+        "anita-rathovec-1928",
+        "quentin-rathovec-1932"
+      ],
+      "sources": [
+        "s049",
+        "s057"
+      ]
+    },
+    {
+      "id": "mary1925-anthony",
+      "partners": [
+        "mary-rathovec-1925",
+        "anthony-sabata"
+      ],
+      "heading": "The family of Mary Rathovec and Anthony Sabata",
+      "children": [
+        "tony-ray-sabata-1945",
+        "mary-jane-sabata-1951",
+        "nancy-ann-sabata-of-mary1925",
+        "thomas-lane-sabata-of-mary1925"
+      ],
+      "note": "No marriage date is printed. Nancy Ann's and Thomas Lane's lines end \"(b)\" with no date.",
+      "sources": [
+        "s057"
+      ]
+    },
+    {
+      "id": "martha1927-john",
+      "partners": [
+        "martha-rathovec-1927",
+        "john-b-sabata"
+      ],
+      "heading": "The family of Martha Rathovec and John B. Sabata",
+      "marriage": [
+        {
+          "value": "1948",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "2. MARTHA — (b) 1 May 1927. (m) John B. Sabata—1948."
+            },
+            {
+              "scan": "s057",
+              "quote": "She married John B. Sabata in 1948."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "algene-sabata-1951",
+        "john-l-sabata-1955"
+      ],
+      "sources": [
+        "s057"
+      ]
+    },
+    {
+      "id": "anita1928-leander",
+      "partners": [
+        "anita-rathovec-1928",
+        "leander-svoboda"
+      ],
+      "heading": "The family of Anita Rathovec and Leander Svoboda",
+      "marriage": [
+        {
+          "value": "1948",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "3. ANITA — (b) 29 Nov. 1928. (m) Leander Svoboda—1948."
+            },
+            {
+              "scan": "s057",
+              "quote": "She married Leander Svoboda in 1948."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "carol-jean-svoboda-1949",
+        "patricia-ann-svoboda-1951",
+        "marilyn-svoboda-1952",
+        "kenneth-lee-svoboda-1955",
+        "thomas-james-svoboda-1958",
+        "ronald-vincent-svoboda-1959",
+        "sharon-marie-svoboda-1960",
+        "diane-lyn-svoboda-1965"
+      ],
+      "sources": [
+        "s057"
+      ]
+    },
+    {
+      "id": "quentin1932-rose",
+      "partners": [
+        "quentin-rathovec-1932",
+        "rose-ann-pokorny"
+      ],
+      "heading": "The family of Quentin Rathovec and Rose Ann Pokorny",
+      "marriage": [
+        {
+          "value": "1952",
+          "sources": [
+            {
+              "scan": "s057",
+              "quote": "4. QUENTIN — (b) 4 Nov. 1932. (m) Rose Ann Pokorny—1952."
+            },
+            {
+              "scan": "s057",
+              "quote": "He married Rose Ann Pokorny in 1952."
+            }
+          ]
+        }
+      ],
+      "children": [
+        "rose-ann-rathovec-1953",
+        "edward-j-rathovec-1956",
+        "michael-rathovec-1958",
+        "benjamin-rathovec-1960",
+        "kathy-lyn-rathovec-1961",
+        "susan-rathovec-1971"
+      ],
+      "sources": [
+        "s057"
       ]
     }
   ]

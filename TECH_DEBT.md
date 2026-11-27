@@ -18,7 +18,6 @@ committing new copies.
   is typed over (24 over 14?). p. 62 prints 14 April 1828.
 
 ## Scope
-Built out as structured people so far: the shared roots and the branches of Peter, Wenzel,
-Josef, Thomas, Andrew, John and Anna Kastl Zima, and the first part of Jacob's. The rest of
-Jacob's exists in the book reader
-(transcriptions + scans) only until U5b lands (see BACKLOG.md).
+All seven brothers' branches, Anna Kastl Zima's and the shared roots are built out as
+structured people (1,284). Integration across branches (U7) and the full verification (BACKLOG
+step 8) are still to do.
