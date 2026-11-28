@@ -11,6 +11,7 @@ people data in `docs/EXTRACTION.md`.
   with immediate families (55 people), person pages, book reader, search.
 - Done: steps 1–5 below (refocus on the brothers, per-branch data files, tree, table, PDF links).
 - Done (1.1.0, 2026-11-27): F1 narrative links and F2 photo album.
+- Done (1.2.0, 2026-11-28): F4 emigration timeline.
 - Done: step 8a/8b (build checks). Step 6: U1 (Josef), U2 (Peter), U3 (Wenzel, Thomas, Zima), U6 (Andrew), U4a+U4b (John), U5a+U5b (Jacob) and U7 (integration) done. Step 6 is complete. Steps 6 and 8 (targeted) done. Next: the owner's future-session list (F1–F5) below.
 
 ## Next, in order
@@ -233,8 +234,17 @@ gazetteer file committed to the repo), not fetched at runtime; keep spellings as
 normalised key. Map library: a pinned CDN version only if needed, or a simple inline SVG of
 Nebraska plus a Bohemia inset.
 
-### F4. Emigration timeline
-1866–1872: each brother's arrival (date, port, ship, who came with him), then homesteads,
+### F4. Emigration timeline — DONE (2026-11-28, v1.2.0)
+Result: `/timeline/` ("Coming to America"), in the main nav: an arrivals table (who, date, ship,
+who came with them) and 35 events by decade, 1865–1935: arrivals, homesteads and log houses, the
+first deaths in America (Mathias and Theresia), the moves to Illinois, California, Oklahoma and
+Kansas, James Zima's arrival in 1922, and the brothers' deaths. Data in `content/timeline.json`;
+every event quotes the book and the build checks the quotes (84). Peter's year (1865 family
+story vs 1866) and John's ship (SS Baltimore vs SS Berlin) show both readings. Peter's record
+gained the 1865 reading as a second immigration fact (it was missing). Person pages of everyone
+on the timeline link to their first event.
+
+Original brief: 1866–1872: each brother's arrival (date, port, ship, who came with him), then homesteads,
 first deaths in America, moves to California, Oklahoma and Illinois. Built from `immigration`,
 `homestead` and `residence` facts. Where sources differ (Peter's year; John's ship, SS Baltimore
 vs SS Berlin), show both readings. Script-only; no agent.

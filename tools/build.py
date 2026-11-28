@@ -211,11 +211,44 @@ def norm(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def check_quotes(data, pages_by_scan):
+def quote_corpus(pages_by_scan):
     corpus = {}
     for scan, p in pages_by_scan.items():
         caps = " ".join((ph.get("caption") or "") for ph in p["photos"])
         corpus[scan] = norm(p["body"] + " " + caps)
+    return corpus
+
+
+def check_timeline(tl, pages_by_scan, people):
+    """Every timeline quote must be verbatim on its page, like person facts; people must exist."""
+    corpus, problems = quote_corpus(pages_by_scan), []
+
+    def chk(sources, where):
+        if not sources:
+            problems.append(f"{where}: needs at least one source")
+        for s in sources:
+            if s.get("scan") not in corpus:
+                problems.append(f"{where}: unknown scan {s.get('scan')}")
+            elif norm(s.get("quote", "")) not in corpus[s["scan"]]:
+                problems.append(f"{where}: quote not found in {s['scan']}: {s.get('quote', '')[:90]!r}")
+    chk(tl.get("route", []), "timeline route")
+    for i, ev in enumerate(tl.get("events", [])):
+        where = f"timeline event {i + 1} ({ev.get('when')}: {ev.get('title')})"
+        if ev.get("kind") not in TIMELINE_KINDS:
+            problems.append(f"{where}: unknown kind {ev.get('kind')!r}")
+        if not re.match(r"^\d{4}(-\d\d(-\d\d)?)?$", ev.get("date", "")):
+            problems.append(f"{where}: date must be YYYY, YYYY-MM or YYYY-MM-DD")
+        for pid in ev.get("people", []) + (ev.get("arrival") or {}).get("who", []):
+            if pid not in people:
+                problems.append(f"{where}: unknown person {pid}")
+        chk(ev.get("sources", []), where)
+        for r in ev.get("readings", []):
+            chk(r.get("sources", []), f"{where}, reading {r.get('label')}")
+    return problems
+
+
+def check_quotes(data, pages_by_scan):
+    corpus = quote_corpus(pages_by_scan)
     problems = []
 
     def chk(scan, q, where):
@@ -527,7 +560,7 @@ def short_fact(tree, pid, t):
 
 
 # ----------------------------------------------------------------------------- layout
-CSS_VERSION = "12"
+CSS_VERSION = "13"
 PDFS = [("source/kastl-family-history-part1.pdf", "Scans, part 1", "PDF, 28 MB"),
         ("source/kastl-family-history-part2.pdf", "Scans, part 2", "PDF, 27 MB")]
 
@@ -561,8 +594,8 @@ def layout(prefix, title, body, *, description, path, active="", image=None, ima
               + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
               + "</script>\n")
     nav = [("tree/index.html", "Family tree", "tree"), ("people/index.html", "People", "people"),
-           ("photos/index.html", "Photos", "photos"), ("book/index.html", "The book", "book"),
-           ("about/index.html", "About", "about")]
+           ("timeline/index.html", "Timeline", "timeline"), ("photos/index.html", "Photos", "photos"),
+           ("book/index.html", "The book", "book"), ("about/index.html", "About", "about")]
     links = "".join(
         f'<a href="{prefix}{h}"{CURRENT if k == active else ""}>{t}</a>' for h, t, k in nav)
     return f"""<!doctype html>
@@ -757,7 +790,7 @@ def descent_html(tree, pid, prefix):
             f'<ol>{"".join(items)}</ol></nav>')
 
 
-def build_person(tree, pid, pages_by_scan, mentions=()):
+def build_person(tree, pid, pages_by_scan, mentions=(), on_timeline=None):
     prefix = "../../"
     p = tree.people[pid]
     parts = []
@@ -776,7 +809,9 @@ def build_person(tree, pid, pages_by_scan, mentions=()):
     if yrs:
         parts.append(f'<p class="lede-years">{esc(yrs)}</p>')
     parts.append(descent_html(tree, pid, prefix))
-    parts.append(f'<p class="person-tools"><a class="btn ghost" href="{prefix}tree/index.html?focus={pid}">Show in the family tree</a></p>')
+    tl_btn = (f' <a class="btn ghost" href="{prefix}timeline/index.html#{on_timeline}">On the emigration timeline</a>'
+              if on_timeline else "")
+    parts.append(f'<p class="person-tools"><a class="btn ghost" href="{prefix}tree/index.html?focus={pid}">Show in the family tree</a>{tl_btn}</p>')
 
     # photos
     photos = []
@@ -938,6 +973,7 @@ def build_home(tree, pages_by_scan):
     <li><a href="tree/index.html"><strong>Family tree</strong><span>From Andreas Kastl down through every branch.</span></a></li>
     <li><a href="people/index.html"><strong>Everyone, in a table</strong><span>Filter and sort by name, dates, branch; download as CSV.</span></a></li>
     <li><a href="book/index.html"><strong>The book, page by page</strong><span>All 76 scans beside their transcriptions.</span></a></li>
+    <li><a href="timeline/index.html"><strong>Coming to America</strong><span>The brothers’ arrivals 1865–1872, their homesteads and the family’s later moves.</span></a></li>
     <li><a href="photos/index.html"><strong>Photos</strong><span>Every picture in the book, with its caption and the people in it.</span></a></li>
     <li><a href="search/index.html"><strong>Search</strong><span>Names, places and years across the whole book.</span></a></li>
   </ul>
@@ -1108,6 +1144,7 @@ def build_about(tree):
 <h2>What is here</h2>
 <ul>
 <li><a href="{prefix}book/index.html">The book</a>: all 76 scanned pages, each beside a transcription of its text. Names in the narrative chapters and articles link to the person’s page wherever the book makes clear who is meant.</li>
+<li><a href="{prefix}timeline/index.html">The timeline</a>: how the brothers came to America, 1865–1872, and where the family went next.</li>
 <li><a href="{prefix}photos/index.html">Photos</a>: every picture in the book in one album, with the book’s captions.</li>
 <li><a href="{prefix}tree/index.html">The family tree</a> and <a href="{prefix}people/index.html">a table of everyone</a>: {n_people} people, from the earliest Kastl ancestors through the seven brothers, their half-sister Anna and all their descendants named in the book.</li>
 </ul>
@@ -1368,6 +1405,104 @@ def build_photos(tree, pages, pages_by_scan):
                                       image_alt="The Jacob Kastl family, a studio portrait of ten people"))
 
 
+# ----------------------------------------------------------------------------- emigration timeline
+# content/timeline.json (BACKLOG F4). Kinds, in the words shown on the page.
+TIMELINE_KINDS = {"arrival": "Arrival", "homestead": "Homestead", "settling": "Settling in",
+                  "family": "Family", "death": "Death", "move": "Moving on", "context": "Background"}
+
+
+def load_timeline():
+    f = CONTENT / "timeline.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"events": []}
+
+
+def timeline_anchor(ev):
+    return "t-" + slugify(ev["date"] + " " + ev["title"])
+
+
+def timeline_first_event(tl):
+    """{person id: anchor of the first event they appear in}."""
+    out = {}
+    for ev in sorted(tl.get("events", []), key=lambda e: e["date"]):
+        for pid in ev.get("people", []) + (ev.get("arrival") or {}).get("who", []):
+            out.setdefault(pid, timeline_anchor(ev))
+    return out
+
+
+def build_timeline(tree, tl, pages_by_scan):
+    prefix = "../"
+    events = sorted(tl.get("events", []), key=lambda e: e["date"])
+
+    def plink(pid):
+        return f'<a href="{prefix}people/{pid}/index.html">{esc(tree.people[pid]["name"])}</a>'
+
+    def page_links(sources):
+        seen = []
+        for s in sources:
+            if s["scan"] not in seen:
+                seen.append(s["scan"])
+        return " ".join(src_link(sc, pages_by_scan, prefix) for sc in seen)
+
+    # the arrivals table
+    rows = []
+    for ev in events:
+        a = ev.get("arrival")
+        if not a:
+            continue
+        srcs = ev["sources"] + [s for r in ev.get("readings", []) for s in r["sources"]]
+        when = esc(ev["when"]) + (DIFFERS_DOT if a.get("differs") == "when" else "")
+        ship = esc(a["ship"]) if a.get("ship") else '<span class="muted">No record found</span>'
+        if a.get("differs") == "ship":
+            ship += DIFFERS_DOT
+        rows.append(f'<tr><th scope="row">{" and ".join(plink(x) for x in a["who"])}</th>'
+                    f'<td data-label="Arrived"><a href="#{timeline_anchor(ev)}">{when}</a></td><td data-label="Ship">{ship}</td>'
+                    f'<td data-label="With them">{esc(a.get("with", ""))}</td><td data-label="Pages" class="pages-col">{page_links(srcs)}</td></tr>')
+    table = ('<div class="table-scroll"><table class="arrivals"><thead><tr><th scope="col">Who</th><th scope="col">Arrived</th>'
+             '<th scope="col">Ship (Bremen to Baltimore)</th><th scope="col">With them</th><th scope="col">Pages</th></tr></thead>'
+             f'<tbody>{"".join(rows)}</tbody></table></div>')
+
+    # the timeline, by decade
+    items, decade = [], None
+    for ev in events:
+        d = ev["date"][:3] + "0s"
+        if d != decade:
+            if decade:
+                items.append("</ol></section>")
+            decade = d
+            items.append(f'<section class="tl-dec" aria-labelledby="d{d}"><h2 id="d{d}">The {d}</h2><ol class="tl">')
+        readings = ""
+        if ev.get("readings"):
+            rs = "".join(f'<li><strong>{esc(r["label"])}</strong>: {esc(r["text"])} {sources_block(r["sources"], pages_by_scan, prefix)}</li>'
+                         for r in ev["readings"])
+            readings = f'<div class="tl-differs"><p class="differs">The sources differ</p><ul>{rs}</ul></div>'
+        ppl = ev.get("people", [])
+        people = (f'<p class="tl-people"><span class="muted">People:</span> {", ".join(plink(x) for x in ppl)}</p>' if ppl else "")
+        items.append(
+            f'<li class="tl-ev tl-{ev["kind"]}" id="{timeline_anchor(ev)}">'
+            f'<p class="tl-when">{esc(ev["when"])}</p>'
+            f'<div class="tl-body"><p class="tl-kind">{TIMELINE_KINDS[ev["kind"]]}</p>'
+            f'<h3>{esc(ev["title"])}</h3><p>{esc(ev["text"])}</p>{readings}{people}'
+            f'<p class="tl-src">{sources_block(ev["sources"], pages_by_scan, prefix)}</p></div></li>')
+    if decade:
+        items.append("</ol></section>")
+
+    route = "".join(f'<blockquote class="excerpt"><p>{inline(s["quote"])}</p><footer>{src_link(s["scan"], pages_by_scan, prefix)}</footer></blockquote>'
+                    for s in tl.get("route", []))
+    body = f"""<div class="wrap timeline-page">
+<p class="kicker">Timeline</p>
+<h1>Coming to America</h1>
+<p class="lede">The seven brothers came over one by one between 1865 and 1872: Peter first, John last. This is their journey and their first years as the book tells it, then the family’s moves to Illinois, California, Oklahoma and Kansas. Every entry cites the book’s own words; where the book disagrees with itself, both readings are shown.</p>
+{route}
+<h2 id="arrivals">The arrivals</h2>
+{table}
+<p class="muted">≠ the sources differ; the entry below shows both readings.</p>
+{"".join(items)}
+</div>"""
+    write("timeline/index.html", layout(prefix, "Timeline", body,
+                                        description="How the seven Kastl brothers came from Bohemia to America, 1865–1872: ships, arrival dates, homesteads, and the family's later moves, from Kastl Family History.",
+                                        path="timeline/", active="timeline"))
+
+
 # ----------------------------------------------------------------------------- 404 + sitemap
 # ----------------------------------------------------------------------------- review report (unlisted)
 def build_review(tree, pages_by_scan, warnings):
@@ -1507,6 +1642,11 @@ def main():
     if problems:
         print("Quote check failed:", *problems, sep="\n  ")
         sys.exit(1)
+    timeline = load_timeline()
+    problems = check_timeline(timeline, pages_by_scan, data["people"])
+    if problems:
+        print("Timeline check failed (content/timeline.json):", *problems, sep="\n  ")
+        sys.exit(1)
     links = load_links()
     link_spans, problems = locate_links(links, pages_by_scan, data["people"])
     if problems:
@@ -1528,19 +1668,21 @@ def main():
     (CONTENT / "verification" / "build-warnings.txt").write_text(
         "Plausibility warnings from tools/checks.py (not errors; the book has real oddities).\n"
         + "".join(w + "\n" for w in warnings), encoding="utf-8")
-    for d in ("people", "book", "tree", "review", "photos"):
+    for d in ("people", "book", "tree", "review", "photos", "timeline"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     mentions = {}
     for scan in sorted(link_spans):
         for j, (_, _, pid, phrase) in enumerate(link_spans[scan]):
             mentions.setdefault(pid, []).append((scan, j + 1, phrase))
+    on_timeline = timeline_first_event(timeline)
     for pid in tree.people:
-        build_person(tree, pid, pages_by_scan, mentions.get(pid, ()))
+        build_person(tree, pid, pages_by_scan, mentions.get(pid, ()), on_timeline.get(pid))
     build_people_index(tree, pages_by_scan)
     build_tree(tree)
     build_home(tree, pages_by_scan)
     build_book(tree, pages, pages_by_scan, link_spans)
     build_photos(tree, pages, pages_by_scan)
+    build_timeline(tree, timeline, pages_by_scan)
     build_about(tree)
     build_search(tree, pages)
     build_404()
@@ -1552,6 +1694,9 @@ def main():
     print(f"Built {len(tree.people)} people, {len(pages)} book pages; {nq} cited quotes verified.")
     print(f"Checks: {summary} (listed in content/verification/build-warnings.txt).")
     print(f"Links: {link_summary} (content/links.json).")
+    n_tq = len(timeline.get("route", [])) + sum(len(e["sources"]) + sum(len(r["sources"]) for r in e.get("readings", []))
+                                                 for e in timeline["events"])
+    print(f"Timeline: {len(timeline['events'])} events, {n_tq} quotes verified (content/timeline.json).")
 
 
 if __name__ == "__main__":

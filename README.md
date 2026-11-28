@@ -13,6 +13,7 @@ Live at <https://jkastl.github.io/kfh/>.
 | `media/pages/`, `media/thumbs/` | One image per scan, `s001`–`s076`, cut from the PDFs. |
 | `content/pages/sNNN.md` | Faithful transcription of each scan (JSON front matter + Markdown). |
 | `content/people/*.json` | Structured people and families, one file per branch; every fact cited to a scan. |
+| `content/timeline.json` | The emigration timeline: events 1865–1935, each with the book's exact words, checked on every build. |
 | `content/links.json` | Links from names in the narrative chapters and articles to person pages, plus the references left unlinked as ambiguous. Checked on every build. |
 | `VERSION`, `CHANGELOG.md` | The site's semantic version (shown in the footer) and release notes. |
 | `content/verification/` | Logs from the independent proofreading pass. |

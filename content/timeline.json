@@ -1,0 +1,870 @@
+{
+  "about": "The emigration timeline (BACKLOG F4): the brothers' arrivals 1865–1872, their homesteads, the first deaths in America and the later moves to Illinois, California, Oklahoma and Kansas. Each event is a short summary in the site's words; its sources quote the book word for word and are checked on every build like person facts. Where the sources disagree, the event has readings, each with its own sources. date sorts the events (YYYY, YYYY-MM or YYYY-MM-DD); when is shown. An event with arrival is also a row in the arrivals table; its differs (\"when\" or \"ship\") marks the column the readings disagree on. route: the book's own description of the journey, shown at the top.",
+  "route": [
+    {
+      "scan": "s009",
+      "quote": "Leaving their small villages they left by train for Bremen, Germany where they boarded ship, arriving in Baltimore in three or four weeks."
+    },
+    {
+      "scan": "s010",
+      "quote": "Our people came west by train as far as Fremont or North Bend, Nebraska, where they forded and Platte River into Saunders County."
+    }
+  ],
+  "events": [
+    {
+      "date": "1865",
+      "when": "1865 or 1866",
+      "kind": "arrival",
+      "title": "Peter, the first to leave",
+      "text": "Peter, the eldest brother, leaves Bohemia with his wife Anna and their three children, Anna, Joseph and Mary. He goes first to the Czech settlement at Racine, Wisconsin. No ship record was found.",
+      "people": [
+        "peter-kastl-1827",
+        "anna-frohner",
+        "anna-kastl-1860",
+        "joseph-kastl-1863",
+        "mary-kastl-1865"
+      ],
+      "arrival": {
+        "who": [
+          "peter-kastl-1827"
+        ],
+        "ship": null,
+        "with": "His wife Anna and three children: Anna, Joseph and Mary",
+        "differs": "when"
+      },
+      "sources": [
+        {
+          "scan": "s009",
+          "quote": "Peter was the first to leave. The year is unclear."
+        },
+        {
+          "scan": "s009",
+          "quote": "With Peter and his wife Anna were three children: Anna, Joseph, and Mary."
+        },
+        {
+          "scan": "s010",
+          "quote": "(He served his time and then the authorities wanted him back in the army so he made a hasty departure to America.)"
+        },
+        {
+          "scan": "s010",
+          "quote": "He first went to Racine, Wisconsin where there was a Czech settlement."
+        },
+        {
+          "scan": "s009",
+          "quote": "We did not find any records on Peter or Jakob."
+        }
+      ],
+      "readings": [
+        {
+          "label": "1865",
+          "text": "A family story: Anna Frohner Kastl told her grandchildren they were on a train coming west when Lincoln was assassinated (14 April 1865).",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Grandmother Anna Frohner Kastl told her grandchildren that Abe Lincoln was assassinated (April 14, 1865) while they were on a train coming west."
+            }
+          ]
+        },
+        {
+          "label": "1866",
+          "text": "History of Nebraska (1882) gives 1866.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Andreas' History of Nebraska, Volume II, page 1400, states Peter came in 1866."
+            },
+            {
+              "scan": "s017",
+              "quote": "He emigrated to America in 1866, and located at Cedar Rapids, Iowa,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1866",
+      "when": "1866",
+      "kind": "settling",
+      "title": "Peter in Cedar Rapids, Iowa",
+      "text": "Peter works in the building trade in Cedar Rapids, Iowa.",
+      "people": [
+        "peter-kastl-1827"
+      ],
+      "sources": [
+        {
+          "scan": "s010",
+          "quote": "In 1866 he was in Cedar Rapids, Iowa where he worked in the building trade."
+        }
+      ]
+    },
+    {
+      "date": "1866-09-26",
+      "when": "26 September 1866",
+      "kind": "family",
+      "title": "Thomas J. Kastl born in Iowa",
+      "text": "Peter and Anna's son Thomas is born in Cedar Rapids, Iowa.",
+      "people": [
+        "thomas-j-kastl-1866"
+      ],
+      "sources": [
+        {
+          "scan": "s022",
+          "quote": "THOMAS J. KASTL (Peter, Thomas, John, John, Andreas) born 26 September 1866, Cedar Rapids, Iowa"
+        }
+      ]
+    },
+    {
+      "date": "1867",
+      "when": "1867",
+      "kind": "context",
+      "title": "Nebraska becomes a state",
+      "text": "The book's account of the brothers in Nebraska begins in the year Nebraska became a state.",
+      "people": [],
+      "sources": [
+        {
+          "scan": "s012",
+          "quote": "Our account of the Kastl brothers' life in Nebraska begins in 1867, the year Nebraska became a state."
+        }
+      ]
+    },
+    {
+      "date": "1867-05-29",
+      "when": "29 May 1867",
+      "kind": "arrival",
+      "title": "Andrew and Thomas, aged 13 and 17",
+      "text": "The two youngest brothers arrive at Baltimore from Bremen, probably at Peter's suggestion. Andrew goes to live with Peter's family; Thomas goes first to Cedar Rapids, Iowa.",
+      "people": [
+        "andrew-kastl-1853",
+        "thomas-kastl-1850",
+        "peter-kastl-1827"
+      ],
+      "arrival": {
+        "who": [
+          "andrew-kastl-1853",
+          "thomas-kastl-1850"
+        ],
+        "ship": "SS Johanne Wilhelmine (printed also Johannes—Wilhelmina, Johannes—Wilhelmine)",
+        "with": "Each other"
+      },
+      "sources": [
+        {
+          "scan": "s009",
+          "quote": "The next to arrive May 29, 1867, were Andrew, age 13 and Thomas, age 17. They came on the ship SS Johanne Wilhelmine."
+        },
+        {
+          "scan": "s058",
+          "quote": "A few years later, probably at the suggestion of their older brother Peter, young Thomas and Andrew came to the United States, sailing from Bremen, Germany on the S.S Johannes—Wilhelmina, arriving at the Port of Baltimore on 29 May 1867."
+        },
+        {
+          "scan": "s059",
+          "quote": "According to ship records, young Andrew and his brother Thomas arrived at the Port of Baltimore 29 May 1867 on the ship Johannes—Wilhelmine which sailed from Bremen, Germany."
+        },
+        {
+          "scan": "s012",
+          "quote": "Peter's youngest brother, Andrew, who came from Bohemia in 1867, also lived with the family."
+        },
+        {
+          "scan": "s058",
+          "quote": "Family records show that Thomas first went to Cedar Rapids, Iowa and then on to Champaign, Illinois."
+        }
+      ]
+    },
+    {
+      "date": "1867-06-26",
+      "when": "June 1867",
+      "kind": "homestead",
+      "title": "Peter files for a homestead",
+      "text": "Peter brings his family west by train from Cedar Rapids to Council Bluffs and crosses to Omaha by ferry. On 26 June he files for a homestead at Nebraska City, application No. 1395: 160 acres in Butler County. He is the first Czech settler to apply in the Butler–Saunders area.",
+      "people": [
+        "peter-kastl-1827"
+      ],
+      "sources": [
+        {
+          "scan": "s012",
+          "quote": "Peter Kastl, the first brother to arrive, came as far as Council Bluffs, Iowa, in 1867, by train from Cedar Rapids, Iowa. With him were his wife and four children."
+        },
+        {
+          "scan": "s010",
+          "quote": "On June 26, 1867 Peter was in Nebraska City where he filed for a homestead."
+        },
+        {
+          "scan": "s010",
+          "quote": "Peter Kastl was the first Czech settler to apply for homestead in the Butler—Saunders County area."
+        },
+        {
+          "scan": "s010",
+          "quote": "His application number was 1395."
+        },
+        {
+          "scan": "s010",
+          "quote": "This land was in Butler County, Nebraska."
+        },
+        {
+          "scan": "s017",
+          "quote": "where he resided until June 1867, when he came to Nebraska"
+        }
+      ]
+    },
+    {
+      "date": "1867-10-02",
+      "when": "2 October 1867",
+      "kind": "arrival",
+      "title": "Wenzel and his family",
+      "text": "Wenzel, his wife Barbara and their children arrive at Baltimore on the Humbolt from Bremen (captain Carl Gendes). The ship's list names John, aged 6, Martin, 3, and a Wenzel aged 6 months, who fits no child in the book's family list.",
+      "people": [
+        "wenzel-kastl-1831",
+        "barbara-blachnik",
+        "john-kastl-1861",
+        "martin-kastl-1864"
+      ],
+      "arrival": {
+        "who": [
+          "wenzel-kastl-1831"
+        ],
+        "ship": "SS Humbolt",
+        "with": "His wife Barbara and children John, Martin and an infant Wenzel"
+      },
+      "sources": [
+        {
+          "scan": "s009",
+          "quote": "On October 2, 1867, Wenzel; wife Barbara and three children John, Martin, and Wenzel arrived on the ship SS Humbolt."
+        },
+        {
+          "scan": "s028",
+          "quote": "Wenzel and Barbara came to the United States in 1867, arriving at the Port of Baltimore on October 2."
+        },
+        {
+          "scan": "s028",
+          "quote": "They left from the Port of Bremen, Germany on the vessel Humbolt, ship's captain, Carl Gendes."
+        },
+        {
+          "scan": "s028",
+          "quote": "Listed on the ship's records, as children of Wenzel Kastl, were John, age 6; Martin age 3; and Wenzel, age 6 months."
+        }
+      ]
+    },
+    {
+      "date": "1868-02-09",
+      "when": "9 February 1868",
+      "kind": "family",
+      "title": "Philomena Kastl born",
+      "text": "Peter and Anna's daughter Philomena is born, probably in Omaha.",
+      "people": [
+        "philomena-kastl-1868"
+      ],
+      "sources": [
+        {
+          "scan": "s012",
+          "quote": "Philomena was probably born in Omaha, February 9, 1868."
+        }
+      ]
+    },
+    {
+      "date": "1868-04-22",
+      "when": "22 April 1868",
+      "kind": "arrival",
+      "title": "Joseph and his family",
+      "text": "Joseph (Josef), his wife Dorothea (Dorota) and their children Mathias, 3, and Theresia, 9 months, arrive at Baltimore on the SS Berlin from Bremen. Joseph first works in Omaha as a stone mason and for the Union Pacific, building station houses.",
+      "people": [
+        "josef-kastl-1840",
+        "dorota-blaha",
+        "mathias-kastl-1864",
+        "theresia-kastl-1867"
+      ],
+      "arrival": {
+        "who": [
+          "josef-kastl-1840"
+        ],
+        "ship": "SS Berlin",
+        "with": "His wife Dorothea and children Mathias and Theresia"
+      },
+      "sources": [
+        {
+          "scan": "s009",
+          "quote": "Following Wenzel was Joseph, wife Dorothea and two children Mathias and Theresia, arriving April 22, 1868, on the ship SS Berlin."
+        },
+        {
+          "scan": "s043",
+          "quote": "Josef and Dorota sailed from Bremen, Germany on the ship S.S. Berlin, arriving at the Port of Baltimore on 22 April 1868, with two children, Mathias 3, and Theresia 9 months."
+        },
+        {
+          "scan": "s071",
+          "quote": "Josef first came to Omaha where he was a stone mason. To raise money for his family, he worked for the Union Pacific Railroad building station houses through Nebraska and Wyoming."
+        }
+      ]
+    },
+    {
+      "date": "1868-05-01",
+      "when": "1 May 1868",
+      "kind": "homestead",
+      "title": "Peter settles near Plasi",
+      "text": "Peter pre-empts 80 acres in Section 20, the land near Plasi where he settles.",
+      "people": [
+        "peter-kastl-1827"
+      ],
+      "sources": [
+        {
+          "scan": "s010",
+          "quote": "On May 1, 1868 Peter pre-empted 80 acres, pre-emption Certificate 1163, N½ SE¼ Section 20, Township 15 North, Range 5 East."
+        },
+        {
+          "scan": "s010",
+          "quote": "This is the land where Peter settled in the Plasi vicinity."
+        }
+      ]
+    },
+    {
+      "date": "1868-06-20",
+      "when": "20 June 1868",
+      "kind": "homestead",
+      "title": "Joseph files for a homestead",
+      "text": "Joseph files at Nebraska City, application No. 2069: 80 acres in Newman Precinct, Saunders County. He and his wife live in a cave dug into a hillside while he builds a log cabin.",
+      "people": [
+        "josef-kastl-1840",
+        "dorota-blaha"
+      ],
+      "sources": [
+        {
+          "scan": "s010",
+          "quote": "On June 20, 1868, he filed for homestead at the land office in Nebraska City. Application number was 2069."
+        },
+        {
+          "scan": "s071",
+          "quote": "He proceeded to build a log cabin, but in the meantime lived with his wife in a nearby cave dug into the side of a hill."
+        }
+      ]
+    },
+    {
+      "date": "1868-12",
+      "when": "1868",
+      "kind": "homestead",
+      "title": "The log houses",
+      "text": "Peter moves his family from a dugout into a log house; Joseph builds his 16 by 32 foot log house. The families of Wenzel and Joseph stay in Omaha while the men build.",
+      "people": [
+        "peter-kastl-1827",
+        "josef-kastl-1840",
+        "wenzel-kastl-1831"
+      ],
+      "sources": [
+        {
+          "scan": "s012",
+          "quote": "Peter first built a dugout, a place to live, until he finished his log house in 1868."
+        },
+        {
+          "scan": "s011",
+          "quote": "According to the Land Certificates, the log cabins were built in 1868."
+        },
+        {
+          "scan": "s012",
+          "quote": "The families of Wenzel and Joseph lived in Omaha while the men were erecting their log houses."
+        }
+      ]
+    },
+    {
+      "date": "1869",
+      "when": "1868 or 1869",
+      "kind": "death",
+      "title": "The first deaths in America",
+      "text": "Joseph's two small children, Mathias and Theresia, die soon after arriving and are buried in Omaha.",
+      "people": [
+        "mathias-kastl-1864",
+        "theresia-kastl-1867"
+      ],
+      "sources": [
+        {
+          "scan": "s012",
+          "quote": "It was during this time that Joseph's children, Matthias and Theresa, both died, and were buried in Omaha."
+        },
+        {
+          "scan": "s043",
+          "quote": "These two children died soon after arriving in Nebraska, and buried in Omaha."
+        },
+        {
+          "scan": "s043",
+          "quote": "(d) 1868/9. (bur) Omaha."
+        }
+      ]
+    },
+    {
+      "date": "1869-06",
+      "when": "1869",
+      "kind": "homestead",
+      "title": "Peter gives up the Butler County homestead",
+      "text": "Peter relinquishes his first homestead for the land near Plasi, with its timber and springs, leaving room for the Czech settlers he knows are coming.",
+      "people": [
+        "peter-kastl-1827"
+      ],
+      "sources": [
+        {
+          "scan": "s010",
+          "quote": "The land that he homesteaded in Butler County was relinquished in 1869."
+        },
+        {
+          "scan": "s010",
+          "quote": "also more land was available for further Czech settlers who he knew were soon to come."
+        }
+      ]
+    },
+    {
+      "date": "1870",
+      "when": "1870",
+      "kind": "settling",
+      "title": "Corn to Nebraska City",
+      "text": "Peter and Joseph haul two wagon loads of corn about a hundred miles to Nebraska City. When someone drives off their oxen, Joseph gets their money with a whip and a shotgun.",
+      "people": [
+        "peter-kastl-1827",
+        "josef-kastl-1840"
+      ],
+      "sources": [
+        {
+          "scan": "s014",
+          "quote": "A trip to Nebraska City by Peter and Joseph was made in 1870."
+        },
+        {
+          "scan": "s014",
+          "quote": "He went back with his black snake whip and shotgun, and in strong broken English demanded the money for the corn."
+        }
+      ]
+    },
+    {
+      "date": "1870-06",
+      "when": "Between 1870 and 1880",
+      "kind": "move",
+      "title": "Wenzel moves to Omaha",
+      "text": "Wenzel leaves his homestead near Peter's at Plasi for Omaha. The 1880 census finds the family in Douglas County.",
+      "people": [
+        "wenzel-kastl-1831"
+      ],
+      "sources": [
+        {
+          "scan": "s028",
+          "quote": "Wenzel Kastl had a homestead near Peter Kastl at Plasi, but went to Omaha sometime between 1870 and 1880."
+        },
+        {
+          "scan": "s028",
+          "quote": "Douglas County Census records for 1880 show children of Wenzel and Barbara Kastl as: John 18, Martin 16, Mary 9, Anna 7, and Wenzel 2."
+        }
+      ]
+    },
+    {
+      "date": "1872-01-31",
+      "when": "31 January 1872",
+      "kind": "family",
+      "title": "Jacob's marriage contract",
+      "text": "Jacob and Alzbeta (Elizabeth) Nemecek sign a marriage contract at Lepadlech, Bohemia. Her father promises 250 zlatych toward the trip to America.",
+      "people": [
+        "jacob-kastl-1847",
+        "alzbeta-nemecek"
+      ],
+      "sources": [
+        {
+          "scan": "s046",
+          "quote": "probably at her home in Lepadlech, Bohemia where a marriage contract was signed 31 January 1872."
+        },
+        {
+          "scan": "s047",
+          "quote": "the sum of 250 zlatych, Two-hundred-fifty Zlatych, with which to make preparations for a trip to America."
+        }
+      ]
+    },
+    {
+      "date": "1872-04",
+      "when": "April 1872",
+      "kind": "arrival",
+      "title": "Jacob and his bride",
+      "text": "Jacob arrives with his new wife, Alzbeta. About three months later they are homesteading on a farm near Plasi. No ship record was found.",
+      "people": [
+        "jacob-kastl-1847",
+        "alzbeta-nemecek"
+      ],
+      "arrival": {
+        "who": [
+          "jacob-kastl-1847"
+        ],
+        "ship": null,
+        "with": "His new wife, Alzbeta Nemecek"
+      },
+      "sources": [
+        {
+          "scan": "s009",
+          "quote": "Jakob came with his new bride some time in April 1872."
+        },
+        {
+          "scan": "s046",
+          "quote": "They emigrated to America — arriving in the United States and homesteading on a farm near Plasi, Saunders county, some three months later"
+        },
+        {
+          "scan": "s009",
+          "quote": "We did not find any records on Peter or Jakob."
+        }
+      ]
+    },
+    {
+      "date": "1872-06",
+      "when": "1872",
+      "kind": "context",
+      "title": "The church at Plasi",
+      "text": "The Catholic church in Elk Precinct is organized with 65 members, Peter and Anna among them; Jacob is remembered as one of its founders. The church building follows in 1878.",
+      "people": [
+        "peter-kastl-1827",
+        "anna-frohner",
+        "jacob-kastl-1847"
+      ],
+      "sources": [
+        {
+          "scan": "s017",
+          "quote": "He and his wife were among the original members of the Catholic Church in that precinct"
+        },
+        {
+          "scan": "s017",
+          "quote": "which was organized in 1872 with a class of 65 members"
+        },
+        {
+          "scan": "s046",
+          "quote": "He was one of the founders of the first Catholic church at Plasi."
+        },
+        {
+          "scan": "s017",
+          "quote": "In 1878 they erected their present church"
+        }
+      ]
+    },
+    {
+      "date": "1872-08-14",
+      "when": "14 August 1872",
+      "kind": "arrival",
+      "title": "John and his family, the last to come",
+      "text": "John, his wife Marie and their four children, Wenzel (Vaclav) 8, Barbara 6, Anna 3 and Josef 11 months, arrive at Baltimore from Bremen. The ship's records give Chicago as their destination.",
+      "people": [
+        "john-kastl-1835",
+        "marie-kunes",
+        "vaclav-kastl-1864",
+        "barbara-kastl-1866",
+        "anna-kastl-1870",
+        "joseph-kastl-1871"
+      ],
+      "arrival": {
+        "who": [
+          "john-kastl-1835"
+        ],
+        "ship": "SS Baltimore or SS Berlin",
+        "with": "His wife Marie and children Wenzel, Barbara, Anna and Josef",
+        "differs": "ship"
+      },
+      "sources": [
+        {
+          "scan": "s009",
+          "quote": "The last two brothers, John and Jakob, arrived in 1872."
+        },
+        {
+          "scan": "s030",
+          "quote": "It is not known if John and his family stopped in Chicago (ship records indicate that as destination)"
+        }
+      ],
+      "readings": [
+        {
+          "label": "SS Baltimore",
+          "text": "John's chapter names the ship S.S. Baltimore.",
+          "sources": [
+            {
+              "scan": "s030",
+              "quote": "John and Marie Kastl sailed from Bremen, Germany on the ship S.S Baltimore, arriving at the Port of Baltimore on the 14th of August 1872, with four children, Wenzel 8, Barbara 6, Anna 3, and Josef 11 months."
+            }
+          ]
+        },
+        {
+          "label": "SS Berlin",
+          "text": "The chapter on the journey names the SS Berlin.",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "John's date of arrival was August 14. With him were his wife, Marie, children: Wenzel 8, Barbara 6, Anna 3, and Josef 11 months. They sailed on the ship SS Berlin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "1872-09-13",
+      "when": "13 September 1872",
+      "kind": "homestead",
+      "title": "John files for a homestead",
+      "text": "John applies at Lincoln for 80 acres in Elk Precinct, near the site of the Plasi church.",
+      "people": [
+        "john-kastl-1835"
+      ],
+      "sources": [
+        {
+          "scan": "s030",
+          "quote": "He applied for the homestead on 13 September 1872, at Lincoln, Nebraska, so he was in the state on that date."
+        }
+      ]
+    },
+    {
+      "date": "1873",
+      "when": "1873",
+      "kind": "move",
+      "title": "Thomas in Champaign, Illinois",
+      "text": "Thomas, by now in Champaign, Illinois, marries Augusta Johns there. He has a buggy factory in Champaign.",
+      "people": [
+        "thomas-kastl-1850",
+        "augusta-johns"
+      ],
+      "sources": [
+        {
+          "scan": "s058",
+          "quote": "In 1873, Thomas married Augusta Johns in Champaign."
+        },
+        {
+          "scan": "s010",
+          "quote": "Thomas eventually settled in Champaign, Illinois, where he had a buggy factory."
+        }
+      ]
+    },
+    {
+      "date": "1875-07-06",
+      "when": "6 July 1875",
+      "kind": "homestead",
+      "title": "Joseph proves up",
+      "text": "In his final homestead proof Joseph describes his log house: 16 by 32 feet, two doors and four windows.",
+      "people": [
+        "josef-kastl-1840"
+      ],
+      "sources": [
+        {
+          "scan": "s010",
+          "quote": "July 6, 1875, in his final proof required under the homestead act, Joseph states he built a house of logs, 16x32, with two doors and four windows."
+        }
+      ]
+    },
+    {
+      "date": "1878-10-16",
+      "when": "1878–1879",
+      "kind": "homestead",
+      "title": "John becomes a citizen and proves up",
+      "text": "John receives his certificate of U.S. citizenship on 16 October 1878 and his final certificate for the homestead on 13 March 1879.",
+      "people": [
+        "john-kastl-1835"
+      ],
+      "sources": [
+        {
+          "scan": "s030",
+          "quote": "John received his final certificate for the land on 13 March 1879. He also received his certificate of U.S Citizenship on 16 October 1878."
+        }
+      ]
+    },
+    {
+      "date": "1887-01-21",
+      "when": "1887–1888",
+      "kind": "move",
+      "title": "To California: Mary Kastl and Joseph Cuda",
+      "text": "Peter's daughter Mary marries Joseph Cuda at Plasi in January 1887 and moves with him to Hanford, California, the same year. In 1888 Cuda homesteads 160 acres in Kern County.",
+      "people": [
+        "mary-kastl-1865",
+        "joseph-cuda"
+      ],
+      "sources": [
+        {
+          "scan": "s015",
+          "quote": "Mary Kastl, the second daughter of Peter Kastl, born 1865 in Bohemia, married Joseph Cuda at Plasi, Nebraska, January 1887. That same year they moved to Hanford, California."
+        },
+        {
+          "scan": "s015",
+          "quote": "The following year, 1888, Joseph Cuda homesteaded 160 acres of land in the San Joaquin Valley, Kern County, California."
+        }
+      ]
+    },
+    {
+      "date": "1890-12-20",
+      "when": "20 December 1890",
+      "kind": "death",
+      "title": "John dies",
+      "text": "John, the last brother to arrive, is the first whose death the book dates. He is buried at Plasi.",
+      "people": [
+        "john-kastl-1835"
+      ],
+      "sources": [
+        {
+          "scan": "s030",
+          "quote": "John died 20 December 1890, and was buried at Plasi, Saunders County, Nebraska."
+        }
+      ]
+    },
+    {
+      "date": "1891-04",
+      "when": "1891",
+      "kind": "move",
+      "title": "To Oklahoma: Mary B. Kastl and Vaclav Dobry",
+      "text": "Jacob's daughter Mary marries Vaclav Dobry and they move to the Oklahoma Territory as the Indian lands open for settlement.",
+      "people": [
+        "mary-barbara-kastl-1873",
+        "vaclav-a-dobry"
+      ],
+      "sources": [
+        {
+          "scan": "s015",
+          "quote": "Mary B. Kastl, the first daughter of Jacob Kastl, born March 1873, married Vaclav Dobry April 1891, and that same year they moved to the Oklahoma Territory."
+        }
+      ]
+    },
+    {
+      "date": "1899-03-30",
+      "when": "30 March 1899",
+      "kind": "move",
+      "title": "To California: Joseph Kastl's family",
+      "text": "Peter's son Joseph moves his family to Kern County, California, near the Cuda homestead.",
+      "people": [
+        "joseph-kastl-1863"
+      ],
+      "sources": [
+        {
+          "scan": "s015",
+          "quote": "On March 30, 1899, the Joseph Kastl family moved to Kern County, California, and purchased land very near the Joseph Cuda homestead."
+        }
+      ]
+    },
+    {
+      "date": "1900",
+      "when": "Early 1900s",
+      "kind": "move",
+      "title": "To Oklahoma and San Francisco",
+      "text": "Jacob's son Anton moves to the Oklahoma Territory (he marries Julia Hanska there in 1908). Wenzel's son John and daughter Anna move to the San Francisco area, and the family loses touch with them.",
+      "people": [
+        "anton-peter-kastl-1887",
+        "john-kastl-1861",
+        "anna-kastl-1872"
+      ],
+      "sources": [
+        {
+          "scan": "s015",
+          "quote": "Anton P. Kastl moved to the Oklahoma Territory sometime in the early 1900s. There he married Julia Hanska in 1908"
+        },
+        {
+          "scan": "s028",
+          "quote": "They moved to the San Francisco area in the early 1900s, and contact was lost by other relatives."
+        }
+      ]
+    },
+    {
+      "date": "1902-06",
+      "when": "June 1902",
+      "kind": "move",
+      "title": "To Oklahoma: John J. Kastl",
+      "text": "Jacob's son John marries Frances Policky and moves to the Oklahoma Territory, buying land near the Dobrys.",
+      "people": [
+        "john-joseph-kastl-1874",
+        "frances-marie-policky"
+      ],
+      "sources": [
+        {
+          "scan": "s015",
+          "quote": "John J. Kastl, first son of Jacob Kastl, married Frances Policky in June 1902, and moved to the Oklahoma Territory."
+        }
+      ]
+    },
+    {
+      "date": "1903-10-31",
+      "when": "1903–1906",
+      "kind": "death",
+      "title": "Peter, Thomas and Andrew die",
+      "text": "Peter dies on 31 October 1903, Thomas in Illinois on 30 September 1904, and Andrew on 5 May 1906.",
+      "people": [
+        "peter-kastl-1827",
+        "thomas-kastl-1850",
+        "andrew-kastl-1853"
+      ],
+      "sources": [
+        {
+          "scan": "s017",
+          "quote": "Peter Kastl died 31 October 1903"
+        },
+        {
+          "scan": "s058",
+          "quote": "Thomas Kastl died 30 September 1904."
+        },
+        {
+          "scan": "s059",
+          "quote": "Andrew died 5 May 1906, and was buried at Plasi, Saunders County, Nebraska."
+        }
+      ]
+    },
+    {
+      "date": "1913-02",
+      "when": "February 1913",
+      "kind": "move",
+      "title": "To Kansas: Barbara Kastl Mares",
+      "text": "John's daughter Barbara, who came over at six, moves with her husband Albert Mares and their family to a farm near Emporia, Kansas.",
+      "people": [
+        "barbara-kastl-1866",
+        "albert-mares-1860"
+      ],
+      "sources": [
+        {
+          "scan": "s033",
+          "quote": "Albert and Barbara first lived on a farm near Dwight, Nebraska, but moved with their family to Kansas, near Emporia, February 1913."
+        }
+      ]
+    },
+    {
+      "date": "1921",
+      "when": "1921",
+      "kind": "death",
+      "title": "Josef dies",
+      "text": "Josef is buried at Brainard, Nebraska.",
+      "people": [
+        "josef-kastl-1840"
+      ],
+      "sources": [
+        {
+          "scan": "s043",
+          "quote": "Josef died in 1921 and was buried at Brainard, Nebraska."
+        }
+      ]
+    },
+    {
+      "date": "1922-10",
+      "when": "October 1922",
+      "kind": "arrival",
+      "title": "James Zima, from the second family",
+      "text": "Anna Kastl Zima's son James comes to Brainard, Nebraska, with the help of Vincent Kastl. He is the only one of Thomas Kastl's second family, or their descendants, to come to America.",
+      "people": [
+        "james-zima-1905"
+      ],
+      "sources": [
+        {
+          "scan": "s064",
+          "quote": "James came to the United States in October 1922. He came to Brainard, Nebraska, with the help of an Uncle Vincent Kastl."
+        },
+        {
+          "scan": "s009",
+          "quote": "The only descendant of the second family to come to America was James Zima."
+        }
+      ]
+    },
+    {
+      "date": "1935-02-28",
+      "when": "28 February 1935",
+      "kind": "death",
+      "title": "Jacob, the last of the brothers, dies",
+      "text": "Jacob dies at 87 at his son Frank's home near Bruno, having outlived all his brothers and his sister Eva. Where Wenzel died the book could not find out.",
+      "people": [
+        "jacob-kastl-1847",
+        "wenzel-kastl-1831"
+      ],
+      "sources": [
+        {
+          "scan": "s046",
+          "quote": "Jacob died 28 February 1935 and was buried at Plasi, Saunders County, Nebraska."
+        },
+        {
+          "scan": "s046",
+          "quote": "Mr. Kastl had six brothers, Peter, Thomas, Joseph, Andrew, John, and Wencl, and one sister, Eva, all of whom passed away prior to the death of Grandpa Kastl."
+        },
+        {
+          "scan": "s028",
+          "quote": "We have not been able to find much about Wenzel; where he died, or was buried."
+        }
+      ]
+    }
+  ]
+}

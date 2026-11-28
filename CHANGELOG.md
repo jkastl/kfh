@@ -3,6 +3,18 @@
 All notable changes to this site. Versions follow [semantic versioning](https://semver.org/);
 see `CLAUDE.md` for what counts as major, minor and patch here.
 
+## 1.2.0 — 2026-11-28
+
+- **Emigration timeline.** A new Timeline page, "Coming to America", follows the seven brothers
+  from Bohemia to America, 1865–1872: who came when, on which ship and with whom, then the
+  homesteads and log houses, the first deaths in America, and the family's later moves to
+  Illinois, California, Oklahoma and Kansas, through the death of Jacob, the last brother, in
+  1935. Every entry quotes the book. Where the book disagrees with itself (Peter's year, 1865
+  or 1866; John's ship, SS Baltimore or SS Berlin) both readings are shown. People on the
+  timeline get a link to it from their page.
+- Peter Kastl's record now shows both readings of his emigration year: the family story that
+  places it in 1865 was missing.
+
 ## 1.1.0 — 2026-11-27
 
 - **Names in the narrative link to people.** In the history chapters, the chapter openings and the

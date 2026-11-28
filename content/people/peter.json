@@ -81,6 +81,16 @@
           ]
         },
         {
+          "type": "immigration",
+          "value": "1865, by a family story: the family was on a train coming west when Lincoln was assassinated (14 April 1865)",
+          "sources": [
+            {
+              "scan": "s009",
+              "quote": "Grandmother Anna Frohner Kastl told her grandchildren that Abe Lincoln was assassinated (April 14, 1865) while they were on a train coming west."
+            }
+          ]
+        },
+        {
           "type": "note",
           "value": "Served as an officer in the Austrian Army; first settler in Elk Precinct, Saunders County.",
           "sources": [

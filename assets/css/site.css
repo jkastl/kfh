@@ -338,3 +338,34 @@ cite { font-style: italic; }
 .al-kind { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; }
 .al-desc summary { cursor: pointer; font: 0.82rem var(--sans); color: var(--ink-3); }
 details.al-desc[open] summary { margin-bottom: 0.3rem; }
+
+/* emigration timeline */
+.arrivals { border-collapse: collapse; width: 100%; font-size: 0.95rem; margin-top: 0.6rem; }
+.arrivals th, .arrivals td { text-align: left; vertical-align: top; padding: 0.5rem 0.7rem 0.5rem 0; border-bottom: 1px solid var(--rule); }
+.arrivals thead th { font: 600 0.75rem/1.3 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+.arrivals tbody th { font-weight: 600; }
+.tl-dec h2 { margin-top: 2.4rem; }
+.tl { list-style: none; padding: 0; margin: 0.8rem 0 0; border-left: 2px solid var(--rule); }
+.tl-ev { position: relative; display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 0 1.2rem; padding: 0.2rem 0 1.4rem 1.2rem; scroll-margin-top: 1rem; }
+.tl-ev::before { content: ""; position: absolute; left: -0.45rem; top: 0.45rem; width: 0.7rem; height: 0.7rem; border-radius: 50%; background: var(--paper); border: 2px solid var(--ink-3); }
+.tl-arrival::before { background: var(--accent); border-color: var(--accent); }
+.tl-death::before { background: var(--ink-3); }
+.tl-ev:target .tl-body { background: var(--accent-soft); box-shadow: 0 0 0 0.5rem var(--accent-soft); border-radius: 4px; }
+.tl-when { margin: 0; font: 600 0.92rem/1.4 var(--sans); color: var(--ink-2); font-variant-numeric: lining-nums; }
+.tl-kind { margin: 0; font: 600 0.7rem/1.3 var(--sans); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); }
+.tl-arrival .tl-kind { color: var(--accent); }
+.tl-body h3 { margin: 0.1rem 0 0.3rem; font-size: 1.15rem; }
+.tl-body > p { margin: 0 0 0.4rem; max-width: var(--measure); }
+.tl-people { font-size: 0.9rem; color: var(--ink-2); }
+.tl-differs { border-left: 3px solid var(--warn); padding: 0.2rem 0 0.2rem 0.8rem; margin: 0.5rem 0; }
+.tl-differs ul { margin: 0.3rem 0 0; padding-left: 1.1rem; }
+.tl-differs li { margin-bottom: 0.4rem; }
+@media (max-width: 560px) { .tl-ev { grid-template-columns: minmax(0, 1fr); } .tl-when { margin-bottom: 0.1rem; } }
+.arrivals th:first-child, .arrivals td:first-child { padding-left: 0.8rem; }
+@media (max-width: 640px) {
+  .arrivals thead { display: none; }
+  .arrivals tr { display: block; padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); }
+  .arrivals th, .arrivals td { display: block; border: 0; padding: 0.1rem 0 !important; }
+  .arrivals tbody th { font-size: 1.05rem; margin-bottom: 0.2rem; }
+  .arrivals td::before { content: attr(data-label) ": "; font: 600 0.72rem var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+}
