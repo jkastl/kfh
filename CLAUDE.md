@@ -42,10 +42,14 @@ pushing), make sure the work sits on the latest code:
 ## Versioning
 
 The site uses semantic versioning. The version lives in `VERSION`, shows in every page's footer,
-and each release gets an entry in `CHANGELOG.md` and an annotated git tag (`vX.Y.Z`) on `main`.
+and each release gets an entry in `CHANGELOG.md`. The release commit's message names the version
+(e.g. "…; v1.1.0"), so `git log --grep v1.1.0` finds it.
 - **MAJOR**: a break for anyone linking to the site or using its data, e.g. person URLs or ids
   change, pages removed, the CSV/JSON shape changes.
 - **MINOR**: something new, e.g. a new page or feature (map, timeline, photo album, narrative links)
   or a substantial addition of people.
 - **PATCH**: fixes, e.g. data or transcription corrections, audit fixes, wording, styling.
-Bump `VERSION`, add the changelog entry, rebuild, commit, then tag the commit and push the tag.
+Bump `VERSION`, add the changelog entry, rebuild, commit.
+
+**No git tags.** Cloud sessions can push branches but not tags: pushing `v1.1.0` was refused
+with HTTP 403 (2026-11-28), so releases are not tagged. Don't retry or work around it.
